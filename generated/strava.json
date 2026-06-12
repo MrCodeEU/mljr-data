@@ -1,0 +1,86 @@
+{
+  "schema_version": "strava.v1",
+  "generated_at": "2026-06-10T08:00:00Z",
+  "source": {
+    "kind": "strava",
+    "privacy": "aggregates_only"
+  },
+  "data": {
+    "year": "2026",
+    "total_stats": {
+      "count": 84,
+      "distance": 482300.4,
+      "moving_time": 167420,
+      "elapsed_time": 171902,
+      "elevation_gain": 3280.5
+    },
+    "year_to_date_stats": {
+      "count": 27,
+      "distance": 31388.4,
+      "moving_time": 67209,
+      "elapsed_time": 67498,
+      "elevation_gain": 99.8
+    },
+    "recent_activities": [
+      {
+        "id": 1001,
+        "name": "Morning Run",
+        "distance": 6070.9,
+        "moving_time": 2179,
+        "elapsed_time": 2179,
+        "type": "Run",
+        "start_date": "2026-03-08T09:14:12Z",
+        "average_speed": 2.786
+      },
+      {
+        "id": 1002,
+        "name": "Afternoon Workout",
+        "distance": 0,
+        "moving_time": 3690,
+        "elapsed_time": 3690,
+        "type": "Workout",
+        "start_date": "2026-03-05T16:50:52Z"
+      }
+    ],
+    "disciplines": [
+      {
+        "type": "running",
+        "label": "Running",
+        "count": 19,
+        "total_time": 42120,
+        "total_distance": 31388.4,
+        "avg_heartrate": 0,
+        "activities": []
+      },
+      {
+        "type": "training",
+        "label": "Training",
+        "count": 8,
+        "total_time": 25089,
+        "total_distance": 0,
+        "avg_heartrate": 0,
+        "activities": []
+      }
+    ],
+    "monthly_activities": [
+      {
+        "month": "2026-01",
+        "count": 4,
+        "distance": 12100.3,
+        "time": 8450
+      },
+      {
+        "month": "2026-02",
+        "count": 12,
+        "distance": 11020.0,
+        "time": 32110
+      },
+      {
+        "month": "2026-03",
+        "count": 11,
+        "distance": 8268.1,
+        "time": 26649
+      }
+    ]
+  }
+}

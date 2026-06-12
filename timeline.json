@@ -1,0 +1,49 @@
+{
+  "schema_version": "timeline.v1",
+  "items": [
+    {
+      "id": "dynatrace-thesis",
+      "kind": "work",
+      "title": "Software Engineer, Master Thesis",
+      "organization": "Dynatrace",
+      "start": "2025-11",
+      "end": null,
+      "location": "Linz, Austria",
+      "summary": "Building a Prolog-based permission metamodel for abstracting IAM systems.",
+      "tags": ["Go", "IAM", "Prolog", "Security"],
+      "logo": "assets/logos/dynatrace.webp"
+    },
+    {
+      "id": "jku-master",
+      "kind": "education",
+      "title": "MSc Networks and IT Security",
+      "organization": "Johannes Kepler University Linz",
+      "start": "2024-10",
+      "end": "2026-06",
+      "summary": "Coursework and thesis work in network security, cryptography, and formal methods.",
+      "tags": ["Security", "Networking"],
+      "logo": "assets/logos/jku.webp"
+    },
+    {
+      "id": "bachelor-thesis",
+      "kind": "thesis",
+      "title": "LSTM-Based Speaker Diarization",
+      "organization": "Johannes Kepler University Linz",
+      "start": "2024-01",
+      "end": "2024-07",
+      "summary": "Bachelor thesis comparing LSTM and BiLSTM d-vector generation for speaker diarization.",
+      "repo": "https://github.com/MrCodeEU/LSTM-Based-Speaker-Diarization",
+      "tags": ["Python", "Audio", "Machine Learning"]
+    },
+    {
+      "id": "htl-steyr",
+      "kind": "education",
+      "title": "Matura, Mechatronics and Robotics",
+      "organization": "HTL Steyr",
+      "start": "2015-09",
+      "end": "2020-06",
+      "summary": "Robotics, automation engineering, embedded systems, and practical technical project work.",
+      "tags": ["Robotics", "Automation", "Embedded"]
+    }
+  ]
+}

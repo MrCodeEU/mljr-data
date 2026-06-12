@@ -1,0 +1,35 @@
+{
+  "schema_version": "projects.v1",
+  "curated": [
+    {
+      "id": "godrive",
+      "name": "goDrive",
+      "summary": "Self-hosted file sync and sharing app with mobile clients, demo mode, and WebDAV support.",
+      "repo": "https://github.com/MrCodeEU/goDrive",
+      "homepage": null,
+      "featured": true,
+      "topics": ["Go", "Flutter", "SQLite", "Sync"],
+      "images": ["assets/projects/godrive/cover.webp"]
+    },
+    {
+      "id": "homelab-speedtest",
+      "name": "homelab-speedtest",
+      "summary": "Go and Svelte network performance monitoring for a self-hosted homelab.",
+      "repo": "https://github.com/MrCodeEU/homelab-speedtest",
+      "featured": true,
+      "topics": ["Go", "Svelte", "Monitoring", "Docker"],
+      "images": ["assets/projects/homelab-speedtest/cover.webp"]
+    }
+  ],
+  "github_overrides": {
+    "homepage": {
+      "hidden": true,
+      "reason": "Meta project for this site."
+    },
+    "LSTM-Based-Speaker-Diarization": {
+      "featured": true,
+      "kind": "thesis",
+      "images": ["assets/projects/lstm-diarization/cover.webp"]
+    }
+  }
+}

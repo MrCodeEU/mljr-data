@@ -1,0 +1,34 @@
+{
+  "schema_version": "profile.v1",
+  "identity": {
+    "name": "Michael Reinegger",
+    "handle": "MrCodeEU",
+    "headline": "Software engineer focused on Go, security, homelab infrastructure, and practical web systems.",
+    "location": "Austria",
+    "avatar": "assets/avatar.webp"
+  },
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/MrCodeEU",
+      "kind": "github"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/michael-reinegger",
+      "kind": "linkedin"
+    },
+    {
+      "label": "Strava",
+      "url": "https://www.strava.com/athletes/mrcode",
+      "kind": "strava"
+    }
+  ],
+  "interests": [
+    "identity and access management",
+    "self-hosting",
+    "embedded systems",
+    "network security",
+    "health and activity data"
+  ]
+}

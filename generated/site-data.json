@@ -1,0 +1,747 @@
+{
+  "github_projects": [
+    {
+      "name": "Flexbar-Plugin-Youtube-Music-Desktop-App",
+      "description": "A YouTube Music integration plugin for FlexBar that provides real-time music information display and playback controls via the YouTube Music Desktop App's Companion Server API.",
+      "url": "https://github.com/MrCodeEU/Flexbar-Plugin-Youtube-Music-Desktop-App",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [
+        "javascript",
+        "flexbar",
+        "youtube-music",
+        "plugin",
+        "music",
+        "nodejs"
+      ],
+      "images": [
+        "/static/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/0.webp",
+        "/static/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/1.webp"
+      ],
+      "badges": [
+        "https://img.shields.io/badge/Node.js-18%2B-brightgreen",
+        "https://img.shields.io/badge/FlexDesigner-v1.1.0%2B-blue",
+        "https://img.shields.io/badge/ytmdesktop-v2.0.0%2B-Red",
+        "https://img.shields.io/badge/License-MIT-yellow.svg",
+        "https://img.shields.io/badge/Platforms-Windows%20%7C%20macOS%20%7C%20Linux-orange"
+      ],
+      "featured": false,
+      "links": null
+    },
+    {
+      "name": "Game-of-Life-Multiplatform",
+      "description": "A Conway's Game of Life implementation built with Kotlin Multiplatform, running natively on mobile, desktop, and web from a single shared codebase.",
+      "url": "https://github.com/MrCodeEU/Game-of-Life-Multiplatform",
+      "stars": 1,
+      "language": "Kotlin",
+      "topics": [
+        "kotlin",
+        "multiplatform",
+        "game-of-life",
+        "web",
+        "mobile",
+        "desktop",
+        "kmp"
+      ],
+      "images": [
+        "/static/portfolio/Game-of-Life-Multiplatform/0.webp"
+      ],
+      "badges": [],
+      "featured": false,
+      "links": [
+        {
+          "name": "Live",
+          "url": "https://mljr.eu/game-of-life/"
+        }
+      ]
+    },
+    {
+      "name": "jku-master-project-network-devices-power-consumption-analysis",
+      "description": "A web-based test runner for measuring power consumption and network throughput of devices under test, supporting UDP, TCP, and Layer 2 load generation with real-time FritzBox smart plug monitoring and SQLite-backed test storage.",
+      "url": "https://github.com/MrCodeEU/jku-master-project-network-devices-power-consumption-analysis",
+      "stars": 1,
+      "language": "TeX",
+      "topics": [
+        "research",
+        "networking",
+        "power-consumption",
+        "measurement",
+        "sqlite",
+        "master-project"
+      ],
+      "images": [
+        "/static/portfolio/jku-master-project-network-devices-power-consumption-analysis/0.webp",
+        "/static/portfolio/jku-master-project-network-devices-power-consumption-analysis/1.webp"
+      ],
+      "badges": [],
+      "featured": false,
+      "links": null
+    },
+    {
+      "name": "LSTM-Based-Speaker-Diarization",
+      "description": "Bachelor thesis implementation of an LSTM-based speaker diarization system, comparing LSTM and BiLSTM architectures for d-vector generation with multiple clustering algorithms and comprehensive hyperparameter analysis.",
+      "url": "https://github.com/MrCodeEU/LSTM-Based-Speaker-Diarization",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "python",
+        "machine-learning",
+        "lstm",
+        "speaker-diarization",
+        "audio",
+        "ai",
+        "deep-learning",
+        "thesis"
+      ],
+      "images": [
+        "/static/portfolio/LSTM-Based-Speaker-Diarization/0.webp",
+        "/static/portfolio/LSTM-Based-Speaker-Diarization/1.webp",
+        "https://raw.githubusercontent.com/yourusername/your-repo-name/main/images/diarization_example.png",
+        "https://raw.githubusercontent.com/yourusername/your-repo-name/main/images/system_architecture.png",
+        "https://raw.githubusercontent.com/yourusername/your-repo-name/main/images/spectral_clustering_heatmap.png",
+        "https://raw.githubusercontent.com/yourusername/your-repo-name/main/images/mel_filter_bank_heatmap.png",
+        "https://raw.githubusercontent.com/yourusername/your-repo-name/main/images/clustering_comparison.png",
+        "https://raw.githubusercontent.com/yourusername/your-repo-name/main/images/neural_net_comparison.png",
+        "https://raw.githubusercontent.com/yourusername/your-repo-name/main/images/der_results.png"
+      ],
+      "badges": [],
+      "featured": false,
+      "links": null
+    },
+    {
+      "name": "Lebenslauf",
+      "description": "A professional curriculum vitae and cover letter written in Typst, showcasing the Typst typesetting system as a modern, code-first alternative to LaTeX for structured document design.",
+      "url": "https://github.com/MrCodeEU/Lebenslauf",
+      "stars": 0,
+      "language": "Typst",
+      "topics": [
+        "typst",
+        "cv",
+        "resume",
+        "typesetting",
+        "document"
+      ],
+      "images": [
+        "/static/portfolio/Lebenslauf/0.webp",
+        "/static/portfolio/Lebenslauf/1.webp"
+      ],
+      "badges": [],
+      "featured": false,
+      "links": null
+    },
+    {
+      "name": "LinuxHello",
+      "description": "A Windows Hello-style face authentication system for Linux with PAM integration, IR camera support, anti-spoofing protection, and a modern Wails-based web management GUI.",
+      "url": "https://github.com/MrCodeEU/LinuxHello",
+      "stars": 0,
+      "language": "Go",
+      "topics": [
+        "golang",
+        "linux",
+        "face-recognition",
+        "pam",
+        "wails",
+        "security",
+        "ai",
+        "onnx"
+      ],
+      "images": [
+        "/static/portfolio/LinuxHello/0.webp",
+        "/static/portfolio/LinuxHello/1.webp"
+      ],
+      "badges": [],
+      "featured": true,
+      "links": null
+    },
+    {
+      "name": "WordWiz",
+      "description": "A SvelteKit web app that uses trie data structures to efficiently search for words matching pattern and length filters, supporting both English and German word lists.",
+      "url": "https://github.com/MrCodeEU/WordWiz",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [
+        "svelte",
+        "sveltekit",
+        "trie",
+        "word-game",
+        "webapp",
+        "javascript"
+      ],
+      "images": [
+        "/static/portfolio/WordWiz/0.webp",
+        "/static/portfolio/WordWiz/1.webp"
+      ],
+      "badges": [],
+      "featured": false,
+      "links": null
+    },
+    {
+      "name": "cg-lab-2023-project-reineggersilber",
+      "description": "A WebGL-based 3D animated short film created for the Computer Graphics lab at JKU Linz, featuring heightmap terrain generation, dynamic lighting, and a multi-scene story with portals and an alien planet.",
+      "url": "https://github.com/MrCodeEU/cg-lab-2023-project-reineggersilber",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [
+        "javascript",
+        "webgl",
+        "3d",
+        "computer-graphics",
+        "animation",
+        "university"
+      ],
+      "images": [
+        "/static/portfolio/cg-lab-2023-project-reineggersilber/0.webp",
+        "/static/portfolio/cg-lab-2023-project-reineggersilber/1.webp"
+      ],
+      "badges": [],
+      "featured": false,
+      "links": null
+    },
+    {
+      "name": "homelab-speedtest",
+      "description": "A homelab network performance monitoring tool that measures bandwidth and latency between devices using a Go-based SSH worker, with a real-time Svelte dashboard, alert rules via ntfy, and Docker deployment.",
+      "url": "https://github.com/MrCodeEU/homelab-speedtest",
+      "stars": 0,
+      "language": "Svelte",
+      "topics": [
+        "golang",
+        "svelte",
+        "homelab",
+        "networking",
+        "monitoring",
+        "docker",
+        "devops"
+      ],
+      "images": [
+        "/static/portfolio/homelab-speedtest/0.webp",
+        "/static/portfolio/homelab-speedtest/1.webp"
+      ],
+      "badges": [],
+      "featured": false,
+      "links": null
+    },
+    {
+      "name": "homepage",
+      "description": "Personal homepage with automated data aggregation",
+      "url": "https://github.com/MrCodeEU/homepage",
+      "stars": 0,
+      "language": "HTML",
+      "topics": [
+        "golang",
+        "svelte",
+        "automation"
+      ],
+      "images": [],
+      "badges": [],
+      "featured": true,
+      "links": [
+        {
+          "name": "Live",
+          "url": "https://mljr.eu"
+        }
+      ]
+    },
+    {
+      "name": "mljrCSS",
+      "description": "A TailwindCSS-based CSS framework and Svelte 5 component library featuring a Claymorphism design system with warm orange primary and soft teal secondary colors, supporting both light and dark modes.",
+      "url": "https://github.com/MrCodeEU/mljrCSS",
+      "stars": 0,
+      "language": "Svelte",
+      "topics": [
+        "tailwindcss",
+        "svelte",
+        "css",
+        "component-library",
+        "design-system",
+        "claymorphism"
+      ],
+      "images": [
+        "/static/portfolio/mljrCSS/0.webp"
+      ],
+      "badges": [],
+      "featured": true,
+      "links": null
+    },
+    {
+      "name": "nightscout-display",
+      "description": "A feature-rich Elgato Stream Deck plugin displaying live blood glucose data from Nightscout with number and graph display modes, color-coded readings, trend arrows, and configurable time ranges.",
+      "url": "https://github.com/MrCodeEU/nightscout-display",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [
+        "typescript",
+        "streamdeck",
+        "nightscout",
+        "diabetes",
+        "healthcare",
+        "plugin"
+      ],
+      "images": [
+        "/static/portfolio/nightscout-display/0.webp",
+        "/static/portfolio/nightscout-display/1.webp"
+      ],
+      "badges": [
+        "https://img.shields.io/github/v/release/yourusername/nightscout-display?style=flat-square",
+        "https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square"
+      ],
+      "featured": false,
+      "links": null
+    },
+    {
+      "name": "nightscout-librelink-up-go",
+      "description": "Lightweight Go service that syncs glucose data from Abbott's LibreLink Up to Nightscout CGM platform. Runs as a containerized microservice with automatic data polling and real-time updates.",
+      "url": "https://github.com/MrCodeEU/nightscout-librelink-up-go",
+      "stars": 0,
+      "language": "Go",
+      "topics": [
+        "golang",
+        "nightscout",
+        "diabetes",
+        "healthcare",
+        "docker",
+        "monitoring"
+      ],
+      "images": [
+        "/static/portfolio/nightscout-librelink-up-go/0.webp",
+        "/static/portfolio/nightscout-librelink-up-go/1.webp"
+      ],
+      "badges": [
+        "https://img.shields.io/github/actions/workflow/status/mrcodeeu/nightscout-librelink-up-go/build-and-publish.yml?branch=main",
+        "https://img.shields.io/badge/docker-ghcr.io-blue",
+        "https://img.shields.io/github/license/mrcodeeu/nightscout-librelink-up-go",
+        "https://img.shields.io/github/go-mod/go-version/mrcodeeu/nightscout-librelink-up-go"
+      ],
+      "featured": true,
+      "links": null
+    },
+    {
+      "name": "nightscout-tray",
+      "description": "A cross-platform system tray application built with Wails3 and Svelte that shows real-time blood glucose data from Nightscout, including number display, graph visualization, and trend arrows.",
+      "url": "https://github.com/MrCodeEU/nightscout-tray",
+      "stars": 0,
+      "language": "Go",
+      "topics": [
+        "golang",
+        "wails",
+        "svelte",
+        "nightscout",
+        "diabetes",
+        "desktop",
+        "tray",
+        "healthcare"
+      ],
+      "images": [
+        "/static/portfolio/nightscout-tray/0.webp",
+        "/static/portfolio/nightscout-tray/1.webp"
+      ],
+      "badges": [],
+      "featured": false,
+      "links": null
+    },
+    {
+      "name": "service-template",
+      "description": "A Go-based web service template for my ansible based homelab automation with Docker containerization, CI/CD via GitHub Actions, and multi-environment support (production & staging).",
+      "url": "https://github.com/MrCodeEU/service-template",
+      "stars": 0,
+      "language": "Go",
+      "topics": [
+        "golang",
+        "docker",
+        "devops",
+        "cicd",
+        "homelab",
+        "automation",
+        "web",
+        "template"
+      ],
+      "images": [
+        "/static/portfolio/service-template/0.webp",
+        "/static/portfolio/service-template/1.webp"
+      ],
+      "badges": [],
+      "featured": true,
+      "links": [
+        {
+          "name": "Live",
+          "url": "https://template.mljr.eu"
+        },
+        {
+          "name": "Staging",
+          "url": "https://template.dev.mljr.eu"
+        }
+      ]
+    },
+    {
+      "name": "sudoku-gen",
+      "description": "A web app for generating and printing Sudoku puzzles in 9×9, 12×12, and 16×16 sizes across normal and jigsaw variants, with adjustable difficulty, a database-backed list viewer, and bulk printing with or without solutions.",
+      "url": "https://github.com/MrCodeEU/sudoku-gen",
+      "stars": 0,
+      "language": "Svelte",
+      "topics": [
+        "sudoku",
+        "sudoku-generator",
+        "sveltekit",
+        "svelte",
+        "webapp",
+        "puzzle",
+        "webworkers"
+      ],
+      "images": [
+        "/static/portfolio/sudoku-gen/0.webp",
+        "/static/portfolio/sudoku-gen/1.webp",
+        "/static/portfolio/sudoku-gen/2.webp",
+        "/static/portfolio/sudoku-gen/3.webp"
+      ],
+      "badges": [],
+      "featured": false,
+      "links": [
+        {
+          "name": "Live",
+          "url": "https://sudoku.mljr.eu"
+        }
+      ]
+    }
+  ],
+  "linkedin_data": {
+    "profile": {
+      "name": "Michael Reinegger geb. Ludwig Josef",
+      "headline": "Michael Reinegger geb. Ludwig Josefer/ihm",
+      "location": "Johannes Kepler Universität Linz",
+      "photo_url": "/static/portfolio/linkedin-photo.webp"
+    },
+    "name": "Michael Reinegger geb. Ludwig Josef",
+    "headline": "Michael Reinegger geb. Ludwig Josefer/ihm",
+    "location": "Johannes Kepler Universität Linz",
+    "about": "",
+    "experience": [
+      {
+        "title": "Softwareentwickler Masterarbeit",
+        "company": "Dynatrace",
+        "type": "Teilzeit",
+        "period": "Nov. 2025–Heute",
+        "duration": "6 Monate",
+        "description": "Linz (Stadt), Oberösterreich, Österreich",
+        "company_logo": "data:image/jpeg;base64,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"
+      },
+      {
+        "title": "Tutor Digitale Schaltungen",
+        "company": "Johannes Kepler Universität Linz",
+        "type": "Teilzeit",
+        "period": "Okt. 2025–Jan. 2026",
+        "duration": "4 Monate",
+        "description": "",
+        "company_logo": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wgARCABkAGQDASIAAhEBAxEB/8QAGgABAAMBAQEAAAAAAAAAAAAAAAYHCAQFA//EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHVIAAAAAAAAAAAAAAIfxQ7wS6ZHhvUJYcbpryib3FhrcBEftWPaXmBy9WNy1vGpbXRIsZfDhW2NQYLtZK72XWWcy45HQ+zT1wAAAAAAAAAAAAAAAAAAAAAf//EACUQAAEEAgEEAQUAAAAAAAAAAAYDBAUHAQIAEBMUNjQWJDVQYP/aAAgBAQABBQL9sUkiYvHCZckWJQk+zn0Oms+zUmp6zG0FLJb9xMrKkhRqKkqZTH9bd9Ypr4ck2lwIgEjJqUtjiyMNeVVAPdX1ie5NPi3F+Ip/1rp5SPk29vrgbprH2UrEtZpkVCD0QdA9bZW5jGNcWSlskZQzxOQirjeJ+LUaWyYv0Kxoij5zdiRE7gNHPpiFdIkvlbtSRTHZJuVsnM6kFhBO5Gm32JRzkcITpS+iYxGGjv4L/8QAFBEBAAAAAAAAAAAAAAAAAAAAUP/aAAgBAwEBPwFH/8QAFBEBAAAAAAAAAAAAAAAAAAAAUP/aAAgBAgEBPwFH/8QAPBAAAQIEAQYKBgsAAAAAAAAAAgEDAAQREjEFEyFBUWEQFCIjMnGBkbLBFXJ0obHRIDM0UFJgc4KSwuH/2gAIAQEABj8C+9gm3WSfEnEbtBaal+UTBtMGxmVRFvWtawTkqdVBbTbXpAu/h9FtnnJpG1cNBwDDHfph+ROSddJqnKEkouivnAn+JKwy+6wb6OHZQFpqhyaaZJgQdVq01rqRfP6DPtQ+Eoyn64fBYV8VVtSJVBxOg6Oz/I5PMzgJzjCr702pDkhkk7nsHJlMA3Dv3w5ld8VBg21AVPpOKqpp90ZS6w8Awz6iRI/r/wBYmfay8AcPF86GftvzdeVTbSJca8pZoaJ+0oykurOB8Fg5WbaR1ou9N6RnGyM5QtDcwGhepYbn8rt0bxblS17y+UIiJRE1RPVwKwk/gkSkw0twONiqRk+Vu529XKbEpSHCXByZIk7hTy4XcoIr82pFcE1LVqnYmENi61OTZpoRXUW0e1dCQMsRIb5LnHSTC6HrQyrbetKI5FCayqSbFFyOhlbucg+PjPIxmC+0Idtapthubk6ceaS21dGcHZ1wTDQz8olegglbGcfbfFCXlzU3XDtxhiSY+qZGib9/5D//xAAnEAEAAQMDAwQCAwAAAAAAAAABEQAhUTFBYXGRoRAggbFQ8GDB4f/aAAgBAQABPyH8tBgihSpN6FfRw2DjpUpl7LgD6d/XdNYACIWWz/KXdYSJDQJxAEOtQCBAIbpvS5IAEpKt7tUxeNs+xlWeVc7NRyEpdP1Om/Met1ucmTwbX0a4e7ICeMt/TR+hxXnvt7DHaTerGSJ3p1iU3EJPs70pGuCaNpEbq7Jsmalvdmgki3oxJh7hMpaMhxHHlvhNsKAEAUomJbkh+xoK6qHi51G3xRBBay3GBeqvZoVY5NP7i9UHFCh7DciWxzVrjucvQoNMPqpAQcAB53rpBk4narl7GVLMnp2zW8JNFxnWtTCzwkklsFYnLTDTkyxyWj5KCGVAEcNXQeKN1JE6rVXKq/P8D//aAAwDAQACAAMAAAAQ888888888888888BV1xF8sVkR1l8888888888888888888888//EABURAQEAAAAAAAAAAAAAAAAAAEAB/9oACAEDAQE/EEVP/8QAFBEBAAAAAAAAAAAAAAAAAAAAUP/aAAgBAgEBPxBH/8QAJhABAQACAgECBQUAAAAAAAAAAREAITFBUWGBECBQofBgcZGxwf/aAAgBAQABPxD6sKQQUi60gM98TDdaSBOk/thN5rhVNnhihQcNEPgqLM+HF2oENQKy1F8f3Lg7IA9sRATp2AGffGpPOyVnpqYn+AJNLpID2fmFbRYBWyU9A2ECRJhWBmqBws8r3ymDY4kn40jhPHQ8PJtmOY1BaHbur5OrtMVfjvH5fqdAoFHeeZeFpLhp1w8hg8Gz9nnEugJ0Usfc/nBnZeEI9jdoepsUa2zmKyebrwKzByBhTtobO49+AwMAg0AQAOAMQaFQ09B7D2yono0ZF8AUdKOsCpvxgA6Ajz6WKJQ6cL09n7fF+sEnDuddAa6FlG/jgRVALCqlhbMromPYjdposqMGmLRio5tmhJOJjN4RSgSJKIJ4Qc/Hf8yNQfRVI4dO5fXIq1l64D0gKBkppEDi6aCdNZ605x6JhWGrpcNFTgo2EZD3OYmqxNVfoP8A/9k="
+      },
+      {
+        "title": "Praktikant",
+        "company": "Dynatrace",
+        "type": "Vollzeit",
+        "period": "Aug. 2025–Sept. 2025",
+        "duration": "2 Monate",
+        "description": "Linz (Stadt), Oberösterreich, Österreich",
+        "company_logo": "data:image/jpeg;base64,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"
+      },
+      {
+        "title": "Studentischer Mitarbeiter",
+        "company": "Johannes Kepler Universität Linz",
+        "type": "",
+        "period": "Okt. 2024–Juni 2025",
+        "duration": "9 Monate",
+        "description": "Korrektur von Digitale Schaltungen und Rechnerarchitektur",
+        "company_logo": "data:image/jpeg;base64,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"
+      },
+      {
+        "title": "Praktikant",
+        "company": "ventopay gmbh",
+        "type": "",
+        "period": "Juli 2024",
+        "duration": "1 Monat",
+        "description": "",
+        "company_logo": "data:image/jpeg;base64,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"
+      },
+      {
+        "title": "Studentischer Mitarbeiter",
+        "company": "Johannes Kepler Universität Linz",
+        "type": "Teilzeit",
+        "period": "Okt. 2023–Juni 2024",
+        "duration": "9 Monate",
+        "description": "Korrektur von Abgaben für Digitale Schaltungen und Rechnerarchitektur",
+        "company_logo": "data:image/jpeg;base64,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"
+      },
+      {
+        "title": "Praktikant in der Softwareentwicklung",
+        "company": "Bosch",
+        "type": "Vollzeit",
+        "period": "Aug. 2023–Sept. 2023",
+        "duration": "2 Monate",
+        "description": "Softwareentwicklung und Debugging von IT-Systemen im Büro sowie eigenständige Entwicklung eines Dashboard zum Anzeigen nützlicher Informationen für das Team.",
+        "company_logo": "data:image/jpeg;base64,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"
+      },
+      {
+        "title": "Praktikant",
+        "company": "Bosch Rexroth",
+        "type": "Vollzeit",
+        "period": "Juni 2021–Juli 2021",
+        "duration": "2 Monate",
+        "description": "Elektronische Verkabelung und Test von Hydraulik",
+        "company_logo": "data:image/jpeg;base64,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"
+      },
+      {
+        "title": "Zivildiener",
+        "company": "HerzReha Bad Ischl",
+        "type": "Vollzeit",
+        "period": "Sept. 2020–Mai 2021",
+        "duration": "9 Monate",
+        "description": "Bad Ischl, Oberösterreich, Österreich",
+        "company_logo": "data:image/jpeg;base64,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"
+      },
+      {
+        "title": "Praktikant",
+        "company": "ENGEL",
+        "type": "Vollzeit",
+        "period": "Juni 2018",
+        "duration": "1 Monat",
+        "description": "Dietach, Oberösterreich, Österreich",
+        "company_logo": "data:image/jpeg;base64,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"
+      },
+      {
+        "title": "Praktikant",
+        "company": "ENGEL",
+        "type": "Vollzeit",
+        "period": "Juli 2017",
+        "duration": "1 Monat",
+        "description": "Sankt Valentin, Niederösterreich, Österreich",
+        "company_logo": "data:image/jpeg;base64,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"
+      }
+    ],
+    "education": [
+      {
+        "school": "Johannes Kepler Universität Linz",
+        "degree": "Diplom-Ingenieur, Computer Science: Networks and IT Security",
+        "period": "Okt. 2024–Juni 2026"
+      },
+      {
+        "school": "Johannes Kepler Universität Linz",
+        "degree": "Bachelor, Computer Science",
+        "period": "Okt. 2021–Juli 2024"
+      },
+      {
+        "school": "HTL Steyr",
+        "degree": "Matura, Mechatronik, Robotik und Automatisierungstechnik",
+        "period": "2015–2020"
+      }
+    ],
+    "skills": [
+      "IT-Infrastruktur",
+      "IT-Management",
+      "Softwareentwicklung",
+      "Kontinuierliche Integration",
+      "C#",
+      "Cascading Style Sheets (CSS)",
+      "HTML",
+      "JavaScript",
+      "TypeScript",
+      "AngularJS",
+      "Angular",
+      "Svelte",
+      ".NET-Framework",
+      "ASP.NET",
+      "Cybersecurity",
+      "Kotlin",
+      "Java",
+      "Go",
+      "Rust (Programmiersprache)",
+      "Netzwerksicherheit",
+      "Netzwerkadministration"
+    ]
+  },
+  "strava_data": {
+    "generated_at": "2026-06-11T20:00:00Z",
+    "year": "2026",
+    "total_stats": {
+      "count": 31,
+      "distance": 107600,
+      "moving_time": 99500,
+      "elapsed_time": 104200,
+      "elevation_gain": 2380
+    },
+    "year_to_date_stats": {
+      "count": 31,
+      "distance": 107600,
+      "moving_time": 99500,
+      "elapsed_time": 104200,
+      "elevation_gain": 2380
+    },
+    "ytd_calories": 21400,
+    "recent_activities": [
+      {
+        "name": "Morning Run",
+        "type": "Run",
+        "distance": 6070.9,
+        "moving_time": 2179,
+        "total_elevation_gain": 38,
+        "start_date_local": "2026-06-07T09:14:12Z",
+        "average_speed": 2.786,
+        "average_heartrate": 158,
+        "max_heartrate": 174,
+        "calories": 472
+      },
+      {
+        "name": "Push Day",
+        "type": "WeightTraining",
+        "distance": 0,
+        "moving_time": 3690,
+        "start_date_local": "2026-06-04T17:22:50Z",
+        "average_heartrate": 119,
+        "max_heartrate": 151,
+        "calories": 348
+      },
+      {
+        "name": "Evening Spin",
+        "type": "Ride",
+        "distance": 0,
+        "moving_time": 1943,
+        "start_date_local": "2026-06-02T19:11:32Z",
+        "average_heartrate": 143,
+        "max_heartrate": 166,
+        "calories": 365
+      },
+      {
+        "name": "Schoberstein Hike",
+        "type": "Hike",
+        "distance": 9240,
+        "moving_time": 10260,
+        "total_elevation_gain": 642,
+        "start_date_local": "2026-05-30T08:41:00Z",
+        "average_heartrate": 127,
+        "max_heartrate": 158,
+        "calories": 1240
+      },
+      {
+        "name": "Interval Run",
+        "type": "Run",
+        "distance": 5023,
+        "moving_time": 1793,
+        "total_elevation_gain": 21,
+        "start_date_local": "2026-05-27T08:11:59Z",
+        "average_speed": 2.801,
+        "average_heartrate": 164,
+        "max_heartrate": 181,
+        "calories": 401
+      },
+      {
+        "name": "Pull Day",
+        "type": "WeightTraining",
+        "distance": 0,
+        "moving_time": 3146,
+        "start_date_local": "2026-05-24T16:55:06Z",
+        "average_heartrate": 116,
+        "max_heartrate": 144,
+        "calories": 296
+      },
+      {
+        "name": "Evening Spin",
+        "type": "Ride",
+        "distance": 0,
+        "moving_time": 1826,
+        "start_date_local": "2026-05-21T18:56:50Z",
+        "average_heartrate": 141,
+        "max_heartrate": 162,
+        "calories": 342
+      },
+      {
+        "name": "Last Run Hinterstoder",
+        "type": "AlpineSki",
+        "distance": 18460,
+        "moving_time": 9430,
+        "total_elevation_gain": 0,
+        "start_date_local": "2026-04-06T10:05:00Z",
+        "average_heartrate": 132,
+        "max_heartrate": 159,
+        "calories": 1105
+      }
+    ],
+    "disciplines": [
+      {
+        "type": "Run",
+        "label": "Running",
+        "count": 11,
+        "total_time": 24300,
+        "total_distance": 61200,
+        "avg_heartrate": 157
+      },
+      {
+        "type": "Ride",
+        "label": "Spinning",
+        "count": 8,
+        "total_time": 15400,
+        "total_distance": 0,
+        "avg_heartrate": 142
+      },
+      {
+        "type": "WeightTraining",
+        "label": "Weights",
+        "count": 6,
+        "total_time": 20200,
+        "total_distance": 0,
+        "avg_heartrate": 118
+      },
+      {
+        "type": "Hike",
+        "label": "Hiking",
+        "count": 4,
+        "total_time": 30100,
+        "total_distance": 27900,
+        "avg_heartrate": 126
+      },
+      {
+        "type": "AlpineSki",
+        "label": "Skiing",
+        "count": 2,
+        "total_time": 9500,
+        "total_distance": 18500,
+        "avg_heartrate": 133
+      }
+    ],
+    "monthly_activities": [
+      {
+        "month": "2026-01",
+        "count": 4,
+        "distance": 11200,
+        "time": 10400
+      },
+      {
+        "month": "2026-02",
+        "count": 5,
+        "distance": 9800,
+        "time": 13900
+      },
+      {
+        "month": "2026-03",
+        "count": 6,
+        "distance": 17300,
+        "time": 16800
+      },
+      {
+        "month": "2026-04",
+        "count": 5,
+        "distance": 28100,
+        "time": 21400
+      },
+      {
+        "month": "2026-05",
+        "count": 7,
+        "distance": 26400,
+        "time": 24600
+      },
+      {
+        "month": "2026-06",
+        "count": 4,
+        "distance": 14800,
+        "time": 12400
+      }
+    ]
+  },
+  "schema_version": "site-data.v1",
+  "generated_at": "2026-06-12T00:00:00Z"
+}
