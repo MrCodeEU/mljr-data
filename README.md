@@ -9,12 +9,17 @@ No API credentials or build steps live in the public web server.
 
 - `profile.json`: identity, avatar, public links, location, short bio.
 - `timeline.json`: work, education, HTL, thesis, and curated milestones.
-- `projects.json`: curated projects and manual overrides for GitHub data.
+- `projects.json`: curated projects (`curated[]`) merged with live
+  stars/language/topics from the GitHub REST API by the generator.
 - `generated/strava.json`: public Strava aggregates, no maps or GPS traces.
 - `generated/site-data.json`: merged, versioned payload consumed by the homepage.
 - `assets/`: checked-in avatars, logos, thesis images, and project screenshots.
 - `schemas/site-data.schema.json`: JSON Schema contract for the generated
   homepage artifact.
+- `generator/`: Go module that fetches GitHub account stats (contributions,
+  commit count, longest streak, language share), enriches `projects.json`
+  with live GitHub data, optionally refreshes Strava data, and writes
+  `generated/site-data.json`.
 
 ## Contract
 
@@ -29,9 +34,30 @@ Required top-level fields:
 - `linkedin_data`: public profile, experience, education, and skills.
 - `strava_data`: public aggregate activity data only.
 
+Optional:
+
+- `github_stats`: account-level contribution calendar, commits/year,
+  longest streak, and language share — written by `generator`, no
+  per-repo README/marker scanning.
+
 Generators must validate the file before committing it. The homepage parses
 the same file with Go `SiteData` types and keeps the previous valid data if a
 reload fails.
+
+## Generator
+
+```sh
+cd generator
+GITHUB_TOKEN=... GITHUB_USER=MrCodeEU go run ./cmd/generate
+```
+
+Reads `projects.json` and the existing `generated/site-data.json` (for
+`linkedin_data`, preserved as-is, and `strava_data` as a fallback), fetches
+GitHub account stats and per-project repo info, optionally refreshes Strava
+data if `STRAVA_CLIENT_ID`/`STRAVA_CLIENT_SECRET`/`STRAVA_REFRESH_TOKEN` are
+set, validates the result against `schemas/site-data.schema.json`, and
+overwrites `generated/site-data.json`. Runs nightly via
+`.github/workflows/generate.yml`.
 
 ## Homepage Runtime
 
