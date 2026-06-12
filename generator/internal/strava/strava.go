@@ -98,8 +98,8 @@ type statsDTO struct {
 type statsTotals struct {
 	Count         int     `json:"count"`
 	Distance      float64 `json:"distance"`
-	MovingTime    int     `json:"moving_time"`
-	ElapsedTime   int     `json:"elapsed_time"`
+	MovingTime    float64 `json:"moving_time"`
+	ElapsedTime   float64 `json:"elapsed_time"`
 	ElevationGain float64 `json:"elevation_gain"`
 }
 
@@ -240,8 +240,8 @@ func convertStats(t statsTotals) types.StravaStats {
 	return types.StravaStats{
 		Count:         t.Count,
 		Distance:      t.Distance,
-		MovingTime:    t.MovingTime,
-		ElapsedTime:   t.ElapsedTime,
+		MovingTime:    int(t.MovingTime),
+		ElapsedTime:   int(t.ElapsedTime),
 		ElevationGain: t.ElevationGain,
 	}
 }

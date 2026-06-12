@@ -85,6 +85,8 @@ func run() error {
 		log.Println("strava credentials not set, keeping existing strava_data")
 	}
 
+	normalizeStravaData(&stravaData)
+
 	out := types.SiteData{
 		SchemaVersion:  "site-data.v1",
 		GeneratedAt:    now.UTC().Format(time.RFC3339),
@@ -101,6 +103,26 @@ func run() error {
 	return writeSiteData(filepath.Join(root, "generated", "site-data.json"), out)
 }
 
+// normalizeStravaData ensures slice fields that the schema requires as
+// arrays (additionalProperties: false, type: array) are never null, which
+// can happen with hand-written sample data.
+func normalizeStravaData(d *types.StravaData) {
+	for i := range d.Disciplines {
+		if d.Disciplines[i].Activities == nil {
+			d.Disciplines[i].Activities = []types.StravaActivity{}
+		}
+	}
+	if d.RecentActivities == nil {
+		d.RecentActivities = []types.StravaActivity{}
+	}
+	if d.PersonalRecords == nil {
+		d.PersonalRecords = []types.StravaRecord{}
+	}
+	if d.Disciplines == nil {
+		d.Disciplines = []types.StravaDiscipline{}
+	}
+}
+
 func hasStravaCreds() bool {
 	return os.Getenv("STRAVA_CLIENT_ID") != "" && os.Getenv("STRAVA_CLIENT_SECRET") != "" && os.Getenv("STRAVA_REFRESH_TOKEN") != ""
 }
@@ -114,7 +136,7 @@ func repoRoot() (string, error) {
 	}
 	// generator/cmd/generate -> repo root is three levels up when run via
 	// `go run ./cmd/generate` from generator/, or via module path otherwise.
-	for _, candidate := range []string{wd, filepath.Join(wd, "..", ".."), filepath.Join(wd, "..", "..", "..")} {
+	for _, candidate := range []string{wd, filepath.Join(wd, ".."), filepath.Join(wd, "..", "..")} {
 		if _, err := os.Stat(filepath.Join(candidate, "schemas", "site-data.schema.json")); err == nil {
 			return filepath.Abs(candidate)
 		}
