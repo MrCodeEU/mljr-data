@@ -48,6 +48,8 @@ func run() error {
 	ctx := context.Background()
 	now := time.Now()
 
+	log.Printf("repo root: %s", root)
+
 	existing, err := loadSiteData(filepath.Join(root, "generated", "site-data.json"))
 	if err != nil {
 		return fmt.Errorf("load existing site-data.json: %w", err)
@@ -57,21 +59,30 @@ func run() error {
 	if err != nil {
 		return fmt.Errorf("load projects.json: %w", err)
 	}
+	log.Printf("projects.json: %d curated project(s)", len(projectsFile.Curated))
 
 	gh := githubapi.New(token)
 
+	log.Printf("github: enriching %d curated project(s) via REST API", len(projectsFile.Curated))
 	projects, err := buildProjects(ctx, gh, projectsFile)
 	if err != nil {
 		return fmt.Errorf("build projects: %w", err)
 	}
+	for _, p := range projects {
+		log.Printf("  - %s: %d stars, %s", p.Name, p.Stars, p.Language)
+	}
 
+	log.Printf("github: fetching account stats for %s", user)
 	stats, err := buildGitHubStats(ctx, gh, user, now)
 	if err != nil {
 		return fmt.Errorf("build github stats: %w", err)
 	}
+	log.Printf("github stats: %d commits/year, %d-day streak, %d contribution days, %d language(s)",
+		stats.CommitsYear, stats.LongestStreak, len(stats.Contributions), len(stats.LanguageShare))
 
 	stravaData := existing.StravaData
 	if hasStravaCreds() {
+		log.Println("strava: refreshing activity data")
 		fresh, err := strava.New(strava.Config{
 			ClientID:     os.Getenv("STRAVA_CLIENT_ID"),
 			ClientSecret: os.Getenv("STRAVA_CLIENT_SECRET"),
@@ -81,6 +92,7 @@ func run() error {
 			return fmt.Errorf("fetch strava data: %w", err)
 		}
 		stravaData = fresh
+		log.Printf("strava: %d total activities, %d recent", stravaData.TotalStats.Count, len(stravaData.RecentActivities))
 	} else {
 		log.Println("strava credentials not set, keeping existing strava_data")
 	}
@@ -96,11 +108,17 @@ func run() error {
 		GitHubStats:    stats,
 	}
 
+	log.Println("validating against schemas/site-data.schema.json")
 	if err := validate(root, out); err != nil {
 		return fmt.Errorf("validate site-data.json: %w", err)
 	}
 
-	return writeSiteData(filepath.Join(root, "generated", "site-data.json"), out)
+	outPath := filepath.Join(root, "generated", "site-data.json")
+	if err := writeSiteData(outPath, out); err != nil {
+		return err
+	}
+	log.Printf("wrote %s", outPath)
+	return nil
 }
 
 // normalizeStravaData ensures slice fields that the schema requires as
