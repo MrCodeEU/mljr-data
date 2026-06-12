@@ -15,6 +15,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"sort"
 	"time"
 
 	"github.com/santhosh-tekuri/jsonschema/v5"
@@ -63,8 +64,31 @@ func run() error {
 
 	gh := githubapi.New(token)
 
-	log.Printf("github: enriching %d curated project(s) via REST API", len(projectsFile.Curated))
-	projects, err := buildProjects(ctx, gh, projectsFile)
+	log.Printf("github: listing repos for %s", user)
+	repos, err := gh.ListRepos(ctx, user)
+	if err != nil {
+		return fmt.Errorf("list repos: %w", err)
+	}
+	log.Printf("github: found %d non-archived, non-fork repo(s)", len(repos))
+
+	projectsPath := filepath.Join(root, "projects.json")
+	if added := syncCuratedProjects(&projectsFile, repos); added > 0 {
+		log.Printf("projects.json: added %d new repo(s) with show=false", added)
+		if err := writeProjects(projectsPath, projectsFile); err != nil {
+			return fmt.Errorf("write projects.json: %w", err)
+		}
+		log.Printf("wrote %s", projectsPath)
+	}
+
+	shown := 0
+	for _, c := range projectsFile.Curated {
+		if c.Show {
+			shown++
+		}
+	}
+	log.Printf("projects.json: %d/%d curated project(s) marked show=true", shown, len(projectsFile.Curated))
+
+	projects, err := buildProjects(projectsFile, repos)
 	if err != nil {
 		return fmt.Errorf("build projects: %w", err)
 	}
@@ -186,9 +210,57 @@ func loadProjects(path string) (types.ProjectsFile, error) {
 	return pf, nil
 }
 
-func buildProjects(ctx context.Context, gh *githubapi.Client, pf types.ProjectsFile) ([]types.Project, error) {
+func writeProjects(path string, pf types.ProjectsFile) error {
+	b, err := json.MarshalIndent(pf, "", "  ")
+	if err != nil {
+		return err
+	}
+	b = append(b, '\n')
+	return os.WriteFile(path, b, 0o644)
+}
+
+// syncCuratedProjects merges the account's live, non-archived, non-fork
+// repos into pf.Curated: existing entries (matched by repo URL) are left
+// untouched so hand-edited fields (show, summary, topics, images, links,
+// featured, homepage) are preserved; newly-discovered repos are appended
+// with show=false. The result is sorted by ID for a stable diff.
+func syncCuratedProjects(pf *types.ProjectsFile, repos []githubapi.RepoSummary) (added int) {
+	known := make(map[string]bool, len(pf.Curated))
+	for _, c := range pf.Curated {
+		known[c.Repo] = true
+	}
+	for _, r := range repos {
+		if known[r.URL] {
+			continue
+		}
+		pf.Curated = append(pf.Curated, types.CuratedProject{
+			ID:     r.Name,
+			Name:   r.Name,
+			Show:   false,
+			Repo:   r.URL,
+			Topics: []string{},
+			Images: []string{},
+		})
+		added++
+	}
+	sort.Slice(pf.Curated, func(i, j int) bool { return pf.Curated[i].ID < pf.Curated[j].ID })
+	return added
+}
+
+// buildProjects returns the published project cards: only curated entries
+// with show=true, enriched with live stars/language/topics/description from
+// repos (fetched once via ListRepos).
+func buildProjects(pf types.ProjectsFile, repos []githubapi.RepoSummary) ([]types.Project, error) {
+	byURL := make(map[string]githubapi.RepoSummary, len(repos))
+	for _, r := range repos {
+		byURL[r.URL] = r
+	}
+
 	projects := make([]types.Project, 0, len(pf.Curated))
 	for _, c := range pf.Curated {
+		if !c.Show {
+			continue
+		}
 		p := types.Project{
 			Name:        c.Name,
 			Description: c.Summary,
@@ -205,13 +277,9 @@ func buildProjects(ctx context.Context, gh *githubapi.Client, pf types.ProjectsF
 			p.Links = append(p.Links, types.ProjectLink{Name: "Live", URL: *c.Homepage})
 		}
 
-		owner, name, err := githubapi.ParseRepo(c.Repo)
-		if err != nil {
-			return nil, fmt.Errorf("project %s: %w", c.ID, err)
-		}
-		info, err := gh.FetchRepo(ctx, owner, name)
-		if err != nil {
-			return nil, fmt.Errorf("project %s: %w", c.ID, err)
+		info, ok := byURL[c.Repo]
+		if !ok {
+			return nil, fmt.Errorf("project %s: repo %s not found in account repo list (archived/private/renamed?)", c.ID, c.Repo)
 		}
 		p.Stars = info.Stars
 		p.Language = info.Language

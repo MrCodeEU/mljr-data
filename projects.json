@@ -2,34 +2,359 @@
   "schema_version": "projects.v1",
   "curated": [
     {
+      "id": "AOC2024",
+      "name": "AOC2024",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/AOC2024",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "AdventOfCode2022_MrCode",
+      "name": "AdventOfCode2022_MrCode",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/AdventOfCode2022_MrCode",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "Flexbar-Plugin-Youtube-Music-Desktop-App",
+      "name": "Flexbar-Plugin-Youtube-Music-Desktop-App",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/Flexbar-Plugin-Youtube-Music-Desktop-App",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "Game-of-Life-Multiplatform",
+      "name": "Game-of-Life-Multiplatform",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/Game-of-Life-Multiplatform",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "ImageNameConverter",
+      "name": "ImageNameConverter",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/ImageNameConverter",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "LSTM-Based-Speaker-Diarization",
+      "name": "LSTM-Based-Speaker-Diarization",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/LSTM-Based-Speaker-Diarization",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "Lebenslauf",
+      "name": "Lebenslauf",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/Lebenslauf",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "MMS-Projekt-Spielesammlung",
+      "name": "MMS-Projekt-Spielesammlung",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/MMS-Projekt-Spielesammlung",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "MrCodeCSS",
+      "name": "MrCodeCSS",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/MrCodeCSS",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "MrCodeEU",
+      "name": "MrCodeEU",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/MrCodeEU",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "WordWiz",
+      "name": "WordWiz",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/WordWiz",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "cg-lab-2023-project-reineggersilber",
+      "name": "cg-lab-2023-project-reineggersilber",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/cg-lab-2023-project-reineggersilber",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "cosmic-nightscout",
+      "name": "cosmic-nightscout",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/cosmic-nightscout",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "face-auth",
+      "name": "face-auth",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/face-auth",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
       "id": "godrive",
       "name": "goDrive",
+      "show": true,
       "summary": "Self-hosted file sync and sharing app with mobile clients, demo mode, and WebDAV support.",
       "repo": "https://github.com/MrCodeEU/goDrive",
       "homepage": null,
       "featured": true,
-      "topics": ["Go", "Flutter", "SQLite", "Sync"],
-      "images": ["assets/projects/godrive/cover.webp"]
+      "topics": [
+        "Go",
+        "Flutter",
+        "SQLite",
+        "Sync"
+      ],
+      "images": [
+        "assets/projects/godrive/cover.webp"
+      ]
+    },
+    {
+      "id": "homelab-automation",
+      "name": "homelab-automation",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/homelab-automation",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
     },
     {
       "id": "homelab-speedtest",
       "name": "homelab-speedtest",
+      "show": true,
       "summary": "Go and Svelte network performance monitoring for a self-hosted homelab.",
       "repo": "https://github.com/MrCodeEU/homelab-speedtest",
+      "homepage": null,
       "featured": true,
-      "topics": ["Go", "Svelte", "Monitoring", "Docker"],
-      "images": ["assets/projects/homelab-speedtest/cover.webp"]
-    }
-  ],
-  "github_overrides": {
-    "homepage": {
-      "hidden": true,
-      "reason": "Meta project for this site."
+      "topics": [
+        "Go",
+        "Svelte",
+        "Monitoring",
+        "Docker"
+      ],
+      "images": [
+        "assets/projects/homelab-speedtest/cover.webp"
+      ]
     },
-    "LSTM-Based-Speaker-Diarization": {
-      "featured": true,
-      "kind": "thesis",
-      "images": ["assets/projects/lstm-diarization/cover.webp"]
+    {
+      "id": "homepage",
+      "name": "homepage",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/homepage",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "jku-master-project-network-devices-power-consumption-analysis",
+      "name": "jku-master-project-network-devices-power-consumption-analysis",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/jku-master-project-network-devices-power-consumption-analysis",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "mljr-comps",
+      "name": "mljr-comps",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/mljr-comps",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "mljr-data",
+      "name": "mljr-data",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/mljr-data",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "mljr-web",
+      "name": "mljr-web",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/mljr-web",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "mljrCSS",
+      "name": "mljrCSS",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/mljrCSS",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "nightscout-display",
+      "name": "nightscout-display",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/nightscout-display",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "nightscout-librelink-up-go",
+      "name": "nightscout-librelink-up-go",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/nightscout-librelink-up-go",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "nightscout-tray",
+      "name": "nightscout-tray",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/nightscout-tray",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "service-template",
+      "name": "service-template",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/service-template",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "sudoku-gen",
+      "name": "sudoku-gen",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/sudoku-gen",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "sudoku_gen_go",
+      "name": "sudoku_gen_go",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/sudoku_gen_go",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "webcambot",
+      "name": "webcambot",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/webcambot",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "zepp2hass-watch",
+      "name": "zepp2hass-watch",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/zepp2hass-watch",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
     }
-  }
+  ]
 }

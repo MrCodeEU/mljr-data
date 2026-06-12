@@ -56,6 +56,61 @@ func (c *Client) FetchRepo(ctx context.Context, owner, repo string) (RepoInfo, e
 	return RepoInfo{Description: dto.Description, Stars: dto.Stars, Language: dto.Language, Topics: dto.Topics}, nil
 }
 
+// RepoSummary is one entry from the user's public repo list.
+type RepoSummary struct {
+	Name        string
+	URL         string
+	Description string
+	Stars       int
+	Language    string
+	Topics      []string
+	Archived    bool
+	Fork        bool
+}
+
+// ListRepos returns the user's public, non-fork, non-archived repositories.
+func (c *Client) ListRepos(ctx context.Context, user string) ([]RepoSummary, error) {
+	var out []RepoSummary
+	for page := 1; page <= 5; page++ {
+		var batch []struct {
+			Name        string   `json:"name"`
+			HTMLURL     string   `json:"html_url"`
+			Description string   `json:"description"`
+			Stars       int      `json:"stargazers_count"`
+			Language    string   `json:"language"`
+			Topics      []string `json:"topics"`
+			Archived    bool     `json:"archived"`
+			Fork        bool     `json:"fork"`
+		}
+		url := fmt.Sprintf("%s/users/%s/repos?per_page=100&page=%d&type=owner", restBase, user, page)
+		if err := c.getJSON(ctx, url, &batch); err != nil {
+			return nil, err
+		}
+		if len(batch) == 0 {
+			break
+		}
+		for _, r := range batch {
+			if r.Archived || r.Fork {
+				continue
+			}
+			out = append(out, RepoSummary{
+				Name:        r.Name,
+				URL:         r.HTMLURL,
+				Description: r.Description,
+				Stars:       r.Stars,
+				Language:    r.Language,
+				Topics:      r.Topics,
+				Archived:    r.Archived,
+				Fork:        r.Fork,
+			})
+		}
+		if len(batch) < 100 {
+			break
+		}
+	}
+	return out, nil
+}
+
 // FetchLanguageShare aggregates language byte counts across the user's
 // non-fork public repositories and returns the share by percentage,
 // sorted descending.
