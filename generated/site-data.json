@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-06-13T08:56:03Z",
+  "generated_at": "2026-06-13T21:01:54Z",
   "github_projects": [
     {
       "name": "AOC2024",
@@ -315,26 +315,26 @@
       "name": "Michael Reinegger geb. Ludwig Josef",
       "photo_url": "/static/portfolio/linkedin-photo.webp",
       "headline": "Michael Reinegger geb. Ludwig Josefer/ihm",
-      "location": "Johannes Kepler Universität Linz"
+      "location": "Johannes Kepler Universit\u00e4t Linz"
     },
     "name": "Michael Reinegger geb. Ludwig Josef",
     "headline": "Michael Reinegger geb. Ludwig Josefer/ihm",
-    "location": "Johannes Kepler Universität Linz",
+    "location": "Johannes Kepler Universit\u00e4t Linz",
     "about": "",
     "experience": [
       {
         "title": "Softwareentwickler Masterarbeit",
         "company": "Dynatrace",
         "type": "Teilzeit",
-        "period": "Nov. 2025–Heute",
+        "period": "Nov. 2025\u2013Heute",
         "duration": "6 Monate",
-        "description": "Linz (Stadt), Oberösterreich, Österreich"
+        "description": "Linz (Stadt), Ober\u00f6sterreich, \u00d6sterreich"
       },
       {
         "title": "Tutor Digitale Schaltungen",
-        "company": "Johannes Kepler Universität Linz",
+        "company": "Johannes Kepler Universit\u00e4t Linz",
         "type": "Teilzeit",
-        "period": "Okt. 2025–Jan. 2026",
+        "period": "Okt. 2025\u2013Jan. 2026",
         "duration": "4 Monate",
         "description": ""
       },
@@ -342,15 +342,15 @@
         "title": "Praktikant",
         "company": "Dynatrace",
         "type": "Vollzeit",
-        "period": "Aug. 2025–Sept. 2025",
+        "period": "Aug. 2025\u2013Sept. 2025",
         "duration": "2 Monate",
-        "description": "Linz (Stadt), Oberösterreich, Österreich"
+        "description": "Linz (Stadt), Ober\u00f6sterreich, \u00d6sterreich"
       },
       {
         "title": "Studentischer Mitarbeiter",
-        "company": "Johannes Kepler Universität Linz",
+        "company": "Johannes Kepler Universit\u00e4t Linz",
         "type": "",
-        "period": "Okt. 2024–Juni 2025",
+        "period": "Okt. 2024\u2013Juni 2025",
         "duration": "9 Monate",
         "description": "Korrektur von Digitale Schaltungen und Rechnerarchitektur"
       },
@@ -364,25 +364,25 @@
       },
       {
         "title": "Studentischer Mitarbeiter",
-        "company": "Johannes Kepler Universität Linz",
+        "company": "Johannes Kepler Universit\u00e4t Linz",
         "type": "Teilzeit",
-        "period": "Okt. 2023–Juni 2024",
+        "period": "Okt. 2023\u2013Juni 2024",
         "duration": "9 Monate",
-        "description": "Korrektur von Abgaben für Digitale Schaltungen und Rechnerarchitektur"
+        "description": "Korrektur von Abgaben f\u00fcr Digitale Schaltungen und Rechnerarchitektur"
       },
       {
         "title": "Praktikant in der Softwareentwicklung",
         "company": "Bosch",
         "type": "Vollzeit",
-        "period": "Aug. 2023–Sept. 2023",
+        "period": "Aug. 2023\u2013Sept. 2023",
         "duration": "2 Monate",
-        "description": "Softwareentwicklung und Debugging von IT-Systemen im Büro sowie eigenständige Entwicklung eines Dashboard zum Anzeigen nützlicher Informationen für das Team."
+        "description": "Softwareentwicklung und Debugging von IT-Systemen im B\u00fcro sowie eigenst\u00e4ndige Entwicklung eines Dashboard zum Anzeigen n\u00fctzlicher Informationen f\u00fcr das Team."
       },
       {
         "title": "Praktikant",
         "company": "Bosch Rexroth",
         "type": "Vollzeit",
-        "period": "Juni 2021–Juli 2021",
+        "period": "Juni 2021\u2013Juli 2021",
         "duration": "2 Monate",
         "description": "Elektronische Verkabelung und Test von Hydraulik"
       },
@@ -390,9 +390,9 @@
         "title": "Zivildiener",
         "company": "HerzReha Bad Ischl",
         "type": "Vollzeit",
-        "period": "Sept. 2020–Mai 2021",
+        "period": "Sept. 2020\u2013Mai 2021",
         "duration": "9 Monate",
-        "description": "Bad Ischl, Oberösterreich, Österreich"
+        "description": "Bad Ischl, Ober\u00f6sterreich, \u00d6sterreich"
       },
       {
         "title": "Praktikant",
@@ -400,7 +400,7 @@
         "type": "Vollzeit",
         "period": "Juni 2018",
         "duration": "1 Monat",
-        "description": "Dietach, Oberösterreich, Österreich"
+        "description": "Dietach, Ober\u00f6sterreich, \u00d6sterreich"
       },
       {
         "title": "Praktikant",
@@ -408,24 +408,24 @@
         "type": "Vollzeit",
         "period": "Juli 2017",
         "duration": "1 Monat",
-        "description": "Sankt Valentin, Niederösterreich, Österreich"
+        "description": "Sankt Valentin, Nieder\u00f6sterreich, \u00d6sterreich"
       }
     ],
     "education": [
       {
-        "school": "Johannes Kepler Universität Linz",
+        "school": "Johannes Kepler Universit\u00e4t Linz",
         "degree": "Diplom-Ingenieur, Computer Science: Networks and IT Security",
-        "period": "Okt. 2024–Juni 2026"
+        "period": "Okt. 2024\u2013Juni 2026"
       },
       {
-        "school": "Johannes Kepler Universität Linz",
+        "school": "Johannes Kepler Universit\u00e4t Linz",
         "degree": "Bachelor, Computer Science",
-        "period": "Okt. 2021–Juli 2024"
+        "period": "Okt. 2021\u2013Juli 2024"
       },
       {
         "school": "HTL Steyr",
         "degree": "Matura, Mechatronik, Robotik und Automatisierungstechnik",
-        "period": "2015–2020"
+        "period": "2015\u20132020"
       }
     ],
     "skills": [
@@ -512,7 +512,7 @@
       },
       {
         "id": 18837848727,
-        "name": "Lauf am Nachmittag - 30°",
+        "name": "Lauf am Nachmittag - 30\u00b0",
         "distance": 5048.7,
         "moving_time": 1787,
         "elapsed_time": 1787,
@@ -774,7 +774,7 @@
           },
           {
             "id": 18837848727,
-            "name": "Lauf am Nachmittag - 30°",
+            "name": "Lauf am Nachmittag - 30\u00b0",
             "distance": 5048.7,
             "moving_time": 1787,
             "elapsed_time": 1787,
@@ -1066,7 +1066,7 @@
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 1145,
+    "commits_year": 1159,
     "longest_streak": 11,
     "contributions": [
       {
@@ -2527,7 +2527,7 @@
       },
       {
         "date": "2026-06-13",
-        "count": 2
+        "count": 16
       }
     ],
     "language_share": [

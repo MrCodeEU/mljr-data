@@ -17,7 +17,8 @@
       "images": [
         "https://picsum.photos/seed/aoc2024/800/450"
       ],
-      "links": []
+      "links": [],
+      "order": 100
     },
     {
       "id": "AdventOfCode2022_MrCode",
@@ -44,9 +45,11 @@
         "Desktop"
       ],
       "images": [
-        "https://picsum.photos/seed/flexbar-ytmusic/800/450"
+        "/static/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/0.webp",
+        "/static/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/1.webp"
       ],
-      "links": []
+      "links": [],
+      "order": 110
     },
     {
       "id": "Game-of-Life-Multiplatform",
@@ -62,9 +65,10 @@
         "Simulation"
       ],
       "images": [
-        "https://picsum.photos/seed/game-of-life-mp/800/450"
+        "/static/portfolio/Game-of-Life-Multiplatform/0.webp"
       ],
-      "links": []
+      "links": [],
+      "order": 70
     },
     {
       "id": "ImageNameConverter",
@@ -80,24 +84,41 @@
     {
       "id": "LSTM-Based-Speaker-Diarization",
       "name": "LSTM-Based-Speaker-Diarization",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "LSTM-based neural network for speaker diarization on audio recordings.",
       "repo": "https://github.com/MrCodeEU/LSTM-Based-Speaker-Diarization",
       "homepage": null,
       "featured": false,
-      "topics": [],
-      "images": []
+      "topics": [
+        "Python",
+        "PyTorch",
+        "Machine Learning",
+        "Audio"
+      ],
+      "images": [
+        "/static/portfolio/LSTM-Based-Speaker-Diarization/0.webp",
+        "/static/portfolio/LSTM-Based-Speaker-Diarization/1.webp"
+      ],
+      "order": 40
     },
     {
       "id": "Lebenslauf",
       "name": "Lebenslauf",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Source for my CV/resume, built as a small static web project.",
       "repo": "https://github.com/MrCodeEU/Lebenslauf",
       "homepage": null,
       "featured": false,
-      "topics": [],
-      "images": []
+      "topics": [
+        "Web",
+        "CSS",
+        "Resume"
+      ],
+      "images": [
+        "/static/portfolio/Lebenslauf/0.webp",
+        "/static/portfolio/Lebenslauf/1.webp"
+      ],
+      "order": 80
     },
     {
       "id": "MMS-Projekt-Spielesammlung",
@@ -146,25 +167,35 @@
         "Game"
       ],
       "images": [
-        "https://picsum.photos/seed/wordwiz/800/450"
+        "/static/portfolio/WordWiz/0.webp",
+        "/static/portfolio/WordWiz/1.webp"
       ],
       "links": [
         {
           "name": "Live",
           "url": "https://wordwiz.mljr.eu/"
         }
-      ]
+      ],
+      "order": 120
     },
     {
       "id": "cg-lab-2023-project-reineggersilber",
       "name": "cg-lab-2023-project-reineggersilber",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Computer graphics lab project: real-time 3D rendering exercises.",
       "repo": "https://github.com/MrCodeEU/cg-lab-2023-project-reineggersilber",
       "homepage": null,
       "featured": false,
-      "topics": [],
-      "images": []
+      "topics": [
+        "C++",
+        "OpenGL",
+        "Computer Graphics"
+      ],
+      "images": [
+        "/static/portfolio/cg-lab-2023-project-reineggersilber/0.webp",
+        "/static/portfolio/cg-lab-2023-project-reineggersilber/1.webp"
+      ],
+      "order": 50
     },
     {
       "id": "cosmic-nightscout",
@@ -183,7 +214,8 @@
       "images": [
         "https://picsum.photos/seed/cosmic-nightscout/800/450"
       ],
-      "links": []
+      "links": [],
+      "order": 130
     },
     {
       "id": "face-auth",
@@ -194,7 +226,7 @@
       "homepage": null,
       "featured": true,
       "topics": [
-        "Go",
+        "Rust",
         "PAM",
         "Security",
         "Linux"
@@ -204,7 +236,8 @@
         "https://picsum.photos/seed/face-auth-2/800/450",
         "https://picsum.photos/seed/face-auth-3/800/450"
       ],
-      "links": []
+      "links": [],
+      "order": 140
     },
     {
       "id": "godrive",
@@ -230,7 +263,8 @@
           "name": "Demo",
           "url": "https://godrive-demo.mljr.eu"
         }
-      ]
+      ],
+      "order": 150
     },
     {
       "id": "homelab-automation",
@@ -249,7 +283,8 @@
       "images": [
         "https://picsum.photos/seed/homelab-automation/800/450"
       ],
-      "links": []
+      "links": [],
+      "order": 30
     },
     {
       "id": "homelab-speedtest",
@@ -266,9 +301,11 @@
         "Docker"
       ],
       "images": [
-        "https://picsum.photos/seed/homelab-speedtest/800/450"
+        "/static/portfolio/homelab-speedtest/0.webp",
+        "/static/portfolio/homelab-speedtest/1.webp"
       ],
-      "links": []
+      "links": [],
+      "order": 160
     },
     {
       "id": "homepage",
@@ -284,18 +321,26 @@
     {
       "id": "jku-master-project-network-devices-power-consumption-analysis",
       "name": "jku-master-project-network-devices-power-consumption-analysis",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Master's project analyzing power consumption of network devices.",
       "repo": "https://github.com/MrCodeEU/jku-master-project-network-devices-power-consumption-analysis",
       "homepage": null,
       "featured": false,
-      "topics": [],
-      "images": []
+      "topics": [
+        "Python",
+        "Networking",
+        "Data Analysis"
+      ],
+      "images": [
+        "/static/portfolio/jku-master-project-network-devices-power-consumption-analysis/0.webp",
+        "/static/portfolio/jku-master-project-network-devices-power-consumption-analysis/1.webp"
+      ],
+      "order": 60
     },
     {
       "id": "mljr-comps",
       "name": "mljr-comps",
-      "show": true,
+      "show": false,
       "summary": "Neo-brutalist Go/gomponents UI component library powering mljr.eu.",
       "repo": "https://github.com/MrCodeEU/mljr-comps",
       "homepage": null,
@@ -330,13 +375,28 @@
     {
       "id": "mljr-web",
       "name": "mljr-web",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Personal portfolio monorepo — Go/gomponents, Datastar, Tailwind v4, neo-brutalist 4-theme component library.",
       "repo": "https://github.com/MrCodeEU/mljr-web",
-      "homepage": null,
-      "featured": false,
-      "topics": [],
-      "images": []
+      "homepage": "https://mljr.eu",
+      "featured": true,
+      "topics": [
+        "Go",
+        "gomponents",
+        "Datastar",
+        "Tailwind",
+        "UI"
+      ],
+      "images": [
+        "/static/portfolio/mljrCSS/0.webp"
+      ],
+      "links": [
+        {
+          "name": "Component showcase",
+          "url": "https://ui.mljr.eu"
+        }
+      ],
+      "order": 170
     },
     {
       "id": "mljrCSS",
@@ -363,9 +423,11 @@
         "Embedded"
       ],
       "images": [
-        "https://picsum.photos/seed/nightscout-display/800/450"
+        "/static/portfolio/nightscout-display/0.webp",
+        "/static/portfolio/nightscout-display/1.webp"
       ],
-      "links": []
+      "links": [],
+      "order": 180
     },
     {
       "id": "nightscout-librelink-up-go",
@@ -381,9 +443,11 @@
         "LibreLink"
       ],
       "images": [
-        "https://picsum.photos/seed/nightscout-librelink-up-go/800/450"
+        "/static/portfolio/nightscout-librelink-up-go/0.webp",
+        "/static/portfolio/nightscout-librelink-up-go/1.webp"
       ],
-      "links": []
+      "links": [],
+      "order": 190
     },
     {
       "id": "nightscout-tray",
@@ -399,9 +463,11 @@
         "Desktop"
       ],
       "images": [
-        "https://picsum.photos/seed/nightscout-tray/800/450"
+        "/static/portfolio/nightscout-tray/0.webp",
+        "/static/portfolio/nightscout-tray/1.webp"
       ],
-      "links": []
+      "links": [],
+      "order": 200
     },
     {
       "id": "service-template",
@@ -418,7 +484,8 @@
         "Docker"
       ],
       "images": [
-        "https://picsum.photos/seed/service-template/800/450"
+        "/static/portfolio/service-template/0.webp",
+        "/static/portfolio/service-template/1.webp"
       ],
       "links": [
         {
@@ -429,7 +496,8 @@
           "name": "Staging",
           "url": "https://template.dev.mljr.eu"
         }
-      ]
+      ],
+      "order": 20
     },
     {
       "id": "sudoku-gen",
@@ -445,9 +513,13 @@
         "CLI"
       ],
       "images": [
-        "https://picsum.photos/seed/sudoku-gen/800/450"
+        "/static/portfolio/sudoku-gen/0.webp",
+        "/static/portfolio/sudoku-gen/1.webp",
+        "/static/portfolio/sudoku-gen/2.webp",
+        "/static/portfolio/sudoku-gen/3.webp"
       ],
-      "links": []
+      "links": [],
+      "order": 10
     },
     {
       "id": "sudoku_gen_go",
@@ -487,7 +559,8 @@
       "images": [
         "https://picsum.photos/seed/zepp2hass-watch/800/450"
       ],
-      "links": []
+      "links": [],
+      "order": 210
     }
   ]
 }

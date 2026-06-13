@@ -22,6 +22,7 @@ type Project struct {
 	Topics      []string      `json:"topics"`
 	Images      []string      `json:"images"`
 	Featured    bool          `json:"featured"`
+	Order       int           `json:"order,omitempty"`
 	Links       []ProjectLink `json:"links"`
 }
 
