@@ -17,6 +17,7 @@ type CuratedProject struct {
 	Repo     string        `json:"repo"`
 	Homepage *string       `json:"homepage"`
 	Featured bool          `json:"featured"`
+	Order    int           `json:"order,omitempty"`
 	Topics   []string      `json:"topics"`
 	Images   []string      `json:"images"`
 	Links    []ProjectLink `json:"links,omitempty"`

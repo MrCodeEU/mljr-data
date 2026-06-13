@@ -130,6 +130,10 @@
           "type": "boolean",
           "default": false
         },
+        "order": {
+          "type": "integer",
+          "default": 0
+        },
         "links": {
           "type": "array",
           "items": {

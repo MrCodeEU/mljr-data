@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-06-13T08:53:11Z",
+  "generated_at": "2026-06-13T21:01:54Z",
   "github_projects": [
     {
       "name": "AOC2024",
@@ -17,6 +17,7 @@
         "https://picsum.photos/seed/aoc2024/800/450"
       ],
       "featured": false,
+      "order": 100,
       "links": []
     },
     {
@@ -31,9 +32,11 @@
         "Desktop"
       ],
       "images": [
-        "https://picsum.photos/seed/flexbar-ytmusic/800/450"
+        "/static/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/0.webp",
+        "/static/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/1.webp"
       ],
       "featured": false,
+      "order": 110,
       "links": []
     },
     {
@@ -48,9 +51,49 @@
         "Simulation"
       ],
       "images": [
-        "https://picsum.photos/seed/game-of-life-mp/800/450"
+        "/static/portfolio/Game-of-Life-Multiplatform/0.webp"
       ],
       "featured": false,
+      "order": 70,
+      "links": []
+    },
+    {
+      "name": "LSTM-Based-Speaker-Diarization",
+      "description": "LSTM-based neural network for speaker diarization on audio recordings.",
+      "url": "https://github.com/MrCodeEU/LSTM-Based-Speaker-Diarization",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "Python",
+        "PyTorch",
+        "Machine Learning",
+        "Audio"
+      ],
+      "images": [
+        "/static/portfolio/LSTM-Based-Speaker-Diarization/0.webp",
+        "/static/portfolio/LSTM-Based-Speaker-Diarization/1.webp"
+      ],
+      "featured": false,
+      "order": 40,
+      "links": []
+    },
+    {
+      "name": "Lebenslauf",
+      "description": "Source for my CV/resume, built as a small static web project.",
+      "url": "https://github.com/MrCodeEU/Lebenslauf",
+      "stars": 0,
+      "language": "Typst",
+      "topics": [
+        "Web",
+        "CSS",
+        "Resume"
+      ],
+      "images": [
+        "/static/portfolio/Lebenslauf/0.webp",
+        "/static/portfolio/Lebenslauf/1.webp"
+      ],
+      "featured": false,
+      "order": 80,
       "links": []
     },
     {
@@ -65,15 +108,36 @@
         "Game"
       ],
       "images": [
-        "https://picsum.photos/seed/wordwiz/800/450"
+        "/static/portfolio/WordWiz/0.webp",
+        "/static/portfolio/WordWiz/1.webp"
       ],
       "featured": false,
+      "order": 120,
       "links": [
         {
           "name": "Live",
           "url": "https://wordwiz.mljr.eu/"
         }
       ]
+    },
+    {
+      "name": "cg-lab-2023-project-reineggersilber",
+      "description": "Computer graphics lab project: real-time 3D rendering exercises.",
+      "url": "https://github.com/MrCodeEU/cg-lab-2023-project-reineggersilber",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [
+        "C++",
+        "OpenGL",
+        "Computer Graphics"
+      ],
+      "images": [
+        "/static/portfolio/cg-lab-2023-project-reineggersilber/0.webp",
+        "/static/portfolio/cg-lab-2023-project-reineggersilber/1.webp"
+      ],
+      "featured": false,
+      "order": 50,
+      "links": []
     },
     {
       "name": "cosmic-nightscout",
@@ -91,6 +155,7 @@
         "https://picsum.photos/seed/cosmic-nightscout/800/450"
       ],
       "featured": true,
+      "order": 130,
       "links": []
     },
     {
@@ -100,7 +165,7 @@
       "stars": 0,
       "language": "Rust",
       "topics": [
-        "Go",
+        "Rust",
         "PAM",
         "Security",
         "Linux"
@@ -111,6 +176,7 @@
         "https://picsum.photos/seed/face-auth-3/800/450"
       ],
       "featured": true,
+      "order": 140,
       "links": []
     },
     {
@@ -131,6 +197,7 @@
         "https://picsum.photos/seed/godrive-3/800/450"
       ],
       "featured": true,
+      "order": 150,
       "links": [
         {
           "name": "Demo",
@@ -154,6 +221,7 @@
         "https://picsum.photos/seed/homelab-automation/800/450"
       ],
       "featured": false,
+      "order": 30,
       "links": []
     },
     {
@@ -169,31 +237,58 @@
         "Docker"
       ],
       "images": [
-        "https://picsum.photos/seed/homelab-speedtest/800/450"
+        "/static/portfolio/homelab-speedtest/0.webp",
+        "/static/portfolio/homelab-speedtest/1.webp"
       ],
       "featured": true,
+      "order": 160,
       "links": []
     },
     {
-      "name": "mljr-comps",
-      "description": "Neo-brutalist Go/gomponents UI component library powering mljr.eu.",
-      "url": "https://github.com/MrCodeEU/mljr-comps",
+      "name": "jku-master-project-network-devices-power-consumption-analysis",
+      "description": "Master's project analyzing power consumption of network devices.",
+      "url": "https://github.com/MrCodeEU/jku-master-project-network-devices-power-consumption-analysis",
+      "stars": 1,
+      "language": "TeX",
+      "topics": [
+        "Python",
+        "Networking",
+        "Data Analysis"
+      ],
+      "images": [
+        "/static/portfolio/jku-master-project-network-devices-power-consumption-analysis/0.webp",
+        "/static/portfolio/jku-master-project-network-devices-power-consumption-analysis/1.webp"
+      ],
+      "featured": false,
+      "order": 60,
+      "links": []
+    },
+    {
+      "name": "mljr-web",
+      "description": "Personal portfolio monorepo — Go/gomponents, Datastar, Tailwind v4, neo-brutalist 4-theme component library.",
+      "url": "https://github.com/MrCodeEU/mljr-web",
       "stars": 0,
-      "language": "Svelte",
+      "language": "Go",
       "topics": [
         "Go",
         "gomponents",
-        "UI",
-        "CSS"
+        "Datastar",
+        "Tailwind",
+        "UI"
       ],
       "images": [
-        "https://picsum.photos/seed/mljr-comps/800/450"
+        "/static/portfolio/mljrCSS/0.webp"
       ],
       "featured": true,
+      "order": 170,
       "links": [
         {
           "name": "Component showcase",
-          "url": "https://comps.mljr.eu"
+          "url": "https://ui.mljr.eu"
+        },
+        {
+          "name": "Live",
+          "url": "https://mljr.eu"
         }
       ]
     },
@@ -209,9 +304,11 @@
         "Embedded"
       ],
       "images": [
-        "https://picsum.photos/seed/nightscout-display/800/450"
+        "/static/portfolio/nightscout-display/0.webp",
+        "/static/portfolio/nightscout-display/1.webp"
       ],
       "featured": false,
+      "order": 180,
       "links": []
     },
     {
@@ -226,9 +323,11 @@
         "LibreLink"
       ],
       "images": [
-        "https://picsum.photos/seed/nightscout-librelink-up-go/800/450"
+        "/static/portfolio/nightscout-librelink-up-go/0.webp",
+        "/static/portfolio/nightscout-librelink-up-go/1.webp"
       ],
       "featured": false,
+      "order": 190,
       "links": []
     },
     {
@@ -243,9 +342,11 @@
         "Desktop"
       ],
       "images": [
-        "https://picsum.photos/seed/nightscout-tray/800/450"
+        "/static/portfolio/nightscout-tray/0.webp",
+        "/static/portfolio/nightscout-tray/1.webp"
       ],
       "featured": false,
+      "order": 200,
       "links": []
     },
     {
@@ -261,9 +362,11 @@
         "Docker"
       ],
       "images": [
-        "https://picsum.photos/seed/service-template/800/450"
+        "/static/portfolio/service-template/0.webp",
+        "/static/portfolio/service-template/1.webp"
       ],
       "featured": false,
+      "order": 20,
       "links": [
         {
           "name": "Prod",
@@ -287,9 +390,13 @@
         "CLI"
       ],
       "images": [
-        "https://picsum.photos/seed/sudoku-gen/800/450"
+        "/static/portfolio/sudoku-gen/0.webp",
+        "/static/portfolio/sudoku-gen/1.webp",
+        "/static/portfolio/sudoku-gen/2.webp",
+        "/static/portfolio/sudoku-gen/3.webp"
       ],
       "featured": false,
+      "order": 10,
       "links": []
     },
     {
@@ -307,6 +414,7 @@
         "https://picsum.photos/seed/zepp2hass-watch/800/450"
       ],
       "featured": false,
+      "order": 210,
       "links": []
     }
   ],
@@ -453,7 +561,7 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-06-13T08:53:11Z",
+    "generated_at": "2026-06-13T21:01:54Z",
     "total_stats": {
       "count": 187,
       "distance": 1522256.899999999,
@@ -1066,7 +1174,7 @@
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 1144,
+    "commits_year": 1159,
     "longest_streak": 11,
     "contributions": [
       {
@@ -2527,125 +2635,125 @@
       },
       {
         "date": "2026-06-13",
-        "count": 1
+        "count": 16
       }
     ],
     "language_share": [
       {
         "name": "Svelte",
-        "pct": 22.207202587329085
+        "pct": 22.203754775319844
       },
       {
         "name": "Go",
-        "pct": 18.150889475586933
+        "pct": 18.154678880794766
       },
       {
         "name": "JavaScript",
-        "pct": 12.243396050415607
+        "pct": 12.24149518389401
       },
       {
         "name": "HTML",
-        "pct": 9.246174486926684
+        "pct": 9.244738958461978
       },
       {
         "name": "CSS",
-        "pct": 7.906092836998546
+        "pct": 7.905245849974916
       },
       {
         "name": "TypeScript",
-        "pct": 6.124069465089481
+        "pct": 6.123118663647285
       },
       {
         "name": "Rust",
-        "pct": 3.8526848551310118
+        "pct": 3.8520867008583557
       },
       {
         "name": "TeX",
-        "pct": 3.526502813010341
+        "pct": 3.5259553006119866
       },
       {
         "name": "C#",
-        "pct": 3.225362433514989
+        "pct": 3.2248616751106516
       },
       {
         "name": "Python",
-        "pct": 2.4463421119922923
+        "pct": 2.4459623015375866
       },
       {
         "name": "Kotlin",
-        "pct": 2.2162242686010685
+        "pct": 2.215880185431727
       },
       {
         "name": "Dart",
-        "pct": 2.1901987600757193
+        "pct": 2.18985871753511
       },
       {
         "name": "ASP.NET",
-        "pct": 1.6866924168220943
+        "pct": 1.68643054690184
       },
       {
         "name": "Shell",
-        "pct": 1.0424961098640297
+        "pct": 1.0423342555920636
       },
       {
         "name": "Vue",
-        "pct": 0.7764214832961993
+        "pct": 0.7763009388330318
       },
       {
         "name": "ShaderLab",
-        "pct": 0.7470917375971606
+        "pct": 0.746975746766944
       },
       {
         "name": "Makefile",
-        "pct": 0.47903085609907886
+        "pct": 0.4835594249960884
       },
       {
         "name": "SCSS",
-        "pct": 0.42420465108508454
+        "pct": 0.42413879056597437
       },
       {
         "name": "Jinja",
-        "pct": 0.33120336883686674
+        "pct": 0.3347526355088357
       },
       {
         "name": "Typst",
-        "pct": 0.24965553791542547
+        "pct": 0.24961677727646547
       },
       {
         "name": "Swift",
-        "pct": 0.2337747800385092
+        "pct": 0.2337384849900489
       },
       {
         "name": "Java",
-        "pct": 0.20485342320363426
+        "pct": 0.20482161838310914
       },
       {
         "name": "HLSL",
-        "pct": 0.12988622193428745
+        "pct": 0.12986605625722572
       },
       {
         "name": "NSIS",
-        "pct": 0.11515637812910563
+        "pct": 0.11513849935568099
       },
       {
         "name": "Dockerfile",
-        "pct": 0.11102608166199417
+        "pct": 0.11134292861041835
       },
       {
         "name": "Ruby",
-        "pct": 0.06590839373698551
+        "pct": 0.06589816103205373
       },
       {
         "name": "GLSL",
-        "pct": 0.057517858891437706
+        "pct": 0.05750892887137544
       },
       {
         "name": "Objective-C",
-        "pct": 0.008093524762519554
+        "pct": 0.008092268190388798
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.0018470314538318708
+        "pct": 0.0018467446902378105
       }
     ]
   }

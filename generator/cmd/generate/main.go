@@ -268,6 +268,7 @@ func buildProjects(pf types.ProjectsFile, repos []githubapi.RepoSummary) ([]type
 			Topics:      c.Topics,
 			Images:      c.Images,
 			Featured:    c.Featured,
+			Order:       c.Order,
 			Links:       c.Links,
 		}
 		if p.Links == nil {
