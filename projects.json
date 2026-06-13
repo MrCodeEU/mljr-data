@@ -4,13 +4,20 @@
     {
       "id": "AOC2024",
       "name": "AOC2024",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Advent of Code 2024 solutions, exploring puzzle-solving approaches in Go.",
       "repo": "https://github.com/MrCodeEU/AOC2024",
       "homepage": null,
       "featured": false,
-      "topics": [],
-      "images": []
+      "topics": [
+        "Go",
+        "Algorithms",
+        "Puzzles"
+      ],
+      "images": [
+        "https://picsum.photos/seed/aoc2024/800/450"
+      ],
+      "links": []
     },
     {
       "id": "AdventOfCode2022_MrCode",
@@ -26,24 +33,38 @@
     {
       "id": "Flexbar-Plugin-Youtube-Music-Desktop-App",
       "name": "Flexbar-Plugin-Youtube-Music-Desktop-App",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Flexbar plugin integrating YouTube Music Desktop App playback controls.",
       "repo": "https://github.com/MrCodeEU/Flexbar-Plugin-Youtube-Music-Desktop-App",
       "homepage": null,
       "featured": false,
-      "topics": [],
-      "images": []
+      "topics": [
+        "TypeScript",
+        "Plugin",
+        "Desktop"
+      ],
+      "images": [
+        "https://picsum.photos/seed/flexbar-ytmusic/800/450"
+      ],
+      "links": []
     },
     {
       "id": "Game-of-Life-Multiplatform",
       "name": "Game-of-Life-Multiplatform",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Conway's Game of Life implemented with Kotlin Multiplatform for desktop and mobile.",
       "repo": "https://github.com/MrCodeEU/Game-of-Life-Multiplatform",
       "homepage": null,
       "featured": false,
-      "topics": [],
-      "images": []
+      "topics": [
+        "Kotlin",
+        "Multiplatform",
+        "Simulation"
+      ],
+      "images": [
+        "https://picsum.photos/seed/game-of-life-mp/800/450"
+      ],
+      "links": []
     },
     {
       "id": "ImageNameConverter",
@@ -114,13 +135,25 @@
     {
       "id": "WordWiz",
       "name": "WordWiz",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Word-game helper and solver built as a web app.",
       "repo": "https://github.com/MrCodeEU/WordWiz",
       "homepage": null,
       "featured": false,
-      "topics": [],
-      "images": []
+      "topics": [
+        "TypeScript",
+        "Web",
+        "Game"
+      ],
+      "images": [
+        "https://picsum.photos/seed/wordwiz/800/450"
+      ],
+      "links": [
+        {
+          "name": "Live",
+          "url": "https://wordwiz.mljr.eu/"
+        }
+      ]
     },
     {
       "id": "cg-lab-2023-project-reineggersilber",
@@ -136,24 +169,42 @@
     {
       "id": "cosmic-nightscout",
       "name": "cosmic-nightscout",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Rust desktop applet for the COSMIC desktop showing live Nightscout glucose data.",
       "repo": "https://github.com/MrCodeEU/cosmic-nightscout",
       "homepage": null,
-      "featured": false,
-      "topics": [],
-      "images": []
+      "featured": true,
+      "topics": [
+        "Rust",
+        "COSMIC",
+        "Nightscout",
+        "Linux"
+      ],
+      "images": [
+        "https://picsum.photos/seed/cosmic-nightscout/800/450"
+      ],
+      "links": []
     },
     {
       "id": "face-auth",
       "name": "face-auth",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Facial-recognition authentication PAM module written in Go.",
       "repo": "https://github.com/MrCodeEU/face-auth",
       "homepage": null,
-      "featured": false,
-      "topics": [],
-      "images": []
+      "featured": true,
+      "topics": [
+        "Go",
+        "PAM",
+        "Security",
+        "Linux"
+      ],
+      "images": [
+        "https://picsum.photos/seed/face-auth-1/800/450",
+        "https://picsum.photos/seed/face-auth-2/800/450",
+        "https://picsum.photos/seed/face-auth-3/800/450"
+      ],
+      "links": []
     },
     {
       "id": "godrive",
@@ -170,19 +221,35 @@
         "Sync"
       ],
       "images": [
-        "assets/projects/godrive/cover.webp"
+        "https://picsum.photos/seed/godrive-1/800/450",
+        "https://picsum.photos/seed/godrive-2/800/450",
+        "https://picsum.photos/seed/godrive-3/800/450"
+      ],
+      "links": [
+        {
+          "name": "Demo",
+          "url": "https://godrive-demo.mljr.eu"
+        }
       ]
     },
     {
       "id": "homelab-automation",
       "name": "homelab-automation",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Ansible-driven configuration for a self-hosted homelab: reverse proxy, monitoring, and services.",
       "repo": "https://github.com/MrCodeEU/homelab-automation",
       "homepage": null,
       "featured": false,
-      "topics": [],
-      "images": []
+      "topics": [
+        "Ansible",
+        "Docker",
+        "Homelab",
+        "Monitoring"
+      ],
+      "images": [
+        "https://picsum.photos/seed/homelab-automation/800/450"
+      ],
+      "links": []
     },
     {
       "id": "homelab-speedtest",
@@ -199,8 +266,9 @@
         "Docker"
       ],
       "images": [
-        "assets/projects/homelab-speedtest/cover.webp"
-      ]
+        "https://picsum.photos/seed/homelab-speedtest/800/450"
+      ],
+      "links": []
     },
     {
       "id": "homepage",
@@ -227,13 +295,26 @@
     {
       "id": "mljr-comps",
       "name": "mljr-comps",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Neo-brutalist Go/gomponents UI component library powering mljr.eu.",
       "repo": "https://github.com/MrCodeEU/mljr-comps",
       "homepage": null,
-      "featured": false,
-      "topics": [],
-      "images": []
+      "featured": true,
+      "topics": [
+        "Go",
+        "gomponents",
+        "UI",
+        "CSS"
+      ],
+      "images": [
+        "https://picsum.photos/seed/mljr-comps/800/450"
+      ],
+      "links": [
+        {
+          "name": "Component showcase",
+          "url": "https://comps.mljr.eu"
+        }
+      ]
     },
     {
       "id": "mljr-data",
@@ -271,57 +352,102 @@
     {
       "id": "nightscout-display",
       "name": "nightscout-display",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "E-ink/embedded display client for Nightscout CGM data.",
       "repo": "https://github.com/MrCodeEU/nightscout-display",
       "homepage": null,
       "featured": false,
-      "topics": [],
-      "images": []
+      "topics": [
+        "Go",
+        "Nightscout",
+        "Embedded"
+      ],
+      "images": [
+        "https://picsum.photos/seed/nightscout-display/800/450"
+      ],
+      "links": []
     },
     {
       "id": "nightscout-librelink-up-go",
       "name": "nightscout-librelink-up-go",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Go bridge syncing LibreLink Up glucose readings into Nightscout.",
       "repo": "https://github.com/MrCodeEU/nightscout-librelink-up-go",
       "homepage": null,
       "featured": false,
-      "topics": [],
-      "images": []
+      "topics": [
+        "Go",
+        "Nightscout",
+        "LibreLink"
+      ],
+      "images": [
+        "https://picsum.photos/seed/nightscout-librelink-up-go/800/450"
+      ],
+      "links": []
     },
     {
       "id": "nightscout-tray",
       "name": "nightscout-tray",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Cross-platform system tray app showing current Nightscout glucose at a glance.",
       "repo": "https://github.com/MrCodeEU/nightscout-tray",
       "homepage": null,
       "featured": false,
-      "topics": [],
-      "images": []
+      "topics": [
+        "Go",
+        "Nightscout",
+        "Desktop"
+      ],
+      "images": [
+        "https://picsum.photos/seed/nightscout-tray/800/450"
+      ],
+      "links": []
     },
     {
       "id": "service-template",
       "name": "service-template",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Reusable Go service scaffold with CI, Docker, and homelab deployment conventions baked in.",
       "repo": "https://github.com/MrCodeEU/service-template",
       "homepage": null,
       "featured": false,
-      "topics": [],
-      "images": []
+      "topics": [
+        "Go",
+        "Template",
+        "CI/CD",
+        "Docker"
+      ],
+      "images": [
+        "https://picsum.photos/seed/service-template/800/450"
+      ],
+      "links": [
+        {
+          "name": "Prod",
+          "url": "https://template.mljr.eu"
+        },
+        {
+          "name": "Staging",
+          "url": "https://template.dev.mljr.eu"
+        }
+      ]
     },
     {
       "id": "sudoku-gen",
       "name": "sudoku-gen",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Sudoku puzzle generator and solver written in Go.",
       "repo": "https://github.com/MrCodeEU/sudoku-gen",
       "homepage": null,
       "featured": false,
-      "topics": [],
-      "images": []
+      "topics": [
+        "Go",
+        "Algorithms",
+        "CLI"
+      ],
+      "images": [
+        "https://picsum.photos/seed/sudoku-gen/800/450"
+      ],
+      "links": []
     },
     {
       "id": "sudoku_gen_go",
@@ -348,13 +474,20 @@
     {
       "id": "zepp2hass-watch",
       "name": "zepp2hass-watch",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Zepp OS watch app bridging smartwatch sensor data into Home Assistant.",
       "repo": "https://github.com/MrCodeEU/zepp2hass-watch",
       "homepage": null,
       "featured": false,
-      "topics": [],
-      "images": []
+      "topics": [
+        "Zepp OS",
+        "Home Assistant",
+        "Wearables"
+      ],
+      "images": [
+        "https://picsum.photos/seed/zepp2hass-watch/800/450"
+      ],
+      "links": []
     }
   ]
 }

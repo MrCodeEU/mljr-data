@@ -1,7 +1,118 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-06-13T07:45:04Z",
+  "generated_at": "2026-06-13T08:53:11Z",
   "github_projects": [
+    {
+      "name": "AOC2024",
+      "description": "Advent of Code 2024 solutions, exploring puzzle-solving approaches in Go.",
+      "url": "https://github.com/MrCodeEU/AOC2024",
+      "stars": 0,
+      "language": "Kotlin",
+      "topics": [
+        "Go",
+        "Algorithms",
+        "Puzzles"
+      ],
+      "images": [
+        "https://picsum.photos/seed/aoc2024/800/450"
+      ],
+      "featured": false,
+      "links": []
+    },
+    {
+      "name": "Flexbar-Plugin-Youtube-Music-Desktop-App",
+      "description": "Flexbar plugin integrating YouTube Music Desktop App playback controls.",
+      "url": "https://github.com/MrCodeEU/Flexbar-Plugin-Youtube-Music-Desktop-App",
+      "stars": 1,
+      "language": "JavaScript",
+      "topics": [
+        "TypeScript",
+        "Plugin",
+        "Desktop"
+      ],
+      "images": [
+        "https://picsum.photos/seed/flexbar-ytmusic/800/450"
+      ],
+      "featured": false,
+      "links": []
+    },
+    {
+      "name": "Game-of-Life-Multiplatform",
+      "description": "Conway's Game of Life implemented with Kotlin Multiplatform for desktop and mobile.",
+      "url": "https://github.com/MrCodeEU/Game-of-Life-Multiplatform",
+      "stars": 1,
+      "language": "Kotlin",
+      "topics": [
+        "Kotlin",
+        "Multiplatform",
+        "Simulation"
+      ],
+      "images": [
+        "https://picsum.photos/seed/game-of-life-mp/800/450"
+      ],
+      "featured": false,
+      "links": []
+    },
+    {
+      "name": "WordWiz",
+      "description": "Word-game helper and solver built as a web app.",
+      "url": "https://github.com/MrCodeEU/WordWiz",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [
+        "TypeScript",
+        "Web",
+        "Game"
+      ],
+      "images": [
+        "https://picsum.photos/seed/wordwiz/800/450"
+      ],
+      "featured": false,
+      "links": [
+        {
+          "name": "Live",
+          "url": "https://wordwiz.mljr.eu/"
+        }
+      ]
+    },
+    {
+      "name": "cosmic-nightscout",
+      "description": "Rust desktop applet for the COSMIC desktop showing live Nightscout glucose data.",
+      "url": "https://github.com/MrCodeEU/cosmic-nightscout",
+      "stars": 0,
+      "language": "Rust",
+      "topics": [
+        "Rust",
+        "COSMIC",
+        "Nightscout",
+        "Linux"
+      ],
+      "images": [
+        "https://picsum.photos/seed/cosmic-nightscout/800/450"
+      ],
+      "featured": true,
+      "links": []
+    },
+    {
+      "name": "face-auth",
+      "description": "Facial-recognition authentication PAM module written in Go.",
+      "url": "https://github.com/MrCodeEU/face-auth",
+      "stars": 0,
+      "language": "Rust",
+      "topics": [
+        "Go",
+        "PAM",
+        "Security",
+        "Linux"
+      ],
+      "images": [
+        "https://picsum.photos/seed/face-auth-1/800/450",
+        "https://picsum.photos/seed/face-auth-2/800/450",
+        "https://picsum.photos/seed/face-auth-3/800/450"
+      ],
+      "featured": true,
+      "links": []
+    },
     {
       "name": "goDrive",
       "description": "Self-hosted file sync and sharing app with mobile clients, demo mode, and WebDAV support.",
@@ -15,9 +126,34 @@
         "Sync"
       ],
       "images": [
-        "assets/projects/godrive/cover.webp"
+        "https://picsum.photos/seed/godrive-1/800/450",
+        "https://picsum.photos/seed/godrive-2/800/450",
+        "https://picsum.photos/seed/godrive-3/800/450"
       ],
       "featured": true,
+      "links": [
+        {
+          "name": "Demo",
+          "url": "https://godrive-demo.mljr.eu"
+        }
+      ]
+    },
+    {
+      "name": "homelab-automation",
+      "description": "Ansible-driven configuration for a self-hosted homelab: reverse proxy, monitoring, and services.",
+      "url": "https://github.com/MrCodeEU/homelab-automation",
+      "stars": 0,
+      "language": "Python",
+      "topics": [
+        "Ansible",
+        "Docker",
+        "Homelab",
+        "Monitoring"
+      ],
+      "images": [
+        "https://picsum.photos/seed/homelab-automation/800/450"
+      ],
+      "featured": false,
       "links": []
     },
     {
@@ -33,9 +169,144 @@
         "Docker"
       ],
       "images": [
-        "assets/projects/homelab-speedtest/cover.webp"
+        "https://picsum.photos/seed/homelab-speedtest/800/450"
       ],
       "featured": true,
+      "links": []
+    },
+    {
+      "name": "mljr-comps",
+      "description": "Neo-brutalist Go/gomponents UI component library powering mljr.eu.",
+      "url": "https://github.com/MrCodeEU/mljr-comps",
+      "stars": 0,
+      "language": "Svelte",
+      "topics": [
+        "Go",
+        "gomponents",
+        "UI",
+        "CSS"
+      ],
+      "images": [
+        "https://picsum.photos/seed/mljr-comps/800/450"
+      ],
+      "featured": true,
+      "links": [
+        {
+          "name": "Component showcase",
+          "url": "https://comps.mljr.eu"
+        }
+      ]
+    },
+    {
+      "name": "nightscout-display",
+      "description": "E-ink/embedded display client for Nightscout CGM data.",
+      "url": "https://github.com/MrCodeEU/nightscout-display",
+      "stars": 0,
+      "language": "TypeScript",
+      "topics": [
+        "Go",
+        "Nightscout",
+        "Embedded"
+      ],
+      "images": [
+        "https://picsum.photos/seed/nightscout-display/800/450"
+      ],
+      "featured": false,
+      "links": []
+    },
+    {
+      "name": "nightscout-librelink-up-go",
+      "description": "Go bridge syncing LibreLink Up glucose readings into Nightscout.",
+      "url": "https://github.com/MrCodeEU/nightscout-librelink-up-go",
+      "stars": 0,
+      "language": "Go",
+      "topics": [
+        "Go",
+        "Nightscout",
+        "LibreLink"
+      ],
+      "images": [
+        "https://picsum.photos/seed/nightscout-librelink-up-go/800/450"
+      ],
+      "featured": false,
+      "links": []
+    },
+    {
+      "name": "nightscout-tray",
+      "description": "Cross-platform system tray app showing current Nightscout glucose at a glance.",
+      "url": "https://github.com/MrCodeEU/nightscout-tray",
+      "stars": 0,
+      "language": "Go",
+      "topics": [
+        "Go",
+        "Nightscout",
+        "Desktop"
+      ],
+      "images": [
+        "https://picsum.photos/seed/nightscout-tray/800/450"
+      ],
+      "featured": false,
+      "links": []
+    },
+    {
+      "name": "service-template",
+      "description": "Reusable Go service scaffold with CI, Docker, and homelab deployment conventions baked in.",
+      "url": "https://github.com/MrCodeEU/service-template",
+      "stars": 0,
+      "language": "Go",
+      "topics": [
+        "Go",
+        "Template",
+        "CI/CD",
+        "Docker"
+      ],
+      "images": [
+        "https://picsum.photos/seed/service-template/800/450"
+      ],
+      "featured": false,
+      "links": [
+        {
+          "name": "Prod",
+          "url": "https://template.mljr.eu"
+        },
+        {
+          "name": "Staging",
+          "url": "https://template.dev.mljr.eu"
+        }
+      ]
+    },
+    {
+      "name": "sudoku-gen",
+      "description": "Sudoku puzzle generator and solver written in Go.",
+      "url": "https://github.com/MrCodeEU/sudoku-gen",
+      "stars": 0,
+      "language": "Svelte",
+      "topics": [
+        "Go",
+        "Algorithms",
+        "CLI"
+      ],
+      "images": [
+        "https://picsum.photos/seed/sudoku-gen/800/450"
+      ],
+      "featured": false,
+      "links": []
+    },
+    {
+      "name": "zepp2hass-watch",
+      "description": "Zepp OS watch app bridging smartwatch sensor data into Home Assistant.",
+      "url": "https://github.com/MrCodeEU/zepp2hass-watch",
+      "stars": 0,
+      "language": "JavaScript",
+      "topics": [
+        "Zepp OS",
+        "Home Assistant",
+        "Wearables"
+      ],
+      "images": [
+        "https://picsum.photos/seed/zepp2hass-watch/800/450"
+      ],
+      "featured": false,
       "links": []
     }
   ],
@@ -182,22 +453,39 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-06-12T12:36:22Z",
+    "generated_at": "2026-06-13T08:53:11Z",
     "total_stats": {
-      "count": 186,
-      "distance": 1517135.999999999,
-      "moving_time": 609914,
-      "elapsed_time": 626417,
-      "elevation_gain": 8111.400000000002
+      "count": 187,
+      "distance": 1522256.899999999,
+      "moving_time": 611770,
+      "elapsed_time": 628288,
+      "elevation_gain": 8139.400000000002
     },
     "year_to_date_stats": {
-      "count": 12,
-      "distance": 70546,
-      "moving_time": 25797,
-      "elapsed_time": 26561,
-      "elevation_gain": 528.7
+      "count": 13,
+      "distance": 75667,
+      "moving_time": 27653,
+      "elapsed_time": 28432,
+      "elevation_gain": 556.7
     },
     "recent_activities": [
+      {
+        "id": 18891803009,
+        "name": "Afternoon Run",
+        "distance": 5120.9,
+        "moving_time": 1856,
+        "elapsed_time": 1871,
+        "total_elevation_gain": 28,
+        "type": "Run",
+        "start_date": "2026-06-12T16:42:07Z",
+        "start_date_local": "2026-06-12T16:42:07Z",
+        "average_pace": 0.3624501631025734,
+        "average_speed": 2.759,
+        "max_speed": 3.68,
+        "average_heartrate": 168.5,
+        "max_heartrate": 179,
+        "calories": 139.9106
+      },
       {
         "id": 18879843914,
         "name": "Nachmittagstraining",
@@ -315,23 +603,6 @@
         "start_date_local": "2026-05-27T19:22:50Z",
         "average_heartrate": 139.5,
         "max_heartrate": 156
-      },
-      {
-        "id": 18657692350,
-        "name": "Morning Run",
-        "distance": 5027,
-        "moving_time": 1756,
-        "elapsed_time": 1904,
-        "total_elevation_gain": 26.5,
-        "type": "Run",
-        "start_date": "2026-05-26T09:12:14Z",
-        "start_date_local": "2026-05-26T09:12:14Z",
-        "average_pace": 0.34928396786587496,
-        "average_speed": 2.863,
-        "max_speed": 4.28,
-        "average_heartrate": 161.4,
-        "max_heartrate": 176,
-        "calories": 133.9834
       }
     ],
     "best_activities": {
@@ -479,11 +750,28 @@
       {
         "type": "running",
         "label": "Running",
-        "count": 54,
-        "total_time": 190584,
-        "total_distance": 475403.7999999999,
-        "avg_heartrate": 160.7528301886792,
+        "count": 55,
+        "total_time": 192440,
+        "total_distance": 480524.6999999999,
+        "avg_heartrate": 160.8962962962963,
         "activities": [
+          {
+            "id": 18891803009,
+            "name": "Afternoon Run",
+            "distance": 5120.9,
+            "moving_time": 1856,
+            "elapsed_time": 1871,
+            "total_elevation_gain": 28,
+            "type": "Run",
+            "start_date": "2026-06-12T16:42:07Z",
+            "start_date_local": "2026-06-12T16:42:07Z",
+            "average_pace": 0.3624501631025734,
+            "average_speed": 2.759,
+            "max_speed": 3.68,
+            "average_heartrate": 168.5,
+            "max_heartrate": 179,
+            "calories": 139.9106
+          },
           {
             "id": 18837848727,
             "name": "Lauf am Nachmittag - 30°",
@@ -551,23 +839,6 @@
             "average_heartrate": 162.7,
             "max_heartrate": 178,
             "calories": 271.76689999999996
-          },
-          {
-            "id": 18612272937,
-            "name": "Night Run",
-            "distance": 3023.9,
-            "moving_time": 1129,
-            "elapsed_time": 1129,
-            "total_elevation_gain": 42,
-            "type": "Run",
-            "start_date": "2026-05-22T21:01:33Z",
-            "start_date_local": "2026-05-22T21:01:33Z",
-            "average_pace": 0.37341299477221807,
-            "average_speed": 2.678,
-            "max_speed": 3.9,
-            "average_heartrate": 156.7,
-            "max_heartrate": 171,
-            "calories": 81.2361
           }
         ]
       },
@@ -787,15 +1058,15 @@
       },
       {
         "month": "2026-06",
-        "count": 6,
-        "distance": 5048.7,
-        "time": 14388
+        "count": 7,
+        "distance": 10169.599999999999,
+        "time": 16244
       }
     ],
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 1137,
+    "commits_year": 1144,
     "longest_streak": 11,
     "contributions": [
       {
@@ -2252,129 +2523,129 @@
       },
       {
         "date": "2026-06-12",
-        "count": 15
+        "count": 21
       },
       {
         "date": "2026-06-13",
-        "count": 0
+        "count": 1
       }
     ],
     "language_share": [
       {
         "name": "Svelte",
-        "pct": 22.26087930610028
+        "pct": 22.207202587329085
       },
       {
         "name": "Go",
-        "pct": 17.99563754074454
+        "pct": 18.150889475586933
       },
       {
         "name": "JavaScript",
-        "pct": 12.272989391765924
+        "pct": 12.243396050415607
       },
       {
         "name": "HTML",
-        "pct": 9.268523285956748
+        "pct": 9.246174486926684
       },
       {
         "name": "CSS",
-        "pct": 7.9139167921000855
+        "pct": 7.906092836998546
       },
       {
         "name": "TypeScript",
-        "pct": 6.13887186773881
+        "pct": 6.124069465089481
       },
       {
         "name": "Rust",
-        "pct": 3.8619971258084944
+        "pct": 3.8526848551310118
       },
       {
         "name": "TeX",
-        "pct": 3.5350266736359828
+        "pct": 3.526502813010341
       },
       {
         "name": "C#",
-        "pct": 3.233158411941274
+        "pct": 3.225362433514989
       },
       {
         "name": "Python",
-        "pct": 2.4522551312952485
+        "pct": 2.4463421119922923
       },
       {
         "name": "Kotlin",
-        "pct": 2.221581073283324
+        "pct": 2.2162242686010685
       },
       {
         "name": "Dart",
-        "pct": 2.195492658865325
+        "pct": 2.1901987600757193
       },
       {
         "name": "ASP.NET",
-        "pct": 1.6907692974717499
+        "pct": 1.6866924168220943
       },
       {
         "name": "Shell",
-        "pct": 1.0450159126302352
+        "pct": 1.0424961098640297
       },
       {
         "name": "Vue",
-        "pct": 0.7782981608039996
+        "pct": 0.7764214832961993
       },
       {
         "name": "ShaderLab",
-        "pct": 0.7488975225868542
+        "pct": 0.7470917375971606
       },
       {
         "name": "Makefile",
-        "pct": 0.46378576387603127
+        "pct": 0.47903085609907886
       },
       {
         "name": "SCSS",
-        "pct": 0.42522999021405344
+        "pct": 0.42420465108508454
       },
       {
         "name": "Jinja",
-        "pct": 0.3320039158672825
+        "pct": 0.33120336883686674
       },
       {
         "name": "Typst",
-        "pct": 0.25025897682429565
+        "pct": 0.24965553791542547
       },
       {
         "name": "Swift",
-        "pct": 0.23433983378963247
+        "pct": 0.2337747800385092
       },
       {
         "name": "Java",
-        "pct": 0.20534857154766262
+        "pct": 0.20485342320363426
       },
       {
         "name": "HLSL",
-        "pct": 0.1302001681046618
+        "pct": 0.12988622193428745
       },
       {
         "name": "NSIS",
-        "pct": 0.11543472100003851
+        "pct": 0.11515637812910563
       },
       {
         "name": "Dockerfile",
-        "pct": 0.09639873815438052
+        "pct": 0.11102608166199417
       },
       {
         "name": "Ruby",
-        "pct": 0.06606769999365468
+        "pct": 0.06590839373698551
       },
       {
         "name": "GLSL",
-        "pct": 0.05765688450368652
+        "pct": 0.057517858891437706
       },
       {
         "name": "Objective-C",
-        "pct": 0.008113087508022374
+        "pct": 0.008093524762519554
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.0018514958877252894
+        "pct": 0.0018470314538318708
       }
     ]
   }
