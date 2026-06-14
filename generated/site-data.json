@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-06-14T08:15:21Z",
+  "generated_at": "2026-06-14T12:37:57Z",
   "github_projects": [
     {
       "name": "AOC2024",
@@ -32,8 +32,8 @@
         "Desktop"
       ],
       "images": [
-        "/static/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/0.webp",
-        "/static/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/1.webp"
+        "/assets/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/0.webp",
+        "/assets/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/1.webp"
       ],
       "featured": false,
       "order": 110,
@@ -51,7 +51,7 @@
         "Simulation"
       ],
       "images": [
-        "/static/portfolio/Game-of-Life-Multiplatform/0.webp"
+        "/assets/portfolio/Game-of-Life-Multiplatform/0.webp"
       ],
       "featured": false,
       "order": 70,
@@ -70,8 +70,8 @@
         "Audio"
       ],
       "images": [
-        "/static/portfolio/LSTM-Based-Speaker-Diarization/0.webp",
-        "/static/portfolio/LSTM-Based-Speaker-Diarization/1.webp"
+        "/assets/portfolio/LSTM-Based-Speaker-Diarization/0.webp",
+        "/assets/portfolio/LSTM-Based-Speaker-Diarization/1.webp"
       ],
       "featured": false,
       "order": 40,
@@ -89,8 +89,8 @@
         "Resume"
       ],
       "images": [
-        "/static/portfolio/Lebenslauf/0.webp",
-        "/static/portfolio/Lebenslauf/1.webp"
+        "/assets/portfolio/Lebenslauf/0.webp",
+        "/assets/portfolio/Lebenslauf/1.webp"
       ],
       "featured": false,
       "order": 80,
@@ -108,8 +108,8 @@
         "Game"
       ],
       "images": [
-        "/static/portfolio/WordWiz/0.webp",
-        "/static/portfolio/WordWiz/1.webp"
+        "/assets/portfolio/WordWiz/0.webp",
+        "/assets/portfolio/WordWiz/1.webp"
       ],
       "featured": false,
       "order": 120,
@@ -132,8 +132,8 @@
         "Computer Graphics"
       ],
       "images": [
-        "/static/portfolio/cg-lab-2023-project-reineggersilber/0.webp",
-        "/static/portfolio/cg-lab-2023-project-reineggersilber/1.webp"
+        "/assets/portfolio/cg-lab-2023-project-reineggersilber/0.webp",
+        "/assets/portfolio/cg-lab-2023-project-reineggersilber/1.webp"
       ],
       "featured": false,
       "order": 50,
@@ -237,8 +237,8 @@
         "Docker"
       ],
       "images": [
-        "/static/portfolio/homelab-speedtest/0.webp",
-        "/static/portfolio/homelab-speedtest/1.webp"
+        "/assets/portfolio/homelab-speedtest/0.webp",
+        "/assets/portfolio/homelab-speedtest/1.webp"
       ],
       "featured": true,
       "order": 160,
@@ -256,8 +256,8 @@
         "Data Analysis"
       ],
       "images": [
-        "/static/portfolio/jku-master-project-network-devices-power-consumption-analysis/0.webp",
-        "/static/portfolio/jku-master-project-network-devices-power-consumption-analysis/1.webp"
+        "/assets/portfolio/jku-master-project-network-devices-power-consumption-analysis/0.webp",
+        "/assets/portfolio/jku-master-project-network-devices-power-consumption-analysis/1.webp"
       ],
       "featured": false,
       "order": 60,
@@ -277,7 +277,7 @@
         "UI"
       ],
       "images": [
-        "/static/portfolio/mljrCSS/0.webp"
+        "/assets/portfolio/mljrCSS/0.webp"
       ],
       "featured": true,
       "order": 170,
@@ -304,8 +304,8 @@
         "Embedded"
       ],
       "images": [
-        "/static/portfolio/nightscout-display/0.webp",
-        "/static/portfolio/nightscout-display/1.webp"
+        "/assets/portfolio/nightscout-display/0.webp",
+        "/assets/portfolio/nightscout-display/1.webp"
       ],
       "featured": false,
       "order": 180,
@@ -323,8 +323,8 @@
         "LibreLink"
       ],
       "images": [
-        "/static/portfolio/nightscout-librelink-up-go/0.webp",
-        "/static/portfolio/nightscout-librelink-up-go/1.webp"
+        "/assets/portfolio/nightscout-librelink-up-go/0.webp",
+        "/assets/portfolio/nightscout-librelink-up-go/1.webp"
       ],
       "featured": false,
       "order": 190,
@@ -342,8 +342,8 @@
         "Desktop"
       ],
       "images": [
-        "/static/portfolio/nightscout-tray/0.webp",
-        "/static/portfolio/nightscout-tray/1.webp"
+        "/assets/portfolio/nightscout-tray/0.webp",
+        "/assets/portfolio/nightscout-tray/1.webp"
       ],
       "featured": false,
       "order": 200,
@@ -362,8 +362,8 @@
         "Docker"
       ],
       "images": [
-        "/static/portfolio/service-template/0.webp",
-        "/static/portfolio/service-template/1.webp"
+        "/assets/portfolio/service-template/0.webp",
+        "/assets/portfolio/service-template/1.webp"
       ],
       "featured": false,
       "order": 20,
@@ -390,10 +390,10 @@
         "CLI"
       ],
       "images": [
-        "/static/portfolio/sudoku-gen/0.webp",
-        "/static/portfolio/sudoku-gen/1.webp",
-        "/static/portfolio/sudoku-gen/2.webp",
-        "/static/portfolio/sudoku-gen/3.webp"
+        "/assets/portfolio/sudoku-gen/0.webp",
+        "/assets/portfolio/sudoku-gen/1.webp",
+        "/assets/portfolio/sudoku-gen/2.webp",
+        "/assets/portfolio/sudoku-gen/3.webp"
       ],
       "featured": false,
       "order": 10,
@@ -561,22 +561,39 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-06-13T08:53:11Z",
+    "generated_at": "2026-06-14T12:37:57Z",
     "total_stats": {
-      "count": 187,
-      "distance": 1522256.899999999,
-      "moving_time": 611770,
-      "elapsed_time": 628288,
-      "elevation_gain": 8139.400000000002
+      "count": 188,
+      "distance": 1529301.899999999,
+      "moving_time": 614264,
+      "elapsed_time": 630782,
+      "elevation_gain": 8210.400000000001
     },
     "year_to_date_stats": {
-      "count": 13,
-      "distance": 75667,
-      "moving_time": 27653,
-      "elapsed_time": 28432,
-      "elevation_gain": 556.7
+      "count": 14,
+      "distance": 82712,
+      "moving_time": 30147,
+      "elapsed_time": 30926,
+      "elevation_gain": 627.6999999999999
     },
     "recent_activities": [
+      {
+        "id": 18912596158,
+        "name": "Morning Run",
+        "distance": 7045,
+        "moving_time": 2494,
+        "elapsed_time": 2494,
+        "total_elevation_gain": 71,
+        "type": "Run",
+        "start_date": "2026-06-14T09:03:00Z",
+        "start_date_local": "2026-06-14T09:03:00Z",
+        "average_pace": 0.35398230088495575,
+        "average_speed": 2.825,
+        "max_speed": 4.26,
+        "average_heartrate": 174.9,
+        "max_heartrate": 188,
+        "calories": 188.1169
+      },
       {
         "id": 18891803009,
         "name": "Afternoon Run",
@@ -699,18 +716,6 @@
         "start_date_local": "2026-05-28T17:05:49Z",
         "average_heartrate": 97.7,
         "max_heartrate": 128
-      },
-      {
-        "id": 18678237395,
-        "name": "Abendradfahrt",
-        "distance": 0,
-        "moving_time": 1396,
-        "elapsed_time": 1396,
-        "type": "Ride",
-        "start_date": "2026-05-27T19:22:50Z",
-        "start_date_local": "2026-05-27T19:22:50Z",
-        "average_heartrate": 139.5,
-        "max_heartrate": 156
       }
     ],
     "best_activities": {
@@ -858,11 +863,28 @@
       {
         "type": "running",
         "label": "Running",
-        "count": 55,
-        "total_time": 192440,
-        "total_distance": 480524.6999999999,
-        "avg_heartrate": 160.8962962962963,
+        "count": 56,
+        "total_time": 194934,
+        "total_distance": 487569.6999999999,
+        "avg_heartrate": 161.15090909090904,
         "activities": [
+          {
+            "id": 18912596158,
+            "name": "Morning Run",
+            "distance": 7045,
+            "moving_time": 2494,
+            "elapsed_time": 2494,
+            "total_elevation_gain": 71,
+            "type": "Run",
+            "start_date": "2026-06-14T09:03:00Z",
+            "start_date_local": "2026-06-14T09:03:00Z",
+            "average_pace": 0.35398230088495575,
+            "average_speed": 2.825,
+            "max_speed": 4.26,
+            "average_heartrate": 174.9,
+            "max_heartrate": 188,
+            "calories": 188.1169
+          },
           {
             "id": 18891803009,
             "name": "Afternoon Run",
@@ -930,23 +952,6 @@
             "average_heartrate": 161.4,
             "max_heartrate": 176,
             "calories": 133.9834
-          },
-          {
-            "id": 18631130614,
-            "name": "Morning Run",
-            "distance": 10016,
-            "moving_time": 3957,
-            "elapsed_time": 3958,
-            "total_elevation_gain": 208,
-            "type": "Run",
-            "start_date": "2026-05-24T09:37:52Z",
-            "start_date_local": "2026-05-24T09:37:52Z",
-            "average_pace": 0.3951007506914263,
-            "average_speed": 2.531,
-            "max_speed": 3.82,
-            "average_heartrate": 162.7,
-            "max_heartrate": 178,
-            "calories": 271.76689999999996
           }
         ]
       },
@@ -1166,9 +1171,9 @@
       },
       {
         "month": "2026-06",
-        "count": 7,
-        "distance": 10169.599999999999,
-        "time": 16244
+        "count": 8,
+        "distance": 17214.6,
+        "time": 18738
       }
     ],
     "year": "2026"
@@ -2756,5 +2761,69 @@
         "pct": 0.0018463894874190825
       }
     ]
-  }
+  },
+  "content": {
+    "hero": {
+      "status_tag": "Open to opportunities",
+      "tagline_lines": [
+        "Go microservices.",
+        "secure systems.",
+        "self-hosted infra.",
+        "fast web APIs.",
+        "CLI tools.",
+        "homelab solutions."
+      ],
+      "description": "Master's student (Dipl.-Ing.) in Networks \u0026 IT Security at JKU Linz, writing my thesis on permission metamodels at Dynatrace. I care about correctness, performance, and shipping things that actually work.",
+      "bento": {
+        "focus": {
+          "label": "Current focus",
+          "value": "Dynatrace thesis",
+          "sub": "Permission metamodel · Prolog"
+        },
+        "status": {
+          "label": "Near",
+          "value": "Linz, Austria",
+          "sub": "Open to opportunities"
+        },
+        "education": {
+          "label": "MSc / Dipl.-Ing.",
+          "value": "Networks \u0026 IT Security",
+          "sub": "JKU Linz · 2026"
+        },
+        "homelab": {
+          "label": "Homelab",
+          "value": "VPS edge + home servers",
+          "sub": "Caddy · CrowdSec · Tailscale"
+        }
+      }
+    },
+    "contact": {
+      "intro": "Open to interesting projects, thesis collaborations, and conversations about systems, security, and self-hosting.",
+      "currently": [
+        "MSc thesis @ Dynatrace — Prolog-based permission metamodel",
+        "Tutor for Digital Circuits @ JKU Linz",
+        "Building this site with Go · gomponents · Datastar"
+      ]
+    }
+  },
+  "thesis": [
+    {
+      "title": "HTL Diplomarbeit",
+      "type": "HTL",
+      "description": "Diploma thesis at HTL Steyr (Mechatronics, Robotics \u0026 Automation).",
+      "pdf": "/assets/thesis/htl-diplomarbeit.pdf"
+    },
+    {
+      "title": "Bachelor Thesis",
+      "type": "Bachelor",
+      "description": "Bachelor thesis in Computer Science at JKU Linz — LSTM-based speaker diarization.",
+      "pdf": "/assets/thesis/bachelor-thesis.pdf"
+    },
+    {
+      "title": "Master Thesis",
+      "type": "Master",
+      "description": "Abstracting permission systems into a Prolog-based metamodel, written at Dynatrace. Coming soon — currently in progress.",
+      "pdf": ""
+    }
+  ]
 }
