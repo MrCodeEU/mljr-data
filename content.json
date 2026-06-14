@@ -46,18 +46,18 @@
       "title": "HTL Diplomarbeit",
       "type": "HTL",
       "description": "Diploma thesis at HTL Steyr (Mechatronics, Robotics & Automation).",
-      "pdf": ""
+      "pdf": "/assets/thesis/htl-diplomarbeit.pdf"
     },
     {
       "title": "Bachelor Thesis",
       "type": "Bachelor",
-      "description": "Bachelor thesis in Computer Science at JKU Linz.",
-      "pdf": ""
+      "description": "Bachelor thesis in Computer Science at JKU Linz — LSTM-based speaker diarization.",
+      "pdf": "/assets/thesis/bachelor-thesis.pdf"
     },
     {
       "title": "Master Thesis",
       "type": "Master",
-      "description": "Abstracting permission systems into a Prolog-based metamodel, written at Dynatrace.",
+      "description": "Abstracting permission systems into a Prolog-based metamodel, written at Dynatrace. Coming soon — currently in progress.",
       "pdf": ""
     }
   ]
