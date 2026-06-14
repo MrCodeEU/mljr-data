@@ -28,9 +28,82 @@
     },
     "github_stats": {
       "$ref": "#/$defs/github_stats"
+    },
+    "content": {
+      "$ref": "#/$defs/content"
+    },
+    "thesis": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/thesis"
+      }
     }
   },
   "$defs": {
+    "bento_cell": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "value", "sub"],
+      "properties": {
+        "label": { "type": "string" },
+        "value": { "type": "string" },
+        "sub": { "type": "string" }
+      }
+    },
+    "content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hero", "contact"],
+      "properties": {
+        "hero": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status_tag", "tagline_lines", "description", "bento"],
+          "properties": {
+            "status_tag": { "type": "string" },
+            "tagline_lines": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "description": { "type": "string" },
+            "bento": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["focus", "status", "education", "homelab"],
+              "properties": {
+                "focus": { "$ref": "#/$defs/bento_cell" },
+                "status": { "$ref": "#/$defs/bento_cell" },
+                "education": { "$ref": "#/$defs/bento_cell" },
+                "homelab": { "$ref": "#/$defs/bento_cell" }
+              }
+            }
+          }
+        },
+        "contact": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["intro", "currently"],
+          "properties": {
+            "intro": { "type": "string" },
+            "currently": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "thesis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "type", "description", "pdf"],
+      "properties": {
+        "title": { "type": "string" },
+        "type": { "type": "string" },
+        "description": { "type": "string" },
+        "pdf": { "type": "string" }
+      }
+    },
     "github_stats": {
       "type": "object",
       "additionalProperties": false,

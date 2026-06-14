@@ -45,8 +45,8 @@
         "Desktop"
       ],
       "images": [
-        "/static/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/0.webp",
-        "/static/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/1.webp"
+        "/assets/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/0.webp",
+        "/assets/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/1.webp"
       ],
       "links": [],
       "order": 110
@@ -65,7 +65,7 @@
         "Simulation"
       ],
       "images": [
-        "/static/portfolio/Game-of-Life-Multiplatform/0.webp"
+        "/assets/portfolio/Game-of-Life-Multiplatform/0.webp"
       ],
       "links": [],
       "order": 70
@@ -96,8 +96,8 @@
         "Audio"
       ],
       "images": [
-        "/static/portfolio/LSTM-Based-Speaker-Diarization/0.webp",
-        "/static/portfolio/LSTM-Based-Speaker-Diarization/1.webp"
+        "/assets/portfolio/LSTM-Based-Speaker-Diarization/0.webp",
+        "/assets/portfolio/LSTM-Based-Speaker-Diarization/1.webp"
       ],
       "order": 40
     },
@@ -115,8 +115,8 @@
         "Resume"
       ],
       "images": [
-        "/static/portfolio/Lebenslauf/0.webp",
-        "/static/portfolio/Lebenslauf/1.webp"
+        "/assets/portfolio/Lebenslauf/0.webp",
+        "/assets/portfolio/Lebenslauf/1.webp"
       ],
       "order": 80
     },
@@ -167,8 +167,8 @@
         "Game"
       ],
       "images": [
-        "/static/portfolio/WordWiz/0.webp",
-        "/static/portfolio/WordWiz/1.webp"
+        "/assets/portfolio/WordWiz/0.webp",
+        "/assets/portfolio/WordWiz/1.webp"
       ],
       "links": [
         {
@@ -192,8 +192,8 @@
         "Computer Graphics"
       ],
       "images": [
-        "/static/portfolio/cg-lab-2023-project-reineggersilber/0.webp",
-        "/static/portfolio/cg-lab-2023-project-reineggersilber/1.webp"
+        "/assets/portfolio/cg-lab-2023-project-reineggersilber/0.webp",
+        "/assets/portfolio/cg-lab-2023-project-reineggersilber/1.webp"
       ],
       "order": 50
     },
@@ -301,8 +301,8 @@
         "Docker"
       ],
       "images": [
-        "/static/portfolio/homelab-speedtest/0.webp",
-        "/static/portfolio/homelab-speedtest/1.webp"
+        "/assets/portfolio/homelab-speedtest/0.webp",
+        "/assets/portfolio/homelab-speedtest/1.webp"
       ],
       "links": [],
       "order": 160
@@ -332,8 +332,8 @@
         "Data Analysis"
       ],
       "images": [
-        "/static/portfolio/jku-master-project-network-devices-power-consumption-analysis/0.webp",
-        "/static/portfolio/jku-master-project-network-devices-power-consumption-analysis/1.webp"
+        "/assets/portfolio/jku-master-project-network-devices-power-consumption-analysis/0.webp",
+        "/assets/portfolio/jku-master-project-network-devices-power-consumption-analysis/1.webp"
       ],
       "order": 60
     },
@@ -388,7 +388,7 @@
         "UI"
       ],
       "images": [
-        "/static/portfolio/mljrCSS/0.webp"
+        "/assets/portfolio/mljrCSS/0.webp"
       ],
       "links": [
         {
@@ -423,8 +423,8 @@
         "Embedded"
       ],
       "images": [
-        "/static/portfolio/nightscout-display/0.webp",
-        "/static/portfolio/nightscout-display/1.webp"
+        "/assets/portfolio/nightscout-display/0.webp",
+        "/assets/portfolio/nightscout-display/1.webp"
       ],
       "links": [],
       "order": 180
@@ -443,8 +443,8 @@
         "LibreLink"
       ],
       "images": [
-        "/static/portfolio/nightscout-librelink-up-go/0.webp",
-        "/static/portfolio/nightscout-librelink-up-go/1.webp"
+        "/assets/portfolio/nightscout-librelink-up-go/0.webp",
+        "/assets/portfolio/nightscout-librelink-up-go/1.webp"
       ],
       "links": [],
       "order": 190
@@ -463,8 +463,8 @@
         "Desktop"
       ],
       "images": [
-        "/static/portfolio/nightscout-tray/0.webp",
-        "/static/portfolio/nightscout-tray/1.webp"
+        "/assets/portfolio/nightscout-tray/0.webp",
+        "/assets/portfolio/nightscout-tray/1.webp"
       ],
       "links": [],
       "order": 200
@@ -484,8 +484,8 @@
         "Docker"
       ],
       "images": [
-        "/static/portfolio/service-template/0.webp",
-        "/static/portfolio/service-template/1.webp"
+        "/assets/portfolio/service-template/0.webp",
+        "/assets/portfolio/service-template/1.webp"
       ],
       "links": [
         {
@@ -513,10 +513,10 @@
         "CLI"
       ],
       "images": [
-        "/static/portfolio/sudoku-gen/0.webp",
-        "/static/portfolio/sudoku-gen/1.webp",
-        "/static/portfolio/sudoku-gen/2.webp",
-        "/static/portfolio/sudoku-gen/3.webp"
+        "/assets/portfolio/sudoku-gen/0.webp",
+        "/assets/portfolio/sudoku-gen/1.webp",
+        "/assets/portfolio/sudoku-gen/2.webp",
+        "/assets/portfolio/sudoku-gen/3.webp"
       ],
       "links": [],
       "order": 10

@@ -62,6 +62,12 @@ func run() error {
 	}
 	log.Printf("projects.json: %d curated project(s)", len(projectsFile.Curated))
 
+	content, err := loadContent(filepath.Join(root, "content.json"))
+	if err != nil {
+		return fmt.Errorf("load content.json: %w", err)
+	}
+	log.Printf("content.json: loaded, %d thesis entries", len(content.Thesis))
+
 	gh := githubapi.New(token)
 
 	log.Printf("github: listing repos for %s", user)
@@ -130,6 +136,8 @@ func run() error {
 		LinkedInData:   existing.LinkedInData,
 		StravaData:     stravaData,
 		GitHubStats:    stats,
+		Content:        content.SiteContent,
+		Thesis:         content.Thesis,
 	}
 
 	log.Println("validating against schemas/site-data.schema.json")
@@ -196,6 +204,26 @@ func loadSiteData(path string) (types.SiteData, error) {
 		return data, err
 	}
 	return data, nil
+}
+
+// contentFile is the contract for content.json: hand-authored hero/contact
+// copy (matching types.SiteContent's "hero"/"contact" fields) plus a
+// top-level "thesis" array, passed straight through to site-data.json.
+type contentFile struct {
+	types.SiteContent
+	Thesis []types.Thesis `json:"thesis"`
+}
+
+func loadContent(path string) (contentFile, error) {
+	var cf contentFile
+	b, err := os.ReadFile(path)
+	if err != nil {
+		return cf, err
+	}
+	if err := json.Unmarshal(b, &cf); err != nil {
+		return cf, err
+	}
+	return cf, nil
 }
 
 func loadProjects(path string) (types.ProjectsFile, error) {

@@ -1,0 +1,64 @@
+{
+  "hero": {
+    "status_tag": "Open to opportunities",
+    "tagline_lines": [
+      "Go microservices.",
+      "secure systems.",
+      "self-hosted infra.",
+      "fast web APIs.",
+      "CLI tools.",
+      "homelab solutions."
+    ],
+    "description": "Master's student (Dipl.-Ing.) in Networks & IT Security at JKU Linz, writing my thesis on permission metamodels at Dynatrace. I care about correctness, performance, and shipping things that actually work.",
+    "bento": {
+      "focus": {
+        "label": "Current focus",
+        "value": "Dynatrace thesis",
+        "sub": "Permission metamodel · Prolog"
+      },
+      "status": {
+        "label": "Near",
+        "value": "Linz, Austria",
+        "sub": "Open to opportunities"
+      },
+      "education": {
+        "label": "MSc / Dipl.-Ing.",
+        "value": "Networks & IT Security",
+        "sub": "JKU Linz · 2026"
+      },
+      "homelab": {
+        "label": "Homelab",
+        "value": "VPS edge + home servers",
+        "sub": "Caddy · CrowdSec · Tailscale"
+      }
+    }
+  },
+  "contact": {
+    "intro": "Open to interesting projects, thesis collaborations, and conversations about systems, security, and self-hosting.",
+    "currently": [
+      "MSc thesis @ Dynatrace — Prolog-based permission metamodel",
+      "Tutor for Digital Circuits @ JKU Linz",
+      "Building this site with Go · gomponents · Datastar"
+    ]
+  },
+  "thesis": [
+    {
+      "title": "HTL Diplomarbeit",
+      "type": "HTL",
+      "description": "Diploma thesis at HTL Steyr (Mechatronics, Robotics & Automation).",
+      "pdf": ""
+    },
+    {
+      "title": "Bachelor Thesis",
+      "type": "Bachelor",
+      "description": "Bachelor thesis in Computer Science at JKU Linz.",
+      "pdf": ""
+    },
+    {
+      "title": "Master Thesis",
+      "type": "Master",
+      "description": "Abstracting permission systems into a Prolog-based metamodel, written at Dynatrace.",
+      "pdf": ""
+    }
+  ]
+}

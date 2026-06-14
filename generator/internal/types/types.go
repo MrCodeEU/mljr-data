@@ -11,6 +11,48 @@ type SiteData struct {
 	LinkedInData   LinkedInData `json:"linkedin_data"`
 	StravaData     StravaData   `json:"strava_data"`
 	GitHubStats    *GitHubStats `json:"github_stats,omitempty"`
+	Content        SiteContent  `json:"content"`
+	Thesis         []Thesis     `json:"thesis"`
+}
+
+// SiteContent holds hand-authored copy (content.json) for sections that
+// change independently of the GitHub/LinkedIn/Strava data feeds.
+type SiteContent struct {
+	Hero    HeroContent    `json:"hero"`
+	Contact ContactContent `json:"contact"`
+}
+
+type HeroContent struct {
+	StatusTag    string       `json:"status_tag"`
+	TaglineLines []string     `json:"tagline_lines"`
+	Description  string       `json:"description"`
+	Bento        BentoContent `json:"bento"`
+}
+
+type BentoContent struct {
+	Focus     BentoCell `json:"focus"`
+	Status    BentoCell `json:"status"`
+	Education BentoCell `json:"education"`
+	Homelab   BentoCell `json:"homelab"`
+}
+
+type BentoCell struct {
+	Label string `json:"label"`
+	Value string `json:"value"`
+	Sub   string `json:"sub"`
+}
+
+type ContactContent struct {
+	Intro     string   `json:"intro"`
+	Currently []string `json:"currently"`
+}
+
+// Thesis is a hand-authored education thesis entry with an optional PDF link.
+type Thesis struct {
+	Title       string `json:"title"`
+	Type        string `json:"type"`
+	Description string `json:"description"`
+	PDF         string `json:"pdf"`
 }
 
 type Project struct {
