@@ -421,7 +421,7 @@
   "linkedin_data": {
     "profile": {
       "name": "Michael Reinegger geb. Ludwig Josef",
-      "photo_url": "/static/portfolio/linkedin-photo.webp",
+      "photo_url": "/assets/portfolio/linkedin-photo.webp",
       "headline": "Michael Reinegger geb. Ludwig Josefer/ihm",
       "location": "Johannes Kepler Universität Linz"
     },
