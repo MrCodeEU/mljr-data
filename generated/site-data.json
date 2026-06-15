@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-06-15T10:22:49Z",
+  "generated_at": "2026-06-15T20:07:49Z",
   "github_projects": [
     {
       "name": "AOC2024",
@@ -14,10 +14,28 @@
         "Puzzles"
       ],
       "images": [
-        "https://picsum.photos/seed/aoc2024/800/450"
+        "/assets/portfolio/AOC2024/0.webp"
       ],
       "featured": false,
       "order": 100,
+      "links": []
+    },
+    {
+      "name": "AdventOfCode2022_MrCode",
+      "description": "Advent of Code 2022 solutions, exploring puzzle-solving approaches in Kotlin.",
+      "url": "https://github.com/MrCodeEU/AdventOfCode2022_MrCode",
+      "stars": 0,
+      "language": "Kotlin",
+      "topics": [
+        "Kotlin",
+        "Algorithms",
+        "Puzzles"
+      ],
+      "images": [
+        "/assets/portfolio/AdventOfCode2022_MrCode/0.webp"
+      ],
+      "featured": false,
+      "order": 220,
       "links": []
     },
     {
@@ -32,8 +50,7 @@
         "Desktop"
       ],
       "images": [
-        "/assets/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/0.webp",
-        "/assets/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/1.webp"
+        "/assets/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/0.webp"
       ],
       "featured": false,
       "order": 110,
@@ -51,7 +68,8 @@
         "Simulation"
       ],
       "images": [
-        "/assets/portfolio/Game-of-Life-Multiplatform/0.webp"
+        "/assets/portfolio/Game-of-Life-Multiplatform/0.webp",
+        "/assets/portfolio/Game-of-Life-Multiplatform/1.webp"
       ],
       "featured": false,
       "order": 70,
@@ -71,7 +89,9 @@
       ],
       "images": [
         "/assets/portfolio/LSTM-Based-Speaker-Diarization/0.webp",
-        "/assets/portfolio/LSTM-Based-Speaker-Diarization/1.webp"
+        "/assets/portfolio/LSTM-Based-Speaker-Diarization/1.webp",
+        "/assets/portfolio/LSTM-Based-Speaker-Diarization/2.webp",
+        "/assets/portfolio/LSTM-Based-Speaker-Diarization/3.webp"
       ],
       "featured": false,
       "order": 40,
@@ -90,7 +110,8 @@
       ],
       "images": [
         "/assets/portfolio/Lebenslauf/0.webp",
-        "/assets/portfolio/Lebenslauf/1.webp"
+        "/assets/portfolio/Lebenslauf/1.webp",
+        "/assets/portfolio/Lebenslauf/2.webp"
       ],
       "featured": false,
       "order": 80,
@@ -133,29 +154,11 @@
       ],
       "images": [
         "/assets/portfolio/cg-lab-2023-project-reineggersilber/0.webp",
-        "/assets/portfolio/cg-lab-2023-project-reineggersilber/1.webp"
+        "/assets/portfolio/cg-lab-2023-project-reineggersilber/1.webp",
+        "/assets/portfolio/cg-lab-2023-project-reineggersilber/2.webp"
       ],
       "featured": false,
       "order": 50,
-      "links": []
-    },
-    {
-      "name": "cosmic-nightscout",
-      "description": "Rust desktop applet for the COSMIC desktop showing live Nightscout glucose data.",
-      "url": "https://github.com/MrCodeEU/cosmic-nightscout",
-      "stars": 0,
-      "language": "Rust",
-      "topics": [
-        "Rust",
-        "COSMIC",
-        "Nightscout",
-        "Linux"
-      ],
-      "images": [
-        "https://picsum.photos/seed/cosmic-nightscout/800/450"
-      ],
-      "featured": true,
-      "order": 130,
       "links": []
     },
     {
@@ -171,12 +174,13 @@
         "Linux"
       ],
       "images": [
-        "https://picsum.photos/seed/face-auth-1/800/450",
-        "https://picsum.photos/seed/face-auth-2/800/450",
-        "https://picsum.photos/seed/face-auth-3/800/450"
+        "/assets/portfolio/face-auth/0.webp",
+        "/assets/portfolio/face-auth/1.webp",
+        "/assets/portfolio/face-auth/2.webp",
+        "/assets/portfolio/face-auth/3.webp"
       ],
       "featured": true,
-      "order": 140,
+      "order": 5,
       "links": []
     },
     {
@@ -192,16 +196,17 @@
         "Sync"
       ],
       "images": [
-        "https://picsum.photos/seed/godrive-1/800/450",
-        "https://picsum.photos/seed/godrive-2/800/450",
-        "https://picsum.photos/seed/godrive-3/800/450"
+        "/assets/portfolio/godrive/0.webp",
+        "/assets/portfolio/godrive/1.webp",
+        "/assets/portfolio/godrive/2.webp",
+        "/assets/portfolio/godrive/3.webp"
       ],
       "featured": true,
-      "order": 150,
+      "order": 4,
       "links": [
         {
           "name": "Demo",
-          "url": "https://godrive-demo.mljr.eu"
+          "url": "https://godrive.mljr.eu/"
         }
       ]
     },
@@ -218,30 +223,30 @@
         "Monitoring"
       ],
       "images": [
-        "https://picsum.photos/seed/homelab-automation/800/450"
+        "/assets/portfolio/homelab-automation/0.webp",
+        "/assets/portfolio/homelab-automation/1.webp",
+        "/assets/portfolio/homelab-automation/2.webp",
+        "/assets/portfolio/homelab-automation/3.webp",
+        "/assets/portfolio/homelab-automation/4.webp"
       ],
-      "featured": false,
-      "order": 30,
+      "featured": true,
+      "order": 1,
       "links": []
     },
     {
-      "name": "homelab-speedtest",
-      "description": "Go and Svelte network performance monitoring for a self-hosted homelab.",
-      "url": "https://github.com/MrCodeEU/homelab-speedtest",
+      "name": "homepage",
+      "description": "Previous version of this portfolio site (no longer deployed).",
+      "url": "https://github.com/MrCodeEU/homepage",
       "stars": 0,
-      "language": "Svelte",
-      "topics": [
-        "Go",
-        "Svelte",
-        "Monitoring",
-        "Docker"
-      ],
+      "language": "HTML",
+      "topics": [],
       "images": [
-        "/assets/portfolio/homelab-speedtest/0.webp",
-        "/assets/portfolio/homelab-speedtest/1.webp"
+        "/assets/portfolio/homepage/0.webp",
+        "/assets/portfolio/homepage/1.webp",
+        "/assets/portfolio/homepage/2.webp"
       ],
-      "featured": true,
-      "order": 160,
+      "featured": false,
+      "order": 100,
       "links": []
     },
     {
@@ -251,7 +256,7 @@
       "stars": 1,
       "language": "TeX",
       "topics": [
-        "Python",
+        "Go",
         "Networking",
         "Data Analysis"
       ],
@@ -277,10 +282,13 @@
         "UI"
       ],
       "images": [
-        "/assets/portfolio/mljrCSS/0.webp"
+        "/assets/portfolio/mljr-web/0.webp",
+        "/assets/portfolio/mljr-web/1.webp",
+        "/assets/portfolio/mljr-web/2.webp",
+        "/assets/portfolio/mljr-web/3.webp"
       ],
       "featured": true,
-      "order": 170,
+      "order": 2,
       "links": [
         {
           "name": "Component showcase",
@@ -312,25 +320,6 @@
       "links": []
     },
     {
-      "name": "nightscout-librelink-up-go",
-      "description": "Go bridge syncing LibreLink Up glucose readings into Nightscout.",
-      "url": "https://github.com/MrCodeEU/nightscout-librelink-up-go",
-      "stars": 0,
-      "language": "Go",
-      "topics": [
-        "Go",
-        "Nightscout",
-        "LibreLink"
-      ],
-      "images": [
-        "/assets/portfolio/nightscout-librelink-up-go/0.webp",
-        "/assets/portfolio/nightscout-librelink-up-go/1.webp"
-      ],
-      "featured": false,
-      "order": 190,
-      "links": []
-    },
-    {
       "name": "nightscout-tray",
       "description": "Cross-platform system tray app showing current Nightscout glucose at a glance.",
       "url": "https://github.com/MrCodeEU/nightscout-tray",
@@ -345,8 +334,8 @@
         "/assets/portfolio/nightscout-tray/0.webp",
         "/assets/portfolio/nightscout-tray/1.webp"
       ],
-      "featured": false,
-      "order": 200,
+      "featured": true,
+      "order": 3,
       "links": []
     },
     {
@@ -400,28 +389,31 @@
       "links": []
     },
     {
-      "name": "zepp2hass-watch",
-      "description": "Zepp OS watch app bridging smartwatch sensor data into Home Assistant.",
-      "url": "https://github.com/MrCodeEU/zepp2hass-watch",
+      "name": "webcambot",
+      "description": "Discord bot that captures images and videos of varying length from any Home Assistant camera feed.",
+      "url": "https://github.com/MrCodeEU/webcambot",
       "stars": 0,
-      "language": "JavaScript",
+      "language": "Python",
       "topics": [
-        "Zepp OS",
-        "Home Assistant",
-        "Wearables"
+        "Python",
+        "Discord",
+        "Home Assistant"
       ],
       "images": [
-        "https://picsum.photos/seed/zepp2hass-watch/800/450"
+        "/assets/portfolio/webcambot/0.webp",
+        "/assets/portfolio/webcambot/1.webp",
+        "/assets/portfolio/webcambot/2.webp",
+        "/assets/portfolio/webcambot/3.webp"
       ],
       "featured": false,
-      "order": 210,
+      "order": 90,
       "links": []
     }
   ],
   "linkedin_data": {
     "profile": {
       "name": "Michael Reinegger geb. Ludwig Josef",
-      "photo_url": "/assets/portfolio/linkedin-photo.webp",
+      "photo_url": "/assets/portfolio.webp",
       "headline": "Michael Reinegger geb. Ludwig Josefer/ihm",
       "location": "Johannes Kepler Universität Linz"
     },
@@ -561,7 +553,7 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-06-14T12:37:57Z",
+    "generated_at": "2026-06-15T20:07:49Z",
     "total_stats": {
       "count": 188,
       "distance": 1529301.899999999,
@@ -577,6 +569,18 @@
       "elevation_gain": 627.6999999999999
     },
     "recent_activities": [
+      {
+        "id": 18932799902,
+        "name": "Evening Ride",
+        "distance": 0,
+        "moving_time": 1265,
+        "elapsed_time": 1265,
+        "type": "Ride",
+        "start_date": "2026-06-15T19:54:03Z",
+        "start_date_local": "2026-06-15T19:54:03Z",
+        "average_heartrate": 156.2,
+        "max_heartrate": 169
+      },
       {
         "id": 18912596158,
         "name": "Morning Run",
@@ -704,18 +708,6 @@
         "average_heartrate": 164.5,
         "max_heartrate": 181,
         "calories": 132.2387
-      },
-      {
-        "id": 18690759629,
-        "name": "Nachmittagstraining",
-        "distance": 0,
-        "moving_time": 3449,
-        "elapsed_time": 3449,
-        "type": "Workout",
-        "start_date": "2026-05-28T17:05:49Z",
-        "start_date_local": "2026-05-28T17:05:49Z",
-        "average_heartrate": 97.7,
-        "max_heartrate": 128
       }
     ],
     "best_activities": {
@@ -863,10 +855,10 @@
       {
         "type": "running",
         "label": "Running",
-        "count": 56,
-        "total_time": 194934,
-        "total_distance": 487569.6999999999,
-        "avg_heartrate": 161.15090909090904,
+        "count": 55,
+        "total_time": 192186,
+        "total_distance": 480183.4999999999,
+        "avg_heartrate": 161.00925925925924,
         "activities": [
           {
             "id": 18912596158,
@@ -958,11 +950,23 @@
       {
         "type": "cycling",
         "label": "Cycling",
-        "count": 36,
-        "total_time": 71133,
+        "count": 37,
+        "total_time": 72398,
         "total_distance": 18100,
-        "avg_heartrate": 140.8441176470588,
+        "avg_heartrate": 141.2828571428571,
         "activities": [
+          {
+            "id": 18932799902,
+            "name": "Evening Ride",
+            "distance": 0,
+            "moving_time": 1265,
+            "elapsed_time": 1265,
+            "type": "Ride",
+            "start_date": "2026-06-15T19:54:03Z",
+            "start_date_local": "2026-06-15T19:54:03Z",
+            "average_heartrate": 156.2,
+            "max_heartrate": 169
+          },
           {
             "id": 18867974114,
             "name": "Abendradfahrt",
@@ -1010,18 +1014,6 @@
             "start_date_local": "2026-06-01T19:03:46Z",
             "average_heartrate": 133.2,
             "max_heartrate": 160
-          },
-          {
-            "id": 18678237395,
-            "name": "Abendradfahrt",
-            "distance": 0,
-            "moving_time": 1396,
-            "elapsed_time": 1396,
-            "type": "Ride",
-            "start_date": "2026-05-27T19:22:50Z",
-            "start_date_local": "2026-05-27T19:22:50Z",
-            "average_heartrate": 139.5,
-            "max_heartrate": 156
           }
         ]
       },
@@ -1099,9 +1091,9 @@
     "monthly_activities": [
       {
         "month": "2025-06",
-        "count": 4,
-        "distance": 34666.1,
-        "time": 13814
+        "count": 3,
+        "distance": 27279.9,
+        "time": 11066
       },
       {
         "month": "2025-07",
@@ -1171,15 +1163,15 @@
       },
       {
         "month": "2026-06",
-        "count": 8,
+        "count": 9,
         "distance": 17214.6,
-        "time": 18738
+        "time": 20003
       }
     ],
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 1171,
+    "commits_year": 1172,
     "longest_streak": 11,
     "contributions": [
       {
@@ -2640,190 +2632,258 @@
       },
       {
         "date": "2026-06-15",
-        "count": 0
+        "count": 1
       }
     ],
     "language_share": [
       {
         "name": "Svelte",
-        "pct": 22.18888972457133
+        "pct": 22.18422983639991
       },
       {
         "name": "Go",
-        "pct": 18.202554647217173
+        "pct": 18.207512478672168
       },
       {
         "name": "JavaScript",
-        "pct": 12.23329970304009
+        "pct": 12.230730588077998
       },
       {
         "name": "HTML",
-        "pct": 9.23854975689833
+        "pct": 9.236609569296894
       },
       {
         "name": "CSS",
-        "pct": 7.900083251900665
+        "pct": 7.910644603596668
       },
       {
         "name": "TypeScript",
-        "pct": 6.119019335826594
+        "pct": 6.117734280730208
       },
       {
         "name": "Rust",
-        "pct": 3.8495077918010647
+        "pct": 3.848699356766799
       },
       {
         "name": "TeX",
-        "pct": 3.5235947311942932
+        "pct": 3.5228547411536657
       },
       {
         "name": "C#",
-        "pct": 3.2227026829517786
+        "pct": 3.2220258832426136
       },
       {
         "name": "Python",
-        "pct": 2.4443247697728365
+        "pct": 2.443811437189586
       },
       {
         "name": "Kotlin",
-        "pct": 2.21439668988143
+        "pct": 2.2139316444884387
       },
       {
         "name": "Dart",
-        "pct": 2.1883926429320697
+        "pct": 2.187933058648322
       },
       {
         "name": "ASP.NET",
-        "pct": 1.6853015092270316
+        "pct": 1.6849475790995847
       },
       {
         "name": "Shell",
-        "pct": 1.0416364298520895
+        "pct": 1.041417675811728
       },
       {
         "name": "Vue",
-        "pct": 0.7757812180484779
+        "pct": 0.775618296254442
       },
       {
         "name": "ShaderLab",
-        "pct": 0.7464756587189557
+        "pct": 0.7463188913846954
       },
       {
         "name": "Makefile",
-        "pct": 0.48323568986816856
+        "pct": 0.4831342055531273
       },
       {
         "name": "SCSS",
-        "pct": 0.42385483658116524
+        "pct": 0.4237658228376251
       },
       {
         "name": "Jinja",
-        "pct": 0.34131702707713124
+        "pct": 0.3412453470968833
       },
       {
         "name": "Typst",
-        "pct": 0.2494496629257873
+        "pct": 0.24939727600836775
       },
       {
         "name": "Swift",
-        "pct": 0.23358200089641626
+        "pct": 0.23353294634629929
       },
       {
         "name": "Java",
-        "pct": 0.20468449365882413
+        "pct": 0.2046415078734733
       },
       {
         "name": "HLSL",
-        "pct": 0.1297791130561182
+        "pct": 0.12975185814785853
       },
       {
         "name": "NSIS",
-        "pct": 0.11506141601309551
+        "pct": 0.11503725196802062
       },
       {
         "name": "Dockerfile",
-        "pct": 0.11126838634038204
+        "pct": 0.11124501886937306
       },
       {
         "name": "Ruby",
-        "pct": 0.06585404329080287
+        "pct": 0.06584021328483232
       },
       {
         "name": "GLSL",
-        "pct": 0.057470427583876264
+        "pct": 0.05745835822082888
       },
       {
         "name": "Objective-C",
-        "pct": 0.008086850549159287
+        "pct": 0.008085152229879423
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.0018455083248654794
+        "pct": 0.0018451207497087213
       }
     ]
   },
   "content": {
-    "hero": {
-      "status_tag": "Open to opportunities",
-      "tagline_lines": [
-        "Go microservices.",
-        "secure systems.",
-        "self-hosted infra.",
-        "fast web APIs.",
-        "CLI tools.",
-        "homelab solutions."
-      ],
-      "description": "Master's student (Dipl.-Ing.) in Networks \u0026 IT Security at JKU Linz, writing my thesis on permission metamodels at Dynatrace. I care about correctness, performance, and shipping things that actually work.",
-      "bento": {
-        "focus": {
-          "label": "Current focus",
-          "value": "Dynatrace thesis",
-          "sub": "Permission metamodel · Prolog"
-        },
-        "status": {
-          "label": "Near",
-          "value": "Linz, Austria",
-          "sub": "Open to opportunities"
-        },
-        "education": {
-          "label": "MSc / Dipl.-Ing.",
-          "value": "Networks \u0026 IT Security",
-          "sub": "JKU Linz · 2026"
-        },
-        "homelab": {
-          "label": "Homelab",
-          "value": "VPS edge + home servers",
-          "sub": "Caddy · CrowdSec · Tailscale"
+    "de": {
+      "hero": {
+        "status_tag": "Offen für neue Möglichkeiten",
+        "tagline_lines": [
+          "Go-Microservices.",
+          "sichere Systeme.",
+          "selbst gehostete Infrastruktur.",
+          "schnelle Web-APIs.",
+          "CLI-Tools.",
+          "Homelab-Lösungen."
+        ],
+        "description": "Master-Student (Dipl.-Ing.) in Netzwerke \u0026 IT-Sicherheit an der JKU Linz, schreibe meine Masterarbeit über Permission-Metamodelle bei Dynatrace. Mir sind Korrektheit, Performance und tatsächlich funktionierende Software wichtig.",
+        "bento": {
+          "focus": {
+            "label": "Aktueller Fokus",
+            "value": "Dynatrace-Masterarbeit",
+            "sub": "Permission-Metamodell · Prolog"
+          },
+          "status": {
+            "label": "In der Nähe",
+            "value": "Linz, Österreich",
+            "sub": "Offen für neue Möglichkeiten"
+          },
+          "education": {
+            "label": "MSc / Dipl.-Ing.",
+            "value": "Netzwerke \u0026 IT-Sicherheit",
+            "sub": "JKU Linz · 2026"
+          },
+          "homelab": {
+            "label": "Homelab",
+            "value": "VPS-Edge + Heimserver",
+            "sub": "Caddy · CrowdSec · Tailscale"
+          }
         }
+      },
+      "contact": {
+        "intro": "Offen für interessante Projekte, Abschlussarbeiten-Kooperationen und Gespräche über Systeme, Sicherheit und Self-Hosting.",
+        "currently": [
+          "Masterarbeit @ Dynatrace — Prolog-basiertes Permission-Metamodell",
+          "Tutor für Digitaltechnik @ JKU Linz",
+          "Baue diese Seite mit Go · gomponents · Datastar"
+        ]
       }
     },
-    "contact": {
-      "intro": "Open to interesting projects, thesis collaborations, and conversations about systems, security, and self-hosting.",
-      "currently": [
-        "MSc thesis @ Dynatrace — Prolog-based permission metamodel",
-        "Tutor for Digital Circuits @ JKU Linz",
-        "Building this site with Go · gomponents · Datastar"
-      ]
+    "en": {
+      "hero": {
+        "status_tag": "Open to opportunities",
+        "tagline_lines": [
+          "Go microservices.",
+          "secure systems.",
+          "self-hosted infra.",
+          "fast web APIs.",
+          "CLI tools.",
+          "homelab solutions."
+        ],
+        "description": "Master's student (Dipl.-Ing.) in Networks \u0026 IT Security at JKU Linz, writing my thesis on permission metamodels at Dynatrace. I care about correctness, performance, and shipping things that actually work.",
+        "bento": {
+          "focus": {
+            "label": "Current focus",
+            "value": "Dynatrace thesis",
+            "sub": "Permission metamodel · Prolog"
+          },
+          "status": {
+            "label": "Near",
+            "value": "Linz, Austria",
+            "sub": "Open to opportunities"
+          },
+          "education": {
+            "label": "MSc / Dipl.-Ing.",
+            "value": "Networks \u0026 IT Security",
+            "sub": "JKU Linz · 2026"
+          },
+          "homelab": {
+            "label": "Homelab",
+            "value": "VPS edge + home servers",
+            "sub": "Caddy · CrowdSec · Tailscale"
+          }
+        }
+      },
+      "contact": {
+        "intro": "Open to interesting projects, thesis collaborations, and conversations about systems, security, and self-hosting.",
+        "currently": [
+          "MSc thesis @ Dynatrace — Prolog-based permission metamodel",
+          "Tutor for Digital Circuits @ JKU Linz",
+          "Building this site with Go · gomponents · Datastar"
+        ]
+      }
     }
   },
-  "thesis": [
-    {
-      "title": "HTL Diplomarbeit",
-      "type": "HTL",
-      "description": "Diploma thesis at HTL Steyr (Mechatronics, Robotics \u0026 Automation).",
-      "pdf": "/assets/thesis/htl-diplomarbeit.pdf"
-    },
-    {
-      "title": "Bachelor Thesis",
-      "type": "Bachelor",
-      "description": "Bachelor thesis in Computer Science at JKU Linz — LSTM-based speaker diarization.",
-      "pdf": "/assets/thesis/bachelor-thesis.pdf"
-    },
-    {
-      "title": "Master Thesis",
-      "type": "Master",
-      "description": "Abstracting permission systems into a Prolog-based metamodel, written at Dynatrace. Coming soon — currently in progress.",
-      "pdf": ""
-    }
-  ]
+  "thesis": {
+    "de": [
+      {
+        "title": "HTL-Diplomarbeit",
+        "type": "HTL",
+        "description": "Diplomarbeit an der HTL Steyr (Mechatronik, Automatisierung und Robotik).",
+        "pdf": "/assets/thesis/htl-diplomarbeit.pdf"
+      },
+      {
+        "title": "Bachelorarbeit",
+        "type": "Bachelor",
+        "description": "Bachelorarbeit in Informatik an der JKU Linz — LSTM-basierte Sprecherdiarisation.",
+        "pdf": "/assets/thesis/bachelor-thesis.pdf"
+      },
+      {
+        "title": "Masterarbeit",
+        "type": "Master",
+        "description": "Abstraktion von Berechtigungssystemen in ein Prolog-basiertes Metamodell, verfasst bei Dynatrace. Demnächst verfügbar — derzeit in Arbeit.",
+        "pdf": ""
+      }
+    ],
+    "en": [
+      {
+        "title": "HTL Diploma Thesis",
+        "type": "HTL",
+        "description": "Diploma thesis at HTL Steyr (Mechatronics, Robotics \u0026 Automation).",
+        "pdf": "/assets/thesis/htl-diplomarbeit.pdf"
+      },
+      {
+        "title": "Bachelor Thesis",
+        "type": "Bachelor",
+        "description": "Bachelor thesis in Computer Science at JKU Linz — LSTM-based speaker diarization.",
+        "pdf": "/assets/thesis/bachelor-thesis.pdf"
+      },
+      {
+        "title": "Master Thesis",
+        "type": "Master",
+        "description": "Abstracting permission systems into a Prolog-based metamodel, written at Dynatrace. Coming soon — currently in progress.",
+        "pdf": ""
+      }
+    ]
+  }
 }

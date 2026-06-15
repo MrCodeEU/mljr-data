@@ -10,13 +10,14 @@ type SiteData struct {
 	GitHubProjects []Project    `json:"github_projects"`
 	LinkedInData   LinkedInData `json:"linkedin_data"`
 	StravaData     StravaData   `json:"strava_data"`
-	GitHubStats    *GitHubStats `json:"github_stats,omitempty"`
-	Content        SiteContent  `json:"content"`
-	Thesis         []Thesis     `json:"thesis"`
+	GitHubStats    *GitHubStats           `json:"github_stats,omitempty"`
+	Content        map[string]SiteContent `json:"content"`
+	Thesis         map[string][]Thesis    `json:"thesis"`
 }
 
 // SiteContent holds hand-authored copy (content.json) for sections that
-// change independently of the GitHub/LinkedIn/Strava data feeds.
+// change independently of the GitHub/LinkedIn/Strava data feeds. It is keyed
+// by locale code ("en", "de") in content.json and site-data.json.
 type SiteContent struct {
 	Hero    HeroContent    `json:"hero"`
 	Contact ContactContent `json:"contact"`

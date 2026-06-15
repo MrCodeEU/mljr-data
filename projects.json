@@ -9,27 +9,33 @@
       "repo": "https://github.com/MrCodeEU/AOC2024",
       "homepage": null,
       "featured": false,
+      "order": 100,
       "topics": [
         "Go",
         "Algorithms",
         "Puzzles"
       ],
       "images": [
-        "https://picsum.photos/seed/aoc2024/800/450"
-      ],
-      "links": [],
-      "order": 100
+        "/assets/portfolio/AOC2024/0.webp"
+      ]
     },
     {
       "id": "AdventOfCode2022_MrCode",
       "name": "AdventOfCode2022_MrCode",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Advent of Code 2022 solutions, exploring puzzle-solving approaches in Kotlin.",
       "repo": "https://github.com/MrCodeEU/AdventOfCode2022_MrCode",
       "homepage": null,
       "featured": false,
-      "topics": [],
-      "images": []
+      "order": 220,
+      "topics": [
+        "Kotlin",
+        "Algorithms",
+        "Puzzles"
+      ],
+      "images": [
+        "/assets/portfolio/AdventOfCode2022_MrCode/0.webp"
+      ]
     },
     {
       "id": "Flexbar-Plugin-Youtube-Music-Desktop-App",
@@ -39,17 +45,15 @@
       "repo": "https://github.com/MrCodeEU/Flexbar-Plugin-Youtube-Music-Desktop-App",
       "homepage": null,
       "featured": false,
+      "order": 110,
       "topics": [
         "TypeScript",
         "Plugin",
         "Desktop"
       ],
       "images": [
-        "/assets/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/0.webp",
-        "/assets/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/1.webp"
-      ],
-      "links": [],
-      "order": 110
+        "/assets/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/0.webp"
+      ]
     },
     {
       "id": "Game-of-Life-Multiplatform",
@@ -59,16 +63,16 @@
       "repo": "https://github.com/MrCodeEU/Game-of-Life-Multiplatform",
       "homepage": null,
       "featured": false,
+      "order": 70,
       "topics": [
         "Kotlin",
         "Multiplatform",
         "Simulation"
       ],
       "images": [
-        "/assets/portfolio/Game-of-Life-Multiplatform/0.webp"
-      ],
-      "links": [],
-      "order": 70
+        "/assets/portfolio/Game-of-Life-Multiplatform/0.webp",
+        "/assets/portfolio/Game-of-Life-Multiplatform/1.webp"
+      ]
     },
     {
       "id": "ImageNameConverter",
@@ -89,6 +93,7 @@
       "repo": "https://github.com/MrCodeEU/LSTM-Based-Speaker-Diarization",
       "homepage": null,
       "featured": false,
+      "order": 40,
       "topics": [
         "Python",
         "PyTorch",
@@ -97,9 +102,10 @@
       ],
       "images": [
         "/assets/portfolio/LSTM-Based-Speaker-Diarization/0.webp",
-        "/assets/portfolio/LSTM-Based-Speaker-Diarization/1.webp"
-      ],
-      "order": 40
+        "/assets/portfolio/LSTM-Based-Speaker-Diarization/1.webp",
+        "/assets/portfolio/LSTM-Based-Speaker-Diarization/2.webp",
+        "/assets/portfolio/LSTM-Based-Speaker-Diarization/3.webp"
+      ]
     },
     {
       "id": "Lebenslauf",
@@ -109,6 +115,7 @@
       "repo": "https://github.com/MrCodeEU/Lebenslauf",
       "homepage": null,
       "featured": false,
+      "order": 80,
       "topics": [
         "Web",
         "CSS",
@@ -116,9 +123,9 @@
       ],
       "images": [
         "/assets/portfolio/Lebenslauf/0.webp",
-        "/assets/portfolio/Lebenslauf/1.webp"
-      ],
-      "order": 80
+        "/assets/portfolio/Lebenslauf/1.webp",
+        "/assets/portfolio/Lebenslauf/2.webp"
+      ]
     },
     {
       "id": "MMS-Projekt-Spielesammlung",
@@ -161,6 +168,7 @@
       "repo": "https://github.com/MrCodeEU/WordWiz",
       "homepage": null,
       "featured": false,
+      "order": 120,
       "topics": [
         "TypeScript",
         "Web",
@@ -175,8 +183,7 @@
           "name": "Live",
           "url": "https://wordwiz.mljr.eu/"
         }
-      ],
-      "order": 120
+      ]
     },
     {
       "id": "cg-lab-2023-project-reineggersilber",
@@ -186,6 +193,7 @@
       "repo": "https://github.com/MrCodeEU/cg-lab-2023-project-reineggersilber",
       "homepage": null,
       "featured": false,
+      "order": 50,
       "topics": [
         "C++",
         "OpenGL",
@@ -193,29 +201,26 @@
       ],
       "images": [
         "/assets/portfolio/cg-lab-2023-project-reineggersilber/0.webp",
-        "/assets/portfolio/cg-lab-2023-project-reineggersilber/1.webp"
-      ],
-      "order": 50
+        "/assets/portfolio/cg-lab-2023-project-reineggersilber/1.webp",
+        "/assets/portfolio/cg-lab-2023-project-reineggersilber/2.webp"
+      ]
     },
     {
       "id": "cosmic-nightscout",
       "name": "cosmic-nightscout",
-      "show": true,
+      "show": false,
       "summary": "Rust desktop applet for the COSMIC desktop showing live Nightscout glucose data.",
       "repo": "https://github.com/MrCodeEU/cosmic-nightscout",
       "homepage": null,
-      "featured": true,
+      "featured": false,
+      "order": 130,
       "topics": [
         "Rust",
         "COSMIC",
         "Nightscout",
         "Linux"
       ],
-      "images": [
-        "https://picsum.photos/seed/cosmic-nightscout/800/450"
-      ],
-      "links": [],
-      "order": 130
+      "images": []
     },
     {
       "id": "face-auth",
@@ -225,6 +230,7 @@
       "repo": "https://github.com/MrCodeEU/face-auth",
       "homepage": null,
       "featured": true,
+      "order": 5,
       "topics": [
         "Rust",
         "PAM",
@@ -232,12 +238,11 @@
         "Linux"
       ],
       "images": [
-        "https://picsum.photos/seed/face-auth-1/800/450",
-        "https://picsum.photos/seed/face-auth-2/800/450",
-        "https://picsum.photos/seed/face-auth-3/800/450"
-      ],
-      "links": [],
-      "order": 140
+        "/assets/portfolio/face-auth/0.webp",
+        "/assets/portfolio/face-auth/1.webp",
+        "/assets/portfolio/face-auth/2.webp",
+        "/assets/portfolio/face-auth/3.webp"
+      ]
     },
     {
       "id": "godrive",
@@ -247,6 +252,7 @@
       "repo": "https://github.com/MrCodeEU/goDrive",
       "homepage": null,
       "featured": true,
+      "order": 4,
       "topics": [
         "Go",
         "Flutter",
@@ -254,17 +260,17 @@
         "Sync"
       ],
       "images": [
-        "https://picsum.photos/seed/godrive-1/800/450",
-        "https://picsum.photos/seed/godrive-2/800/450",
-        "https://picsum.photos/seed/godrive-3/800/450"
+        "/assets/portfolio/godrive/0.webp",
+        "/assets/portfolio/godrive/1.webp",
+        "/assets/portfolio/godrive/2.webp",
+        "/assets/portfolio/godrive/3.webp"
       ],
       "links": [
         {
           "name": "Demo",
-          "url": "https://godrive-demo.mljr.eu"
+          "url": "https://godrive.mljr.eu/"
         }
-      ],
-      "order": 150
+      ]
     },
     {
       "id": "homelab-automation",
@@ -273,7 +279,8 @@
       "summary": "Ansible-driven configuration for a self-hosted homelab: reverse proxy, monitoring, and services.",
       "repo": "https://github.com/MrCodeEU/homelab-automation",
       "homepage": null,
-      "featured": false,
+      "featured": true,
+      "order": 1,
       "topics": [
         "Ansible",
         "Docker",
@@ -281,19 +288,22 @@
         "Monitoring"
       ],
       "images": [
-        "https://picsum.photos/seed/homelab-automation/800/450"
-      ],
-      "links": [],
-      "order": 30
+        "/assets/portfolio/homelab-automation/0.webp",
+        "/assets/portfolio/homelab-automation/1.webp",
+        "/assets/portfolio/homelab-automation/2.webp",
+        "/assets/portfolio/homelab-automation/3.webp",
+        "/assets/portfolio/homelab-automation/4.webp"
+      ]
     },
     {
       "id": "homelab-speedtest",
       "name": "homelab-speedtest",
-      "show": true,
+      "show": false,
       "summary": "Go and Svelte network performance monitoring for a self-hosted homelab.",
       "repo": "https://github.com/MrCodeEU/homelab-speedtest",
       "homepage": null,
-      "featured": true,
+      "featured": false,
+      "order": 160,
       "topics": [
         "Go",
         "Svelte",
@@ -303,20 +313,23 @@
       "images": [
         "/assets/portfolio/homelab-speedtest/0.webp",
         "/assets/portfolio/homelab-speedtest/1.webp"
-      ],
-      "links": [],
-      "order": 160
+      ]
     },
     {
       "id": "homepage",
       "name": "homepage",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Previous version of this portfolio site (no longer deployed).",
       "repo": "https://github.com/MrCodeEU/homepage",
       "homepage": null,
       "featured": false,
+      "order": 100,
       "topics": [],
-      "images": []
+      "images": [
+        "/assets/portfolio/homepage/0.webp",
+        "/assets/portfolio/homepage/1.webp",
+        "/assets/portfolio/homepage/2.webp"
+      ]
     },
     {
       "id": "jku-master-project-network-devices-power-consumption-analysis",
@@ -326,16 +339,16 @@
       "repo": "https://github.com/MrCodeEU/jku-master-project-network-devices-power-consumption-analysis",
       "homepage": null,
       "featured": false,
+      "order": 60,
       "topics": [
-        "Python",
+        "Go",
         "Networking",
         "Data Analysis"
       ],
       "images": [
         "/assets/portfolio/jku-master-project-network-devices-power-consumption-analysis/0.webp",
         "/assets/portfolio/jku-master-project-network-devices-power-consumption-analysis/1.webp"
-      ],
-      "order": 60
+      ]
     },
     {
       "id": "mljr-comps",
@@ -344,16 +357,14 @@
       "summary": "Neo-brutalist Go/gomponents UI component library powering mljr.eu.",
       "repo": "https://github.com/MrCodeEU/mljr-comps",
       "homepage": null,
-      "featured": true,
+      "featured": false,
       "topics": [
         "Go",
         "gomponents",
         "UI",
         "CSS"
       ],
-      "images": [
-        "https://picsum.photos/seed/mljr-comps/800/450"
-      ],
+      "images": [],
       "links": [
         {
           "name": "Component showcase",
@@ -380,6 +391,7 @@
       "repo": "https://github.com/MrCodeEU/mljr-web",
       "homepage": "https://mljr.eu",
       "featured": true,
+      "order": 2,
       "topics": [
         "Go",
         "gomponents",
@@ -388,15 +400,17 @@
         "UI"
       ],
       "images": [
-        "/assets/portfolio/mljrCSS/0.webp"
+        "/assets/portfolio/mljr-web/0.webp",
+        "/assets/portfolio/mljr-web/1.webp",
+        "/assets/portfolio/mljr-web/2.webp",
+        "/assets/portfolio/mljr-web/3.webp"
       ],
       "links": [
         {
           "name": "Component showcase",
           "url": "https://ui.mljr.eu"
         }
-      ],
-      "order": 170
+      ]
     },
     {
       "id": "mljrCSS",
@@ -417,6 +431,7 @@
       "repo": "https://github.com/MrCodeEU/nightscout-display",
       "homepage": null,
       "featured": false,
+      "order": 180,
       "topics": [
         "Go",
         "Nightscout",
@@ -425,18 +440,17 @@
       "images": [
         "/assets/portfolio/nightscout-display/0.webp",
         "/assets/portfolio/nightscout-display/1.webp"
-      ],
-      "links": [],
-      "order": 180
+      ]
     },
     {
       "id": "nightscout-librelink-up-go",
       "name": "nightscout-librelink-up-go",
-      "show": true,
+      "show": false,
       "summary": "Go bridge syncing LibreLink Up glucose readings into Nightscout.",
       "repo": "https://github.com/MrCodeEU/nightscout-librelink-up-go",
       "homepage": null,
       "featured": false,
+      "order": 190,
       "topics": [
         "Go",
         "Nightscout",
@@ -445,9 +459,7 @@
       "images": [
         "/assets/portfolio/nightscout-librelink-up-go/0.webp",
         "/assets/portfolio/nightscout-librelink-up-go/1.webp"
-      ],
-      "links": [],
-      "order": 190
+      ]
     },
     {
       "id": "nightscout-tray",
@@ -456,7 +468,8 @@
       "summary": "Cross-platform system tray app showing current Nightscout glucose at a glance.",
       "repo": "https://github.com/MrCodeEU/nightscout-tray",
       "homepage": null,
-      "featured": false,
+      "featured": true,
+      "order": 3,
       "topics": [
         "Go",
         "Nightscout",
@@ -465,9 +478,7 @@
       "images": [
         "/assets/portfolio/nightscout-tray/0.webp",
         "/assets/portfolio/nightscout-tray/1.webp"
-      ],
-      "links": [],
-      "order": 200
+      ]
     },
     {
       "id": "service-template",
@@ -477,6 +488,7 @@
       "repo": "https://github.com/MrCodeEU/service-template",
       "homepage": null,
       "featured": false,
+      "order": 20,
       "topics": [
         "Go",
         "Template",
@@ -496,8 +508,7 @@
           "name": "Staging",
           "url": "https://template.dev.mljr.eu"
         }
-      ],
-      "order": 20
+      ]
     },
     {
       "id": "sudoku-gen",
@@ -507,6 +518,7 @@
       "repo": "https://github.com/MrCodeEU/sudoku-gen",
       "homepage": null,
       "featured": false,
+      "order": 10,
       "topics": [
         "Go",
         "Algorithms",
@@ -517,9 +529,7 @@
         "/assets/portfolio/sudoku-gen/1.webp",
         "/assets/portfolio/sudoku-gen/2.webp",
         "/assets/portfolio/sudoku-gen/3.webp"
-      ],
-      "links": [],
-      "order": 10
+      ]
     },
     {
       "id": "sudoku_gen_go",
@@ -535,32 +545,39 @@
     {
       "id": "webcambot",
       "name": "webcambot",
-      "show": false,
-      "summary": "",
+      "show": true,
+      "summary": "Discord bot that captures images and videos of varying length from any Home Assistant camera feed.",
       "repo": "https://github.com/MrCodeEU/webcambot",
       "homepage": null,
       "featured": false,
-      "topics": [],
-      "images": []
+      "order": 90,
+      "topics": [
+        "Python",
+        "Discord",
+        "Home Assistant"
+      ],
+      "images": [
+        "/assets/portfolio/webcambot/0.webp",
+        "/assets/portfolio/webcambot/1.webp",
+        "/assets/portfolio/webcambot/2.webp",
+        "/assets/portfolio/webcambot/3.webp"
+      ]
     },
     {
       "id": "zepp2hass-watch",
       "name": "zepp2hass-watch",
-      "show": true,
+      "show": false,
       "summary": "Zepp OS watch app bridging smartwatch sensor data into Home Assistant.",
       "repo": "https://github.com/MrCodeEU/zepp2hass-watch",
       "homepage": null,
       "featured": false,
+      "order": 210,
       "topics": [
         "Zepp OS",
         "Home Assistant",
         "Wearables"
       ],
-      "images": [
-        "https://picsum.photos/seed/zepp2hass-watch/800/450"
-      ],
-      "links": [],
-      "order": 210
+      "images": []
     }
   ]
 }

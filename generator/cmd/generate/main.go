@@ -66,7 +66,7 @@ func run() error {
 	if err != nil {
 		return fmt.Errorf("load content.json: %w", err)
 	}
-	log.Printf("content.json: loaded, %d thesis entries", len(content.Thesis))
+	log.Printf("content.json: loaded, %d thesis entries (en)", len(content.Thesis["en"]))
 
 	gh := githubapi.New(token)
 
@@ -84,6 +84,18 @@ func run() error {
 			return fmt.Errorf("write projects.json: %w", err)
 		}
 		log.Printf("wrote %s", projectsPath)
+	}
+
+	log.Println("assets: syncing portfolio images")
+	assetsChanged, err := syncProjectAssets(root, &projectsFile)
+	if err != nil {
+		return fmt.Errorf("sync project assets: %w", err)
+	}
+	if assetsChanged {
+		log.Println("projects.json: image lists updated from assets/portfolio/")
+		if err := writeProjects(projectsPath, projectsFile); err != nil {
+			return fmt.Errorf("write projects.json: %w", err)
+		}
 	}
 
 	shown := 0
@@ -129,14 +141,22 @@ func run() error {
 
 	normalizeStravaData(&stravaData)
 
+	linkedinData := existing.LinkedInData
+	if avatar, err := syncProfileAvatar(root); err != nil {
+		return fmt.Errorf("sync profile avatar: %w", err)
+	} else if avatar != "" && avatar != linkedinData.Profile.PhotoURL {
+		log.Printf("assets: profile avatar -> %s", avatar)
+		linkedinData.Profile.PhotoURL = avatar
+	}
+
 	out := types.SiteData{
 		SchemaVersion:  "site-data.v1",
 		GeneratedAt:    now.UTC().Format(time.RFC3339),
 		GitHubProjects: projects,
-		LinkedInData:   existing.LinkedInData,
+		LinkedInData:   linkedinData,
 		StravaData:     stravaData,
 		GitHubStats:    stats,
-		Content:        content.SiteContent,
+		Content:        content.Content,
 		Thesis:         content.Thesis,
 	}
 
@@ -207,11 +227,11 @@ func loadSiteData(path string) (types.SiteData, error) {
 }
 
 // contentFile is the contract for content.json: hand-authored hero/contact
-// copy (matching types.SiteContent's "hero"/"contact" fields) plus a
-// top-level "thesis" array, passed straight through to site-data.json.
+// copy and thesis entries, both keyed by locale ("en"/"de"), passed straight
+// through to site-data.json.
 type contentFile struct {
-	types.SiteContent
-	Thesis []types.Thesis `json:"thesis"`
+	Content map[string]types.SiteContent `json:"content"`
+	Thesis  map[string][]types.Thesis    `json:"thesis"`
 }
 
 func loadContent(path string) (contentFile, error) {

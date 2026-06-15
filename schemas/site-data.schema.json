@@ -30,12 +30,21 @@
       "$ref": "#/$defs/github_stats"
     },
     "content": {
-      "$ref": "#/$defs/content"
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "de"],
+      "properties": {
+        "en": { "$ref": "#/$defs/content" },
+        "de": { "$ref": "#/$defs/content" }
+      }
     },
     "thesis": {
-      "type": "array",
-      "items": {
-        "$ref": "#/$defs/thesis"
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "de"],
+      "properties": {
+        "en": { "type": "array", "items": { "$ref": "#/$defs/thesis" } },
+        "de": { "type": "array", "items": { "$ref": "#/$defs/thesis" } }
       }
     }
   },
