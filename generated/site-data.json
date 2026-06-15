@@ -1,7 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-06-15T20:12:23Z",
-  "github_projects": [
+  "generated_at": "2026-06-15T20:14:12Z",  "github_projects": [
     {
       "name": "AOC2024",
       "description": "Advent of Code 2024 solutions, exploring puzzle-solving approaches in Go.",
@@ -179,8 +178,8 @@
         "/assets/portfolio/face-auth/2.webp",
         "/assets/portfolio/face-auth/3.webp"
       ],
-      "featured": true,
-      "order": 5,
+      "featured": false,
+      "order": 50,
       "links": []
     },
     {
@@ -553,7 +552,7 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-06-15T20:07:49Z",
+    "generated_at": "2026-06-15T20:14:12Z",
     "total_stats": {
       "count": 188,
       "distance": 1529301.899999999,
@@ -1171,8 +1170,7 @@
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 1174,
-    "longest_streak": 11,
+    "commits_year": 1175,    "longest_streak": 11,
     "contributions": [
       {
         "date": "2025-06-16",
@@ -2632,126 +2630,124 @@
       },
       {
         "date": "2026-06-15",
-        "count": 3
-      }
+        "count": 4      }
     ],
     "language_share": [
       {
         "name": "Svelte",
-        "pct": 22.155812996253832
+        "pct": 22.15581709954956
       },
       {
         "name": "Go",
-        "pct": 18.30681167345045
+        "pct": 18.30679654372757
       },
       {
         "name": "JavaScript",
-        "pct": 12.215063660780801
+        "pct": 12.215065923032183
       },
       {
         "name": "HTML",
-        "pct": 9.224777954696878
+        "pct": 9.22477966314206
       },
       {
         "name": "CSS",
-        "pct": 7.905984192106054
+        "pct": 7.905985656308301
       },
       {
         "name": "TypeScript",
-        "pct": 6.109897782533347
+        "pct": 6.109898914097216
       },
       {
         "name": "Rust",
-        "pct": 3.84376937383757
+        "pct": 3.8437700857104518
       },
       {
         "name": "TeX",
-        "pct": 3.518342148164165
+        "pct": 3.5183427997673498
       },
       {
         "name": "C#",
-        "pct": 3.217898636313337
+        "pct": 3.2178992322738527
       },
       {
         "name": "Python",
-        "pct": 2.440681042333875
+        "pct": 2.4406814943523187
       },
       {
         "name": "Kotlin",
-        "pct": 2.211095713644784
+        "pct": 2.2110961231436184
       },
       {
         "name": "Dart",
-        "pct": 2.1851304306357004
+        "pct": 2.1851308353257184
       },
       {
         "name": "ASP.NET",
-        "pct": 1.6827892492245835
+        "pct": 1.6827895608801269
       },
       {
         "name": "Shell",
-        "pct": 1.0400836741431063
+        "pct": 1.0400838667684411
       },
       {
         "name": "Vue",
-        "pct": 0.7746247697132198
+        "pct": 0.7746249131750964
       },
       {
         "name": "ShaderLab",
-        "pct": 0.7453628958513423
+        "pct": 0.7453630338938682
       },
       {
         "name": "Makefile",
-        "pct": 0.48251533586102835
+        "pct": 0.48251542522372143
       },
       {
         "name": "SCSS",
-        "pct": 0.42322300094406584
+        "pct": 0.4232230793257137
       },
       {
         "name": "Jinja",
-        "pct": 0.3408082296242211
+        "pct": 0.34080829274250757
       },
       {
         "name": "Typst",
-        "pct": 0.24907781111923427
+        "pct": 0.24907785724888515
       },
       {
         "name": "Swift",
-        "pct": 0.23323380283516074
+        "pct": 0.23323384603047329
       },
       {
         "name": "Java",
-        "pct": 0.2043793727865499
+        "pct": 0.204379410637971
       },
       {
         "name": "HLSL",
-        "pct": 0.1295856527921245
+        "pct": 0.12958567679161645
       },
       {
         "name": "NSIS",
-        "pct": 0.1148898952545297
+        "pct": 0.11488991653234137
       },
       {
         "name": "Dockerfile",
-        "pct": 0.11110251980848287
+        "pct": 0.11110254038486594
       },
       {
         "name": "Ruby",
-        "pct": 0.06575587540923795
+        "pct": 0.06575588758734231
       },
       {
         "name": "GLSL",
-        "pct": 0.05738475706394136
+        "pct": 0.0573847676916998
       },
       {
         "name": "Objective-C",
-        "pct": 0.008074795572011758
+        "pct": 0.008074797067478172
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.0018427572463650687
-      }
+        "pct": 0.0018427575876469682      }
     ]
   },
   "content": {

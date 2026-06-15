@@ -229,8 +229,8 @@
       "summary": "Facial-recognition authentication PAM module written in Go.",
       "repo": "https://github.com/MrCodeEU/face-auth",
       "homepage": null,
-      "featured": true,
-      "order": 5,
+      "featured": false,
+      "order": 50,
       "topics": [
         "Rust",
         "PAM",
