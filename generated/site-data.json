@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-06-16T09:26:22Z",
+  "generated_at": "2026-06-16T09:31:02Z",
   "github_projects": [
     {
       "name": "AOC2024",
@@ -558,7 +558,7 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-06-16T09:17:25Z",
+    "generated_at": "2026-06-16T09:31:02Z",
     "total_stats": {
       "count": 188,
       "distance": 1529301.899999999,
