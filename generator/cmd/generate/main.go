@@ -332,10 +332,15 @@ func buildProjects(pf types.ProjectsFile, repos []githubapi.RepoSummary) ([]type
 		if !c.Show {
 			continue
 		}
+		desc := c.Description
+		if desc == "" {
+			desc = c.Summary
+		}
 		p := types.Project{
-			Name:        c.Name,
-			Description: c.Summary,
-			URL:         c.Repo,
+			Name:          c.Name,
+			Description:   desc,
+			DescriptionDE: c.DescriptionDE,
+			URL:           c.Repo,
 			Topics:      c.Topics,
 			Images:      c.Images,
 			Featured:    c.Featured,

@@ -77,9 +77,10 @@ type Thesis struct {
 }
 
 type Project struct {
-	Name        string        `json:"name"`
-	Description string        `json:"description"`
-	URL         string        `json:"url"`
+	Name          string        `json:"name"`
+	Description   string        `json:"description"`
+	DescriptionDE string        `json:"description_de,omitempty"`
+	URL           string        `json:"url"`
 	Stars       int           `json:"stars"`
 	Language    string        `json:"language"`
 	Topics      []string      `json:"topics"`

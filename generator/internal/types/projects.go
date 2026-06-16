@@ -10,11 +10,13 @@ type ProjectsFile struct {
 }
 
 type CuratedProject struct {
-	ID       string        `json:"id"`
-	Name     string        `json:"name"`
-	Show     bool          `json:"show"`
-	Summary  string        `json:"summary"`
-	Repo     string        `json:"repo"`
+	ID            string        `json:"id"`
+	Name          string        `json:"name"`
+	Show          bool          `json:"show"`
+	Summary       string        `json:"summary"`
+	Description   string        `json:"description,omitempty"`
+	DescriptionDE string        `json:"description_de,omitempty"`
+	Repo          string        `json:"repo"`
 	Homepage *string       `json:"homepage"`
 	Featured bool          `json:"featured"`
 	Order    int           `json:"order,omitempty"`
