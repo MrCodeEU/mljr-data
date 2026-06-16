@@ -108,6 +108,12 @@
         "type": "Master",
         "description": "Abstracting permission systems into a Prolog-based metamodel, written at Dynatrace. Coming soon — currently in progress.",
         "pdf": ""
+      },
+      {
+        "title": "JKU Master Project Report",
+        "type": "Project",
+        "description": "Network devices power consumption analysis — a Go-based test runner measuring UDP/TCP/L2 throughput against real-time power draw via FritzBox smart plug.",
+        "pdf": "/assets/thesis/jku-pr-report.pdf"
       }
     ],
     "de": [
@@ -128,6 +134,12 @@
         "type": "Master",
         "description": "Abstraktion von Berechtigungssystemen in ein Prolog-basiertes Metamodell, verfasst bei Dynatrace. Demnächst verfügbar — derzeit in Arbeit.",
         "pdf": ""
+      },
+      {
+        "title": "JKU Masterprojektbericht",
+        "type": "Projekt",
+        "description": "Analyse des Stromverbrauchs von Netzwerkgeräten — ein Go-basierter Testrahmem zur Messung von UDP/TCP/L2-Durchsatz im Verhältnis zum Echtzeitstromverbrauch via FritzBox-Steckdose.",
+        "pdf": "/assets/thesis/jku-pr-report.pdf"
       }
     ]
   }

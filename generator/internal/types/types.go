@@ -13,6 +13,23 @@ type SiteData struct {
 	GitHubStats    *GitHubStats           `json:"github_stats,omitempty"`
 	Content        map[string]SiteContent `json:"content"`
 	Thesis         map[string][]Thesis    `json:"thesis"`
+	Timeline       []TimelineItem         `json:"timeline"`
+}
+
+// TimelineItem is a hand-authored experience/education entry from timeline.json.
+type TimelineItem struct {
+	ID           string   `json:"id"`
+	Kind         string   `json:"kind"` // "work", "education", "thesis"
+	Title        string   `json:"title"`
+	Organization string   `json:"organization"`
+	Start        string   `json:"start"` // "YYYY-MM" or "YYYY"
+	End          *string  `json:"end"`   // null = present
+	Location     string   `json:"location,omitempty"`
+	Summary      string   `json:"summary"`
+	Details      []string `json:"details,omitempty"`
+	Tags         []string `json:"tags,omitempty"`
+	Logo         string   `json:"logo,omitempty"`
+	Repo         string   `json:"repo,omitempty"`
 }
 
 // SiteContent holds hand-authored copy (content.json) for sections that

@@ -4,14 +4,143 @@
     {
       "id": "dynatrace-thesis",
       "kind": "work",
-      "title": "Software Engineer, Master Thesis",
+      "title": "Master Thesis · Software Engineer",
       "organization": "Dynatrace",
       "start": "2025-11",
       "end": null,
       "location": "Linz, Austria",
-      "summary": "Building a Prolog-based permission metamodel for abstracting IAM systems.",
-      "tags": ["Go", "IAM", "Prolog", "Security"],
-      "logo": "assets/logos/dynatrace.webp"
+      "summary": "Master thesis on a Prolog-based metamodel for complex permission systems.",
+      "details": [
+        "Master thesis: abstracting complex IAM systems into a Prolog-based unified permission metamodel",
+        "Abstraction and analysis of permission models for unified, explainable access control"
+      ],
+      "tags": ["Go", "Prolog", "IAM", "Security"],
+      "logo": "/static/logos/dynatrace.jpg"
+    },
+    {
+      "id": "dynatrace-intern",
+      "kind": "work",
+      "title": "Software Engineering Intern",
+      "organization": "Dynatrace",
+      "start": "2025-08",
+      "end": "2025-09",
+      "location": "Linz, Austria",
+      "summary": "Software engineering internship at Dynatrace Engineering Headquarters.",
+      "details": [],
+      "tags": ["Go", "Java", "Security"],
+      "logo": "/static/logos/dynatrace.jpg"
+    },
+    {
+      "id": "jku-tutor",
+      "kind": "work",
+      "title": "Student Assistant · Tutor",
+      "organization": "Johannes Kepler University Linz",
+      "start": "2023-10",
+      "end": "2026-06",
+      "location": "Linz, Austria",
+      "summary": "Tutor for Digital Circuits and Computer Architecture across six semesters.",
+      "details": [
+        "Tutor for Digital Circuits and Computer Architecture across six semesters",
+        "Grading assignments and supporting course organization"
+      ],
+      "tags": ["Teaching", "Electronics", "Architecture"],
+      "logo": "/static/logos/jku.jpg"
+    },
+    {
+      "id": "ventopay-intern",
+      "kind": "work",
+      "title": "Software Development Intern",
+      "organization": "ventopay gmbh",
+      "start": "2024-07",
+      "end": "2024-07",
+      "location": "Hagenberg, Austria",
+      "summary": "Angular and C# development with UI/UX accessibility focus.",
+      "details": [
+        "Angular and C# development of an existing cashless payment system",
+        "UI/UX development with focus on accessibility"
+      ],
+      "tags": ["Angular", "C#", "UI/UX"],
+      "logo": "/static/logos/ventopay.jpg"
+    },
+    {
+      "id": "bosch-intern-2023",
+      "kind": "work",
+      "title": "Software Development Intern",
+      "organization": "Bosch",
+      "start": "2023-08",
+      "end": "2023-09",
+      "location": "Linz, Austria",
+      "summary": "Built an internal team dashboard with SvelteKit and TailwindCSS.",
+      "details": [
+        "Development of a dashboard for team-relevant information with SvelteKit and TailwindCSS",
+        "Data querying and processing with RESTful APIs, proxy APIs and HTML scraping"
+      ],
+      "tags": ["SvelteKit", "TailwindCSS", "REST"],
+      "logo": "/static/logos/bosch.jpg"
+    },
+    {
+      "id": "bosch-rexroth-intern",
+      "kind": "work",
+      "title": "Assembly & Testing Intern",
+      "organization": "Bosch Rexroth",
+      "start": "2021-06",
+      "end": "2021-06",
+      "location": "Pasching, Austria",
+      "summary": "Assembly of cable ducts and testing of hydraulic systems.",
+      "details": [
+        "Assembly of cable ducts and switch cabinets",
+        "Setup and testing of hydraulic systems"
+      ],
+      "tags": ["Hardware", "Hydraulics"],
+      "logo": "/static/logos/bosch-rexroth.jpg"
+    },
+    {
+      "id": "herzreha-civil",
+      "kind": "work",
+      "title": "Civil Servant",
+      "organization": "HerzReha Bad Ischl",
+      "start": "2020-09",
+      "end": "2021-05",
+      "location": "Bad Ischl, Austria",
+      "summary": "Civilian service at the cardiac rehabilitation center.",
+      "details": [
+        "Support of office staff",
+        "Care of patients"
+      ],
+      "tags": ["Healthcare"],
+      "logo": "/static/logos/herzreha-bad-ischl.jpg"
+    },
+    {
+      "id": "engel-intern-2018",
+      "kind": "work",
+      "title": "Mandatory Internship",
+      "organization": "ENGEL",
+      "start": "2018-07",
+      "end": "2018-07",
+      "location": "Dietach, Austria",
+      "summary": "Production assistance and data processing.",
+      "details": [
+        "Data processing with Excel",
+        "Assistance in production"
+      ],
+      "tags": ["Manufacturing"],
+      "logo": "/static/logos/engel.jpg"
+    },
+    {
+      "id": "engel-intern-2017",
+      "kind": "work",
+      "title": "Mandatory Internship",
+      "organization": "ENGEL",
+      "start": "2017-07",
+      "end": "2017-07",
+      "location": "St. Valentin, Austria",
+      "summary": "Production assistance and electrical wiring of injection molding machines.",
+      "details": [
+        "Assistance in production",
+        "Electrical wiring of injection molding machines"
+      ],
+      "tags": ["Manufacturing", "Electronics"],
+      "logo": "/static/logos/engel.jpg"
     },
     {
       "id": "jku-master",
@@ -21,8 +150,26 @@
       "start": "2024-10",
       "end": "2026-06",
       "summary": "Coursework and thesis work in network security, cryptography, and formal methods.",
-      "tags": ["Security", "Networking"],
-      "logo": "assets/logos/jku.webp"
+      "details": [
+        "Major: Networks and IT Security",
+        "Master Thesis: Abstracting complex permission systems into a Prolog-based unified metamodel"
+      ],
+      "tags": ["Security", "Networking", "Cryptography"],
+      "logo": "/static/logos/jku.jpg"
+    },
+    {
+      "id": "jku-bachelor",
+      "kind": "education",
+      "title": "BSc Computer Science",
+      "organization": "Johannes Kepler University Linz",
+      "start": "2021-10",
+      "end": "2024-07",
+      "summary": "Computer Science fundamentals with specialization in software engineering.",
+      "details": [
+        "Bachelor Thesis: Optimizing LSTM-based Speaker Diarization — comparing architectures and clustering methods"
+      ],
+      "tags": ["Computer Science", "Software Engineering"],
+      "logo": "/static/logos/jku.jpg"
     },
     {
       "id": "bachelor-thesis",
@@ -32,18 +179,28 @@
       "start": "2024-01",
       "end": "2024-07",
       "summary": "Bachelor thesis comparing LSTM and BiLSTM d-vector generation for speaker diarization.",
+      "details": [
+        "Implementation of LSTM networks for speaker diarization",
+        "Training and evaluation of different architectures",
+        "Comparison of different clustering methods and feature embeddings"
+      ],
       "repo": "https://github.com/MrCodeEU/LSTM-Based-Speaker-Diarization",
       "tags": ["Python", "Audio", "Machine Learning"]
     },
     {
       "id": "htl-steyr",
       "kind": "education",
-      "title": "Matura, Mechatronics and Robotics",
+      "title": "Matura · Mechatronics and Robotics",
       "organization": "HTL Steyr",
       "start": "2015-09",
       "end": "2020-06",
       "summary": "Robotics, automation engineering, embedded systems, and practical technical project work.",
-      "tags": ["Robotics", "Automation", "Embedded"]
+      "details": [
+        "Focus: Mechatronics and Automation",
+        "Diploma thesis on a robotics and automation system"
+      ],
+      "tags": ["Robotics", "Automation", "Embedded"],
+      "logo": "/static/logos/htl-steyr.png"
     }
   ]
 }

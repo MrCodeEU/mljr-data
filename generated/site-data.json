@@ -1,7 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-06-15T20:18:06Z",
-  "github_projects": [
+  "generated_at": "2026-06-16T08:42:39Z",  "github_projects": [
     {
       "name": "AOC2024",
       "description": "Advent of Code 2024 solutions, exploring puzzle-solving approaches in Go.",
@@ -130,7 +129,8 @@
       ],
       "images": [
         "/assets/portfolio/WordWiz/0.webp",
-        "/assets/portfolio/WordWiz/1.webp"
+        "/assets/portfolio/WordWiz/1.webp",
+        "/assets/portfolio/WordWiz/2.webp"
       ],
       "featured": false,
       "order": 120,
@@ -262,7 +262,9 @@
       ],
       "images": [
         "/assets/portfolio/jku-master-project-network-devices-power-consumption-analysis/0.webp",
-        "/assets/portfolio/jku-master-project-network-devices-power-consumption-analysis/1.webp"
+        "/assets/portfolio/jku-master-project-network-devices-power-consumption-analysis/1.webp",
+        "/assets/portfolio/jku-master-project-network-devices-power-consumption-analysis/2.webp",
+        "/assets/portfolio/jku-master-project-network-devices-power-consumption-analysis/3.webp"
       ],
       "featured": false,
       "order": 60,
@@ -332,7 +334,9 @@
       ],
       "images": [
         "/assets/portfolio/nightscout-tray/0.webp",
-        "/assets/portfolio/nightscout-tray/1.webp"
+        "/assets/portfolio/nightscout-tray/1.webp",
+        "/assets/portfolio/nightscout-tray/2.webp",
+        "/assets/portfolio/nightscout-tray/3.webp"
       ],
       "featured": true,
       "order": 3,
@@ -553,7 +557,7 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-06-15T20:14:12Z",
+    "generated_at": "2026-06-16T08:42:39Z",
     "total_stats": {
       "count": 188,
       "distance": 1529301.899999999,
@@ -1171,13 +1175,8 @@
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 1176,
-    "longest_streak": 11,
+    "commits_year": 1177,    "longest_streak": 11,
     "contributions": [
-      {
-        "date": "2025-06-16",
-        "count": 0
-      },
       {
         "date": "2025-06-17",
         "count": 0
@@ -2632,126 +2631,128 @@
       },
       {
         "date": "2026-06-15",
-        "count": 5
-      }
+        "count": 6
+      },
+      {
+        "date": "2026-06-16",
+        "count": 0      }
     ],
     "language_share": [
       {
         "name": "Svelte",
-        "pct": 22.15581709954956
+        "pct": 22.155123664146736
       },
       {
         "name": "Go",
-        "pct": 18.30679654372757
+        "pct": 18.306223575428607
       },
       {
         "name": "JavaScript",
-        "pct": 12.215065923032183
+        "pct": 12.21468361444384
       },
       {
         "name": "HTML",
-        "pct": 9.22477966314206
+        "pct": 9.224490944889292
       },
       {
         "name": "CSS",
-        "pct": 7.905985656308301
+        "pct": 7.905738213827454
       },
       {
         "name": "TypeScript",
-        "pct": 6.109898914097216
+        "pct": 6.10970768575318
       },
       {
         "name": "Rust",
-        "pct": 3.8437700857104518
+        "pct": 3.8436497829364322
       },
       {
         "name": "TeX",
-        "pct": 3.5183427997673498
+        "pct": 3.5182326822552907
       },
       {
         "name": "C#",
-        "pct": 3.2178992322738527
+        "pct": 3.2177985180803588
       },
       {
         "name": "Python",
-        "pct": 2.4406814943523187
+        "pct": 2.4406051056121694
       },
       {
         "name": "Kotlin",
-        "pct": 2.2110961231436184
+        "pct": 2.211026919993766
       },
       {
         "name": "Dart",
-        "pct": 2.1851308353257184
+        "pct": 2.1850624448405376
       },
       {
         "name": "ASP.NET",
-        "pct": 1.6827895608801269
+        "pct": 1.6827368927319934
       },
       {
         "name": "Shell",
-        "pct": 1.0400838667684411
+        "pct": 1.0400513140996823
       },
       {
         "name": "Vue",
-        "pct": 0.7746249131750964
+        "pct": 0.774600668872289
       },
       {
         "name": "ShaderLab",
-        "pct": 0.7453630338938682
+        "pct": 0.7453397054328441
       },
       {
         "name": "Makefile",
-        "pct": 0.48251542522372143
+        "pct": 0.48563013531065835
       },
       {
         "name": "SCSS",
-        "pct": 0.4232230793257137
+        "pct": 0.4232098332393618
       },
       {
         "name": "Jinja",
-        "pct": 0.34080829274250757
+        "pct": 0.3407976260839636
       },
       {
         "name": "Typst",
-        "pct": 0.24907785724888515
+        "pct": 0.24907006158043835
       },
       {
         "name": "Swift",
-        "pct": 0.23323384603047329
+        "pct": 0.23322654624977698
       },
       {
         "name": "Java",
-        "pct": 0.204379410637971
+        "pct": 0.2043730139468308
       },
       {
         "name": "HLSL",
-        "pct": 0.12958567679161645
+        "pct": 0.1295816210036677
       },
       {
         "name": "NSIS",
-        "pct": 0.11488991653234137
+        "pct": 0.11488632069404783
       },
       {
         "name": "Dockerfile",
-        "pct": 0.11110254038486594
+        "pct": 0.11109906308432224
       },
       {
         "name": "Ruby",
-        "pct": 0.06575588758734231
+        "pct": 0.06575382955173963
       },
       {
         "name": "GLSL",
-        "pct": 0.0573847676916998
+        "pct": 0.057382971656404796
       },
       {
         "name": "Objective-C",
-        "pct": 0.008074797067478172
+        "pct": 0.008074544341517668
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.0018427575876469682
-      }
+        "pct": 0.001842699912800477      }
     ]
   },
   "content": {
@@ -2863,6 +2864,12 @@
         "type": "Master",
         "description": "Abstraktion von Berechtigungssystemen in ein Prolog-basiertes Metamodell, verfasst bei Dynatrace. Demnächst verfügbar — derzeit in Arbeit.",
         "pdf": ""
+      },
+      {
+        "title": "JKU Masterprojektbericht",
+        "type": "Projekt",
+        "description": "Analyse des Stromverbrauchs von Netzwerkgeräten — ein Go-basierter Testrahmem zur Messung von UDP/TCP/L2-Durchsatz im Verhältnis zum Echtzeitstromverbrauch via FritzBox-Steckdose.",
+        "pdf": "/assets/thesis/jku-pr-report.pdf"
       }
     ],
     "en": [
@@ -2883,7 +2890,261 @@
         "type": "Master",
         "description": "Abstracting permission systems into a Prolog-based metamodel, written at Dynatrace. Coming soon — currently in progress.",
         "pdf": ""
+      },
+      {
+        "title": "JKU Master Project Report",
+        "type": "Project",
+        "description": "Network devices power consumption analysis — a Go-based test runner measuring UDP/TCP/L2 throughput against real-time power draw via FritzBox smart plug.",
+        "pdf": "/assets/thesis/jku-pr-report.pdf"
       }
     ]
-  }
+  },
+  "timeline": [
+    {
+      "id": "dynatrace-thesis",
+      "kind": "work",
+      "title": "Master Thesis · Software Engineer",
+      "organization": "Dynatrace",
+      "start": "2025-11",
+      "end": null,
+      "location": "Linz, Austria",
+      "summary": "Master thesis on a Prolog-based metamodel for complex permission systems.",
+      "details": [
+        "Master thesis: abstracting complex IAM systems into a Prolog-based unified permission metamodel",
+        "Abstraction and analysis of permission models for unified, explainable access control"
+      ],
+      "tags": [
+        "Go",
+        "Prolog",
+        "IAM",
+        "Security"
+      ],
+      "logo": "/static/logos/dynatrace.jpg"
+    },
+    {
+      "id": "dynatrace-intern",
+      "kind": "work",
+      "title": "Software Engineering Intern",
+      "organization": "Dynatrace",
+      "start": "2025-08",
+      "end": "2025-09",
+      "location": "Linz, Austria",
+      "summary": "Software engineering internship at Dynatrace Engineering Headquarters.",
+      "tags": [
+        "Go",
+        "Java",
+        "Security"
+      ],
+      "logo": "/static/logos/dynatrace.jpg"
+    },
+    {
+      "id": "jku-tutor",
+      "kind": "work",
+      "title": "Student Assistant · Tutor",
+      "organization": "Johannes Kepler University Linz",
+      "start": "2023-10",
+      "end": "2026-06",
+      "location": "Linz, Austria",
+      "summary": "Tutor for Digital Circuits and Computer Architecture across six semesters.",
+      "details": [
+        "Tutor for Digital Circuits and Computer Architecture across six semesters",
+        "Grading assignments and supporting course organization"
+      ],
+      "tags": [
+        "Teaching",
+        "Electronics",
+        "Architecture"
+      ],
+      "logo": "/static/logos/jku.jpg"
+    },
+    {
+      "id": "ventopay-intern",
+      "kind": "work",
+      "title": "Software Development Intern",
+      "organization": "ventopay gmbh",
+      "start": "2024-07",
+      "end": "2024-07",
+      "location": "Hagenberg, Austria",
+      "summary": "Angular and C# development with UI/UX accessibility focus.",
+      "details": [
+        "Angular and C# development of an existing cashless payment system",
+        "UI/UX development with focus on accessibility"
+      ],
+      "tags": [
+        "Angular",
+        "C#",
+        "UI/UX"
+      ],
+      "logo": "/static/logos/ventopay.jpg"
+    },
+    {
+      "id": "bosch-intern-2023",
+      "kind": "work",
+      "title": "Software Development Intern",
+      "organization": "Bosch",
+      "start": "2023-08",
+      "end": "2023-09",
+      "location": "Linz, Austria",
+      "summary": "Built an internal team dashboard with SvelteKit and TailwindCSS.",
+      "details": [
+        "Development of a dashboard for team-relevant information with SvelteKit and TailwindCSS",
+        "Data querying and processing with RESTful APIs, proxy APIs and HTML scraping"
+      ],
+      "tags": [
+        "SvelteKit",
+        "TailwindCSS",
+        "REST"
+      ],
+      "logo": "/static/logos/bosch.jpg"
+    },
+    {
+      "id": "bosch-rexroth-intern",
+      "kind": "work",
+      "title": "Assembly \u0026 Testing Intern",
+      "organization": "Bosch Rexroth",
+      "start": "2021-06",
+      "end": "2021-06",
+      "location": "Pasching, Austria",
+      "summary": "Assembly of cable ducts and testing of hydraulic systems.",
+      "details": [
+        "Assembly of cable ducts and switch cabinets",
+        "Setup and testing of hydraulic systems"
+      ],
+      "tags": [
+        "Hardware",
+        "Hydraulics"
+      ],
+      "logo": "/static/logos/bosch-rexroth.jpg"
+    },
+    {
+      "id": "herzreha-civil",
+      "kind": "work",
+      "title": "Civil Servant",
+      "organization": "HerzReha Bad Ischl",
+      "start": "2020-09",
+      "end": "2021-05",
+      "location": "Bad Ischl, Austria",
+      "summary": "Civilian service at the cardiac rehabilitation center.",
+      "details": [
+        "Support of office staff",
+        "Care of patients"
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "logo": "/static/logos/herzreha-bad-ischl.jpg"
+    },
+    {
+      "id": "engel-intern-2018",
+      "kind": "work",
+      "title": "Mandatory Internship",
+      "organization": "ENGEL",
+      "start": "2018-07",
+      "end": "2018-07",
+      "location": "Dietach, Austria",
+      "summary": "Production assistance and data processing.",
+      "details": [
+        "Data processing with Excel",
+        "Assistance in production"
+      ],
+      "tags": [
+        "Manufacturing"
+      ],
+      "logo": "/static/logos/engel.jpg"
+    },
+    {
+      "id": "engel-intern-2017",
+      "kind": "work",
+      "title": "Mandatory Internship",
+      "organization": "ENGEL",
+      "start": "2017-07",
+      "end": "2017-07",
+      "location": "St. Valentin, Austria",
+      "summary": "Production assistance and electrical wiring of injection molding machines.",
+      "details": [
+        "Assistance in production",
+        "Electrical wiring of injection molding machines"
+      ],
+      "tags": [
+        "Manufacturing",
+        "Electronics"
+      ],
+      "logo": "/static/logos/engel.jpg"
+    },
+    {
+      "id": "jku-master",
+      "kind": "education",
+      "title": "MSc Networks and IT Security",
+      "organization": "Johannes Kepler University Linz",
+      "start": "2024-10",
+      "end": "2026-06",
+      "summary": "Coursework and thesis work in network security, cryptography, and formal methods.",
+      "details": [
+        "Major: Networks and IT Security",
+        "Master Thesis: Abstracting complex permission systems into a Prolog-based unified metamodel"
+      ],
+      "tags": [
+        "Security",
+        "Networking",
+        "Cryptography"
+      ],
+      "logo": "/static/logos/jku.jpg"
+    },
+    {
+      "id": "jku-bachelor",
+      "kind": "education",
+      "title": "BSc Computer Science",
+      "organization": "Johannes Kepler University Linz",
+      "start": "2021-10",
+      "end": "2024-07",
+      "summary": "Computer Science fundamentals with specialization in software engineering.",
+      "details": [
+        "Bachelor Thesis: Optimizing LSTM-based Speaker Diarization — comparing architectures and clustering methods"
+      ],
+      "tags": [
+        "Computer Science",
+        "Software Engineering"
+      ],
+      "logo": "/static/logos/jku.jpg"
+    },
+    {
+      "id": "bachelor-thesis",
+      "kind": "thesis",
+      "title": "LSTM-Based Speaker Diarization",
+      "organization": "Johannes Kepler University Linz",
+      "start": "2024-01",
+      "end": "2024-07",
+      "summary": "Bachelor thesis comparing LSTM and BiLSTM d-vector generation for speaker diarization.",
+      "details": [
+        "Implementation of LSTM networks for speaker diarization",
+        "Training and evaluation of different architectures",
+        "Comparison of different clustering methods and feature embeddings"
+      ],
+      "tags": [
+        "Python",
+        "Audio",
+        "Machine Learning"
+      ],
+      "repo": "https://github.com/MrCodeEU/LSTM-Based-Speaker-Diarization"
+    },
+    {
+      "id": "htl-steyr",
+      "kind": "education",
+      "title": "Matura · Mechatronics and Robotics",
+      "organization": "HTL Steyr",
+      "start": "2015-09",
+      "end": "2020-06",
+      "summary": "Robotics, automation engineering, embedded systems, and practical technical project work.",
+      "details": [
+        "Focus: Mechatronics and Automation",
+        "Diploma thesis on a robotics and automation system"
+      ],
+      "tags": [
+        "Robotics",
+        "Automation",
+        "Embedded"
+      ],
+      "logo": "/static/logos/htl-steyr.png"
+    }
+  ]
 }

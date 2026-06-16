@@ -68,6 +68,12 @@ func run() error {
 	}
 	log.Printf("content.json: loaded, %d thesis entries (en)", len(content.Thesis["en"]))
 
+	timeline, err := loadTimeline(filepath.Join(root, "timeline.json"))
+	if err != nil {
+		return fmt.Errorf("load timeline.json: %w", err)
+	}
+	log.Printf("timeline.json: %d items", len(timeline))
+
 	gh := githubapi.New(token)
 
 	log.Printf("github: listing repos for %s", user)
@@ -158,6 +164,7 @@ func run() error {
 		GitHubStats:    stats,
 		Content:        content.Content,
 		Thesis:         content.Thesis,
+		Timeline:       timeline,
 	}
 
 	log.Println("validating against schemas/site-data.schema.json")
@@ -244,6 +251,22 @@ func loadContent(path string) (contentFile, error) {
 		return cf, err
 	}
 	return cf, nil
+}
+
+type timelineFile struct {
+	Items []types.TimelineItem `json:"items"`
+}
+
+func loadTimeline(path string) ([]types.TimelineItem, error) {
+	var tf timelineFile
+	b, err := os.ReadFile(path)
+	if err != nil {
+		return nil, err
+	}
+	if err := json.Unmarshal(b, &tf); err != nil {
+		return nil, err
+	}
+	return tf.Items, nil
 }
 
 func loadProjects(path string) (types.ProjectsFile, error) {
