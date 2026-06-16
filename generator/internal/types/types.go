@@ -21,12 +21,15 @@ type TimelineItem struct {
 	ID           string   `json:"id"`
 	Kind         string   `json:"kind"` // "work", "education", "thesis"
 	Title        string   `json:"title"`
+	TitleDE      string   `json:"title_de,omitempty"`
 	Organization string   `json:"organization"`
 	Start        string   `json:"start"` // "YYYY-MM" or "YYYY"
 	End          *string  `json:"end"`   // null = present
 	Location     string   `json:"location,omitempty"`
 	Summary      string   `json:"summary"`
+	SummaryDE    string   `json:"summary_de,omitempty"`
 	Details      []string `json:"details,omitempty"`
+	DetailsDE    []string `json:"details_de,omitempty"`
 	Tags         []string `json:"tags,omitempty"`
 	Logo         string   `json:"logo,omitempty"`
 	Repo         string   `json:"repo,omitempty"`

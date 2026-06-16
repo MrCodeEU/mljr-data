@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-06-16T09:43:16Z",
+  "generated_at": "2026-06-16T09:54:33Z",
   "github_projects": [
     {
       "name": "AOC2024",
@@ -558,7 +558,7 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-06-16T09:31:02Z",
+    "generated_at": "2026-06-16T09:54:33Z",
     "total_stats": {
       "count": 188,
       "distance": 1529301.899999999,
@@ -2908,14 +2908,20 @@
       "id": "dynatrace-thesis",
       "kind": "work",
       "title": "Master Thesis · Software Engineer",
+      "title_de": "Masterarbeit · Softwareentwickler",
       "organization": "Dynatrace",
       "start": "2025-11",
       "end": null,
       "location": "Linz, Austria",
       "summary": "Master thesis on a Prolog-based metamodel for complex permission systems.",
+      "summary_de": "Masterarbeit über ein Prolog-basiertes Metamodell für komplexe Berechtigungssysteme.",
       "details": [
         "Master thesis: abstracting complex IAM systems into a Prolog-based unified permission metamodel",
         "Abstraction and analysis of permission models for unified, explainable access control"
+      ],
+      "details_de": [
+        "Masterarbeit: Abstraktion komplexer IAM-Systeme in ein Prolog-basiertes einheitliches Berechtigungsmetamodell",
+        "Abstraktion und Analyse von Berechtigungsmodellen für einheitliche, erklärbare Zugriffskontrolle"
       ],
       "tags": [
         "Go",
@@ -2929,11 +2935,13 @@
       "id": "dynatrace-intern",
       "kind": "work",
       "title": "Software Engineering Intern",
+      "title_de": "Softwareentwicklung Praktikant",
       "organization": "Dynatrace",
       "start": "2025-08",
       "end": "2025-09",
       "location": "Linz, Austria",
       "summary": "Software engineering internship at Dynatrace Engineering Headquarters.",
+      "summary_de": "Software-Engineering-Praktikum am Dynatrace Engineering Headquarter.",
       "tags": [
         "Go",
         "Java",
@@ -2945,14 +2953,20 @@
       "id": "jku-tutor",
       "kind": "work",
       "title": "Student Assistant · Tutor",
+      "title_de": "Tutor · Studienassistenz",
       "organization": "Johannes Kepler University Linz",
       "start": "2023-10",
       "end": "2026-06",
       "location": "Linz, Austria",
       "summary": "Tutor for Digital Circuits and Computer Architecture across six semesters.",
+      "summary_de": "Tutor für Digitale Schaltungen und Rechnerarchitektur über sechs Semester.",
       "details": [
         "Tutor for Digital Circuits and Computer Architecture across six semesters",
         "Grading assignments and supporting course organization"
+      ],
+      "details_de": [
+        "Tutor für Digitale Schaltungen und Rechnerarchitektur über sechs Semester",
+        "Benotung von Aufgaben und Unterstützung bei der Kursorganisation"
       ],
       "tags": [
         "Teaching",
@@ -2965,14 +2979,20 @@
       "id": "ventopay-intern",
       "kind": "work",
       "title": "Software Development Intern",
+      "title_de": "Softwareentwicklung Praktikant",
       "organization": "ventopay gmbh",
       "start": "2024-07",
       "end": "2024-07",
       "location": "Hagenberg, Austria",
       "summary": "Angular and C# development with UI/UX accessibility focus.",
+      "summary_de": "Angular- und C#-Entwicklung mit Fokus auf UI/UX-Barrierefreiheit.",
       "details": [
         "Angular and C# development of an existing cashless payment system",
         "UI/UX development with focus on accessibility"
+      ],
+      "details_de": [
+        "Angular- und C#-Entwicklung eines bestehenden bargeldlosen Zahlungssystems",
+        "UI/UX-Entwicklung mit Fokus auf Barrierefreiheit"
       ],
       "tags": [
         "Angular",
@@ -2985,14 +3005,20 @@
       "id": "bosch-intern-2023",
       "kind": "work",
       "title": "Software Development Intern",
+      "title_de": "Softwareentwicklung Praktikant",
       "organization": "Bosch",
       "start": "2023-08",
       "end": "2023-09",
       "location": "Linz, Austria",
       "summary": "Built an internal team dashboard with SvelteKit and TailwindCSS.",
+      "summary_de": "Entwicklung eines internen Team-Dashboards mit SvelteKit und TailwindCSS.",
       "details": [
         "Development of a dashboard for team-relevant information with SvelteKit and TailwindCSS",
         "Data querying and processing with RESTful APIs, proxy APIs and HTML scraping"
+      ],
+      "details_de": [
+        "Entwicklung eines Dashboards für teamrelevante Informationen mit SvelteKit und TailwindCSS",
+        "Datenabfrage und -verarbeitung mit RESTful APIs, Proxy-APIs und HTML-Scraping"
       ],
       "tags": [
         "SvelteKit",
@@ -3005,14 +3031,20 @@
       "id": "bosch-rexroth-intern",
       "kind": "work",
       "title": "Assembly \u0026 Testing Intern",
+      "title_de": "Montage \u0026 Prüfpraktikum",
       "organization": "Bosch Rexroth",
       "start": "2021-06",
       "end": "2021-06",
       "location": "Pasching, Austria",
       "summary": "Assembly of cable ducts and testing of hydraulic systems.",
+      "summary_de": "Montage von Kabelkanälen und Prüfung von Hydrauliksystemen.",
       "details": [
         "Assembly of cable ducts and switch cabinets",
         "Setup and testing of hydraulic systems"
+      ],
+      "details_de": [
+        "Montage von Kabelkanälen und Schaltschränken",
+        "Aufbau und Prüfung von Hydrauliksystemen"
       ],
       "tags": [
         "Hardware",
@@ -3024,14 +3056,20 @@
       "id": "herzreha-civil",
       "kind": "work",
       "title": "Civil Servant",
+      "title_de": "Zivildiener",
       "organization": "HerzReha Bad Ischl",
       "start": "2020-09",
       "end": "2021-05",
       "location": "Bad Ischl, Austria",
       "summary": "Civilian service at the cardiac rehabilitation center.",
+      "summary_de": "Zivildienst im Herz-Rehabilitationszentrum.",
       "details": [
         "Support of office staff",
         "Care of patients"
+      ],
+      "details_de": [
+        "Unterstützung des Büropersonals",
+        "Betreuung von Patienten"
       ],
       "tags": [
         "Healthcare"
@@ -3042,14 +3080,20 @@
       "id": "engel-intern-2018",
       "kind": "work",
       "title": "Mandatory Internship",
+      "title_de": "Pflichtpraktikum",
       "organization": "ENGEL",
       "start": "2018-07",
       "end": "2018-07",
       "location": "Dietach, Austria",
       "summary": "Production assistance and data processing.",
+      "summary_de": "Produktionsunterstützung und Datenverarbeitung.",
       "details": [
         "Data processing with Excel",
         "Assistance in production"
+      ],
+      "details_de": [
+        "Datenverarbeitung mit Excel",
+        "Unterstützung in der Produktion"
       ],
       "tags": [
         "Manufacturing"
@@ -3060,14 +3104,20 @@
       "id": "engel-intern-2017",
       "kind": "work",
       "title": "Mandatory Internship",
+      "title_de": "Pflichtpraktikum",
       "organization": "ENGEL",
       "start": "2017-07",
       "end": "2017-07",
       "location": "St. Valentin, Austria",
       "summary": "Production assistance and electrical wiring of injection molding machines.",
+      "summary_de": "Produktionsunterstützung und elektrische Verdrahtung von Spritzgussmaschinen.",
       "details": [
         "Assistance in production",
         "Electrical wiring of injection molding machines"
+      ],
+      "details_de": [
+        "Unterstützung in der Produktion",
+        "Elektrische Verdrahtung von Spritzgussmaschinen"
       ],
       "tags": [
         "Manufacturing",
@@ -3079,13 +3129,19 @@
       "id": "jku-master",
       "kind": "education",
       "title": "MSc Networks and IT Security",
+      "title_de": "MSc Netzwerke und IT-Sicherheit",
       "organization": "Johannes Kepler University Linz",
       "start": "2024-10",
       "end": null,
       "summary": "Coursework and thesis work in network security, cryptography, and formal methods.",
+      "summary_de": "Lehrveranstaltungen und Masterarbeit in Netzwerksicherheit, Kryptographie und formalen Methoden.",
       "details": [
         "Major: Networks and IT Security",
         "Master Thesis: Abstracting complex permission systems into a Prolog-based unified metamodel"
+      ],
+      "details_de": [
+        "Schwerpunkt: Netzwerke und IT-Sicherheit",
+        "Masterarbeit: Abstraktion komplexer Berechtigungssysteme in ein Prolog-basiertes einheitliches Metamodell"
       ],
       "tags": [
         "Security",
@@ -3098,12 +3154,17 @@
       "id": "jku-bachelor",
       "kind": "education",
       "title": "BSc Computer Science",
+      "title_de": "BSc Informatik",
       "organization": "Johannes Kepler University Linz",
       "start": "2021-10",
       "end": "2024-07",
       "summary": "Computer Science fundamentals with specialization in software engineering.",
+      "summary_de": "Informatik-Grundlagen mit Spezialisierung in Software Engineering.",
       "details": [
         "Bachelor Thesis: Optimizing LSTM-based Speaker Diarization — comparing architectures and clustering methods"
+      ],
+      "details_de": [
+        "Bachelorarbeit: Optimierung der LSTM-basierten Sprecherdiarisierung — Vergleich von Architekturen und Clustering-Methoden"
       ],
       "tags": [
         "Computer Science",
@@ -3135,13 +3196,19 @@
       "id": "htl-steyr",
       "kind": "education",
       "title": "Matura · Mechatronics and Robotics",
+      "title_de": "Matura · Mechatronik und Robotik",
       "organization": "HTL Steyr",
       "start": "2015-09",
       "end": "2020-06",
       "summary": "Robotics, automation engineering, embedded systems, and practical technical project work.",
+      "summary_de": "Robotik, Automatisierungstechnik, eingebettete Systeme und praktische technische Projektarbeit.",
       "details": [
         "Focus: Mechatronics and Automation",
         "Diploma thesis on a robotics and automation system"
+      ],
+      "details_de": [
+        "Schwerpunkt: Mechatronik und Automatisierung",
+        "Diplomarbeit zu einem Robotik- und Automatisierungssystem"
       ],
       "tags": [
         "Robotics",
