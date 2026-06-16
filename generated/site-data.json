@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-06-16T08:59:19Z",
+  "generated_at": "2026-06-16T09:17:25Z",
   "github_projects": [
     {
       "name": "AOC2024",
@@ -558,7 +558,7 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-06-16T08:42:39Z",
+    "generated_at": "2026-06-16T09:17:25Z",
     "total_stats": {
       "count": 188,
       "distance": 1529301.899999999,
@@ -1176,7 +1176,7 @@
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 787,
+    "commits_year": 790,
     "longest_streak": 11,
     "contributions": [
       {
@@ -2637,125 +2637,125 @@
       },
       {
         "date": "2026-06-16",
-        "count": 1
+        "count": 4
       }
     ],
     "language_share": [
       {
         "name": "Svelte",
-        "pct": 22.152463162463654
+        "pct": 22.147820610182496
       },
       {
         "name": "Go",
-        "pct": 18.316033786058416
+        "pct": 18.333152518223756
       },
       {
         "name": "JavaScript",
-        "pct": 12.213216812145323
+        "pct": 12.210657254900799
       },
       {
         "name": "HTML",
-        "pct": 9.223383220371185
+        "pct": 9.221450250728228
       },
       {
         "name": "CSS",
-        "pct": 7.904788851948787
+        "pct": 7.903132223733335
       },
       {
         "name": "TypeScript",
-        "pct": 6.108974000497006
+        "pct": 6.107693726110652
       },
       {
         "name": "Rust",
-        "pct": 3.843188217617651
+        "pct": 3.842382790153636
       },
       {
         "name": "TeX",
-        "pct": 3.5178101947027725
+        "pct": 3.51707295760077
       },
       {
         "name": "C#",
-        "pct": 3.2174121082140474
+        "pct": 3.216737826360473
       },
       {
         "name": "Python",
-        "pct": 2.4403120251451114
+        "pct": 2.439800602280936
       },
       {
         "name": "Kotlin",
-        "pct": 2.2107614084610323
+        "pct": 2.210298093147305
       },
       {
         "name": "Dart",
-        "pct": 2.184800051256089
+        "pct": 2.1843421767349827
       },
       {
         "name": "ASP.NET",
-        "pct": 1.6825348209944053
+        "pct": 1.6821822075710555
       },
       {
         "name": "Shell",
-        "pct": 1.0399264193659132
+        "pct": 1.0397084791425144
       },
       {
         "name": "Vue",
-        "pct": 0.7745076508230787
+        "pct": 0.7743453351367944
       },
       {
         "name": "ShaderLab",
-        "pct": 0.7452502011912596
+        "pct": 0.7450940170686995
       },
       {
         "name": "Makefile",
-        "pct": 0.48557181833568075
+        "pct": 0.48547005572190954
       },
       {
         "name": "SCSS",
-        "pct": 0.42315901201666417
+        "pct": 0.4230703294253819
       },
       {
         "name": "Jinja",
-        "pct": 0.34075670134476865
+        "pct": 0.3406852880310642
       },
       {
         "name": "Typst",
-        "pct": 0.24904015196097132
+        "pct": 0.24898795993532125
       },
       {
         "name": "Swift",
-        "pct": 0.23319853920146422
+        "pct": 0.23314966714591928
       },
       {
         "name": "Java",
-        "pct": 0.20434847177970844
+        "pct": 0.204305645911684
       },
       {
         "name": "HLSL",
-        "pct": 0.1295660601733152
+        "pct": 0.12953890665978457
       },
       {
         "name": "NSIS",
-        "pct": 0.11487252455125924
+        "pct": 0.1148484504021686
       },
       {
         "name": "Dockerfile",
-        "pct": 0.11108572173498898
+        "pct": 0.1110624411965196
       },
       {
         "name": "Ruby",
-        "pct": 0.06574593349226178
+        "pct": 0.06573215493719667
       },
       {
         "name": "GLSL",
-        "pct": 0.05737608081277936
+        "pct": 0.05736405635062777
       },
       {
         "name": "Objective-C",
-        "pct": 0.008073574708527287
+        "pct": 0.008071882707398325
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.0018424786318772134
+        "pct": 0.001842092498592049
       }
     ]
   },
@@ -3081,7 +3081,7 @@
       "title": "MSc Networks and IT Security",
       "organization": "Johannes Kepler University Linz",
       "start": "2024-10",
-      "end": "2026-06",
+      "end": null,
       "summary": "Coursework and thesis work in network security, cryptography, and formal methods.",
       "details": [
         "Major: Networks and IT Security",
