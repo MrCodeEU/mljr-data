@@ -111,7 +111,7 @@
       "description": "Conway's Game of Life implemented as a Kotlin Multiplatform project for desktop and Android. Developed as a university programming project exploring KMP's shared logic and platform-specific UI capabilities.",
       "description_de": "Conways Game of Life als Kotlin-Multiplatform-Projekt für Desktop und Android. Als Universitäts-Programmierprojekt entwickelt, das KMPs gemeinsame Logik und plattformspezifische UI-Fähigkeiten erkundet.",
       "repo": "https://github.com/MrCodeEU/Game-of-Life-Multiplatform",
-      "homepage": null,
+      "homepage": "https://gameoflife.mljr.eu/",
       "featured": false,
       "order": 70,
       "topics": [
@@ -250,7 +250,7 @@
       "description": "A university computer graphics lab project implementing real-time 3D scenes in C++/OpenGL. Three animated scenes — furnished rooms, a Portal-inspired gun, and an alien planet — demonstrate lighting, textures, and animation techniques.",
       "description_de": "Ein universitäres Computergrafik-Laborprojekt mit Echtzeit-3D-Szenen in C++/OpenGL. Drei animierte Szenen — eingerichtete Räume, eine Portal-inspirierte Kanone und ein Alienplanet — demonstrieren Beleuchtung, Texturen und Animationen.",
       "repo": "https://github.com/MrCodeEU/cg-lab-2023-project-reineggersilber",
-      "homepage": null,
+      "homepage": "https://cglab.mljr.eu/",
       "featured": false,
       "order": 50,
       "topics": [
@@ -600,7 +600,7 @@
       "description": "A web-based Sudoku generator and solver supporting 9×9, 12×12, and 16×16 grids including jigsaw variants. Uses Web Workers to keep the UI responsive during puzzle generation, with batch-print and database features.",
       "description_de": "Ein webbasierter Sudoku-Generator und -Löser für 9×9-, 12×12- und 16×16-Raster inkl. Jigsaw-Varianten. Nutzt Web Workers für responsive UI, mit Stapeldruck und Datenbankfunktionen.",
       "repo": "https://github.com/MrCodeEU/sudoku-gen",
-      "homepage": null,
+      "homepage": "https://sudoku.mljr.eu/",
       "featured": false,
       "order": 10,
       "topics": [

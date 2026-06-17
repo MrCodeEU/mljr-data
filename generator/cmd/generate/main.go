@@ -337,6 +337,7 @@ func buildProjects(pf types.ProjectsFile, repos []githubapi.RepoSummary) ([]type
 			desc = c.Summary
 		}
 		p := types.Project{
+			ID:            c.ID,
 			Name:          c.Name,
 			Description:   desc,
 			DescriptionDE: c.DescriptionDE,

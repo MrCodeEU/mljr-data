@@ -1,8 +1,9 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-06-17T09:01:58Z",
+  "generated_at": "2026-06-17T13:29:22Z",
   "github_projects": [
     {
+      "id": "AOC2024",
       "name": "AOC2024",
       "description": "Advent of Code 2024 solutions written in Kotlin, working through all December puzzles with clean, readable implementations.",
       "description_de": "Advent of Code 2024-Lösungen in Kotlin, mit sauberen, lesbaren Implementierungen für alle Dezember-Rätsel.",
@@ -22,6 +23,7 @@
       "links": []
     },
     {
+      "id": "AdventOfCode2022_MrCode",
       "name": "AdventOfCode2022_MrCode",
       "description": "Advent of Code 2022 solutions in Kotlin, exploring algorithmic challenges across the December puzzle calendar.",
       "description_de": "Advent of Code 2022-Lösungen in Kotlin mit algorithmischen Herausforderungen über den Dezember-Puzzle-Kalender.",
@@ -41,6 +43,7 @@
       "links": []
     },
     {
+      "id": "Flexbar-Plugin-Youtube-Music-Desktop-App",
       "name": "Flexbar-Plugin-Youtube-Music-Desktop-App",
       "description": "A Node.js plugin for the Flexbar macro pad that controls YouTube Music Desktop App via Socket.IO. Shows the current track, album art, and playback controls directly on the Flexbar display.",
       "description_de": "Ein Node.js-Plugin für den Flexbar-Macro-Pad, das YouTube Music Desktop per Socket.IO steuert. Zeigt aktuellen Track, Album-Art und Playback-Steuerung direkt auf dem Flexbar-Display.",
@@ -60,6 +63,7 @@
       "links": []
     },
     {
+      "id": "Game-of-Life-Multiplatform",
       "name": "Game-of-Life-Multiplatform",
       "description": "Conway's Game of Life implemented as a Kotlin Multiplatform project for desktop and Android. Developed as a university programming project exploring KMP's shared logic and platform-specific UI capabilities.",
       "description_de": "Conways Game of Life als Kotlin-Multiplatform-Projekt für Desktop und Android. Als Universitäts-Programmierprojekt entwickelt, das KMPs gemeinsame Logik und plattformspezifische UI-Fähigkeiten erkundet.",
@@ -77,9 +81,15 @@
       ],
       "featured": false,
       "order": 70,
-      "links": []
+      "links": [
+        {
+          "name": "Live",
+          "url": "https://gameoflife.mljr.eu/"
+        }
+      ]
     },
     {
+      "id": "LSTM-Based-Speaker-Diarization",
       "name": "LSTM-Based-Speaker-Diarization",
       "description": "Bachelor thesis research implementing LSTM and BiLSTM networks for speaker diarization — the task of labeling who speaks when in an audio recording. Compares d-vector generation architectures and four clustering algorithms (k-means, agglomerative, spectral, VBx) to find the best diarization error rate.",
       "description_de": "Bachelorarbeit zu LSTM- und BiLSTM-Netzwerken für Sprecherdiarisierung — die Aufgabe, Audiodaten nach Sprecher zu segmentieren. Vergleicht d-Vektor-Architekturen und vier Clustering-Algorithmen (k-Means, agglomerativ, spektral, VBx) hinsichtlich Diarisierungsfehlerate.",
@@ -103,6 +113,7 @@
       "links": []
     },
     {
+      "id": "Lebenslauf",
       "name": "Lebenslauf",
       "description": "Source files for my CV and cover letter written in Typst — a modern typesetting language. Clean, version-controlled, and trivially re-compilable to PDF.",
       "description_de": "Quelldateien für meinen Lebenslauf und mein Anschreiben, geschrieben in Typst — einer modernen Schriftsatzsprache. Sauber, versioniert und trivial zu PDF kompilierbar.",
@@ -124,6 +135,7 @@
       "links": []
     },
     {
+      "id": "WordWiz",
       "name": "WordWiz",
       "description": "A SvelteKit web app that helps solve word games like Wordle by filtering candidates from a wordlist based on known letters and positions. Clean interface, instant results, runs entirely in the browser.",
       "description_de": "Eine SvelteKit-Webapp zur Lösung von Wortspielen wie Wordle — filtert Kandidaten aus einer Wortliste anhand bekannter Buchstaben und Positionen. Sauberes Interface, sofortige Ergebnisse, läuft vollständig im Browser.",
@@ -150,6 +162,7 @@
       ]
     },
     {
+      "id": "cg-lab-2023-project-reineggersilber",
       "name": "cg-lab-2023-project-reineggersilber",
       "description": "A university computer graphics lab project implementing real-time 3D scenes in C++/OpenGL. Three animated scenes — furnished rooms, a Portal-inspired gun, and an alien planet — demonstrate lighting, textures, and animation techniques.",
       "description_de": "Ein universitäres Computergrafik-Laborprojekt mit Echtzeit-3D-Szenen in C++/OpenGL. Drei animierte Szenen — eingerichtete Räume, eine Portal-inspirierte Kanone und ein Alienplanet — demonstrieren Beleuchtung, Texturen und Animationen.",
@@ -168,9 +181,15 @@
       ],
       "featured": false,
       "order": 50,
-      "links": []
+      "links": [
+        {
+          "name": "Live",
+          "url": "https://cglab.mljr.eu/"
+        }
+      ]
     },
     {
+      "id": "codec",
       "name": "Codec",
       "description": "A multi-mode encode/decode tool built in Go + Datastar. Hash mode computes all four digests simultaneously. Encoding modes support Base64, URL percent-encoding, and HTML entity encoding — all processed server-side via SSE.",
       "description_de": "Ein Multi-Modus-Kodierungswerkzeug in Go + Datastar. Im Hash-Modus werden alle vier Digest-Varianten gleichzeitig berechnet. Kodierungsmodi: Base64, URL-Prozent-Kodierung und HTML-Entity-Kodierung — alles serverseitig per SSE.",
@@ -196,6 +215,7 @@
       ]
     },
     {
+      "id": "cron",
       "name": "Cron Explorer",
       "description": "An interactive cron expression explorer built in Go + Datastar. Supports standard 5-field and 6-field (with seconds) syntax, @aliases, and common presets. Shows a field-by-field breakdown and the next 10 execution times with countdown.",
       "description_de": "Ein interaktiver Cron-Explorer in Go + Datastar. Unterstützt 5-Feld- und 6-Feld-Syntax (mit Sekunden), @-Aliase und gängige Presets. Zeigt eine Feldaufschlüsselung und die nächsten 10 Ausführungszeiten mit Countdown.",
@@ -220,6 +240,7 @@
       ]
     },
     {
+      "id": "face-auth",
       "name": "face-auth",
       "description": "A Linux PAM module for facial recognition login using IR cameras and Windows Hello–compatible hardware. Features liveness anti-spoofing, an egui graphical configuration tool, and plugs into any PAM stack as a drop-in module.",
       "description_de": "Ein Linux-PAM-Modul für Gesichtserkennungs-Login mit IR-Kameras und Windows-Hello-kompatibler Hardware. Mit Liveness Anti-Spoofing, einem egui-GUI-Konfigurationstool und direkter Einbindung in jeden PAM-Stack.",
@@ -243,6 +264,7 @@
       "links": []
     },
     {
+      "id": "godrive",
       "name": "goDrive",
       "description": "A self-hosted file storage and sync platform with a Go REST backend and a Flutter mobile client. Files are chunked via the TUS resumable upload protocol so large transfers survive network interruptions. Thumbnails are generated and cached with inode-stable references, metadata lives in SQLite, and webhook events are signed with HMAC-SHA256. Multi-arch Docker images support both x86 and ARM homelabs.",
       "description_de": "Eine selbst gehostete Dateispeicher- und Sync-Plattform mit einem Go REST-Backend und einem Flutter Mobile-Client. Dateien werden per TUS-Protokoll für unterbrechungsfreie große Transfers aufgeteilt. Thumbnails werden mit inode-stabilen Referenzen generiert und gecacht, Metadaten liegen in SQLite, und Webhook-Events sind HMAC-SHA256-signiert. Multi-Arch Docker-Images unterstützen x86 und ARM.",
@@ -271,6 +293,7 @@
       ]
     },
     {
+      "id": "homelab-automation",
       "name": "homelab-automation",
       "description": "A fully automated homelab configuration managed with Ansible and deployed over a Tailscale VPN. Two nodes cover the stack: a VPS hosting Caddy, CrowdSec, and public services like mljr.eu, and a home NUC running Grafana, Prometheus, and compute workloads. Everything from firewall rules to service updates is codified and repeatable.",
       "description_de": "Eine vollständig automatisierte Homelab-Konfiguration, verwaltet mit Ansible und über ein Tailscale-VPN bereitgestellt. Zwei Nodes decken den Stack ab: ein VPS mit Caddy, CrowdSec und öffentlichen Diensten wie mljr.eu, sowie ein Heim-NUC mit Grafana, Prometheus und Compute-Workloads. Von Firewall-Regeln bis zu Service-Updates ist alles kodifiziert und wiederholbar.",
@@ -295,6 +318,7 @@
       "links": []
     },
     {
+      "id": "homepage",
       "name": "homepage",
       "description": "The previous version of this portfolio site, built as a static HTML/CSS/JS project. Kept public as a historical reference.",
       "description_de": "Die Vorgängerversion dieser Portfolio-Seite, gebaut als statisches HTML/CSS/JS-Projekt. Als historische Referenz öffentlich behalten.",
@@ -312,6 +336,7 @@
       "links": []
     },
     {
+      "id": "jku-master-project-network-devices-power-consumption-analysis",
       "name": "jku-master-project-network-devices-power-consumption-analysis",
       "description": "A master's project measuring the power consumption of network devices under different traffic loads. A FritzBox smart plug captures energy data while Go tooling generates UDP, TCP, and Layer-2 loads; results are exported to CSV and Excel for analysis.",
       "description_de": "Ein Masterprojekt zur Messung des Stromverbrauchs von Netzwerkgeräten unter verschiedenen Lasttypen. Ein FritzBox-Smartplug erfasst Energiedaten, während Go-Tools UDP-, TCP- und Layer-2-Last generieren; Ergebnisse werden als CSV und Excel exportiert.",
@@ -334,6 +359,7 @@
       "links": []
     },
     {
+      "id": "mljr-web",
       "name": "mljr-web",
       "description": "The portfolio you are looking at — built from scratch in Go using gomponents for type-safe HTML, Datastar for reactive updates without JavaScript frameworks, and Tailwind v4 for styling. A neo-brutalist four-theme component library powers over 170 UI components rendered server-side. The full monorepo includes a data pipeline, asset optimizer, and i18n support in EN and DE.",
       "description_de": "Das Portfolio, das du gerade siehst — von Grund auf in Go gebaut mit gomponents für typsicheres HTML, Datastar für reaktive Updates ohne JavaScript-Frameworks und Tailwind v4 für das Styling. Eine neo-brutalistische Vierthemen-Komponentenbibliothek treibt über 170 serverseitig gerenderte UI-Komponenten an. Das Monorepo umfasst eine Datenpipeline, Asset-Optimierer und i18n-Unterstützung in EN und DE.",
@@ -367,6 +393,7 @@
       ]
     },
     {
+      "id": "nightscout-display",
       "name": "nightscout-display",
       "description": "A Stream Deck plugin that shows live Nightscout CGM glucose readings on a Stream Deck key. Supports numeric display and a scrolling sparkline graph, with configurable time ranges and color-coded alert levels.",
       "description_de": "Ein Stream-Deck-Plugin, das Live-Nightscout-CGM-Glukosewerte auf einem Stream-Deck-Key anzeigt. Numerische Anzeige und scrollendes Sparkline-Diagramm mit konfigurierbaren Zeitbereichen und farbcodierten Alarmstufen.",
@@ -387,6 +414,7 @@
       "links": []
     },
     {
+      "id": "nightscout-tray",
       "name": "nightscout-tray",
       "description": "A cross-platform system tray application for people using CGM (continuous glucose monitoring). Built with Wails3, it runs natively on Windows, macOS, and Linux, showing the current glucose value directly in the system tray with color-coded urgency levels. Configurable polling, unit conversion, and delta trend arrows give a quick at-a-glance status without opening a browser.",
       "description_de": "Eine plattformübergreifende Systemleisten-App für CGM-Nutzer (kontinuierliches Glukosemonitoring). Mit Wails3 gebaut läuft sie nativ auf Windows, macOS und Linux und zeigt den aktuellen Glukosewert direkt in der Systemleiste mit farbkodierten Dringlichkeitsstufen. Konfigurierbares Polling, Einheitenkonvertierung und Delta-Trendpfeile geben einen schnellen Überblick ohne Browser.",
@@ -410,6 +438,7 @@
       "links": []
     },
     {
+      "id": "regex",
       "name": "Regex Lab",
       "description": "An interactive regex workbench built in Go + Datastar. Uses regexp2 (PCRE-compatible engine) for backreferences, lookahead, and lookbehind. Matches highlight as you type via server-sent events, with a built-in cheat sheet and 20+ preset examples.",
       "description_de": "Eine interaktive Regex-Werkbank in Go + Datastar. Nutzt regexp2 (PCRE-kompatibel) für Backreferences, Lookahead und Lookbehind. Treffer werden per Server-Sent Events live hervorgehoben, mit eingebautem Spickzettel und 20+ Preset-Beispielen.",
@@ -435,6 +464,7 @@
       ]
     },
     {
+      "id": "service-template",
       "name": "service-template",
       "description": "An opinionated Go service scaffold with GitHub Actions CI/CD, multi-environment Docker builds, and first-class homelab Caddy integration baked in. Clone and rename to start a production-ready Go service.",
       "description_de": "Ein meinungsstarkes Go-Service-Grundgerüst mit GitHub Actions CI/CD, Multi-Environment Docker-Builds und direkt integrierter Homelab Caddy-Konfiguration. Klonen und umbenennen für einen produktionsfertigen Go-Service.",
@@ -465,6 +495,7 @@
       ]
     },
     {
+      "id": "sudoku-gen",
       "name": "sudoku-gen",
       "description": "A web-based Sudoku generator and solver supporting 9×9, 12×12, and 16×16 grids including jigsaw variants. Uses Web Workers to keep the UI responsive during puzzle generation, with batch-print and database features.",
       "description_de": "Ein webbasierter Sudoku-Generator und -Löser für 9×9-, 12×12- und 16×16-Raster inkl. Jigsaw-Varianten. Nutzt Web Workers für responsive UI, mit Stapeldruck und Datenbankfunktionen.",
@@ -484,9 +515,15 @@
       ],
       "featured": false,
       "order": 10,
-      "links": []
+      "links": [
+        {
+          "name": "Live",
+          "url": "https://sudoku.mljr.eu/"
+        }
+      ]
     },
     {
+      "id": "webcambot",
       "name": "webcambot",
       "description": "A Discord bot that fetches snapshots and video clips from Home Assistant camera entities on command. Configurable clip lengths and instant image delivery make it useful for home monitoring over Discord.",
       "description_de": "Ein Discord-Bot, der auf Befehl Schnappschüsse und Videoclips von Home-Assistant-Kameraentitäten abruft. Konfigurierbare Cliplängen und sofortige Bildübermittlung machen ihn nützlich für Heim-Monitoring via Discord.",
@@ -652,7 +689,7 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-06-16T10:10:47Z",
+    "generated_at": "2026-06-17T13:29:22Z",
     "total_stats": {
       "count": 188,
       "distance": 1529301.899999999,
@@ -1270,7 +1307,7 @@
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 819,
+    "commits_year": 823,
     "longest_streak": 11,
     "contributions": [
       {
@@ -2731,125 +2768,125 @@
       },
       {
         "date": "2026-06-17",
-        "count": 6
+        "count": 10
       }
     ],
     "language_share": [
       {
         "name": "Svelte",
-        "pct": 21.986847299730268
+        "pct": 21.9850613457359
       },
       {
         "name": "Go",
-        "pct": 18.882397245218353
+        "pct": 18.888986289326347
       },
       {
         "name": "JavaScript",
-        "pct": 12.121908571420171
+        "pct": 12.120923929523249
       },
       {
         "name": "HTML",
-        "pct": 9.154427521938933
+        "pct": 9.153683923451341
       },
       {
         "name": "CSS",
-        "pct": 7.857683460356273
+        "pct": 7.857045194170528
       },
       {
         "name": "TypeScript",
-        "pct": 6.063302194518226
+        "pct": 6.06280968285315
       },
       {
         "name": "Rust",
-        "pct": 3.8144558402003157
+        "pct": 3.814145998477613
       },
       {
         "name": "TeX",
-        "pct": 3.4915104028441766
+        "pct": 3.491226793426904
       },
       {
         "name": "C#",
-        "pct": 3.1933581473446484
+        "pct": 3.193098756325056
       },
       {
         "name": "Python",
-        "pct": 2.422067806503643
+        "pct": 2.4218710660790297
       },
       {
         "name": "Kotlin",
-        "pct": 2.194233352177867
+        "pct": 2.1940551183562333
       },
       {
         "name": "Dart",
-        "pct": 2.168466086823554
+        "pct": 2.1682899460328064
       },
       {
         "name": "ASP.NET",
-        "pct": 1.6699558832070212
+        "pct": 1.6698202355473373
       },
       {
         "name": "Shell",
-        "pct": 1.0321517394190638
+        "pct": 1.0320678994989207
       },
       {
         "name": "Vue",
-        "pct": 0.7687172900923578
+        "pct": 0.7686548485018894
       },
       {
         "name": "ShaderLab",
-        "pct": 0.739678574500479
+        "pct": 0.739618491675203
       },
       {
         "name": "Makefile",
-        "pct": 0.4984091194799791
+        "pct": 0.498368634559807
       },
       {
         "name": "SCSS",
-        "pct": 0.4199953979149467
+        "pct": 0.41996128240723896
       },
       {
         "name": "Jinja",
-        "pct": 0.33951404628403686
+        "pct": 0.3394864681388467
       },
       {
         "name": "Typst",
-        "pct": 0.24717828227542965
+        "pct": 0.24715820440639577
       },
       {
         "name": "Swift",
-        "pct": 0.23145510430780158
+        "pct": 0.23143630360561718
       },
       {
         "name": "Java",
-        "pct": 0.20282072526213876
+        "pct": 0.20280425048158085
       },
       {
         "name": "HLSL",
-        "pct": 0.12859740063061798
+        "pct": 0.12858695488374983
       },
       {
         "name": "Dockerfile",
-        "pct": 0.12481134024332238
+        "pct": 0.12480120203166285
       },
       {
         "name": "NSIS",
-        "pct": 0.11401371656596236
+        "pct": 0.11400445542680321
       },
       {
         "name": "Ruby",
-        "pct": 0.06525440487909234
+        "pct": 0.06524910437541143
       },
       {
         "name": "GLSL",
-        "pct": 0.05694712674774472
+        "pct": 0.05694250103005557
       },
       {
         "name": "Objective-C",
-        "pct": 0.008013215188645053
+        "pct": 0.008012564288883082
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.001828703924931612
+        "pct": 0.0018285553824400611
       }
     ]
   },

@@ -77,6 +77,7 @@ type Thesis struct {
 }
 
 type Project struct {
+	ID            string        `json:"id"`
 	Name          string        `json:"name"`
 	Description   string        `json:"description"`
 	DescriptionDE string        `json:"description_de,omitempty"`
