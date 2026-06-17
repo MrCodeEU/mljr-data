@@ -247,9 +247,16 @@ func convertStats(t statsTotals) types.StravaStats {
 }
 
 func convertActivity(a activityDTO) types.StravaActivity {
+	// Strava's API does not expose a calories field on activities (list or
+	// detail) for this account/scope — only kilojoules (mechanical work).
+	// Human gross efficiency (~24%) and the kJ->kcal conversion (~0.239)
+	// roughly cancel out, so kilojoules of work approximates kcal burned
+	// 1:1 — the same convention Strava's own UI uses for power-based
+	// activities. A 0.239 multiplier here was double-converting and made
+	// every estimate ~4x too low.
 	calories := a.Calories
 	if calories == 0 && a.Kilojoules > 0 {
-		calories = a.Kilojoules * 0.239
+		calories = a.Kilojoules
 	}
 	avgPace := 0.0
 	if a.AverageSpeed > 0 {

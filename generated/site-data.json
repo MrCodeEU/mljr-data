@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-06-17T18:51:50Z",
+  "generated_at": "2026-06-17T19:02:50Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -895,7 +895,7 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-06-17T18:51:50Z",
+    "generated_at": "2026-06-17T19:02:50Z",
     "total_stats": {
       "count": 189,
       "distance": 1534331.199999999,
@@ -926,7 +926,7 @@
         "max_speed": 4.28,
         "average_heartrate": 169.6,
         "max_heartrate": 186,
-        "calories": 137.2099
+        "calories": 574.1
       },
       {
         "id": 18932799902,
@@ -955,7 +955,7 @@
         "max_speed": 4.26,
         "average_heartrate": 174.9,
         "max_heartrate": 188,
-        "calories": 188.1169
+        "calories": 787.1
       },
       {
         "id": 18891803009,
@@ -972,7 +972,7 @@
         "max_speed": 3.68,
         "average_heartrate": 168.5,
         "max_heartrate": 179,
-        "calories": 139.9106
+        "calories": 585.4
       },
       {
         "id": 18879843914,
@@ -1013,7 +1013,7 @@
         "max_speed": 7.64,
         "average_heartrate": 166.1,
         "max_heartrate": 185,
-        "calories": 137.7118
+        "calories": 576.2
       },
       {
         "id": 18813627198,
@@ -1068,7 +1068,7 @@
         "max_speed": 3.547,
         "average_heartrate": 158.6,
         "max_heartrate": 176,
-        "calories": 1060.8492999999999
+        "calories": 4438.7
       },
       "longest_time": {
         "id": 15809175143,
@@ -1085,7 +1085,7 @@
         "max_speed": 3.547,
         "average_heartrate": 158.6,
         "max_heartrate": 176,
-        "calories": 1060.8492999999999
+        "calories": 4438.7
       },
       "fastest_pace": {
         "id": 18958654287,
@@ -1102,7 +1102,7 @@
         "max_speed": 4.28,
         "average_heartrate": 169.6,
         "max_heartrate": 186,
-        "calories": 137.2099
+        "calories": 574.1
       },
       "most_elevation": {
         "id": 18631130614,
@@ -1119,7 +1119,7 @@
         "max_speed": 3.82,
         "average_heartrate": 162.7,
         "max_heartrate": 178,
-        "calories": 271.76689999999996
+        "calories": 1137.1
       }
     },
     "personal_records": [
@@ -1143,7 +1143,7 @@
           "max_speed": 4.28,
           "average_heartrate": 169.6,
           "max_heartrate": 186,
-          "calories": 137.2099
+          "calories": 574.1
         }
       },
       {
@@ -1166,7 +1166,7 @@
           "max_speed": 3.82,
           "average_heartrate": 162.7,
           "max_heartrate": 178,
-          "calories": 271.76689999999996
+          "calories": 1137.1
         }
       },
       {
@@ -1189,7 +1189,7 @@
           "max_speed": 3.547,
           "average_heartrate": 158.6,
           "max_heartrate": 176,
-          "calories": 1060.8492999999999
+          "calories": 4438.7
         }
       }
     ],
@@ -1217,7 +1217,7 @@
             "max_speed": 4.28,
             "average_heartrate": 169.6,
             "max_heartrate": 186,
-            "calories": 137.2099
+            "calories": 574.1
           },
           {
             "id": 18912596158,
@@ -1234,7 +1234,7 @@
             "max_speed": 4.26,
             "average_heartrate": 174.9,
             "max_heartrate": 188,
-            "calories": 188.1169
+            "calories": 787.1
           },
           {
             "id": 18891803009,
@@ -1251,7 +1251,7 @@
             "max_speed": 3.68,
             "average_heartrate": 168.5,
             "max_heartrate": 179,
-            "calories": 139.9106
+            "calories": 585.4
           },
           {
             "id": 18837848727,
@@ -1268,7 +1268,7 @@
             "max_speed": 7.64,
             "average_heartrate": 166.1,
             "max_heartrate": 185,
-            "calories": 137.7118
+            "calories": 576.2
           },
           {
             "id": 18715127731,
@@ -1285,7 +1285,7 @@
             "max_speed": 4,
             "average_heartrate": 164.5,
             "max_heartrate": 181,
-            "calories": 132.2387
+            "calories": 553.3
           }
         ]
       },
@@ -1513,7 +1513,7 @@
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 837,
+    "commits_year": 839,
     "longest_streak": 11,
     "contributions": [
       {
@@ -2974,125 +2974,125 @@
       },
       {
         "date": "2026-06-17",
-        "count": 24
+        "count": 26
       }
     ],
     "language_share": [
       {
         "name": "Svelte",
-        "pct": 21.958073045820026
+        "pct": 21.95804886357713
       },
       {
         "name": "Go",
-        "pct": 18.981278388118373
+        "pct": 18.981367613361456
       },
       {
         "name": "JavaScript",
-        "pct": 12.106044592817147
+        "pct": 12.1060312605311
       },
       {
         "name": "HTML",
-        "pct": 9.142447094807734
+        "pct": 9.14243702630692
       },
       {
         "name": "CSS",
-        "pct": 7.8474000861211035
+        "pct": 7.84739144384477
       },
       {
         "name": "TypeScript",
-        "pct": 6.055367132501319
+        "pct": 6.055360463775948
       },
       {
         "name": "Rust",
-        "pct": 3.809463850244726
+        "pct": 3.809459654913927
       },
       {
         "name": "TeX",
-        "pct": 3.486941052564342
+        "pct": 3.486937212425213
       },
       {
         "name": "C#",
-        "pct": 3.189178989828092
+        "pct": 3.1891754776118413
       },
       {
         "name": "Python",
-        "pct": 2.4188980390011863
+        "pct": 2.4188953750889293
       },
       {
         "name": "Kotlin",
-        "pct": 2.191361752318497
+        "pct": 2.1913593389900567
       },
       {
         "name": "Dart",
-        "pct": 2.1656282086626963
+        "pct": 2.1656258236743935
       },
       {
         "name": "ASP.NET",
-        "pct": 1.667770406865313
+        "pct": 1.6677685701636593
       },
       {
         "name": "Shell",
-        "pct": 1.0308009592995189
+        "pct": 1.0307998240870109
       },
       {
         "name": "Vue",
-        "pct": 0.7677112674375961
+        "pct": 0.7677104219635736
       },
       {
         "name": "ShaderLab",
-        "pct": 0.738710554901102
+        "pct": 0.7387097413653226
       },
       {
         "name": "Makefile",
-        "pct": 0.5050345604060981
+        "pct": 0.5050340042157445
       },
       {
         "name": "SCSS",
-        "pct": 0.4194457486607361
+        "pct": 0.4194452867286278
       },
       {
         "name": "Jinja",
-        "pct": 0.3390697232194021
+        "pct": 0.339069349804741
       },
       {
         "name": "Typst",
-        "pct": 0.24685479930589183
+        "pct": 0.24685452744675807
       },
       {
         "name": "Swift",
-        "pct": 0.2311521983090749
+        "pct": 0.23115194374308481
       },
       {
         "name": "Java",
-        "pct": 0.20255529316232948
+        "pct": 0.20255507008987275
       },
       {
         "name": "HLSL",
-        "pct": 0.12842910482142353
+        "pct": 0.12842896338352042
       },
       {
         "name": "Dockerfile",
-        "pct": 0.12464799926286796
+        "pct": 0.12464786198906491
       },
       {
         "name": "NSIS",
-        "pct": 0.11386450646844375
+        "pct": 0.11386438107041144
       },
       {
         "name": "Ruby",
-        "pct": 0.06516900624102676
+        "pct": 0.06516893447094316
       },
       {
         "name": "GLSL",
-        "pct": 0.056872599869827185
+        "pct": 0.05687253723650679
       },
       {
         "name": "Objective-C",
-        "pct": 0.008002728269564193
+        "pct": 0.008002719456226225
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.0018263106945450394
+        "pct": 0.001826308683244288
       }
     ]
   },
