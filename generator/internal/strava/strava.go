@@ -253,7 +253,7 @@ func convertActivity(a activityDTO) types.StravaActivity {
 	}
 	avgPace := 0.0
 	if a.AverageSpeed > 0 {
-		avgPace = 1 / a.AverageSpeed
+		avgPace = 1000 / (a.AverageSpeed * 60)
 	}
 	return types.StravaActivity{
 		ID:                 a.ID,
