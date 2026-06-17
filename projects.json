@@ -2,6 +2,48 @@
   "schema_version": "projects.v1",
   "curated": [
     {
+      "id": "regex",
+      "name": "Regex Lab",
+      "show": true,
+      "summary": "Live PCRE regex tester — pattern, flags and test string update matches in real time without page reloads.",
+      "description": "An interactive regex workbench built in Go + Datastar. Uses regexp2 (PCRE-compatible engine) for backreferences, lookahead, and lookbehind. Matches highlight as you type via server-sent events, with a built-in cheat sheet and 20+ preset examples.",
+      "description_de": "Eine interaktive Regex-Werkbank in Go + Datastar. Nutzt regexp2 (PCRE-kompatibel) für Backreferences, Lookahead und Lookbehind. Treffer werden per Server-Sent Events live hervorgehoben, mit eingebautem Spickzettel und 20+ Preset-Beispielen.",
+      "repo": "https://github.com/MrCodeEU/mljr-web",
+      "homepage": "https://regex.mljr.eu",
+      "featured": false,
+      "order": 1,
+      "topics": ["Go", "Regex", "PCRE", "Datastar", "SSE", "live-tool"],
+      "images": []
+    },
+    {
+      "id": "cron",
+      "name": "Cron Explorer",
+      "show": true,
+      "summary": "Parse and preview cron expressions live — field breakdown, next 10 execution times, and human-readable descriptions.",
+      "description": "An interactive cron expression explorer built in Go + Datastar. Supports standard 5-field and 6-field (with seconds) syntax, @aliases, and common presets. Shows a field-by-field breakdown and the next 10 execution times with countdown.",
+      "description_de": "Ein interaktiver Cron-Explorer in Go + Datastar. Unterstützt 5-Feld- und 6-Feld-Syntax (mit Sekunden), @-Aliase und gängige Presets. Zeigt eine Feldaufschlüsselung und die nächsten 10 Ausführungszeiten mit Countdown.",
+      "repo": "https://github.com/MrCodeEU/mljr-web",
+      "homepage": "https://cron.mljr.eu",
+      "featured": false,
+      "order": 2,
+      "topics": ["Go", "Cron", "Datastar", "SSE", "live-tool"],
+      "images": []
+    },
+    {
+      "id": "codec",
+      "name": "Codec",
+      "show": true,
+      "summary": "Compute MD5/SHA1/SHA256/SHA512 hashes and encode/decode Base64, URL percent-encoding, and HTML entities.",
+      "description": "A multi-mode encode/decode tool built in Go + Datastar. Hash mode computes all four digests simultaneously. Encoding modes support Base64, URL percent-encoding, and HTML entity encoding — all processed server-side via SSE.",
+      "description_de": "Ein Multi-Modus-Kodierungswerkzeug in Go + Datastar. Im Hash-Modus werden alle vier Digest-Varianten gleichzeitig berechnet. Kodierungsmodi: Base64, URL-Prozent-Kodierung und HTML-Entity-Kodierung — alles serverseitig per SSE.",
+      "repo": "https://github.com/MrCodeEU/mljr-web",
+      "homepage": "https://codec.mljr.eu",
+      "featured": false,
+      "order": 3,
+      "topics": ["Go", "Crypto", "Base64", "Datastar", "SSE", "live-tool"],
+      "images": []
+    },
+    {
       "id": "AOC2024",
       "name": "AOC2024",
       "show": true,
