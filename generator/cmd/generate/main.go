@@ -342,11 +342,15 @@ func buildProjects(pf types.ProjectsFile, repos []githubapi.RepoSummary) ([]type
 			Description:   desc,
 			DescriptionDE: c.DescriptionDE,
 			URL:           c.Repo,
-			Topics:      c.Topics,
-			Images:      c.Images,
-			Featured:    c.Featured,
-			Order:       c.Order,
-			Links:       c.Links,
+			Topics:        c.Topics,
+			Images:        c.Images,
+			Featured:      c.Featured,
+			Order:         c.Order,
+			Links:         c.Links,
+			LongDesc:      c.LongDesc,
+			LongDescDE:    c.LongDescDE,
+			Diagram:       c.Diagram,
+			Snippets:      c.Snippets,
 		}
 		if p.Links == nil {
 			p.Links = []types.ProjectLink{}

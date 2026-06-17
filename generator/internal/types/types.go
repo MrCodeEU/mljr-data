@@ -5,11 +5,11 @@ package types
 
 // SiteData is the merged, versioned payload consumed by the homepage.
 type SiteData struct {
-	SchemaVersion  string       `json:"schema_version"`
-	GeneratedAt    string       `json:"generated_at"`
-	GitHubProjects []Project    `json:"github_projects"`
-	LinkedInData   LinkedInData `json:"linkedin_data"`
-	StravaData     StravaData   `json:"strava_data"`
+	SchemaVersion  string                 `json:"schema_version"`
+	GeneratedAt    string                 `json:"generated_at"`
+	GitHubProjects []Project              `json:"github_projects"`
+	LinkedInData   LinkedInData           `json:"linkedin_data"`
+	StravaData     StravaData             `json:"strava_data"`
 	GitHubStats    *GitHubStats           `json:"github_stats,omitempty"`
 	Content        map[string]SiteContent `json:"content"`
 	Thesis         map[string][]Thesis    `json:"thesis"`
@@ -77,18 +77,22 @@ type Thesis struct {
 }
 
 type Project struct {
-	ID            string        `json:"id"`
-	Name          string        `json:"name"`
-	Description   string        `json:"description"`
-	DescriptionDE string        `json:"description_de,omitempty"`
-	URL           string        `json:"url"`
-	Stars       int           `json:"stars"`
-	Language    string        `json:"language"`
-	Topics      []string      `json:"topics"`
-	Images      []string      `json:"images"`
-	Featured    bool          `json:"featured"`
-	Order       int           `json:"order,omitempty"`
-	Links       []ProjectLink `json:"links"`
+	ID            string           `json:"id"`
+	Name          string           `json:"name"`
+	Description   string           `json:"description"`
+	DescriptionDE string           `json:"description_de,omitempty"`
+	URL           string           `json:"url"`
+	Stars         int              `json:"stars"`
+	Language      string           `json:"language"`
+	Topics        []string         `json:"topics"`
+	Images        []string         `json:"images"`
+	Featured      bool             `json:"featured"`
+	Order         int              `json:"order,omitempty"`
+	Links         []ProjectLink    `json:"links"`
+	LongDesc      string           `json:"long_desc,omitempty"`
+	LongDescDE    string           `json:"long_desc_de,omitempty"`
+	Diagram       string           `json:"diagram,omitempty"`
+	Snippets      []ProjectSnippet `json:"snippets,omitempty"`
 }
 
 type ProjectLink struct {

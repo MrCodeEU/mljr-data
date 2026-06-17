@@ -232,6 +232,41 @@
             "$ref": "#/$defs/project_link"
           },
           "default": []
+        },
+        "long_desc": {
+          "type": "string"
+        },
+        "long_desc_de": {
+          "type": "string"
+        },
+        "diagram": {
+          "type": "string"
+        },
+        "snippets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/project_snippet"
+          },
+          "default": []
+        }
+      }
+    },
+    "project_snippet": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["caption", "filename", "language", "code"],
+      "properties": {
+        "caption": {
+          "type": "string"
+        },
+        "filename": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        },
+        "code": {
+          "type": "string"
         }
       }
     },
