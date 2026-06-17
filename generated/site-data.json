@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-06-16T10:14:54Z",
+  "generated_at": "2026-06-17T07:46:04Z",
   "github_projects": [
     {
       "name": "AOC2024",
@@ -169,6 +169,55 @@
       "featured": false,
       "order": 50,
       "links": []
+    },
+    {
+      "name": "Codec",
+      "description": "A multi-mode encode/decode tool built in Go + Datastar. Hash mode computes all four digests simultaneously. Encoding modes support Base64, URL percent-encoding, and HTML entity encoding — all processed server-side via SSE.",
+      "description_de": "Ein Multi-Modus-Kodierungswerkzeug in Go + Datastar. Im Hash-Modus werden alle vier Digest-Varianten gleichzeitig berechnet. Kodierungsmodi: Base64, URL-Prozent-Kodierung und HTML-Entity-Kodierung — alles serverseitig per SSE.",
+      "url": "https://github.com/MrCodeEU/mljr-web",
+      "stars": 0,
+      "language": "Go",
+      "topics": [
+        "Go",
+        "Crypto",
+        "Base64",
+        "Datastar",
+        "SSE",
+        "live-tool"
+      ],
+      "images": [],
+      "featured": false,
+      "order": 3,
+      "links": [
+        {
+          "name": "Live",
+          "url": "https://codec.mljr.eu"
+        }
+      ]
+    },
+    {
+      "name": "Cron Explorer",
+      "description": "An interactive cron expression explorer built in Go + Datastar. Supports standard 5-field and 6-field (with seconds) syntax, @aliases, and common presets. Shows a field-by-field breakdown and the next 10 execution times with countdown.",
+      "description_de": "Ein interaktiver Cron-Explorer in Go + Datastar. Unterstützt 5-Feld- und 6-Feld-Syntax (mit Sekunden), @-Aliase und gängige Presets. Zeigt eine Feldaufschlüsselung und die nächsten 10 Ausführungszeiten mit Countdown.",
+      "url": "https://github.com/MrCodeEU/mljr-web",
+      "stars": 0,
+      "language": "Go",
+      "topics": [
+        "Go",
+        "Cron",
+        "Datastar",
+        "SSE",
+        "live-tool"
+      ],
+      "images": [],
+      "featured": false,
+      "order": 2,
+      "links": [
+        {
+          "name": "Live",
+          "url": "https://cron.mljr.eu"
+        }
+      ]
     },
     {
       "name": "face-auth",
@@ -359,6 +408,31 @@
       "featured": true,
       "order": 3,
       "links": []
+    },
+    {
+      "name": "Regex Lab",
+      "description": "An interactive regex workbench built in Go + Datastar. Uses regexp2 (PCRE-compatible engine) for backreferences, lookahead, and lookbehind. Matches highlight as you type via server-sent events, with a built-in cheat sheet and 20+ preset examples.",
+      "description_de": "Eine interaktive Regex-Werkbank in Go + Datastar. Nutzt regexp2 (PCRE-kompatibel) für Backreferences, Lookahead und Lookbehind. Treffer werden per Server-Sent Events live hervorgehoben, mit eingebautem Spickzettel und 20+ Preset-Beispielen.",
+      "url": "https://github.com/MrCodeEU/mljr-web",
+      "stars": 0,
+      "language": "Go",
+      "topics": [
+        "Go",
+        "Regex",
+        "PCRE",
+        "Datastar",
+        "SSE",
+        "live-tool"
+      ],
+      "images": [],
+      "featured": false,
+      "order": 1,
+      "links": [
+        {
+          "name": "Live",
+          "url": "https://regex.mljr.eu"
+        }
+      ]
     },
     {
       "name": "service-template",
@@ -1196,13 +1270,9 @@
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 800,
+    "commits_year": 817,
     "longest_streak": 11,
     "contributions": [
-      {
-        "date": "2025-06-17",
-        "count": 0
-      },
       {
         "date": "2025-06-18",
         "count": 0
@@ -2649,7 +2719,7 @@
       },
       {
         "date": "2026-06-14",
-        "count": 7
+        "count": 8
       },
       {
         "date": "2026-06-15",
@@ -2657,125 +2727,129 @@
       },
       {
         "date": "2026-06-16",
-        "count": 14
+        "count": 26
+      },
+      {
+        "date": "2026-06-17",
+        "count": 4
       }
     ],
     "language_share": [
       {
         "name": "Svelte",
-        "pct": 22.14382350496748
+        "pct": 21.987520138184404
       },
       {
         "name": "Go",
-        "pct": 18.34697500629808
+        "pct": 18.879914895580107
       },
       {
         "name": "JavaScript",
-        "pct": 12.208453549053104
+        "pct": 12.122279524386421
       },
       {
         "name": "HTML",
-        "pct": 9.219786018949582
+        "pct": 9.154707664461341
       },
       {
         "name": "CSS",
-        "pct": 7.901705914048852
+        "pct": 7.85792392009661
       },
       {
         "name": "TypeScript",
-        "pct": 6.106591446348049
+        "pct": 6.0634877428517315
       },
       {
         "name": "Rust",
-        "pct": 3.8416893400594287
+        "pct": 3.8145725696493313
       },
       {
         "name": "TeX",
-        "pct": 3.516438217465031
+        "pct": 3.4916172495616715
       },
       {
         "name": "C#",
-        "pct": 3.2161572888995917
+        "pct": 3.193455870048139
       },
       {
         "name": "Python",
-        "pct": 2.439360281768926
+        "pct": 2.422141926287008
       },
       {
         "name": "Kotlin",
-        "pct": 2.209899191865307
+        "pct": 2.194300499802834
       },
       {
         "name": "Dart",
-        "pct": 2.183947959820385
+        "pct": 2.1685324459222377
       },
       {
         "name": "ASP.NET",
-        "pct": 1.6818786174619953
+        "pct": 1.670006986965537
       },
       {
         "name": "Shell",
-        "pct": 1.039520838820822
+        "pct": 1.0321833251835582
       },
       {
         "name": "Vue",
-        "pct": 0.7742055859564223
+        "pct": 0.7687408142723405
       },
       {
         "name": "ShaderLab",
-        "pct": 0.7449595469899625
+        "pct": 0.7397012100417113
       },
       {
         "name": "Makefile",
-        "pct": 0.4862986934979947
+        "pct": 0.498424371726784
       },
       {
         "name": "SCSS",
-        "pct": 0.42299397624148044
+        "pct": 0.42000825055591084
       },
       {
         "name": "Jinja",
-        "pct": 0.3406238032030336
+        "pct": 0.3395244360458315
       },
       {
         "name": "Typst",
-        "pct": 0.24894302408855554
+        "pct": 0.2471858463909699
       },
       {
         "name": "Swift",
-        "pct": 0.23310758969880466
+        "pct": 0.2314621872648286
       },
       {
         "name": "Java",
-        "pct": 0.204268774059726
+        "pct": 0.20282693195386634
       },
       {
         "name": "HLSL",
-        "pct": 0.12951552825842985
-      },
-      {
-        "name": "NSIS",
-        "pct": 0.11482772324584387
+        "pct": 0.1286013359504511
       },
       {
         "name": "Dockerfile",
-        "pct": 0.11104239731632425
+        "pct": 0.12481515970266019
+      },
+      {
+        "name": "NSIS",
+        "pct": 0.11401720559791671
       },
       {
         "name": "Ruby",
-        "pct": 0.06572029199393385
+        "pct": 0.06525640178534751
       },
       {
         "name": "GLSL",
-        "pct": 0.057353703631377
+        "pct": 0.056948869435825736
       },
       {
         "name": "Objective-C",
-        "pct": 0.008070425942643334
+        "pct": 0.008013460407945787
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.001841760048837183
+        "pct": 0.0018287598866757013
       }
     ]
   },
