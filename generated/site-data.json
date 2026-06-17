@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-06-17T13:34:57Z",
+  "generated_at": "2026-06-17T17:35:52Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -19,8 +19,9 @@
         "/assets/portfolio/AOC2024/0.webp"
       ],
       "featured": false,
-      "order": 100,
-      "links": []
+      "order": 240,
+      "links": [],
+      "long_desc": "Solutions to all of Advent of Code 2024's daily puzzles, written in Kotlin. Each day is solved independently with an emphasis on readable, idiomatic implementations rather than maximally golfed one-liners — the puzzles range from parsing and simulation to graph search and constraint solving, and the solutions double as a running log of which Kotlin standard-library idioms (sequences, destructuring, sealed classes for puzzle-specific state) fit which problem shape best."
     },
     {
       "id": "AdventOfCode2022_MrCode",
@@ -39,8 +40,9 @@
         "/assets/portfolio/AdventOfCode2022_MrCode/0.webp"
       ],
       "featured": false,
-      "order": 220,
-      "links": []
+      "order": 230,
+      "links": [],
+      "long_desc": "Solutions to Advent of Code 2022's daily puzzles, written in Kotlin — the first of two yearly AoC repos in this portfolio, working through the December puzzle calendar's mix of parsing, simulation, and small algorithmic challenges (pathfinding, cellular automata, interpreter-style puzzles) with straightforward, readable Kotlin rather than optimizing for brevity."
     },
     {
       "id": "Flexbar-Plugin-Youtube-Music-Desktop-App",
@@ -60,7 +62,8 @@
       ],
       "featured": false,
       "order": 110,
-      "links": []
+      "links": [],
+      "long_desc": "A Node.js plugin for the Flexbar macro pad that turns it into a now-playing remote for YouTube Music Desktop App: current track title, artist, and album art render directly on the Flexbar's display, with touch controls for play/pause, skip, and volume.\n\nIt talks to YouTube Music Desktop App's companion server over Socket.IO, the same real-time channel the app's own remote-control features use, so track changes and playback state show up on the Flexbar immediately rather than through a slower polling loop."
     },
     {
       "id": "Game-of-Life-Multiplatform",
@@ -86,7 +89,8 @@
           "name": "Live",
           "url": "https://gameoflife.mljr.eu/"
         }
-      ]
+      ],
+      "long_desc": "A university programming-project implementation of Conway's Game of Life built with Kotlin Multiplatform, sharing the simulation logic — grid state, generation stepping, the cell ruleset — between a desktop build and an Android app rather than writing it twice.\n\nThe project exists primarily to explore where KMP's shared-code boundary actually sits in practice: the cellular-automaton core is pure Kotlin with no platform dependencies, while rendering the grid and handling input are platform-specific UI layers on top, making it a small but concrete case study in what's worth sharing across targets and what isn't."
     },
     {
       "id": "LSTM-Based-Speaker-Diarization",
@@ -110,7 +114,8 @@
       ],
       "featured": false,
       "order": 40,
-      "links": []
+      "links": [],
+      "long_desc": "This bachelor's thesis project tackles speaker diarization — labeling who is speaking when in an audio recording — using LSTM and bidirectional LSTM networks to generate d-vectors, fixed-length embeddings that capture a speaker's voice characteristics from a short audio window.\n\nRather than picking one clustering approach and stopping there, the project systematically compares four clustering algorithms — k-means, agglomerative clustering, spectral clustering, and VBx (variational Bayes HMM clustering) — against the generated d-vectors to find which combination of embedding architecture and clustering method minimizes the diarization error rate (DER) on the evaluation set, framing the result as an empirical comparison rather than a single fixed pipeline."
     },
     {
       "id": "Lebenslauf",
@@ -132,7 +137,8 @@
       ],
       "featured": false,
       "order": 80,
-      "links": []
+      "links": [],
+      "long_desc": "The source for my CV and cover letter, written in Typst rather than LaTeX or a word processor. Typst's faster compile loop and more approachable markup make iterating on layout (margins, type scale, section spacing) quick, while still producing a precisely typeset PDF.\n\nKeeping it as plain text in git rather than a binary .docx means every revision is diffable and the whole history of edits is preserved — and regenerating an up-to-date PDF for a specific application is a single `typst compile` away, with no risk of layout drift between versions the way copy-pasting into a template can introduce."
     },
     {
       "id": "WordWiz",
@@ -159,19 +165,21 @@
           "name": "Live",
           "url": "https://wordwiz.mljr.eu/"
         }
-      ]
+      ],
+      "long_desc": "WordWiz is a SvelteKit web app for solving word games like Wordle: enter what's known so far — confirmed letters in confirmed positions, letters known to be present but misplaced, letters ruled out entirely — and it filters a wordlist down to the candidates consistent with those constraints, updating instantly as more information comes in.\n\nEverything runs client-side against a bundled wordlist, so there's no server round-trip per guess and no usage tracking — it's a small, fast, single-purpose tool rather than a general word-game platform."
     },
     {
       "id": "cg-lab-2023-project-reineggersilber",
       "name": "cg-lab-2023-project-reineggersilber",
-      "description": "A university computer graphics lab project implementing real-time 3D scenes in C++/OpenGL. Three animated scenes — furnished rooms, a Portal-inspired gun, and an alien planet — demonstrate lighting, textures, and animation techniques.",
-      "description_de": "Ein universitäres Computergrafik-Laborprojekt mit Echtzeit-3D-Szenen in C++/OpenGL. Drei animierte Szenen — eingerichtete Räume, eine Portal-inspirierte Kanone und ein Alienplanet — demonstrieren Beleuchtung, Texturen und Animationen.",
+      "description": "A university computer graphics lab project implementing real-time animated 3D scenes directly against raw WebGL (no engine, no three.js) using hand-rolled GLSL shaders. A person wanders a furnished room, pulls out a portal gun, and steps through onto a heightmap-generated alien planet.",
+      "description_de": "Ein universitaeres Computergrafik-Laborprojekt mit Echtzeit-3D-Szenen direkt auf rohem WebGL (kein Engine, kein three.js) mit handgeschriebenen GLSL-Shadern. Eine Person erkundet ein eingerichtetes Zimmer, zieht eine Portal-Kanone und tritt auf einen per Heightmap generierten Alienplaneten.",
       "url": "https://github.com/MrCodeEU/cg-lab-2023-project-reineggersilber",
       "stars": 0,
       "language": "JavaScript",
       "topics": [
-        "C++",
-        "OpenGL",
+        "JavaScript",
+        "WebGL",
+        "GLSL",
         "Computer Graphics"
       ],
       "images": [
@@ -186,7 +194,8 @@
           "name": "Live",
           "url": "https://cglab.mljr.eu/"
         }
-      ]
+      ],
+      "long_desc": "Built for a university computer graphics lab course, this project renders three connected animated scenes directly against raw WebGL — no three.js, no engine, just a small hand-written framework.js wrapper and gl-matrix for the math. A person sits in a furnished room (lit by a spotlight from a TV), gets up, pulls out a Rick-and-Morty-style portal gun, and steps through a rendered portal onto an alien planet with terrain generated procedurally from a heightmap, before stepping back through a second portal.\n\nEach scene exercises a different rendering technique done by hand against the WebGL pipeline: per-fragment lighting with a moving point-light source attached to the portal gun, GLSL shaders for surface shading, and heightmap-driven terrain generation for the alien planet — all keyframe-animated, including camera movement that follows the character between rooms."
     },
     {
       "id": "codec",
@@ -261,7 +270,8 @@
       ],
       "featured": false,
       "order": 50,
-      "links": []
+      "links": [],
+      "long_desc": "face-auth is a Linux PAM module written in Rust that authenticates logins using facial recognition, targeting IR cameras and Windows Hello–compatible infrared hardware so it isn't fooled by a printed photo or a phone screen the way plain RGB face-unlock can be.\n\nA liveness/anti-spoofing check runs before a match is accepted, and a separate egui-based graphical configuration tool handles enrolling faces and tuning thresholds without hand-editing config files. Because it's a standard PAM module, it drops into any PAM-aware stack — login, sudo, a display manager — alongside or instead of password auth, with the actual recognition and liveness logic implemented in Rust for memory safety in a process that runs with elevated authentication privileges."
     },
     {
       "id": "godrive",
@@ -290,6 +300,16 @@
           "name": "Demo",
           "url": "https://godrive.mljr.eu/"
         }
+      ],
+      "long_desc": "goDrive treats the filesystem as the source of truth — SQLite only stores metadata: sessions, the search index, trash records, and in-flight upload state. Everything else is rebuildable by reindexing the disk.\n\nUploads go through the TUS resumable protocol, so a dropped connection on a phone resuming a 4 GB video upload just picks back up rather than restarting. Once a file lands, thumbnails are generated asynchronously across several warmup sizes and cached under a key derived from the file's inode and device number rather than its path — renames and moves on the same filesystem don't invalidate the cache, only a tracked SQLite path lookup needs to update.\n\nA webhook system lets external automation react to file events (upload.complete, file.moved, file.deleted, file.restored), each delivery signed with HMAC-SHA256 so a subscriber can verify it actually came from goDrive. The same Go backend serves a Svelte web UI, a WebDAV mount for native OS clients, and a Flutter mobile app with background upload support on both Android and iOS.",
+      "diagram": "graph TD\n  Browser[\"Svelte / SVAR web UI\"] --\u003e|REST + SSE| API[Go backend]\n  Mobile[\"Flutter app (Android/iOS)\"] --\u003e|TUS resumable upload| API\n  WebDAV[\"Finder / Files / rclone\"] --\u003e|WebDAV| API\n  API --\u003e FS[(\"Filesystem\\n(source of truth)\")]\n  API --\u003e DB[(\"SQLite\\nsessions · index · trash · upload state\")]\n  API --\u003e Cache[(\"Inode-keyed\\nthumbnail cache\")]\n  API --\u003e|HMAC-SHA256 signed| Hooks[\"Webhook subscribers\"]",
+      "snippets": [
+        {
+          "caption": "Thumbnails are cached by inode+device, not by path — a file renamed or moved on the same filesystem still hits its existing cached thumbnail instead of regenerating it.",
+          "filename": "internal/server/thumbnail.go",
+          "language": "go",
+          "code": "func thumbnailCachePathInode(cacheRoot string, userID int64, logical string, info os.FileInfo, thumbSize int) string {\n\tinode, device := inodeKey(info)\n\tif inode == 0 {\n\t\treturn thumbnailCachePath(cacheRoot, userID, logical, info.Size(), info.ModTime().UnixNano(), thumbSize)\n\t}\n\tsum := sha256.Sum256(fmt.Appendf(nil, \"%d\\x00%d\\x00%d\\x00%d\\x00%d\\x00%d\\x00%d\",\n\t\tthumbnailCacheVersion, userID, inode, device, info.Size(), info.ModTime().UnixNano(), thumbSize))\n\treturn filepath.Join(cacheRoot, \"thumbs\", hex.EncodeToString(sum[:2]), hex.EncodeToString(sum[:])+\".jpg\")\n}"
+        }
       ]
     },
     {
@@ -315,7 +335,17 @@
       ],
       "featured": true,
       "order": 1,
-      "links": []
+      "links": [],
+      "long_desc": "The whole homelab — Caddy ingress, CrowdSec, Authelia, Grafana/Loki/VictoriaMetrics, and every self-hosted service this portfolio runs alongside — is described as Ansible roles rather than clicked together by hand. Two hosts cover the stack: a public VPS (mljr) terminating TLS and fronting everything through Caddy, and a home NUC running heavier workloads and the monitoring stack, joined over a Tailscale mesh so neither host needs an open inbound port beyond Caddy's 443.\n\nServices are entries in one YAML catalog: name, domain, port, which host runs it, and whether Caddy should sit it behind basic auth or Authelia SSO. A generic role turns that catalog into both a docker-compose deployment and an auto-generated Caddy reverse-proxy snippet — adding a new internet-facing service is a few lines of YAML, not a manual nginx/Caddy edit. Disabling a service in the catalog lets the same automation clean up its stale containers and proxy config instead of leaving orphaned config behind.\n\nDeploys run from GitHub Actions over the Tailscale GitHub Action, with all secrets sealed in an Ansible Vault file that's still committed to git (only the ciphertext). A `make deploy-check` dry run verifies vault decryption and host connectivity before anything touches production, and the same playbooks run identically from a laptop for local iteration. The repo also carries reusable service templates — see service-template — for the GitHub Actions workflow-dispatch pattern every deployed service's CI uses to trigger an automated rollout here.",
+      "diagram": "graph TD\n  GHA[\"GitHub Actions\"] --\u003e|Tailscale OAuth| TS[(\"Tailscale mesh\")]\n  Dev[\"make deploy-* (local)\"] --\u003e|Ansible Vault secrets| TS\n  TS --\u003e VPS[\"mljr (VPS)\\nCaddy ingress · CrowdSec · Authelia\"]\n  TS --\u003e NUC[\"nuc (home)\\nGrafana · Loki · VictoriaMetrics\"]\n  VPS --\u003e|reverse_proxy per catalog entry| Services1[\"Public services\\n*.mljr.eu\"]\n  NUC --\u003e Services2[\"Heavier workloads\\nmonitoring stack\"]\n  Catalog[(\"services catalog\\nall.yml\")] -.generates.-\u003e VPS\n  Catalog -.generates.-\u003e NUC",
+      "snippets": [
+        {
+          "caption": "One Jinja2 template turns a service's catalog entry (name, domain, port, auth type) into its Caddy reverse-proxy block — auth import and upstream picked automatically.",
+          "filename": "ansible/roles/caddy/templates/service_snippet.caddy.j2",
+          "language": "yaml",
+          "code": "{% if service.enabled | default(true) and service.domain is defined %}\n{% set is_local = service.host == inventory_hostname %}\n{% set target_host = 'localhost' if is_local else hostvars[service.host]['ansible_host'] %}\n{% set target_port = service.port %}\n{% set auth_type = service.caddy_auth | default('') %}\n\n{{ service.domain }} {\n    log {\n        output file {{ log_path }}/caddy/{{ service.name }}.log {\n            roll_size {{ caddy_log_roll_size | default('100mb') }}\n        }\n    }\n{% if auth_type == 'basicauth' %}\n    import basicauth_block\n{% elif auth_type == 'authelia' %}\n    import authelia_auth\n{% endif %}\n    reverse_proxy {{ target_host }}:{{ target_port }}\n}\n{% endif %}"
+        }
+      ]
     },
     {
       "id": "homepage",
@@ -333,7 +363,8 @@
       ],
       "featured": false,
       "order": 100,
-      "links": []
+      "links": [],
+      "long_desc": "The previous version of this portfolio site, kept public as a historical reference rather than deleted once mljr-web replaced it. It was a static HTML/CSS/JS project — no server-side rendering, no component framework, hand-written markup and vanilla JS for what little interactivity it had.\n\nIt's a useful before/after marker for how the current site evolved: from a static, manually-maintained page to a Go backend that renders everything server-side from a single data pipeline, with real-time updates via Datastar instead of none at all."
     },
     {
       "id": "jku-master-project-network-devices-power-consumption-analysis",
@@ -356,7 +387,8 @@
       ],
       "featured": false,
       "order": 60,
-      "links": []
+      "links": [],
+      "long_desc": "A university master's project measuring how a network device's power draw responds to the traffic it's actually pushing, rather than relying on vendor datasheet figures that only cover idle and theoretical-max states.\n\nA FritzBox smart plug sits in line with the device under test and logs real-time energy draw, while purpose-built Go tooling generates controlled UDP, TCP, and raw Layer-2 traffic loads at varying rates to exercise the device across its operating range. Power and load data are correlated and exported to CSV/Excel so the resulting power-vs-throughput curves can be analyzed and compared across devices — turning an otherwise manual lab measurement into a repeatable, scripted experiment."
     },
     {
       "id": "mljr-web",
@@ -390,6 +422,22 @@
           "name": "Live",
           "url": "https://mljr.eu"
         }
+      ],
+      "long_desc": "This is the monorepo behind the site you're reading. Every component — gauges, the skills radar, the regex lab, this very project detail page — is a Go function returning HTML via gomponents; there's no JSX, no client-side virtual DOM, and no npm build step in the request path. Datastar (a single ~14 kB script) wires up reactivity by reading data-* attributes already present in the server-rendered HTML, and SSE patches fragments in place for things like the homelab panel without a page reload.\n\nThe data layer is a separate Go module (mljr-data) that runs as a scheduled job: it hits the GitHub GraphQL API for contribution stats and language breakdowns, scrapes Strava and LinkedIn where APIs allow it, and writes one site-data.json that the homepage binary embeds as a build-time fallback and can also hot-reload from disk in production. Four themes × two modes are pure CSS custom-property swaps — no separate component variants to maintain.",
+      "diagram": "graph TD\n  Generator[\"mljr-data generator\\n(scheduled job)\"] --\u003e|GitHub GraphQL, Strava, LinkedIn| JSON[(\"site-data.json\")]\n  JSON --\u003e|embedded fallback + hot reload| Binary[\"homepage Go binary\"]\n  Binary --\u003e|gomponents render| HTML[\"Server-rendered HTML\"]\n  HTML --\u003e|data-* attributes| Datastar[\"Datastar (~14kB)\"]\n  Binary --\u003e|SSE PatchElements| Datastar\n  Datastar --\u003e|in-place DOM patch| HTML",
+      "snippets": [
+        {
+          "caption": "The skills radar is plain trigonometry rendered to an SVG polygon at request time — no charting library.",
+          "filename": "ui/data/radarchart.go",
+          "language": "go",
+          "code": "// Radar chart: axis i sits at angle 2πi/n, starting at\n// 12 o'clock. Values scale along the spoke; the series\n// becomes a single \u003cpolygon\u003e.\nangle := func(i int) float64 {\n\treturn float64(i)*2*math.Pi/float64(n) - math.Pi/2\n}\npt := func(radius float64, i int) (float64, float64) {\n\ta := angle(i)\n\treturn cx + radius*math.Cos(a), cy + radius*math.Sin(a)\n}\n\npts := make([]string, len(p.Axes))\nfor i := range p.Axes {\n\tscaled := (s.Values[i] / p.Max) * r\n\tx, y := pt(scaled, i)\n\tpts[i] = fmt.Sprintf(\"%.1f,%.1f\", x, y)\n}"
+        },
+        {
+          "caption": "Live updates without a framework: one attribute on the section, one SSE handler, Datastar morphs the panel in place.",
+          "filename": "projects/homepage/handlers.go",
+          "language": "go",
+          "code": "// One attribute on the section…\nh.Section(\n\th.ID(\"homelab\"),\n\tg.Attr(\"data-on-interval__duration.60s\", \"@get('/api/homelab')\"),\n)\n\n// …one SSE handler on the server.\ne.GET(\"/api/homelab\", func(c echo.Context) error {\n\tsse := datastar.NewSSE(c.Response().Writer, c.Request())\n\treturn sse.PatchElements(\n\t\tweb.RenderToString(pages.HomelabPanel(snapshot())),\n\t)\n})"
+        }
       ]
     },
     {
@@ -411,7 +459,8 @@
       ],
       "featured": false,
       "order": 180,
-      "links": []
+      "links": [],
+      "long_desc": "A Stream Deck plugin that surfaces live Nightscout continuous-glucose-monitor data directly on a Stream Deck key, polling the Nightscout API on an interval and rendering either a plain numeric readout or a small scrolling sparkline of recent readings on the key's tiny display.\n\nAlert thresholds are color-coded directly on the key — low, in-range, and high glucose render in visually distinct colors — so a glance at the Stream Deck during a stream or at a desk surfaces an out-of-range reading without needing to unlock a phone or check a dashboard. Time range and thresholds are configurable per key through the Stream Deck plugin settings UI."
     },
     {
       "id": "nightscout-tray",
@@ -435,7 +484,17 @@
       ],
       "featured": true,
       "order": 3,
-      "links": []
+      "links": [],
+      "long_desc": "nightscout-tray is a Wails3 app (Go backend, native webview frontend) that turns a continuous glucose monitor's Nightscout feed into a system tray icon. Every poll, it rasterizes a fresh 32×32 PNG on the fly with the gg 2D graphics library: a rounded rect colored by urgency status, the current glucose value as anchored text, and a direction arrow for the trend — recomputed each tick rather than swapped between a fixed set of pre-rendered icons.\n\nA separate prediction package implements an OpenAPS-style oref algorithm against recent glucose history to estimate where the value is heading, feeding configurable threshold notifications. The same binary builds natively for Windows, macOS, and Linux through Wails3's cross-platform webview bridge, with mobile builds (Android/iOS) cross-compiled through the project's own CI pipeline.",
+      "diagram": "graph TD\n  Nightscout[(\"Nightscout API\")] --\u003e|poll| Service[\"internal/app/service.go\"]\n  Service --\u003e Predictor[\"oref-style predictor\\n(internal/prediction)\"]\n  Service --\u003e IconGen[\"IconGenerator\\n(gg rasterizer)\"]\n  Predictor --\u003e|trend + forecast| Notifications[\"Threshold notifications\"]\n  IconGen --\u003e|fresh PNG per tick| Tray[\"System tray icon\"]\n  Service --\u003e Tray",
+      "snippets": [
+        {
+          "caption": "The tray icon isn't a static asset — it's rasterized fresh on every poll: status color, the glucose value as text, and a trend arrow drawn onto a 32×32 canvas.",
+          "filename": "internal/tray/icon.go",
+          "language": "go",
+          "code": "func (g *IconGenerator) GenerateIcon(text string, direction string, status *models.GlucoseStatus) []byte {\n\t// Wails v3 systray uses PNG on all platforms\n\tvar width, height float64 = 32, 32\n\tradius := width / 4\n\n\tdc := gg.NewContext(int(width), int(height))\n\tdc.SetRGBA(0, 0, 0, 0)\n\tdc.Clear()\n\n\tbgHex := getStatusColor(status)\n\tr, ge, b := parseHexColor(bgHex)\n\tdc.SetRGB255(int(r), int(ge), int(b))\n\tdc.DrawRoundedRectangle(0, 0, width, height, radius)\n\tdc.Fill()\n\n\tbrightness := (int(r)*299 + int(ge)*587 + int(b)*114) / 1000\n\tif brightness \u003e 128 {\n\t\tdc.SetColor(color.Black)\n\t} else {\n\t\tdc.SetColor(color.White)\n\t}\n\n\tfontSize := height * 0.5\n\tif err := loadFont(dc, fontSize); err == nil {\n\t\tdc.DrawStringAnchored(text, width/2, height/2-2, 0.5, 0.5)\n\t}\n\tif direction != \"\" {\n\t\tdrawArrow(dc, width/2, height-5, height*0.3, direction)\n\t}\n\n\tvar buf bytes.Buffer\n\tpng.Encode(\u0026buf, dc.Image())\n\treturn buf.Bytes()\n}"
+        }
+      ]
     },
     {
       "id": "regex",
@@ -481,7 +540,7 @@
         "/assets/portfolio/service-template/0.webp",
         "/assets/portfolio/service-template/1.webp"
       ],
-      "featured": false,
+      "featured": true,
       "order": 20,
       "links": [
         {
@@ -492,7 +551,8 @@
           "name": "Staging",
           "url": "https://template.dev.mljr.eu"
         }
-      ]
+      ],
+      "long_desc": "service-template is the scaffold every new homelab service in this portfolio is cloned from: GitHub Actions CI/CD, multi-arch Docker builds, and the Caddy/Ansible conventions homelab-automation expects are already wired up before a single line of business logic exists.\n\nIts GitHub Actions workflow is the literal template homelab-automation's repository_dispatch deploy pipeline is built around — build, push to GHCR, then fire a dispatch event the homelab automation listens for and rolls out via Ansible. The template also models a theoretical dev/prod split: a service cloned from it can deploy to both a `prod` and a `dev` branch-tracked environment side by side (see its two live links), demonstrating how a future feature branch could get its own short-lived deployment without touching the production service, even though today every actual service in the homelab deploys straight from `main`."
     },
     {
       "id": "sudoku-gen",
@@ -513,14 +573,15 @@
         "/assets/portfolio/sudoku-gen/2.webp",
         "/assets/portfolio/sudoku-gen/3.webp"
       ],
-      "featured": false,
+      "featured": true,
       "order": 10,
       "links": [
         {
           "name": "Live",
           "url": "https://sudoku.mljr.eu/"
         }
-      ]
+      ],
+      "long_desc": "sudoku-gen generates and solves Sudoku puzzles across 9×9, 12×12, and 16×16 grids, including jigsaw (irregular-region) variants, with a constraint-propagation solver fast enough to validate uniqueness while a puzzle is still being carved out of a filled grid.\n\nThe web frontend runs generation in a Web Worker so dragging the difficulty slider or requesting a fresh batch never blocks the UI thread, with a database of generated puzzles and a batch-print view for producing a stack of puzzles at once. Alongside the web app, a separate CLI client drives the same generation core directly from the command line: it fans the search across goroutines, one per worker, to brute-force-generate and validate large batches of puzzles locally far faster than a single-threaded generator — useful for pre-seeding the puzzle database or stress-testing the solver against pathological grids."
     },
     {
       "id": "webcambot",
@@ -543,7 +604,8 @@
       ],
       "featured": false,
       "order": 90,
-      "links": []
+      "links": [],
+      "long_desc": "webcambot bridges Home Assistant's camera entities and Discord: a slash command in a Discord server fetches either an instant snapshot or a short video clip from any camera Home Assistant knows about, with the clip length configurable per request.\n\nIt exists to make checking on a home camera feed as low-friction as typing a Discord command instead of opening a separate Home Assistant app or dashboard — useful for quickly checking in on a room, a delivery, or a pet from wherever a phone with Discord already is, without exposing the camera feed itself to the internet."
     }
   ],
   "linkedin_data": {
@@ -689,22 +751,39 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-06-17T13:29:22Z",
+    "generated_at": "2026-06-17T17:35:52Z",
     "total_stats": {
-      "count": 188,
-      "distance": 1529301.899999999,
-      "moving_time": 614264,
-      "elapsed_time": 630782,
-      "elevation_gain": 8210.400000000001
+      "count": 189,
+      "distance": 1534331.199999999,
+      "moving_time": 615940,
+      "elapsed_time": 632458,
+      "elevation_gain": 8241.400000000003
     },
     "year_to_date_stats": {
-      "count": 14,
-      "distance": 82712,
-      "moving_time": 30147,
-      "elapsed_time": 30926,
-      "elevation_gain": 627.6999999999999
+      "count": 15,
+      "distance": 87741,
+      "moving_time": 31823,
+      "elapsed_time": 32602,
+      "elevation_gain": 658.6999999999999
     },
     "recent_activities": [
+      {
+        "id": 18958654287,
+        "name": "Afternoon Run",
+        "distance": 5029.3,
+        "moving_time": 1676,
+        "elapsed_time": 1676,
+        "total_elevation_gain": 31,
+        "type": "Run",
+        "start_date": "2026-06-17T16:10:17Z",
+        "start_date_local": "2026-06-17T16:10:17Z",
+        "average_pace": 0.33322225924691773,
+        "average_speed": 3.001,
+        "max_speed": 4.28,
+        "average_heartrate": 169.6,
+        "max_heartrate": 186,
+        "calories": 137.2099
+      },
       {
         "id": 18932799902,
         "name": "Evening Ride",
@@ -827,23 +906,6 @@
         "start_date_local": "2026-06-01T19:03:46Z",
         "average_heartrate": 133.2,
         "max_heartrate": 160
-      },
-      {
-        "id": 18715127731,
-        "name": "Lauf am Nachmittag",
-        "distance": 5021,
-        "moving_time": 1722,
-        "elapsed_time": 1725,
-        "total_elevation_gain": 32,
-        "type": "Run",
-        "start_date": "2026-05-30T14:26:43Z",
-        "start_date_local": "2026-05-30T14:26:43Z",
-        "average_pace": 0.3429355281207133,
-        "average_speed": 2.916,
-        "max_speed": 4,
-        "average_heartrate": 164.5,
-        "max_heartrate": 181,
-        "calories": 132.2387
       }
     ],
     "best_activities": {
@@ -882,21 +944,21 @@
         "calories": 1060.8492999999999
       },
       "fastest_pace": {
-        "id": 18715127731,
-        "name": "Lauf am Nachmittag",
-        "distance": 5021,
-        "moving_time": 1722,
-        "elapsed_time": 1725,
-        "total_elevation_gain": 32,
+        "id": 18958654287,
+        "name": "Afternoon Run",
+        "distance": 5029.3,
+        "moving_time": 1676,
+        "elapsed_time": 1676,
+        "total_elevation_gain": 31,
         "type": "Run",
-        "start_date": "2026-05-30T14:26:43Z",
-        "start_date_local": "2026-05-30T14:26:43Z",
-        "average_pace": 0.3429355281207133,
-        "average_speed": 2.916,
-        "max_speed": 4,
-        "average_heartrate": 164.5,
-        "max_heartrate": 181,
-        "calories": 132.2387
+        "start_date": "2026-06-17T16:10:17Z",
+        "start_date_local": "2026-06-17T16:10:17Z",
+        "average_pace": 0.33322225924691773,
+        "average_speed": 3.001,
+        "max_speed": 4.28,
+        "average_heartrate": 169.6,
+        "max_heartrate": 186,
+        "calories": 137.2099
       },
       "most_elevation": {
         "id": 18631130614,
@@ -919,25 +981,25 @@
     "personal_records": [
       {
         "type": "5k",
-        "time": 1722,
-        "distance": 5021,
-        "date": "2026-05-30",
+        "time": 1676,
+        "distance": 5029.3,
+        "date": "2026-06-17",
         "activity": {
-          "id": 18715127731,
-          "name": "Lauf am Nachmittag",
-          "distance": 5021,
-          "moving_time": 1722,
-          "elapsed_time": 1725,
-          "total_elevation_gain": 32,
+          "id": 18958654287,
+          "name": "Afternoon Run",
+          "distance": 5029.3,
+          "moving_time": 1676,
+          "elapsed_time": 1676,
+          "total_elevation_gain": 31,
           "type": "Run",
-          "start_date": "2026-05-30T14:26:43Z",
-          "start_date_local": "2026-05-30T14:26:43Z",
-          "average_pace": 0.3429355281207133,
-          "average_speed": 2.916,
-          "max_speed": 4,
-          "average_heartrate": 164.5,
-          "max_heartrate": 181,
-          "calories": 132.2387
+          "start_date": "2026-06-17T16:10:17Z",
+          "start_date_local": "2026-06-17T16:10:17Z",
+          "average_pace": 0.33322225924691773,
+          "average_speed": 3.001,
+          "max_speed": 4.28,
+          "average_heartrate": 169.6,
+          "max_heartrate": 186,
+          "calories": 137.2099
         }
       },
       {
@@ -992,10 +1054,27 @@
         "type": "running",
         "label": "Running",
         "count": 55,
-        "total_time": 192186,
-        "total_distance": 480183.4999999999,
-        "avg_heartrate": 161.00925925925924,
+        "total_time": 189296,
+        "total_distance": 474193.6999999999,
+        "avg_heartrate": 161.04629629629628,
         "activities": [
+          {
+            "id": 18958654287,
+            "name": "Afternoon Run",
+            "distance": 5029.3,
+            "moving_time": 1676,
+            "elapsed_time": 1676,
+            "total_elevation_gain": 31,
+            "type": "Run",
+            "start_date": "2026-06-17T16:10:17Z",
+            "start_date_local": "2026-06-17T16:10:17Z",
+            "average_pace": 0.33322225924691773,
+            "average_speed": 3.001,
+            "max_speed": 4.28,
+            "average_heartrate": 169.6,
+            "max_heartrate": 186,
+            "calories": 137.2099
+          },
           {
             "id": 18912596158,
             "name": "Morning Run",
@@ -1063,23 +1142,6 @@
             "average_heartrate": 164.5,
             "max_heartrate": 181,
             "calories": 132.2387
-          },
-          {
-            "id": 18657692350,
-            "name": "Morning Run",
-            "distance": 5027,
-            "moving_time": 1756,
-            "elapsed_time": 1904,
-            "total_elevation_gain": 26.5,
-            "type": "Run",
-            "start_date": "2026-05-26T09:12:14Z",
-            "start_date_local": "2026-05-26T09:12:14Z",
-            "average_pace": 0.34928396786587496,
-            "average_speed": 2.863,
-            "max_speed": 4.28,
-            "average_heartrate": 161.4,
-            "max_heartrate": 176,
-            "calories": 133.9834
           }
         ]
       },
@@ -1227,9 +1289,9 @@
     "monthly_activities": [
       {
         "month": "2025-06",
-        "count": 3,
-        "distance": 27279.9,
-        "time": 11066
+        "count": 2,
+        "distance": 16260.800000000001,
+        "time": 6500
       },
       {
         "month": "2025-07",
@@ -1299,15 +1361,15 @@
       },
       {
         "month": "2026-06",
-        "count": 9,
-        "distance": 17214.6,
-        "time": 20003
+        "count": 10,
+        "distance": 22243.899999999998,
+        "time": 21679
       }
     ],
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 823,
+    "commits_year": 827,
     "longest_streak": 11,
     "contributions": [
       {
@@ -2768,125 +2830,125 @@
       },
       {
         "date": "2026-06-17",
-        "count": 10
+        "count": 14
       }
     ],
     "language_share": [
       {
         "name": "Svelte",
-        "pct": 21.9850613457359
+        "pct": 21.94078626712526
       },
       {
         "name": "Go",
-        "pct": 18.888986289326347
+        "pct": 19.045061430815906
       },
       {
         "name": "JavaScript",
-        "pct": 12.120923929523249
+        "pct": 12.096513951703592
       },
       {
         "name": "HTML",
-        "pct": 9.153683923451341
+        "pct": 9.135249584382903
       },
       {
         "name": "CSS",
-        "pct": 7.857045194170528
+        "pct": 7.841222118303301
       },
       {
         "name": "TypeScript",
-        "pct": 6.06280968285315
+        "pct": 6.050599965941819
       },
       {
         "name": "Rust",
-        "pct": 3.814145998477613
+        "pct": 3.806464800264909
       },
       {
         "name": "TeX",
-        "pct": 3.491226793426904
+        "pct": 3.48419591285324
       },
       {
         "name": "C#",
-        "pct": 3.193098756325056
+        "pct": 3.1866682671749658
       },
       {
         "name": "Python",
-        "pct": 2.4218710660790297
+        "pct": 2.4169937300484765
       },
       {
         "name": "Kotlin",
-        "pct": 2.1940551183562333
+        "pct": 2.1896365742678796
       },
       {
         "name": "Dart",
-        "pct": 2.1682899460328064
+        "pct": 2.163923289679133
       },
       {
         "name": "ASP.NET",
-        "pct": 1.6698202355473373
+        "pct": 1.666457432913683
       },
       {
         "name": "Shell",
-        "pct": 1.0320678994989207
+        "pct": 1.0299894478328901
       },
       {
         "name": "Vue",
-        "pct": 0.7686548485018894
+        "pct": 0.767106876753861
       },
       {
         "name": "ShaderLab",
-        "pct": 0.739618491675203
+        "pct": 0.7381289954056303
       },
       {
         "name": "Makefile",
-        "pct": 0.498368634559807
+        "pct": 0.5046369653775759
       },
       {
         "name": "SCSS",
-        "pct": 0.41996128240723896
+        "pct": 0.41911553453782896
       },
       {
         "name": "Jinja",
-        "pct": 0.3394864681388467
+        "pct": 0.33880278616827036
       },
       {
         "name": "Typst",
-        "pct": 0.24715820440639577
+        "pct": 0.24666045965338967
       },
       {
         "name": "Swift",
-        "pct": 0.23143630360561718
+        "pct": 0.23097022073350904
       },
       {
         "name": "Java",
-        "pct": 0.20280425048158085
+        "pct": 0.20239582887240554
       },
       {
         "name": "HLSL",
-        "pct": 0.12858695488374983
+        "pct": 0.128327997337703
       },
       {
         "name": "Dockerfile",
-        "pct": 0.12480120203166285
+        "pct": 0.12454986850369318
       },
       {
         "name": "NSIS",
-        "pct": 0.11400445542680321
+        "pct": 0.11377486515427192
       },
       {
         "name": "Ruby",
-        "pct": 0.06524910437541143
+        "pct": 0.06511770109297049
       },
       {
         "name": "GLSL",
-        "pct": 0.05694250103005557
+        "pct": 0.056827826175628524
       },
       {
         "name": "Objective-C",
-        "pct": 0.008012564288883082
+        "pct": 0.00799642801761305
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.0018285553824400611
+        "pct": 0.0018248729076892167
       }
     ]
   },
