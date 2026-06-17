@@ -5,9 +5,9 @@
       "id": "regex",
       "name": "Regex Lab",
       "show": true,
-      "summary": "Live PCRE regex tester \u2014 pattern, flags and test string update matches in real time without page reloads.",
+      "summary": "Live PCRE regex tester — pattern, flags and test string update matches in real time without page reloads.",
       "description": "An interactive regex workbench built in Go + Datastar. Uses regexp2 (PCRE-compatible engine) for backreferences, lookahead, and lookbehind. Matches highlight as you type via server-sent events, with a built-in cheat sheet and 20+ preset examples.",
-      "description_de": "Eine interaktive Regex-Werkbank in Go + Datastar. Nutzt regexp2 (PCRE-kompatibel) f\u00fcr Backreferences, Lookahead und Lookbehind. Treffer werden per Server-Sent Events live hervorgehoben, mit eingebautem Spickzettel und 20+ Preset-Beispielen.",
+      "description_de": "Eine interaktive Regex-Werkbank in Go + Datastar. Nutzt regexp2 (PCRE-kompatibel) für Backreferences, Lookahead und Lookbehind. Treffer werden per Server-Sent Events live hervorgehoben, mit eingebautem Spickzettel und 20+ Preset-Beispielen.",
       "repo": "https://github.com/MrCodeEU/mljr-web",
       "homepage": "https://regex.mljr.eu",
       "featured": false,
@@ -26,9 +26,9 @@
       "id": "cron",
       "name": "Cron Explorer",
       "show": true,
-      "summary": "Parse and preview cron expressions live \u2014 field breakdown, next 10 execution times, and human-readable descriptions.",
+      "summary": "Parse and preview cron expressions live — field breakdown, next 10 execution times, and human-readable descriptions.",
       "description": "An interactive cron expression explorer built in Go + Datastar. Supports standard 5-field and 6-field (with seconds) syntax, @aliases, and common presets. Shows a field-by-field breakdown and the next 10 execution times with countdown.",
-      "description_de": "Ein interaktiver Cron-Explorer in Go + Datastar. Unterst\u00fctzt 5-Feld- und 6-Feld-Syntax (mit Sekunden), @-Aliase und g\u00e4ngige Presets. Zeigt eine Feldaufschl\u00fcsselung und die n\u00e4chsten 10 Ausf\u00fchrungszeiten mit Countdown.",
+      "description_de": "Ein interaktiver Cron-Explorer in Go + Datastar. Unterstützt 5-Feld- und 6-Feld-Syntax (mit Sekunden), @-Aliase und gängige Presets. Zeigt eine Feldaufschlüsselung und die nächsten 10 Ausführungszeiten mit Countdown.",
       "repo": "https://github.com/MrCodeEU/mljr-web",
       "homepage": "https://cron.mljr.eu",
       "featured": false,
@@ -47,8 +47,8 @@
       "name": "Codec",
       "show": true,
       "summary": "Compute MD5/SHA1/SHA256/SHA512 hashes and encode/decode Base64, URL percent-encoding, and HTML entities.",
-      "description": "A multi-mode encode/decode tool built in Go + Datastar. Hash mode computes all four digests simultaneously. Encoding modes support Base64, URL percent-encoding, and HTML entity encoding \u2014 all processed server-side via SSE.",
-      "description_de": "Ein Multi-Modus-Kodierungswerkzeug in Go + Datastar. Im Hash-Modus werden alle vier Digest-Varianten gleichzeitig berechnet. Kodierungsmodi: Base64, URL-Prozent-Kodierung und HTML-Entity-Kodierung \u2014 alles serverseitig per SSE.",
+      "description": "A multi-mode encode/decode tool built in Go + Datastar. Hash mode computes all four digests simultaneously. Encoding modes support Base64, URL percent-encoding, and HTML entity encoding — all processed server-side via SSE.",
+      "description_de": "Ein Multi-Modus-Kodierungswerkzeug in Go + Datastar. Im Hash-Modus werden alle vier Digest-Varianten gleichzeitig berechnet. Kodierungsmodi: Base64, URL-Prozent-Kodierung und HTML-Entity-Kodierung — alles serverseitig per SSE.",
       "repo": "https://github.com/MrCodeEU/mljr-web",
       "homepage": "https://codec.mljr.eu",
       "featured": false,
@@ -69,7 +69,7 @@
       "show": true,
       "summary": "Advent of Code 2024 solutions, exploring puzzle-solving approaches in Kotlin.",
       "description": "Advent of Code 2024 solutions written in Kotlin, working through all December puzzles with clean, readable implementations.",
-      "description_de": "Advent of Code 2024-L\u00f6sungen in Kotlin, mit sauberen, lesbaren Implementierungen f\u00fcr alle Dezember-R\u00e4tsel.",
+      "description_de": "Advent of Code 2024-Lösungen in Kotlin, mit sauberen, lesbaren Implementierungen für alle Dezember-Rätsel.",
       "repo": "https://github.com/MrCodeEU/AOC2024",
       "homepage": null,
       "featured": false,
@@ -82,7 +82,8 @@
       "images": [
         "/assets/portfolio/AOC2024/0.webp"
       ],
-      "long_desc": "Solutions to all of Advent of Code 2024's daily puzzles, written in Kotlin. Each day is solved independently with an emphasis on readable, idiomatic implementations rather than maximally golfed one-liners \u2014 the puzzles range from parsing and simulation to graph search and constraint solving, and the solutions double as a running log of which Kotlin standard-library idioms (sequences, destructuring, sealed classes for puzzle-specific state) fit which problem shape best."
+      "long_desc": "Solutions to all of Advent of Code 2024's daily puzzles, written in Kotlin. Each day is solved independently with an emphasis on readable, idiomatic implementations rather than maximally golfed one-liners — the puzzles range from parsing and simulation to graph search and constraint solving, and the solutions double as a running log of which Kotlin standard-library idioms (sequences, destructuring, sealed classes for puzzle-specific state) fit which problem shape best.",
+      "long_desc_de": "Lösungen zu allen täglichen Rätseln des Advent of Code 2024, geschrieben in Kotlin. Jeder Tag wird unabhängig gelöst, mit Schwerpunkt auf lesbaren, idiomatischen Implementierungen statt maximal kurzgegolfter Einzeiler — die Rätsel reichen von Parsing und Simulation bis zu Graphensuche und Constraint-Solving, und die Lösungen sind zugleich ein laufendes Protokoll, welche Idiome der Kotlin-Standardbibliothek (Sequences, Destructuring, Sealed Classes für rätselspezifischen Zustand) zu welcher Problemform am besten passen."
     },
     {
       "id": "AdventOfCode2022_MrCode",
@@ -90,7 +91,7 @@
       "show": true,
       "summary": "Advent of Code 2022 solutions, exploring puzzle-solving approaches in Kotlin.",
       "description": "Advent of Code 2022 solutions in Kotlin, exploring algorithmic challenges across the December puzzle calendar.",
-      "description_de": "Advent of Code 2022-L\u00f6sungen in Kotlin mit algorithmischen Herausforderungen \u00fcber den Dezember-Puzzle-Kalender.",
+      "description_de": "Advent of Code 2022-Lösungen in Kotlin mit algorithmischen Herausforderungen über den Dezember-Puzzle-Kalender.",
       "repo": "https://github.com/MrCodeEU/AdventOfCode2022_MrCode",
       "homepage": null,
       "featured": false,
@@ -103,7 +104,8 @@
       "images": [
         "/assets/portfolio/AdventOfCode2022_MrCode/0.webp"
       ],
-      "long_desc": "Solutions to Advent of Code 2022's daily puzzles, written in Kotlin \u2014 the first of two yearly AoC repos in this portfolio, working through the December puzzle calendar's mix of parsing, simulation, and small algorithmic challenges (pathfinding, cellular automata, interpreter-style puzzles) with straightforward, readable Kotlin rather than optimizing for brevity."
+      "long_desc": "Solutions to Advent of Code 2022's daily puzzles, written in Kotlin — the first of two yearly AoC repos in this portfolio, working through the December puzzle calendar's mix of parsing, simulation, and small algorithmic challenges (pathfinding, cellular automata, interpreter-style puzzles) with straightforward, readable Kotlin rather than optimizing for brevity.",
+      "long_desc_de": "Lösungen zu den täglichen Rätseln des Advent of Code 2022, geschrieben in Kotlin — das erste von zwei jährlichen AoC-Repos in diesem Portfolio, das sich durch den Dezember-Rätselkalender mit seiner Mischung aus Parsing, Simulation und kleinen algorithmischen Herausforderungen (Pathfinding, zelluläre Automaten, interpreterartige Rätsel) arbeitet — mit unkompliziertem, lesbarem Kotlin statt auf Kürze optimiert."
     },
     {
       "id": "Flexbar-Plugin-Youtube-Music-Desktop-App",
@@ -111,7 +113,7 @@
       "show": true,
       "summary": "Flexbar plugin integrating YouTube Music Desktop App playback controls.",
       "description": "A Node.js plugin for the Flexbar macro pad that controls YouTube Music Desktop App via Socket.IO. Shows the current track, album art, and playback controls directly on the Flexbar display.",
-      "description_de": "Ein Node.js-Plugin f\u00fcr den Flexbar-Macro-Pad, das YouTube Music Desktop per Socket.IO steuert. Zeigt aktuellen Track, Album-Art und Playback-Steuerung direkt auf dem Flexbar-Display.",
+      "description_de": "Ein Node.js-Plugin für den Flexbar-Macro-Pad, das YouTube Music Desktop per Socket.IO steuert. Zeigt aktuellen Track, Album-Art und Playback-Steuerung direkt auf dem Flexbar-Display.",
       "repo": "https://github.com/MrCodeEU/Flexbar-Plugin-Youtube-Music-Desktop-App",
       "homepage": null,
       "featured": false,
@@ -124,7 +126,8 @@
       "images": [
         "/assets/portfolio/Flexbar-Plugin-Youtube-Music-Desktop-App/0.webp"
       ],
-      "long_desc": "A Node.js plugin for the Flexbar macro pad that turns it into a now-playing remote for YouTube Music Desktop App: current track title, artist, and album art render directly on the Flexbar's display, with touch controls for play/pause, skip, and volume.\n\nIt talks to YouTube Music Desktop App's companion server over Socket.IO, the same real-time channel the app's own remote-control features use, so track changes and playback state show up on the Flexbar immediately rather than through a slower polling loop."
+      "long_desc": "A Node.js plugin for the Flexbar macro pad that turns it into a now-playing remote for YouTube Music Desktop App: current track title, artist, and album art render directly on the Flexbar's display, with touch controls for play/pause, skip, and volume.\n\nIt talks to YouTube Music Desktop App's companion server over Socket.IO, the same real-time channel the app's own remote-control features use, so track changes and playback state show up on the Flexbar immediately rather than through a slower polling loop.",
+      "long_desc_de": "Ein Node.js-Plugin für das Flexbar-Makropad, das es in eine Now-Playing-Fernbedienung für YouTube Music Desktop App verwandelt: aktueller Titel, Künstler und Album-Cover werden direkt auf dem Display der Flexbar angezeigt, mit Touch-Steuerung für Play/Pause, Skip und Lautstärke.\n\nEs kommuniziert mit dem Companion-Server von YouTube Music Desktop App über Socket.IO — denselben Echtzeit-Kanal, den die Fernbedienungsfunktionen der App selbst nutzen — sodass Titelwechsel und Wiedergabestatus sofort auf der Flexbar erscheinen statt über eine langsamere Polling-Schleife."
     },
     {
       "id": "Game-of-Life-Multiplatform",
@@ -132,7 +135,7 @@
       "show": true,
       "summary": "Conway's Game of Life implemented with Kotlin Multiplatform for desktop and mobile.",
       "description": "Conway's Game of Life implemented as a Kotlin Multiplatform project for desktop and Android. Developed as a university programming project exploring KMP's shared logic and platform-specific UI capabilities.",
-      "description_de": "Conways Game of Life als Kotlin-Multiplatform-Projekt f\u00fcr Desktop und Android. Als Universit\u00e4ts-Programmierprojekt entwickelt, das KMPs gemeinsame Logik und plattformspezifische UI-F\u00e4higkeiten erkundet.",
+      "description_de": "Conways Game of Life als Kotlin-Multiplatform-Projekt für Desktop und Android. Als Universitäts-Programmierprojekt entwickelt, das KMPs gemeinsame Logik und plattformspezifische UI-Fähigkeiten erkundet.",
       "repo": "https://github.com/MrCodeEU/Game-of-Life-Multiplatform",
       "homepage": "https://gameoflife.mljr.eu/",
       "featured": false,
@@ -146,7 +149,8 @@
         "/assets/portfolio/Game-of-Life-Multiplatform/0.webp",
         "/assets/portfolio/Game-of-Life-Multiplatform/1.webp"
       ],
-      "long_desc": "A university programming-project implementation of Conway's Game of Life built with Kotlin Multiplatform, sharing the simulation logic \u2014 grid state, generation stepping, the cell ruleset \u2014 between a desktop build and an Android app rather than writing it twice.\n\nThe project exists primarily to explore where KMP's shared-code boundary actually sits in practice: the cellular-automaton core is pure Kotlin with no platform dependencies, while rendering the grid and handling input are platform-specific UI layers on top, making it a small but concrete case study in what's worth sharing across targets and what isn't."
+      "long_desc": "A university programming-project implementation of Conway's Game of Life built with Kotlin Multiplatform, sharing the simulation logic — grid state, generation stepping, the cell ruleset — between a desktop build and an Android app rather than writing it twice.\n\nThe project exists primarily to explore where KMP's shared-code boundary actually sits in practice: the cellular-automaton core is pure Kotlin with no platform dependencies, while rendering the grid and handling input are platform-specific UI layers on top, making it a small but concrete case study in what's worth sharing across targets and what isn't.",
+      "long_desc_de": "Eine im Rahmen eines Uni-Programmierprojekts entstandene Implementierung von Conways Game of Life mit Kotlin Multiplatform, die die Simulationslogik — Gitterzustand, Generationsschritte, das Zellregelwerk — zwischen einem Desktop-Build und einer Android-App teilt, statt sie zweimal zu schreiben.\n\nDas Projekt existiert primär, um zu erkunden, wo die geteilte Codegrenze von KMP in der Praxis tatsächlich liegt: der zelluläre Automaten-Kern ist reines Kotlin ohne Plattformabhängigkeiten, während Rendering des Gitters und Eingabeverarbeitung plattformspezifische UI-Schichten darüber sind — eine kleine, aber konkrete Fallstudie dazu, was sich über Zielplattformen hinweg zu teilen lohnt und was nicht."
     },
     {
       "id": "ImageNameConverter",
@@ -164,8 +168,8 @@
       "name": "LSTM-Based-Speaker-Diarization",
       "show": true,
       "summary": "LSTM-based neural network for speaker diarization on audio recordings.",
-      "description": "Bachelor thesis research implementing LSTM and BiLSTM networks for speaker diarization \u2014 the task of labeling who speaks when in an audio recording. Compares d-vector generation architectures and four clustering algorithms (k-means, agglomerative, spectral, VBx) to find the best diarization error rate.",
-      "description_de": "Bachelorarbeit zu LSTM- und BiLSTM-Netzwerken f\u00fcr Sprecherdiarisierung \u2014 die Aufgabe, Audiodaten nach Sprecher zu segmentieren. Vergleicht d-Vektor-Architekturen und vier Clustering-Algorithmen (k-Means, agglomerativ, spektral, VBx) hinsichtlich Diarisierungsfehlerate.",
+      "description": "Bachelor thesis research implementing LSTM and BiLSTM networks for speaker diarization — the task of labeling who speaks when in an audio recording. Compares d-vector generation architectures and four clustering algorithms (k-means, agglomerative, spectral, VBx) to find the best diarization error rate.",
+      "description_de": "Bachelorarbeit zu LSTM- und BiLSTM-Netzwerken für Sprecherdiarisierung — die Aufgabe, Audiodaten nach Sprecher zu segmentieren. Vergleicht d-Vektor-Architekturen und vier Clustering-Algorithmen (k-Means, agglomerativ, spektral, VBx) hinsichtlich Diarisierungsfehlerate.",
       "repo": "https://github.com/MrCodeEU/LSTM-Based-Speaker-Diarization",
       "homepage": null,
       "featured": false,
@@ -182,15 +186,16 @@
         "/assets/portfolio/LSTM-Based-Speaker-Diarization/2.webp",
         "/assets/portfolio/LSTM-Based-Speaker-Diarization/3.webp"
       ],
-      "long_desc": "This bachelor's thesis project tackles speaker diarization \u2014 labeling who is speaking when in an audio recording \u2014 using LSTM and bidirectional LSTM networks to generate d-vectors, fixed-length embeddings that capture a speaker's voice characteristics from a short audio window.\n\nRather than picking one clustering approach and stopping there, the project systematically compares four clustering algorithms \u2014 k-means, agglomerative clustering, spectral clustering, and VBx (variational Bayes HMM clustering) \u2014 against the generated d-vectors to find which combination of embedding architecture and clustering method minimizes the diarization error rate (DER) on the evaluation set, framing the result as an empirical comparison rather than a single fixed pipeline."
+      "long_desc": "This bachelor's thesis project tackles speaker diarization — labeling who is speaking when in an audio recording — using LSTM and bidirectional LSTM networks to generate d-vectors, fixed-length embeddings that capture a speaker's voice characteristics from a short audio window.\n\nRather than picking one clustering approach and stopping there, the project systematically compares four clustering algorithms — k-means, agglomerative clustering, spectral clustering, and VBx (variational Bayes HMM clustering) — against the generated d-vectors to find which combination of embedding architecture and clustering method minimizes the diarization error rate (DER) on the evaluation set, framing the result as an empirical comparison rather than a single fixed pipeline.",
+      "long_desc_de": "Diese Bachelorarbeit befasst sich mit Speaker Diarization — der Zuordnung, wer in einer Audioaufnahme zu welchem Zeitpunkt spricht — mittels LSTM- und bidirektionalen LSTM-Netzwerken zur Erzeugung von d-Vektoren, festlängigen Embeddings, die die Stimmcharakteristik eines Sprechers aus einem kurzen Audiofenster erfassen.\n\nStatt sich auf einen Clustering-Ansatz festzulegen, vergleicht das Projekt systematisch vier Clustering-Algorithmen — k-Means, agglomeratives Clustering, spektrales Clustering und VBx (Variational-Bayes-HMM-Clustering) — gegen die erzeugten d-Vektoren, um herauszufinden, welche Kombination aus Embedding-Architektur und Clustering-Methode die Diarization Error Rate (DER) auf dem Evaluationsdatensatz minimiert — das Ergebnis wird als empirischer Vergleich gerahmt, nicht als eine einzelne feste Pipeline."
     },
     {
       "id": "Lebenslauf",
       "name": "Lebenslauf",
       "show": true,
       "summary": "Source for my CV/resume, built as a small static web project.",
-      "description": "Source files for my CV and cover letter written in Typst \u2014 a modern typesetting language. Clean, version-controlled, and trivially re-compilable to PDF.",
-      "description_de": "Quelldateien f\u00fcr meinen Lebenslauf und mein Anschreiben, geschrieben in Typst \u2014 einer modernen Schriftsatzsprache. Sauber, versioniert und trivial zu PDF kompilierbar.",
+      "description": "Source files for my CV and cover letter written in Typst — a modern typesetting language. Clean, version-controlled, and trivially re-compilable to PDF.",
+      "description_de": "Quelldateien für meinen Lebenslauf und mein Anschreiben, geschrieben in Typst — einer modernen Schriftsatzsprache. Sauber, versioniert und trivial zu PDF kompilierbar.",
       "repo": "https://github.com/MrCodeEU/Lebenslauf",
       "homepage": null,
       "featured": false,
@@ -205,7 +210,8 @@
         "/assets/portfolio/Lebenslauf/1.webp",
         "/assets/portfolio/Lebenslauf/2.webp"
       ],
-      "long_desc": "The source for my CV and cover letter, written in Typst rather than LaTeX or a word processor. Typst's faster compile loop and more approachable markup make iterating on layout (margins, type scale, section spacing) quick, while still producing a precisely typeset PDF.\n\nKeeping it as plain text in git rather than a binary .docx means every revision is diffable and the whole history of edits is preserved \u2014 and regenerating an up-to-date PDF for a specific application is a single `typst compile` away, with no risk of layout drift between versions the way copy-pasting into a template can introduce."
+      "long_desc": "The source for my CV and cover letter, written in Typst rather than LaTeX or a word processor. Typst's faster compile loop and more approachable markup make iterating on layout (margins, type scale, section spacing) quick, while still producing a precisely typeset PDF.\n\nKeeping it as plain text in git rather than a binary .docx means every revision is diffable and the whole history of edits is preserved — and regenerating an up-to-date PDF for a specific application is a single `typst compile` away, with no risk of layout drift between versions the way copy-pasting into a template can introduce.",
+      "long_desc_de": "Der Quellcode meines Lebenslaufs und Anschreibens, geschrieben in Typst statt in LaTeX oder einer Textverarbeitung. Typsts schnellerer Compile-Zyklus und die zugänglichere Syntax machen das Iterieren am Layout (Ränder, Schriftgrößen, Abschnittsabstände) schnell, während trotzdem ein präzise gesetztes PDF entsteht.\n\nDie Pflege als reiner Text in Git statt als binäre .docx-Datei bedeutet, dass jede Änderung diffbar ist und die gesamte Bearbeitungshistorie erhalten bleibt — und ein aktuelles PDF für eine bestimmte Bewerbung zu erzeugen ist nur ein `typst compile` entfernt, ohne das Risiko von Layout-Drift zwischen Versionen, wie es beim Copy-Paste in eine Vorlage entstehen kann."
     },
     {
       "id": "MMS-Projekt-Spielesammlung",
@@ -246,7 +252,7 @@
       "show": true,
       "summary": "Word-game helper and solver built as a web app.",
       "description": "A SvelteKit web app that helps solve word games like Wordle by filtering candidates from a wordlist based on known letters and positions. Clean interface, instant results, runs entirely in the browser.",
-      "description_de": "Eine SvelteKit-Webapp zur L\u00f6sung von Wortspielen wie Wordle \u2014 filtert Kandidaten aus einer Wortliste anhand bekannter Buchstaben und Positionen. Sauberes Interface, sofortige Ergebnisse, l\u00e4uft vollst\u00e4ndig im Browser.",
+      "description_de": "Eine SvelteKit-Webapp zur Lösung von Wortspielen wie Wordle — filtert Kandidaten aus einer Wortliste anhand bekannter Buchstaben und Positionen. Sauberes Interface, sofortige Ergebnisse, läuft vollständig im Browser.",
       "repo": "https://github.com/MrCodeEU/WordWiz",
       "homepage": null,
       "featured": false,
@@ -267,7 +273,8 @@
           "url": "https://wordwiz.mljr.eu/"
         }
       ],
-      "long_desc": "WordWiz is a SvelteKit web app for solving word games like Wordle: enter what's known so far \u2014 confirmed letters in confirmed positions, letters known to be present but misplaced, letters ruled out entirely \u2014 and it filters a wordlist down to the candidates consistent with those constraints, updating instantly as more information comes in.\n\nEverything runs client-side against a bundled wordlist, so there's no server round-trip per guess and no usage tracking \u2014 it's a small, fast, single-purpose tool rather than a general word-game platform."
+      "long_desc": "WordWiz is a SvelteKit web app for solving word games like Wordle: enter what's known so far — confirmed letters in confirmed positions, letters known to be present but misplaced, letters ruled out entirely — and it filters a wordlist down to the candidates consistent with those constraints, updating instantly as more information comes in.\n\nEverything runs client-side against a bundled wordlist, so there's no server round-trip per guess and no usage tracking — it's a small, fast, single-purpose tool rather than a general word-game platform.",
+      "long_desc_de": "WordWiz ist eine SvelteKit-Webanwendung zum Lösen von Wortspielen wie Wordle: man gibt ein, was bereits bekannt ist — bestätigte Buchstaben an bestätigten Positionen, Buchstaben, die vorhanden aber falsch platziert sind, komplett ausgeschlossene Buchstaben — und die App filtert eine Wortliste auf die mit diesen Bedingungen konsistenten Kandidaten, die sich mit jeder neuen Information sofort aktualisieren.\n\nAlles läuft client-seitig gegen eine gebündelte Wortliste, es gibt also keinen Server-Roundtrip pro Versuch und kein Nutzungstracking — ein kleines, schnelles Spezialwerkzeug statt einer allgemeinen Wortspiel-Plattform."
     },
     {
       "id": "cg-lab-2023-project-reineggersilber",
@@ -291,7 +298,8 @@
         "/assets/portfolio/cg-lab-2023-project-reineggersilber/1.webp",
         "/assets/portfolio/cg-lab-2023-project-reineggersilber/2.webp"
       ],
-      "long_desc": "Built for a university computer graphics lab course, this project renders three connected animated scenes directly against raw WebGL \u2014 no three.js, no engine, just a small hand-written framework.js wrapper and gl-matrix for the math. A person sits in a furnished room (lit by a spotlight from a TV), gets up, pulls out a Rick-and-Morty-style portal gun, and steps through a rendered portal onto an alien planet with terrain generated procedurally from a heightmap, before stepping back through a second portal.\n\nEach scene exercises a different rendering technique done by hand against the WebGL pipeline: per-fragment lighting with a moving point-light source attached to the portal gun, GLSL shaders for surface shading, and heightmap-driven terrain generation for the alien planet \u2014 all keyframe-animated, including camera movement that follows the character between rooms."
+      "long_desc": "Built for a university computer graphics lab course, this project renders three connected animated scenes directly against raw WebGL — no three.js, no engine, just a small hand-written framework.js wrapper and gl-matrix for the math. A person sits in a furnished room (lit by a spotlight from a TV), gets up, pulls out a Rick-and-Morty-style portal gun, and steps through a rendered portal onto an alien planet with terrain generated procedurally from a heightmap, before stepping back through a second portal.\n\nEach scene exercises a different rendering technique done by hand against the WebGL pipeline: per-fragment lighting with a moving point-light source attached to the portal gun, GLSL shaders for surface shading, and heightmap-driven terrain generation for the alien planet — all keyframe-animated, including camera movement that follows the character between rooms.",
+      "long_desc_de": "Für einen Computergrafik-Laborkurs an der Uni entstanden, rendert dieses Projekt drei verbundene animierte Szenen direkt gegen rohes WebGL — kein three.js, keine Engine, nur ein kleiner handgeschriebener framework.js-Wrapper und gl-matrix für die Mathematik. Eine Person sitzt in einem möblierten Zimmer (beleuchtet von einem Scheinwerfer aus dem Fernseher), steht auf, zieht eine Portal-Gun im Rick-and-Morty-Stil und tritt durch ein gerendertes Portal auf einen fremden Planeten mit prozedural aus einer Heightmap generiertem Terrain, bevor sie durch ein zweites Portal zurücktritt.\n\nJede Szene übt von Hand eine andere Rendering-Technik gegen die WebGL-Pipeline aus: Per-Fragment-Beleuchtung mit einer beweglichen Punktlichtquelle an der Portal-Gun, GLSL-Shader für die Oberflächenschattierung und heightmap-gesteuerte Terraingenerierung für den fremden Planeten — alles keyframe-animiert, inklusive einer Kamerafahrt, die der Figur zwischen den Räumen folgt."
     },
     {
       "id": "cosmic-nightscout",
@@ -315,8 +323,8 @@
       "name": "face-auth",
       "show": true,
       "summary": "Facial-recognition authentication PAM module written in Go.",
-      "description": "A Linux PAM module for facial recognition login using IR cameras and Windows Hello\u2013compatible hardware. Features liveness anti-spoofing, an egui graphical configuration tool, and plugs into any PAM stack as a drop-in module.",
-      "description_de": "Ein Linux-PAM-Modul f\u00fcr Gesichtserkennungs-Login mit IR-Kameras und Windows-Hello-kompatibler Hardware. Mit Liveness Anti-Spoofing, einem egui-GUI-Konfigurationstool und direkter Einbindung in jeden PAM-Stack.",
+      "description": "A Linux PAM module for facial recognition login using IR cameras and Windows Hello–compatible hardware. Features liveness anti-spoofing, an egui graphical configuration tool, and plugs into any PAM stack as a drop-in module.",
+      "description_de": "Ein Linux-PAM-Modul für Gesichtserkennungs-Login mit IR-Kameras und Windows-Hello-kompatibler Hardware. Mit Liveness Anti-Spoofing, einem egui-GUI-Konfigurationstool und direkter Einbindung in jeden PAM-Stack.",
       "repo": "https://github.com/MrCodeEU/face-auth",
       "homepage": null,
       "featured": false,
@@ -333,7 +341,8 @@
         "/assets/portfolio/face-auth/2.webp",
         "/assets/portfolio/face-auth/3.webp"
       ],
-      "long_desc": "face-auth is a Linux PAM module written in Rust that authenticates logins using facial recognition, targeting IR cameras and Windows Hello\u2013compatible infrared hardware so it isn't fooled by a printed photo or a phone screen the way plain RGB face-unlock can be.\n\nA liveness/anti-spoofing check runs before a match is accepted, and a separate egui-based graphical configuration tool handles enrolling faces and tuning thresholds without hand-editing config files. Because it's a standard PAM module, it drops into any PAM-aware stack \u2014 login, sudo, a display manager \u2014 alongside or instead of password auth, with the actual recognition and liveness logic implemented in Rust for memory safety in a process that runs with elevated authentication privileges."
+      "long_desc": "face-auth is a Linux PAM module written in Rust that authenticates logins using facial recognition, targeting IR cameras and Windows Hello–compatible infrared hardware so it isn't fooled by a printed photo or a phone screen the way plain RGB face-unlock can be.\n\nA liveness/anti-spoofing check runs before a match is accepted, and a separate egui-based graphical configuration tool handles enrolling faces and tuning thresholds without hand-editing config files. Because it's a standard PAM module, it drops into any PAM-aware stack — login, sudo, a display manager — alongside or instead of password auth, with the actual recognition and liveness logic implemented in Rust for memory safety in a process that runs with elevated authentication privileges.",
+      "long_desc_de": "face-auth ist ein in Rust geschriebenes Linux-PAM-Modul, das Logins per Gesichtserkennung authentifiziert, ausgerichtet auf IR-Kameras und Windows-Hello-kompatible Infrarot-Hardware, sodass es sich nicht durch ein ausgedrucktes Foto oder einen Smartphone-Bildschirm täuschen lässt wie einfache RGB-Gesichtsentsperrung.\n\nVor jeder akzeptierten Übereinstimmung läuft eine Liveness-/Anti-Spoofing-Prüfung, und ein separates, egui-basiertes grafisches Konfigurationstool übernimmt das Erfassen von Gesichtern und das Anpassen von Schwellenwerten, ohne Konfigurationsdateien händisch zu bearbeiten. Da es ein Standard-PAM-Modul ist, lässt es sich in jeden PAM-fähigen Stack einklinken — Login, sudo, einen Display-Manager — neben oder statt Passwort-Authentifizierung, wobei die eigentliche Erkennungs- und Liveness-Logik aus Gründen der Speichersicherheit in Rust implementiert ist, in einem Prozess mit erhöhten Authentifizierungsrechten."
     },
     {
       "id": "godrive",
@@ -341,7 +350,7 @@
       "show": true,
       "summary": "Self-hosted file sync and sharing app with mobile clients, demo mode, and WebDAV support.",
       "description": "A self-hosted file storage and sync platform with a Go REST backend and a Flutter mobile client. Files are chunked via the TUS resumable upload protocol so large transfers survive network interruptions. Thumbnails are generated and cached with inode-stable references, metadata lives in SQLite, and webhook events are signed with HMAC-SHA256. Multi-arch Docker images support both x86 and ARM homelabs.",
-      "description_de": "Eine selbst gehostete Dateispeicher- und Sync-Plattform mit einem Go REST-Backend und einem Flutter Mobile-Client. Dateien werden per TUS-Protokoll f\u00fcr unterbrechungsfreie gro\u00dfe Transfers aufgeteilt. Thumbnails werden mit inode-stabilen Referenzen generiert und gecacht, Metadaten liegen in SQLite, und Webhook-Events sind HMAC-SHA256-signiert. Multi-Arch Docker-Images unterst\u00fctzen x86 und ARM.",
+      "description_de": "Eine selbst gehostete Dateispeicher- und Sync-Plattform mit einem Go REST-Backend und einem Flutter Mobile-Client. Dateien werden per TUS-Protokoll für unterbrechungsfreie große Transfers aufgeteilt. Thumbnails werden mit inode-stabilen Referenzen generiert und gecacht, Metadaten liegen in SQLite, und Webhook-Events sind HMAC-SHA256-signiert. Multi-Arch Docker-Images unterstützen x86 und ARM.",
       "repo": "https://github.com/MrCodeEU/goDrive",
       "homepage": null,
       "featured": true,
@@ -364,16 +373,17 @@
           "url": "https://godrive.mljr.eu/"
         }
       ],
-      "long_desc": "goDrive treats the filesystem as the source of truth \u2014 SQLite only stores metadata: sessions, the search index, trash records, and in-flight upload state. Everything else is rebuildable by reindexing the disk.\n\nUploads go through the TUS resumable protocol, so a dropped connection on a phone resuming a 4 GB video upload just picks back up rather than restarting. Once a file lands, thumbnails are generated asynchronously across several warmup sizes and cached under a key derived from the file's inode and device number rather than its path \u2014 renames and moves on the same filesystem don't invalidate the cache, only a tracked SQLite path lookup needs to update.\n\nA webhook system lets external automation react to file events (upload.complete, file.moved, file.deleted, file.restored), each delivery signed with HMAC-SHA256 so a subscriber can verify it actually came from goDrive. The same Go backend serves a Svelte web UI, a WebDAV mount for native OS clients, and a Flutter mobile app with background upload support on both Android and iOS.",
-      "diagram": "graph TD\n  Browser[\"Svelte / SVAR web UI\"] -->|REST + SSE| API[Go backend]\n  Mobile[\"Flutter app (Android/iOS)\"] -->|TUS resumable upload| API\n  WebDAV[\"Finder / Files / rclone\"] -->|WebDAV| API\n  API --> FS[(\"Filesystem\\n(source of truth)\")]\n  API --> DB[(\"SQLite\\nsessions \u00b7 index \u00b7 trash \u00b7 upload state\")]\n  API --> Cache[(\"Inode-keyed\\nthumbnail cache\")]\n  API -->|HMAC-SHA256 signed| Hooks[\"Webhook subscribers\"]",
+      "long_desc": "goDrive treats the filesystem as the source of truth — SQLite only stores metadata: sessions, the search index, trash records, and in-flight upload state. Everything else is rebuildable by reindexing the disk.\n\nUploads go through the TUS resumable protocol, so a dropped connection on a phone resuming a 4 GB video upload just picks back up rather than restarting. Once a file lands, thumbnails are generated asynchronously across several warmup sizes and cached under a key derived from the file's inode and device number rather than its path — renames and moves on the same filesystem don't invalidate the cache, only a tracked SQLite path lookup needs to update.\n\nA webhook system lets external automation react to file events (upload.complete, file.moved, file.deleted, file.restored), each delivery signed with HMAC-SHA256 so a subscriber can verify it actually came from goDrive. The same Go backend serves a Svelte web UI, a WebDAV mount for native OS clients, and a Flutter mobile app with background upload support on both Android and iOS.",
+      "diagram": "graph TD\n  Browser[\"Svelte / SVAR web UI\"] -->|REST + SSE| API[Go backend]\n  Mobile[\"Flutter app (Android/iOS)\"] -->|TUS resumable upload| API\n  WebDAV[\"Finder / Files / rclone\"] -->|WebDAV| API\n  API --> FS[(\"Filesystem\\n(source of truth)\")]\n  API --> DB[(\"SQLite\\nsessions · index · trash · upload state\")]\n  API --> Cache[(\"Inode-keyed\\nthumbnail cache\")]\n  API -->|HMAC-SHA256 signed| Hooks[\"Webhook subscribers\"]",
       "snippets": [
         {
-          "caption": "Thumbnails are cached by inode+device, not by path \u2014 a file renamed or moved on the same filesystem still hits its existing cached thumbnail instead of regenerating it.",
+          "caption": "Thumbnails are cached by inode+device, not by path — a file renamed or moved on the same filesystem still hits its existing cached thumbnail instead of regenerating it.",
           "filename": "internal/server/thumbnail.go",
           "language": "go",
           "code": "func thumbnailCachePathInode(cacheRoot string, userID int64, logical string, info os.FileInfo, thumbSize int) string {\n\tinode, device := inodeKey(info)\n\tif inode == 0 {\n\t\treturn thumbnailCachePath(cacheRoot, userID, logical, info.Size(), info.ModTime().UnixNano(), thumbSize)\n\t}\n\tsum := sha256.Sum256(fmt.Appendf(nil, \"%d\\x00%d\\x00%d\\x00%d\\x00%d\\x00%d\\x00%d\",\n\t\tthumbnailCacheVersion, userID, inode, device, info.Size(), info.ModTime().UnixNano(), thumbSize))\n\treturn filepath.Join(cacheRoot, \"thumbs\", hex.EncodeToString(sum[:2]), hex.EncodeToString(sum[:])+\".jpg\")\n}"
         }
-      ]
+      ],
+      "long_desc_de": "goDrive behandelt das Dateisystem als Single Source of Truth — SQLite speichert nur Metadaten: Sitzungen, den Suchindex, Papierkorb-Einträge und laufende Upload-Zustände. Alles andere lässt sich durch erneutes Indizieren der Festplatte wiederherstellen.\n\nUploads laufen über das TUS-Resumable-Protokoll, sodass eine abgebrochene Verbindung beim Hochladen eines 4-GB-Videos vom Handy einfach fortgesetzt wird, statt neu zu starten. Sobald eine Datei ankommt, werden Thumbnails asynchron in mehreren Aufwärmgrößen erzeugt und unter einem Schlüssel zwischengespeichert, der sich von Inode und Geräte-Nummer der Datei ableitet statt vom Pfad — Umbenennungen und Verschiebungen im selben Dateisystem machen den Cache nicht ungültig, nur eine in SQLite verfolgte Pfad-Lookup muss aktualisiert werden.\n\nEin Webhook-System lässt externe Automatisierung auf Dateiereignisse reagieren (upload.complete, file.moved, file.deleted, file.restored), jede Zustellung mit HMAC-SHA256 signiert, damit ein Abonnent verifizieren kann, dass sie tatsächlich von goDrive stammt. Dasselbe Go-Backend bedient eine Svelte-Web-UI, ein WebDAV-Mount für native Betriebssystem-Clients und eine Flutter-Mobile-App mit Hintergrund-Upload-Unterstützung auf Android und iOS."
     },
     {
       "id": "homelab-automation",
@@ -381,7 +391,7 @@
       "show": true,
       "summary": "Ansible-driven configuration for a self-hosted homelab: reverse proxy, monitoring, and services.",
       "description": "A fully automated homelab configuration managed with Ansible and deployed over a Tailscale VPN. Two nodes cover the stack: a VPS hosting Caddy, CrowdSec, and public services like mljr.eu, and a home NUC running Grafana, Prometheus, and compute workloads. Everything from firewall rules to service updates is codified and repeatable.",
-      "description_de": "Eine vollst\u00e4ndig automatisierte Homelab-Konfiguration, verwaltet mit Ansible und \u00fcber ein Tailscale-VPN bereitgestellt. Zwei Nodes decken den Stack ab: ein VPS mit Caddy, CrowdSec und \u00f6ffentlichen Diensten wie mljr.eu, sowie ein Heim-NUC mit Grafana, Prometheus und Compute-Workloads. Von Firewall-Regeln bis zu Service-Updates ist alles kodifiziert und wiederholbar.",
+      "description_de": "Eine vollständig automatisierte Homelab-Konfiguration, verwaltet mit Ansible und über ein Tailscale-VPN bereitgestellt. Zwei Nodes decken den Stack ab: ein VPS mit Caddy, CrowdSec und öffentlichen Diensten wie mljr.eu, sowie ein Heim-NUC mit Grafana, Prometheus und Compute-Workloads. Von Firewall-Regeln bis zu Service-Updates ist alles kodifiziert und wiederholbar.",
       "repo": "https://github.com/MrCodeEU/homelab-automation",
       "homepage": null,
       "featured": true,
@@ -399,16 +409,17 @@
         "/assets/portfolio/homelab-automation/3.webp",
         "/assets/portfolio/homelab-automation/4.webp"
       ],
-      "long_desc": "The whole homelab \u2014 Caddy ingress, CrowdSec, Authelia, Grafana/Loki/VictoriaMetrics, and every self-hosted service this portfolio runs alongside \u2014 is described as Ansible roles rather than clicked together by hand. Two hosts cover the stack: a public VPS (mljr) terminating TLS and fronting everything through Caddy, and a home NUC running heavier workloads and the monitoring stack, joined over a Tailscale mesh so neither host needs an open inbound port beyond Caddy's 443.\n\nServices are entries in one YAML catalog: name, domain, port, which host runs it, and whether Caddy should sit it behind basic auth or Authelia SSO. A generic role turns that catalog into both a docker-compose deployment and an auto-generated Caddy reverse-proxy snippet \u2014 adding a new internet-facing service is a few lines of YAML, not a manual nginx/Caddy edit. Disabling a service in the catalog lets the same automation clean up its stale containers and proxy config instead of leaving orphaned config behind.\n\nDeploys run from GitHub Actions over the Tailscale GitHub Action, with all secrets sealed in an Ansible Vault file that's still committed to git (only the ciphertext). A `make deploy-check` dry run verifies vault decryption and host connectivity before anything touches production, and the same playbooks run identically from a laptop for local iteration. The repo also carries reusable service templates \u2014 see service-template \u2014 for the GitHub Actions workflow-dispatch pattern every deployed service's CI uses to trigger an automated rollout here.",
-      "diagram": "graph TD\n  GHA[\"GitHub Actions\"] -->|Tailscale OAuth| TS[(\"Tailscale mesh\")]\n  Dev[\"make deploy-* (local)\"] -->|Ansible Vault secrets| TS\n  TS --> VPS[\"mljr (VPS)\\nCaddy ingress \u00b7 CrowdSec \u00b7 Authelia\"]\n  TS --> NUC[\"nuc (home)\\nGrafana \u00b7 Loki \u00b7 VictoriaMetrics\"]\n  VPS -->|reverse_proxy per catalog entry| Services1[\"Public services\\n*.mljr.eu\"]\n  NUC --> Services2[\"Heavier workloads\\nmonitoring stack\"]\n  Catalog[(\"services catalog\\nall.yml\")] -.generates.-> VPS\n  Catalog -.generates.-> NUC",
+      "long_desc": "The whole homelab — Caddy ingress, CrowdSec, Authelia, Grafana/Loki/VictoriaMetrics, and every self-hosted service this portfolio runs alongside — is described as Ansible roles rather than clicked together by hand. Two hosts cover the stack: a public VPS (mljr) terminating TLS and fronting everything through Caddy, and a home NUC running heavier workloads and the monitoring stack, joined over a Tailscale mesh so neither host needs an open inbound port beyond Caddy's 443.\n\nServices are entries in one YAML catalog: name, domain, port, which host runs it, and whether Caddy should sit it behind basic auth or Authelia SSO. A generic role turns that catalog into both a docker-compose deployment and an auto-generated Caddy reverse-proxy snippet — adding a new internet-facing service is a few lines of YAML, not a manual nginx/Caddy edit. Disabling a service in the catalog lets the same automation clean up its stale containers and proxy config instead of leaving orphaned config behind.\n\nDeploys run from GitHub Actions over the Tailscale GitHub Action, with all secrets sealed in an Ansible Vault file that's still committed to git (only the ciphertext). A `make deploy-check` dry run verifies vault decryption and host connectivity before anything touches production, and the same playbooks run identically from a laptop for local iteration. The repo also carries reusable service templates — see service-template — for the GitHub Actions workflow-dispatch pattern every deployed service's CI uses to trigger an automated rollout here.",
+      "diagram": "graph TD\n  GHA[\"GitHub Actions\"] -->|Tailscale OAuth| TS[(\"Tailscale mesh\")]\n  Dev[\"make deploy-* (local)\"] -->|Ansible Vault secrets| TS\n  TS --> VPS[\"mljr (VPS)\\nCaddy ingress · CrowdSec · Authelia\"]\n  TS --> NUC[\"nuc (home)\\nGrafana · Loki · VictoriaMetrics\"]\n  VPS -->|reverse_proxy per catalog entry| Services1[\"Public services\\n*.mljr.eu\"]\n  NUC --> Services2[\"Heavier workloads\\nmonitoring stack\"]\n  Catalog[(\"services catalog\\nall.yml\")] -.generates.-> VPS\n  Catalog -.generates.-> NUC",
       "snippets": [
         {
-          "caption": "One Jinja2 template turns a service's catalog entry (name, domain, port, auth type) into its Caddy reverse-proxy block \u2014 auth import and upstream picked automatically.",
+          "caption": "One Jinja2 template turns a service's catalog entry (name, domain, port, auth type) into its Caddy reverse-proxy block — auth import and upstream picked automatically.",
           "filename": "ansible/roles/caddy/templates/service_snippet.caddy.j2",
           "language": "yaml",
           "code": "{% if service.enabled | default(true) and service.domain is defined %}\n{% set is_local = service.host == inventory_hostname %}\n{% set target_host = 'localhost' if is_local else hostvars[service.host]['ansible_host'] %}\n{% set target_port = service.port %}\n{% set auth_type = service.caddy_auth | default('') %}\n\n{{ service.domain }} {\n    log {\n        output file {{ log_path }}/caddy/{{ service.name }}.log {\n            roll_size {{ caddy_log_roll_size | default('100mb') }}\n        }\n    }\n{% if auth_type == 'basicauth' %}\n    import basicauth_block\n{% elif auth_type == 'authelia' %}\n    import authelia_auth\n{% endif %}\n    reverse_proxy {{ target_host }}:{{ target_port }}\n}\n{% endif %}"
         }
-      ]
+      ],
+      "long_desc_de": "Das gesamte Homelab — Caddy-Ingress, CrowdSec, Authelia, Grafana/Loki/VictoriaMetrics und jeder selbst gehostete Dienst, den dieses Portfolio nebenbei betreibt — ist als Ansible-Rollen beschrieben statt händisch zusammengeklickt. Zwei Hosts decken den Stack ab: ein öffentlicher VPS (mljr), der TLS terminiert und alles über Caddy nach außen stellt, und ein heimischer NUC, der schwerere Workloads und den Monitoring-Stack übernimmt, verbunden über ein Tailscale-Mesh, damit kein Host außer über Caddys Port 443 einen offenen eingehenden Port braucht.\n\nDienste sind Einträge in einem einzigen YAML-Katalog: Name, Domain, Port, welcher Host ihn betreibt und ob Caddy ihn hinter Basic Auth oder Authelia-SSO stellen soll. Eine generische Rolle verwandelt diesen Katalog sowohl in ein Docker-Compose-Deployment als auch in einen automatisch generierten Caddy-Reverse-Proxy-Snippet — ein neuer, ins Internet exponierter Dienst hinzuzufügen sind ein paar Zeilen YAML, kein manueller nginx-/Caddy-Edit. Wird ein Dienst im Katalog deaktiviert, räumt dieselbe Automatisierung dessen veraltete Container und Proxy-Konfiguration auf, statt verwaiste Konfiguration zu hinterlassen.\n\nDeployments laufen aus GitHub Actions über die Tailscale-GitHub-Action, alle Secrets versiegelt in einer Ansible-Vault-Datei, die trotzdem (nur als Ciphertext) in Git eingecheckt ist. Ein `make deploy-check`-Dry-Run verifiziert Vault-Entschlüsselung und Host-Konnektivität, bevor irgendetwas Produktion berührt, und dieselben Playbooks laufen identisch von einem Laptop für lokale Iteration. Das Repo enthält außerdem wiederverwendbare Service-Templates — siehe service-template — für das GitHub-Actions-Workflow-Dispatch-Muster, das die CI jedes deployten Dienstes nutzt, um hier ein automatisiertes Rollout auszulösen."
     },
     {
       "id": "homelab-speedtest",
@@ -436,7 +447,7 @@
       "show": true,
       "summary": "Previous version of this portfolio site (no longer deployed).",
       "description": "The previous version of this portfolio site, built as a static HTML/CSS/JS project. Kept public as a historical reference.",
-      "description_de": "Die Vorg\u00e4ngerversion dieser Portfolio-Seite, gebaut als statisches HTML/CSS/JS-Projekt. Als historische Referenz \u00f6ffentlich behalten.",
+      "description_de": "Die Vorgängerversion dieser Portfolio-Seite, gebaut als statisches HTML/CSS/JS-Projekt. Als historische Referenz öffentlich behalten.",
       "repo": "https://github.com/MrCodeEU/homepage",
       "homepage": null,
       "featured": false,
@@ -447,7 +458,8 @@
         "/assets/portfolio/homepage/1.webp",
         "/assets/portfolio/homepage/2.webp"
       ],
-      "long_desc": "The previous version of this portfolio site, kept public as a historical reference rather than deleted once mljr-web replaced it. It was a static HTML/CSS/JS project \u2014 no server-side rendering, no component framework, hand-written markup and vanilla JS for what little interactivity it had.\n\nIt's a useful before/after marker for how the current site evolved: from a static, manually-maintained page to a Go backend that renders everything server-side from a single data pipeline, with real-time updates via Datastar instead of none at all."
+      "long_desc": "The previous version of this portfolio site, kept public as a historical reference rather than deleted once mljr-web replaced it. It was a static HTML/CSS/JS project — no server-side rendering, no component framework, hand-written markup and vanilla JS for what little interactivity it had.\n\nIt's a useful before/after marker for how the current site evolved: from a static, manually-maintained page to a Go backend that renders everything server-side from a single data pipeline, with real-time updates via Datastar instead of none at all.",
+      "long_desc_de": "Die vorherige Version dieser Portfolio-Seite, öffentlich belassen als historische Referenz statt gelöscht, nachdem mljr-web sie ersetzt hat. Es war ein statisches HTML/CSS/JS-Projekt — kein Server-Side-Rendering, kein Komponenten-Framework, handgeschriebenes Markup und vanilla JS für die wenige Interaktivität, die es hatte.\n\nEs ist ein nützlicher Vorher-Nachher-Marker dafür, wie sich die aktuelle Seite entwickelt hat: von einer statischen, manuell gepflegten Seite zu einem Go-Backend, das alles serverseitig aus einer einzigen Datenpipeline rendert, mit Echtzeit-Updates über Datastar statt gar keinen."
     },
     {
       "id": "jku-master-project-network-devices-power-consumption-analysis",
@@ -455,7 +467,7 @@
       "show": true,
       "summary": "Master's project analyzing power consumption of network devices.",
       "description": "A master's project measuring the power consumption of network devices under different traffic loads. A FritzBox smart plug captures energy data while Go tooling generates UDP, TCP, and Layer-2 loads; results are exported to CSV and Excel for analysis.",
-      "description_de": "Ein Masterprojekt zur Messung des Stromverbrauchs von Netzwerkger\u00e4ten unter verschiedenen Lasttypen. Ein FritzBox-Smartplug erfasst Energiedaten, w\u00e4hrend Go-Tools UDP-, TCP- und Layer-2-Last generieren; Ergebnisse werden als CSV und Excel exportiert.",
+      "description_de": "Ein Masterprojekt zur Messung des Stromverbrauchs von Netzwerkgeräten unter verschiedenen Lasttypen. Ein FritzBox-Smartplug erfasst Energiedaten, während Go-Tools UDP-, TCP- und Layer-2-Last generieren; Ergebnisse werden als CSV und Excel exportiert.",
       "repo": "https://github.com/MrCodeEU/jku-master-project-network-devices-power-consumption-analysis",
       "homepage": null,
       "featured": false,
@@ -471,7 +483,8 @@
         "/assets/portfolio/jku-master-project-network-devices-power-consumption-analysis/2.webp",
         "/assets/portfolio/jku-master-project-network-devices-power-consumption-analysis/3.webp"
       ],
-      "long_desc": "A university master's project measuring how a network device's power draw responds to the traffic it's actually pushing, rather than relying on vendor datasheet figures that only cover idle and theoretical-max states.\n\nA FritzBox smart plug sits in line with the device under test and logs real-time energy draw, while purpose-built Go tooling generates controlled UDP, TCP, and raw Layer-2 traffic loads at varying rates to exercise the device across its operating range. Power and load data are correlated and exported to CSV/Excel so the resulting power-vs-throughput curves can be analyzed and compared across devices \u2014 turning an otherwise manual lab measurement into a repeatable, scripted experiment."
+      "long_desc": "A university master's project measuring how a network device's power draw responds to the traffic it's actually pushing, rather than relying on vendor datasheet figures that only cover idle and theoretical-max states.\n\nA FritzBox smart plug sits in line with the device under test and logs real-time energy draw, while purpose-built Go tooling generates controlled UDP, TCP, and raw Layer-2 traffic loads at varying rates to exercise the device across its operating range. Power and load data are correlated and exported to CSV/Excel so the resulting power-vs-throughput curves can be analyzed and compared across devices — turning an otherwise manual lab measurement into a repeatable, scripted experiment.",
+      "long_desc_de": "Ein Master-Projekt an der Uni, das misst, wie der Stromverbrauch eines Netzwerkgeräts auf den tatsächlich durchgeleiteten Traffic reagiert, statt sich auf Hersteller-Datenblattangaben zu verlassen, die nur Idle- und theoretische Maximalzustände abdecken.\n\nEine FritzBox-Smart-Plug sitzt in Reihe mit dem Testgerät und protokolliert den Energieverbrauch in Echtzeit, während eigens entwickeltes Go-Tooling kontrollierte UDP-, TCP- und rohe Layer-2-Traffic-Lasten mit variierender Rate erzeugt, um das Gerät über seinen gesamten Betriebsbereich zu fordern. Strom- und Lastdaten werden korreliert und nach CSV/Excel exportiert, sodass die resultierenden Leistungs-vs-Durchsatz-Kurven analysiert und über Geräte hinweg verglichen werden können — eine sonst manuelle Labormessung wird so zu einem wiederholbaren, skriptgesteuerten Experiment."
     },
     {
       "id": "mljr-comps",
@@ -510,9 +523,9 @@
       "id": "mljr-web",
       "name": "mljr-web",
       "show": true,
-      "summary": "Personal portfolio monorepo \u2014 Go/gomponents, Datastar, Tailwind v4, neo-brutalist 4-theme component library.",
-      "description": "The portfolio you are looking at \u2014 built from scratch in Go using gomponents for type-safe HTML, Datastar for reactive updates without JavaScript frameworks, and Tailwind v4 for styling. A neo-brutalist four-theme component library powers over 170 UI components rendered server-side. The full monorepo includes a data pipeline, asset optimizer, and i18n support in EN and DE.",
-      "description_de": "Das Portfolio, das du gerade siehst \u2014 von Grund auf in Go gebaut mit gomponents f\u00fcr typsicheres HTML, Datastar f\u00fcr reaktive Updates ohne JavaScript-Frameworks und Tailwind v4 f\u00fcr das Styling. Eine neo-brutalistische Vierthemen-Komponentenbibliothek treibt \u00fcber 170 serverseitig gerenderte UI-Komponenten an. Das Monorepo umfasst eine Datenpipeline, Asset-Optimierer und i18n-Unterst\u00fctzung in EN und DE.",
+      "summary": "Personal portfolio monorepo — Go/gomponents, Datastar, Tailwind v4, neo-brutalist 4-theme component library.",
+      "description": "The portfolio you are looking at — built from scratch in Go using gomponents for type-safe HTML, Datastar for reactive updates without JavaScript frameworks, and Tailwind v4 for styling. A neo-brutalist four-theme component library powers over 170 UI components rendered server-side. The full monorepo includes a data pipeline, asset optimizer, and i18n support in EN and DE.",
+      "description_de": "Das Portfolio, das du gerade siehst — von Grund auf in Go gebaut mit gomponents für typsicheres HTML, Datastar für reaktive Updates ohne JavaScript-Frameworks und Tailwind v4 für das Styling. Eine neo-brutalistische Vierthemen-Komponentenbibliothek treibt über 170 serverseitig gerenderte UI-Komponenten an. Das Monorepo umfasst eine Datenpipeline, Asset-Optimierer und i18n-Unterstützung in EN und DE.",
       "repo": "https://github.com/MrCodeEU/mljr-web",
       "homepage": "https://mljr.eu",
       "featured": true,
@@ -536,22 +549,23 @@
           "url": "https://ui.mljr.eu"
         }
       ],
-      "long_desc": "This is the monorepo behind the site you're reading. Every component \u2014 gauges, the skills radar, the regex lab, this very project detail page \u2014 is a Go function returning HTML via gomponents; there's no JSX, no client-side virtual DOM, and no npm build step in the request path. Datastar (a single ~14 kB script) wires up reactivity by reading data-* attributes already present in the server-rendered HTML, and SSE patches fragments in place for things like the homelab panel without a page reload.\n\nThe data layer is a separate Go module (mljr-data) that runs as a scheduled job: it hits the GitHub GraphQL API for contribution stats and language breakdowns, scrapes Strava and LinkedIn where APIs allow it, and writes one site-data.json that the homepage binary embeds as a build-time fallback and can also hot-reload from disk in production. Four themes \u00d7 two modes are pure CSS custom-property swaps \u2014 no separate component variants to maintain.",
+      "long_desc": "This is the monorepo behind the site you're reading. Every component — gauges, the skills radar, the regex lab, this very project detail page — is a Go function returning HTML via gomponents; there's no JSX, no client-side virtual DOM, and no npm build step in the request path. Datastar (a single ~14 kB script) wires up reactivity by reading data-* attributes already present in the server-rendered HTML, and SSE patches fragments in place for things like the homelab panel without a page reload.\n\nThe data layer is a separate Go module (mljr-data) that runs as a scheduled job: it hits the GitHub GraphQL API for contribution stats and language breakdowns, scrapes Strava and LinkedIn where APIs allow it, and writes one site-data.json that the homepage binary embeds as a build-time fallback and can also hot-reload from disk in production. Four themes × two modes are pure CSS custom-property swaps — no separate component variants to maintain.",
       "diagram": "graph TD\n  Generator[\"mljr-data generator\\n(scheduled job)\"] -->|GitHub GraphQL, Strava, LinkedIn| JSON[(\"site-data.json\")]\n  JSON -->|embedded fallback + hot reload| Binary[\"homepage Go binary\"]\n  Binary -->|gomponents render| HTML[\"Server-rendered HTML\"]\n  HTML -->|data-* attributes| Datastar[\"Datastar (~14kB)\"]\n  Binary -->|SSE PatchElements| Datastar\n  Datastar -->|in-place DOM patch| HTML",
       "snippets": [
         {
-          "caption": "The skills radar is plain trigonometry rendered to an SVG polygon at request time \u2014 no charting library.",
+          "caption": "The skills radar is plain trigonometry rendered to an SVG polygon at request time — no charting library.",
           "filename": "ui/data/radarchart.go",
           "language": "go",
-          "code": "// Radar chart: axis i sits at angle 2\u03c0i/n, starting at\n// 12 o'clock. Values scale along the spoke; the series\n// becomes a single <polygon>.\nangle := func(i int) float64 {\n\treturn float64(i)*2*math.Pi/float64(n) - math.Pi/2\n}\npt := func(radius float64, i int) (float64, float64) {\n\ta := angle(i)\n\treturn cx + radius*math.Cos(a), cy + radius*math.Sin(a)\n}\n\npts := make([]string, len(p.Axes))\nfor i := range p.Axes {\n\tscaled := (s.Values[i] / p.Max) * r\n\tx, y := pt(scaled, i)\n\tpts[i] = fmt.Sprintf(\"%.1f,%.1f\", x, y)\n}"
+          "code": "// Radar chart: axis i sits at angle 2πi/n, starting at\n// 12 o'clock. Values scale along the spoke; the series\n// becomes a single <polygon>.\nangle := func(i int) float64 {\n\treturn float64(i)*2*math.Pi/float64(n) - math.Pi/2\n}\npt := func(radius float64, i int) (float64, float64) {\n\ta := angle(i)\n\treturn cx + radius*math.Cos(a), cy + radius*math.Sin(a)\n}\n\npts := make([]string, len(p.Axes))\nfor i := range p.Axes {\n\tscaled := (s.Values[i] / p.Max) * r\n\tx, y := pt(scaled, i)\n\tpts[i] = fmt.Sprintf(\"%.1f,%.1f\", x, y)\n}"
         },
         {
           "caption": "Live updates without a framework: one attribute on the section, one SSE handler, Datastar morphs the panel in place.",
           "filename": "projects/homepage/handlers.go",
           "language": "go",
-          "code": "// One attribute on the section\u2026\nh.Section(\n\th.ID(\"homelab\"),\n\tg.Attr(\"data-on-interval__duration.60s\", \"@get('/api/homelab')\"),\n)\n\n// \u2026one SSE handler on the server.\ne.GET(\"/api/homelab\", func(c echo.Context) error {\n\tsse := datastar.NewSSE(c.Response().Writer, c.Request())\n\treturn sse.PatchElements(\n\t\tweb.RenderToString(pages.HomelabPanel(snapshot())),\n\t)\n})"
+          "code": "// One attribute on the section…\nh.Section(\n\th.ID(\"homelab\"),\n\tg.Attr(\"data-on-interval__duration.60s\", \"@get('/api/homelab')\"),\n)\n\n// …one SSE handler on the server.\ne.GET(\"/api/homelab\", func(c echo.Context) error {\n\tsse := datastar.NewSSE(c.Response().Writer, c.Request())\n\treturn sse.PatchElements(\n\t\tweb.RenderToString(pages.HomelabPanel(snapshot())),\n\t)\n})"
         }
-      ]
+      ],
+      "long_desc_de": "Das ist das Monorepo hinter der Seite, die du gerade liest. Jede Komponente — Gauges, das Skills-Radar, das Regex-Lab, diese Projekt-Detailseite selbst — ist eine Go-Funktion, die HTML über gomponents zurückgibt; es gibt kein JSX, kein client-seitiges virtuelles DOM und keinen npm-Build-Schritt im Request-Pfad. Datastar (ein einziges ~14-KB-Skript) verdrahtet Reaktivität, indem es data-*-Attribute liest, die bereits im server-gerenderten HTML vorhanden sind, und SSE patcht Fragmente direkt vor Ort, etwa für das Homelab-Panel, ohne Seiten-Reload.\n\nDie Datenschicht ist ein separates Go-Modul (mljr-data), das als geplanter Job läuft: Es ruft die GitHub-GraphQL-API für Contribution-Statistiken und Sprachverteilung ab, scraped Strava und LinkedIn, wo APIs es zulassen, und schreibt eine einzige site-data.json, die das Homepage-Binary als Build-Zeit-Fallback einbettet und in Produktion auch live von der Festplatte nachladen kann. Vier Themes × zwei Modi sind reine CSS-Custom-Property-Swaps — keine separaten Komponentenvarianten zu pflegen."
     },
     {
       "id": "mljrCSS",
@@ -584,7 +598,8 @@
         "/assets/portfolio/nightscout-display/0.webp",
         "/assets/portfolio/nightscout-display/1.webp"
       ],
-      "long_desc": "A Stream Deck plugin that surfaces live Nightscout continuous-glucose-monitor data directly on a Stream Deck key, polling the Nightscout API on an interval and rendering either a plain numeric readout or a small scrolling sparkline of recent readings on the key's tiny display.\n\nAlert thresholds are color-coded directly on the key \u2014 low, in-range, and high glucose render in visually distinct colors \u2014 so a glance at the Stream Deck during a stream or at a desk surfaces an out-of-range reading without needing to unlock a phone or check a dashboard. Time range and thresholds are configurable per key through the Stream Deck plugin settings UI."
+      "long_desc": "A Stream Deck plugin that surfaces live Nightscout continuous-glucose-monitor data directly on a Stream Deck key, polling the Nightscout API on an interval and rendering either a plain numeric readout or a small scrolling sparkline of recent readings on the key's tiny display.\n\nAlert thresholds are color-coded directly on the key — low, in-range, and high glucose render in visually distinct colors — so a glance at the Stream Deck during a stream or at a desk surfaces an out-of-range reading without needing to unlock a phone or check a dashboard. Time range and thresholds are configurable per key through the Stream Deck plugin settings UI.",
+      "long_desc_de": "Ein Stream-Deck-Plugin, das Live-Daten eines Nightscout-Kontinuierlich-Glukose-Messgeräts direkt auf einer Stream-Deck-Taste anzeigt, indem es die Nightscout-API in einem Intervall abfragt und entweder eine reine Zahlenanzeige oder eine kleine scrollende Sparkline der letzten Messwerte auf dem winzigen Display der Taste rendert.\n\nAlarmschwellen sind direkt auf der Taste farblich codiert — niedriger, normaler und hoher Glukosewert werden in optisch unterscheidbaren Farben dargestellt — sodass ein Blick aufs Stream Deck während eines Streams oder am Schreibtisch einen außerhalb des Zielbereichs liegenden Wert zeigt, ohne ein Smartphone zu entsperren oder ein Dashboard zu öffnen. Zeitraum und Schwellenwerte sind pro Taste über die Einstellungs-UI des Stream-Deck-Plugins konfigurierbar."
     },
     {
       "id": "nightscout-librelink-up-go",
@@ -611,7 +626,7 @@
       "show": true,
       "summary": "Cross-platform system tray app showing current Nightscout glucose at a glance.",
       "description": "A cross-platform system tray application for people using CGM (continuous glucose monitoring). Built with Wails3, it runs natively on Windows, macOS, and Linux, showing the current glucose value directly in the system tray with color-coded urgency levels. Configurable polling, unit conversion, and delta trend arrows give a quick at-a-glance status without opening a browser.",
-      "description_de": "Eine plattform\u00fcbergreifende Systemleisten-App f\u00fcr CGM-Nutzer (kontinuierliches Glukosemonitoring). Mit Wails3 gebaut l\u00e4uft sie nativ auf Windows, macOS und Linux und zeigt den aktuellen Glukosewert direkt in der Systemleiste mit farbkodierten Dringlichkeitsstufen. Konfigurierbares Polling, Einheitenkonvertierung und Delta-Trendpfeile geben einen schnellen \u00dcberblick ohne Browser.",
+      "description_de": "Eine plattformübergreifende Systemleisten-App für CGM-Nutzer (kontinuierliches Glukosemonitoring). Mit Wails3 gebaut läuft sie nativ auf Windows, macOS und Linux und zeigt den aktuellen Glukosewert direkt in der Systemleiste mit farbkodierten Dringlichkeitsstufen. Konfigurierbares Polling, Einheitenkonvertierung und Delta-Trendpfeile geben einen schnellen Überblick ohne Browser.",
       "repo": "https://github.com/MrCodeEU/nightscout-tray",
       "homepage": null,
       "featured": true,
@@ -628,16 +643,17 @@
         "/assets/portfolio/nightscout-tray/2.webp",
         "/assets/portfolio/nightscout-tray/3.webp"
       ],
-      "long_desc": "nightscout-tray is a Wails3 app (Go backend, native webview frontend) that turns a continuous glucose monitor's Nightscout feed into a system tray icon. Every poll, it rasterizes a fresh 32\u00d732 PNG on the fly with the gg 2D graphics library: a rounded rect colored by urgency status, the current glucose value as anchored text, and a direction arrow for the trend \u2014 recomputed each tick rather than swapped between a fixed set of pre-rendered icons.\n\nA separate prediction package implements an OpenAPS-style oref algorithm against recent glucose history to estimate where the value is heading, feeding configurable threshold notifications. The same binary builds natively for Windows, macOS, and Linux through Wails3's cross-platform webview bridge, with mobile builds (Android/iOS) cross-compiled through the project's own CI pipeline.",
+      "long_desc": "nightscout-tray is a Wails3 app (Go backend, native webview frontend) that turns a continuous glucose monitor's Nightscout feed into a system tray icon. Every poll, it rasterizes a fresh 32×32 PNG on the fly with the gg 2D graphics library: a rounded rect colored by urgency status, the current glucose value as anchored text, and a direction arrow for the trend — recomputed each tick rather than swapped between a fixed set of pre-rendered icons.\n\nA separate prediction package implements an OpenAPS-style oref algorithm against recent glucose history to estimate where the value is heading, feeding configurable threshold notifications. The same binary builds natively for Windows, macOS, and Linux through Wails3's cross-platform webview bridge, with mobile builds (Android/iOS) cross-compiled through the project's own CI pipeline.",
       "diagram": "graph TD\n  Nightscout[(\"Nightscout API\")] -->|poll| Service[\"internal/app/service.go\"]\n  Service --> Predictor[\"oref-style predictor\\n(internal/prediction)\"]\n  Service --> IconGen[\"IconGenerator\\n(gg rasterizer)\"]\n  Predictor -->|trend + forecast| Notifications[\"Threshold notifications\"]\n  IconGen -->|fresh PNG per tick| Tray[\"System tray icon\"]\n  Service --> Tray",
       "snippets": [
         {
-          "caption": "The tray icon isn't a static asset \u2014 it's rasterized fresh on every poll: status color, the glucose value as text, and a trend arrow drawn onto a 32\u00d732 canvas.",
+          "caption": "The tray icon isn't a static asset — it's rasterized fresh on every poll: status color, the glucose value as text, and a trend arrow drawn onto a 32×32 canvas.",
           "filename": "internal/tray/icon.go",
           "language": "go",
           "code": "func (g *IconGenerator) GenerateIcon(text string, direction string, status *models.GlucoseStatus) []byte {\n\t// Wails v3 systray uses PNG on all platforms\n\tvar width, height float64 = 32, 32\n\tradius := width / 4\n\n\tdc := gg.NewContext(int(width), int(height))\n\tdc.SetRGBA(0, 0, 0, 0)\n\tdc.Clear()\n\n\tbgHex := getStatusColor(status)\n\tr, ge, b := parseHexColor(bgHex)\n\tdc.SetRGB255(int(r), int(ge), int(b))\n\tdc.DrawRoundedRectangle(0, 0, width, height, radius)\n\tdc.Fill()\n\n\tbrightness := (int(r)*299 + int(ge)*587 + int(b)*114) / 1000\n\tif brightness > 128 {\n\t\tdc.SetColor(color.Black)\n\t} else {\n\t\tdc.SetColor(color.White)\n\t}\n\n\tfontSize := height * 0.5\n\tif err := loadFont(dc, fontSize); err == nil {\n\t\tdc.DrawStringAnchored(text, width/2, height/2-2, 0.5, 0.5)\n\t}\n\tif direction != \"\" {\n\t\tdrawArrow(dc, width/2, height-5, height*0.3, direction)\n\t}\n\n\tvar buf bytes.Buffer\n\tpng.Encode(&buf, dc.Image())\n\treturn buf.Bytes()\n}"
         }
-      ]
+      ],
+      "long_desc_de": "nightscout-tray ist eine Wails3-App (Go-Backend, native Webview-Oberfläche), die den Nightscout-Feed eines Kontinuierlich-Glukose-Messgeräts in ein Systemtray-Icon verwandelt. Bei jedem Poll wird mit der 2D-Grafikbibliothek gg live ein frisches 32×32-PNG gerendert: ein nach Dringlichkeitsstatus eingefärbtes abgerundetes Rechteck, der aktuelle Glukosewert als verankerter Text und ein Richtungspfeil für den Trend — bei jedem Tick neu berechnet statt zwischen einer festen Menge vorgerenderter Icons umgeschaltet.\n\nEin separates Vorhersage-Package implementiert einen oref-ähnlichen Algorithmus im OpenAPS-Stil gegen die jüngste Glukosehistorie, um abzuschätzen, wohin sich der Wert entwickelt, und füttert konfigurierbare Schwellenwert-Benachrichtigungen. Dasselbe Binary baut nativ für Windows, macOS und Linux über Wails3s plattformübergreifende Webview-Bridge, mit Mobile-Builds (Android/iOS), die über die eigene CI-Pipeline des Projekts cross-compiliert werden."
     },
     {
       "id": "service-template",
@@ -645,7 +661,7 @@
       "show": true,
       "summary": "Reusable Go service scaffold with CI, Docker, and homelab deployment conventions baked in.",
       "description": "An opinionated Go service scaffold with GitHub Actions CI/CD, multi-environment Docker builds, and first-class homelab Caddy integration baked in. Clone and rename to start a production-ready Go service.",
-      "description_de": "Ein meinungsstarkes Go-Service-Grundger\u00fcst mit GitHub Actions CI/CD, Multi-Environment Docker-Builds und direkt integrierter Homelab Caddy-Konfiguration. Klonen und umbenennen f\u00fcr einen produktionsfertigen Go-Service.",
+      "description_de": "Ein meinungsstarkes Go-Service-Grundgerüst mit GitHub Actions CI/CD, Multi-Environment Docker-Builds und direkt integrierter Homelab Caddy-Konfiguration. Klonen und umbenennen für einen produktionsfertigen Go-Service.",
       "repo": "https://github.com/MrCodeEU/service-template",
       "homepage": null,
       "featured": true,
@@ -670,15 +686,16 @@
           "url": "https://template.dev.mljr.eu"
         }
       ],
-      "long_desc": "service-template is the scaffold every new homelab service in this portfolio is cloned from: GitHub Actions CI/CD, multi-arch Docker builds, and the Caddy/Ansible conventions homelab-automation expects are already wired up before a single line of business logic exists.\n\nIts GitHub Actions workflow is the literal template homelab-automation's repository_dispatch deploy pipeline is built around \u2014 build, push to GHCR, then fire a dispatch event the homelab automation listens for and rolls out via Ansible. The template also models a theoretical dev/prod split: a service cloned from it can deploy to both a `prod` and a `dev` branch-tracked environment side by side (see its two live links), demonstrating how a future feature branch could get its own short-lived deployment without touching the production service, even though today every actual service in the homelab deploys straight from `main`."
+      "long_desc": "service-template is the scaffold every new homelab service in this portfolio is cloned from: GitHub Actions CI/CD, multi-arch Docker builds, and the Caddy/Ansible conventions homelab-automation expects are already wired up before a single line of business logic exists.\n\nIts GitHub Actions workflow is the literal template homelab-automation's repository_dispatch deploy pipeline is built around — build, push to GHCR, then fire a dispatch event the homelab automation listens for and rolls out via Ansible. The template also models a theoretical dev/prod split: a service cloned from it can deploy to both a `prod` and a `dev` branch-tracked environment side by side (see its two live links), demonstrating how a future feature branch could get its own short-lived deployment without touching the production service, even though today every actual service in the homelab deploys straight from `main`.",
+      "long_desc_de": "service-template ist das Gerüst, von dem jeder neue Homelab-Dienst in diesem Portfolio geklont wird: GitHub-Actions-CI/CD, Multi-Arch-Docker-Builds und die von homelab-automation erwarteten Caddy-/Ansible-Konventionen sind bereits verdrahtet, bevor eine einzige Zeile Geschäftslogik existiert.\n\nSein GitHub-Actions-Workflow ist das wörtliche Template, um das die repository_dispatch-Deploy-Pipeline von homelab-automation gebaut ist — bauen, nach GHCR pushen, dann ein Dispatch-Event auslösen, auf das die Homelab-Automatisierung wartet und über Ansible ausrollt. Das Template modelliert außerdem einen theoretischen Dev/Prod-Split: ein daraus geklonter Dienst kann gleichzeitig in eine `prod`- und eine branch-getrackte `dev`-Umgebung deployen (siehe seine beiden Live-Links) — eine Demonstration, wie ein zukünftiger Feature-Branch ein eigenes kurzlebiges Deployment erhalten könnte, ohne den Produktionsdienst zu berühren, obwohl heute jeder tatsächliche Dienst im Homelab direkt von `main` deployt."
     },
     {
       "id": "sudoku-gen",
       "name": "sudoku-gen",
       "show": true,
       "summary": "Sudoku puzzle generator and solver written in Go.",
-      "description": "A web-based Sudoku generator and solver supporting 9\u00d79, 12\u00d712, and 16\u00d716 grids including jigsaw variants. Uses Web Workers to keep the UI responsive during puzzle generation, with batch-print and database features.",
-      "description_de": "Ein webbasierter Sudoku-Generator und -L\u00f6ser f\u00fcr 9\u00d79-, 12\u00d712- und 16\u00d716-Raster inkl. Jigsaw-Varianten. Nutzt Web Workers f\u00fcr responsive UI, mit Stapeldruck und Datenbankfunktionen.",
+      "description": "A web-based Sudoku generator and solver supporting 9×9, 12×12, and 16×16 grids including jigsaw variants. Uses Web Workers to keep the UI responsive during puzzle generation, with batch-print and database features.",
+      "description_de": "Ein webbasierter Sudoku-Generator und -Löser für 9×9-, 12×12- und 16×16-Raster inkl. Jigsaw-Varianten. Nutzt Web Workers für responsive UI, mit Stapeldruck und Datenbankfunktionen.",
       "repo": "https://github.com/MrCodeEU/sudoku-gen",
       "homepage": "https://sudoku.mljr.eu/",
       "featured": true,
@@ -694,7 +711,8 @@
         "/assets/portfolio/sudoku-gen/2.webp",
         "/assets/portfolio/sudoku-gen/3.webp"
       ],
-      "long_desc": "sudoku-gen generates and solves Sudoku puzzles across 9\u00d79, 12\u00d712, and 16\u00d716 grids, including jigsaw (irregular-region) variants, with a constraint-propagation solver fast enough to validate uniqueness while a puzzle is still being carved out of a filled grid.\n\nThe web frontend runs generation in a Web Worker so dragging the difficulty slider or requesting a fresh batch never blocks the UI thread, with a database of generated puzzles and a batch-print view for producing a stack of puzzles at once. Alongside the web app, a separate CLI client drives the same generation core directly from the command line: it fans the search across goroutines, one per worker, to brute-force-generate and validate large batches of puzzles locally far faster than a single-threaded generator \u2014 useful for pre-seeding the puzzle database or stress-testing the solver against pathological grids."
+      "long_desc": "sudoku-gen generates and solves Sudoku puzzles across 9×9, 12×12, and 16×16 grids, including jigsaw (irregular-region) variants, with a constraint-propagation solver fast enough to validate uniqueness while a puzzle is still being carved out of a filled grid.\n\nThe web frontend runs generation in a Web Worker so dragging the difficulty slider or requesting a fresh batch never blocks the UI thread, with a database of generated puzzles and a batch-print view for producing a stack of puzzles at once. Alongside the web app, a separate CLI client drives the same generation core directly from the command line: it fans the search across goroutines, one per worker, to brute-force-generate and validate large batches of puzzles locally far faster than a single-threaded generator — useful for pre-seeding the puzzle database or stress-testing the solver against pathological grids.",
+      "long_desc_de": "sudoku-gen generiert und löst Sudoku-Rätsel auf 9×9-, 12×12- und 16×16-Gittern, einschließlich Jigsaw-Varianten (unregelmäßige Regionen), mit einem Constraint-Propagation-Solver, der schnell genug ist, um Eindeutigkeit zu prüfen, während ein Rätsel noch aus einem gefüllten Gitter herausgeschnitzt wird.\n\nDas Web-Frontend führt die Generierung in einem Web Worker aus, sodass das Ziehen am Schwierigkeitsregler oder das Anfordern einer neuen Charge den UI-Thread nie blockiert, mit einer Datenbank generierter Rätsel und einer Batch-Druckansicht zum Erzeugen eines ganzen Stapels Rätsel auf einmal. Neben der Webanwendung steuert ein separater CLI-Client denselben Generierungskern direkt von der Kommandozeile aus: Er verteilt die Suche über Goroutines, eine pro Worker, um große Mengen an Rätseln lokal weit schneller als ein Single-Threaded-Generator brute-force zu erzeugen und zu validieren — nützlich, um die Rätsel-Datenbank vorzubefüllen oder den Solver gegen pathologische Gitter zu stresstesten."
     },
     {
       "id": "sudoku_gen_go",
@@ -713,7 +731,7 @@
       "show": true,
       "summary": "Discord bot that captures images and videos of varying length from any Home Assistant camera feed.",
       "description": "A Discord bot that fetches snapshots and video clips from Home Assistant camera entities on command. Configurable clip lengths and instant image delivery make it useful for home monitoring over Discord.",
-      "description_de": "Ein Discord-Bot, der auf Befehl Schnappsch\u00fcsse und Videoclips von Home-Assistant-Kameraentit\u00e4ten abruft. Konfigurierbare Clipl\u00e4ngen und sofortige Bild\u00fcbermittlung machen ihn n\u00fctzlich f\u00fcr Heim-Monitoring via Discord.",
+      "description_de": "Ein Discord-Bot, der auf Befehl Schnappschüsse und Videoclips von Home-Assistant-Kameraentitäten abruft. Konfigurierbare Cliplängen und sofortige Bildübermittlung machen ihn nützlich für Heim-Monitoring via Discord.",
       "repo": "https://github.com/MrCodeEU/webcambot",
       "homepage": null,
       "featured": false,
@@ -729,7 +747,8 @@
         "/assets/portfolio/webcambot/2.webp",
         "/assets/portfolio/webcambot/3.webp"
       ],
-      "long_desc": "webcambot bridges Home Assistant's camera entities and Discord: a slash command in a Discord server fetches either an instant snapshot or a short video clip from any camera Home Assistant knows about, with the clip length configurable per request.\n\nIt exists to make checking on a home camera feed as low-friction as typing a Discord command instead of opening a separate Home Assistant app or dashboard \u2014 useful for quickly checking in on a room, a delivery, or a pet from wherever a phone with Discord already is, without exposing the camera feed itself to the internet."
+      "long_desc": "webcambot bridges Home Assistant's camera entities and Discord: a slash command in a Discord server fetches either an instant snapshot or a short video clip from any camera Home Assistant knows about, with the clip length configurable per request.\n\nIt exists to make checking on a home camera feed as low-friction as typing a Discord command instead of opening a separate Home Assistant app or dashboard — useful for quickly checking in on a room, a delivery, or a pet from wherever a phone with Discord already is, without exposing the camera feed itself to the internet.",
+      "long_desc_de": "webcambot verbindet die Kamera-Entitäten von Home Assistant mit Discord: Ein Slash-Command in einem Discord-Server holt entweder einen sofortigen Schnappschuss oder einen kurzen Videoclip von jeder Kamera, die Home Assistant kennt, mit pro Anfrage konfigurierbarer Cliplänge.\n\nEs existiert, um den Blick auf eine Kamera im eigenen Zuhause so reibungslos wie das Eintippen eines Discord-Befehls zu machen, statt eine separate Home-Assistant-App oder ein Dashboard zu öffnen — nützlich, um schnell nach einem Raum, einer Lieferung oder einem Haustier zu sehen, von überall dort, wo ein Smartphone mit Discord bereits zur Hand ist, ohne den Kamera-Feed selbst dem Internet auszusetzen."
     },
     {
       "id": "zepp2hass-watch",
