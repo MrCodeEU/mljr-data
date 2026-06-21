@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-06-20T07:49:28Z",
+  "generated_at": "2026-06-21T08:28:56Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -903,22 +903,51 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-06-20T07:49:28Z",
+    "generated_at": "2026-06-21T08:28:56Z",
     "total_stats": {
-      "count": 189,
-      "distance": 1534331.199999999,
-      "moving_time": 615940,
-      "elapsed_time": 632458,
-      "elevation_gain": 8241.400000000003
+      "count": 190,
+      "distance": 1541358.099999999,
+      "moving_time": 618561,
+      "elapsed_time": 635079,
+      "elevation_gain": 8285.400000000003
     },
     "year_to_date_stats": {
-      "count": 15,
-      "distance": 87741,
-      "moving_time": 31823,
-      "elapsed_time": 32602,
-      "elevation_gain": 658.6999999999999
+      "count": 16,
+      "distance": 94768,
+      "moving_time": 34444,
+      "elapsed_time": 35223,
+      "elevation_gain": 702.6999999999999
     },
     "recent_activities": [
+      {
+        "id": 19005718738,
+        "name": "Lauf am Morgen",
+        "distance": 7026.9,
+        "moving_time": 2621,
+        "elapsed_time": 2621,
+        "total_elevation_gain": 44,
+        "type": "Run",
+        "start_date": "2026-06-21T08:35:39Z",
+        "start_date_local": "2026-06-21T08:35:39Z",
+        "average_pace": 6.216585851050603,
+        "average_speed": 2.681,
+        "max_speed": 4.02,
+        "average_heartrate": 167.8,
+        "max_heartrate": 183,
+        "calories": 796.9
+      },
+      {
+        "id": 19000153710,
+        "name": "Evening Ride",
+        "distance": 0,
+        "moving_time": 2041,
+        "elapsed_time": 2041,
+        "type": "Ride",
+        "start_date": "2026-06-20T18:58:08Z",
+        "start_date_local": "2026-06-20T18:58:08Z",
+        "average_heartrate": 152.5,
+        "max_heartrate": 171
+      },
       {
         "id": 18973009454,
         "name": "Afternoon Workout",
@@ -1034,30 +1063,6 @@
         "average_heartrate": 166.1,
         "max_heartrate": 185,
         "calories": 576.2
-      },
-      {
-        "id": 18813627198,
-        "name": "Abendradfahrt",
-        "distance": 0,
-        "moving_time": 2488,
-        "elapsed_time": 2488,
-        "type": "Ride",
-        "start_date": "2026-06-06T18:58:04Z",
-        "start_date_local": "2026-06-06T18:58:04Z",
-        "average_heartrate": 152.5,
-        "max_heartrate": 176
-      },
-      {
-        "id": 18773654679,
-        "name": "Abendradfahrt",
-        "distance": 0,
-        "moving_time": 2196,
-        "elapsed_time": 2196,
-        "type": "Ride",
-        "start_date": "2026-06-03T19:37:22Z",
-        "start_date_local": "2026-06-03T19:37:22Z",
-        "average_heartrate": 148.8,
-        "max_heartrate": 168
       }
     ],
     "best_activities": {
@@ -1205,11 +1210,28 @@
       {
         "type": "running",
         "label": "Running",
-        "count": 55,
-        "total_time": 189296,
-        "total_distance": 474193.6999999999,
-        "avg_heartrate": 161.04629629629628,
+        "count": 56,
+        "total_time": 191917,
+        "total_distance": 481220.5999999999,
+        "avg_heartrate": 161.1690909090909,
         "activities": [
+          {
+            "id": 19005718738,
+            "name": "Lauf am Morgen",
+            "distance": 7026.9,
+            "moving_time": 2621,
+            "elapsed_time": 2621,
+            "total_elevation_gain": 44,
+            "type": "Run",
+            "start_date": "2026-06-21T08:35:39Z",
+            "start_date_local": "2026-06-21T08:35:39Z",
+            "average_pace": 6.216585851050603,
+            "average_speed": 2.681,
+            "max_speed": 4.02,
+            "average_heartrate": 167.8,
+            "max_heartrate": 183,
+            "calories": 796.9
+          },
           {
             "id": 18958654287,
             "name": "Afternoon Run",
@@ -1277,34 +1299,29 @@
             "average_heartrate": 166.1,
             "max_heartrate": 185,
             "calories": 576.2
-          },
-          {
-            "id": 18715127731,
-            "name": "Lauf am Nachmittag",
-            "distance": 5021,
-            "moving_time": 1722,
-            "elapsed_time": 1725,
-            "total_elevation_gain": 32,
-            "type": "Run",
-            "start_date": "2026-05-30T14:26:43Z",
-            "start_date_local": "2026-05-30T14:26:43Z",
-            "average_pace": 5.715592135345221,
-            "average_speed": 2.916,
-            "max_speed": 4,
-            "average_heartrate": 164.5,
-            "max_heartrate": 181,
-            "calories": 553.3
           }
         ]
       },
       {
         "type": "cycling",
         "label": "Cycling",
-        "count": 37,
-        "total_time": 72398,
+        "count": 38,
+        "total_time": 74439,
         "total_distance": 18100,
-        "avg_heartrate": 141.2828571428571,
+        "avg_heartrate": 141.59444444444438,
         "activities": [
+          {
+            "id": 19000153710,
+            "name": "Evening Ride",
+            "distance": 0,
+            "moving_time": 2041,
+            "elapsed_time": 2041,
+            "type": "Ride",
+            "start_date": "2026-06-20T18:58:08Z",
+            "start_date_local": "2026-06-20T18:58:08Z",
+            "average_heartrate": 152.5,
+            "max_heartrate": 171
+          },
           {
             "id": 18932799902,
             "name": "Evening Ride",
@@ -1352,18 +1369,6 @@
             "start_date_local": "2026-06-03T19:37:22Z",
             "average_heartrate": 148.8,
             "max_heartrate": 168
-          },
-          {
-            "id": 18744942538,
-            "name": "Abendradfahrt",
-            "distance": 0,
-            "moving_time": 2492,
-            "elapsed_time": 2492,
-            "type": "Ride",
-            "start_date": "2026-06-01T19:03:46Z",
-            "start_date_local": "2026-06-01T19:03:46Z",
-            "average_heartrate": 133.2,
-            "max_heartrate": 160
           }
         ]
       },
@@ -1513,21 +1518,17 @@
       },
       {
         "month": "2026-06",
-        "count": 11,
-        "distance": 22243.899999999998,
-        "time": 25290
+        "count": 13,
+        "distance": 29270.8,
+        "time": 29952
       }
     ],
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 851,
+    "commits_year": 858,
     "longest_streak": 11,
     "contributions": [
-      {
-        "date": "2025-06-21",
-        "count": 0
-      },
       {
         "date": "2025-06-22",
         "count": 0
@@ -2978,129 +2979,133 @@
       },
       {
         "date": "2026-06-19",
-        "count": 3
+        "count": 6
       },
       {
         "date": "2026-06-20",
+        "count": 4
+      },
+      {
+        "date": "2026-06-21",
         "count": 0
       }
     ],
     "language_share": [
       {
-        "name": "Svelte",
-        "pct": 21.8979597290768
+        "name": "Go",
+        "pct": 21.31383945591093
       },
       {
-        "name": "Go",
-        "pct": 19.201696546538248
+        "name": "Svelte",
+        "pct": 21.257546291487888
       },
       {
         "name": "JavaScript",
-        "pct": 12.072902591167137
+        "pct": 11.719826361886328
       },
       {
         "name": "HTML",
-        "pct": 9.117418358594335
+        "pct": 8.850776292155127
       },
       {
         "name": "CSS",
-        "pct": 7.825916723441534
+        "pct": 7.611322709005476
       },
       {
         "name": "TypeScript",
-        "pct": 6.038789712357348
+        "pct": 5.862183209906247
       },
       {
         "name": "Rust",
-        "pct": 3.799034906567665
+        "pct": 3.6879308112941356
       },
       {
         "name": "TeX",
-        "pct": 3.47739506045837
+        "pct": 3.3756974341920385
       },
       {
         "name": "C#",
-        "pct": 3.1804481632948924
+        "pct": 3.0874348521678066
       },
       {
         "name": "Python",
-        "pct": 2.412275965029366
+        "pct": 2.3417281166320447
       },
       {
         "name": "Kotlin",
-        "pct": 2.1853625909694463
+        "pct": 2.121450903005083
       },
       {
         "name": "Dart",
-        "pct": 2.1596994965127845
+        "pct": 2.0965383346587756
       },
       {
         "name": "ASP.NET",
-        "pct": 1.6632046505480957
+        "pct": 1.6145636529003995
       },
       {
         "name": "Shell",
-        "pct": 1.0279789965327366
+        "pct": 1.217117564311342
       },
       {
         "name": "Vue",
-        "pct": 0.7656095497463161
+        "pct": 0.7432190325625215
       },
       {
         "name": "ShaderLab",
-        "pct": 0.7366882307438014
+        "pct": 0.7151435275788085
       },
       {
         "name": "Makefile",
-        "pct": 0.5036519571861973
+        "pct": 0.49806478920315583
       },
       {
         "name": "SCSS",
-        "pct": 0.4182974568642188
+        "pct": 0.40606420246064034
       },
       {
         "name": "Jinja",
-        "pct": 0.33952347184692644
+        "pct": 0.33281023455218633
       },
       {
         "name": "Typst",
-        "pct": 0.24617899953469627
+        "pct": 0.23897940919364397
       },
       {
         "name": "Swift",
-        "pct": 0.23051938661909416
+        "pct": 0.22377776709644995
       },
       {
         "name": "Java",
-        "pct": 0.20200076952674104
-      },
-      {
-        "name": "HLSL",
-        "pct": 0.1280775120636679
+        "pct": 0.19609318686567462
       },
       {
         "name": "Dockerfile",
-        "pct": 0.12430675781397295
+        "pct": 0.1256645387625437
+      },
+      {
+        "name": "HLSL",
+        "pct": 0.1243318407411649
       },
       {
         "name": "NSIS",
-        "pct": 0.1135527863494303
+        "pct": 0.11023189567497735
       },
       {
         "name": "Ruby",
-        "pct": 0.06499059691039773
+        "pct": 0.06308992433207174
       },
       {
         "name": "GLSL",
-        "pct": 0.05671690311980492
+        "pct": 0.055058197589895594
       },
       {
         "name": "Objective-C",
-        "pct": 0.007980819674111649
+        "pct": 0.007747417830948677
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.0018213109118672224
+        "pct": 0.0017680460416958563
       }
     ]
   },
