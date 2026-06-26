@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-06-25T07:41:04Z",
+  "generated_at": "2026-06-26T07:51:29Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -903,7 +903,7 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-06-25T07:41:04Z",
+    "generated_at": "2026-06-26T07:51:29Z",
     "total_stats": {
       "count": 191,
       "distance": 1546708.199999999,
@@ -1529,10 +1529,6 @@
     "commits_year": 862,
     "longest_streak": 11,
     "contributions": [
-      {
-        "date": "2025-06-26",
-        "count": 0
-      },
       {
         "date": "2025-06-27",
         "count": 9
@@ -2987,6 +2983,10 @@
       },
       {
         "date": "2026-06-25",
+        "count": 0
+      },
+      {
+        "date": "2026-06-26",
         "count": 0
       }
     ],
