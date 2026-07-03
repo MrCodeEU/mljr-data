@@ -50,6 +50,10 @@
     "timeline": {
       "type": "array",
       "items": { "$ref": "#/$defs/timeline_item" }
+    },
+    "wellness_data": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/wellness_day" }
     }
   },
   "$defs": {
@@ -532,6 +536,50 @@
         },
         "calories": {
           "type": "number",
+          "minimum": 0
+        }
+      }
+    },
+    "wellness_day": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date"],
+      "properties": {
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "ctl": {
+          "type": "number"
+        },
+        "atl": {
+          "type": "number"
+        },
+        "form": {
+          "type": "number"
+        },
+        "resting_heartrate": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "hrv": {
+          "type": "number",
+          "minimum": 0
+        },
+        "sleep_time": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "sleep_score": {
+          "type": "number",
+          "minimum": 0
+        },
+        "sleep_quality": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "steps": {
+          "type": "integer",
           "minimum": 0
         }
       }

@@ -14,6 +14,7 @@ type SiteData struct {
 	Content        map[string]SiteContent `json:"content"`
 	Thesis         map[string][]Thesis    `json:"thesis"`
 	Timeline       []TimelineItem         `json:"timeline"`
+	WellnessData   []WellnessDay          `json:"wellness_data,omitempty"`
 }
 
 // TimelineItem is a hand-authored experience/education entry from timeline.json.
@@ -221,4 +222,21 @@ type StravaMonthBucket struct {
 	Count    int     `json:"count"`
 	Distance float64 `json:"distance"`
 	Time     int     `json:"time"`
+}
+
+// WellnessDay is one day of intervals.icu wellness/training-load data,
+// synced from the Amazfit Balance 2 via Zepp. Fields intervals.icu never
+// populates from this device (weight, spO2, vo2max, stress, ...) are
+// omitted from the type entirely rather than kept as always-empty fields.
+type WellnessDay struct {
+	Date             string  `json:"date"`
+	CTL              float64 `json:"ctl,omitempty"`
+	ATL              float64 `json:"atl,omitempty"`
+	Form             float64 `json:"form,omitempty"`
+	RestingHeartrate int     `json:"resting_heartrate,omitempty"`
+	HRV              float64 `json:"hrv,omitempty"`
+	SleepTime        int     `json:"sleep_time,omitempty"`
+	SleepScore       float64 `json:"sleep_score,omitempty"`
+	SleepQuality     int     `json:"sleep_quality,omitempty"`
+	Steps            int     `json:"steps,omitempty"`
 }

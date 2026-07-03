@@ -1,11 +1,11 @@
 // Command generate fetches GitHub account stats, enriches the curated
-// project list, optionally refreshes Strava data, and writes
+// project list, optionally refreshes activity/wellness data, and writes
 // generated/site-data.json validated against schemas/site-data.schema.json.
 //
 // Required env: GITHUB_TOKEN.
 // Optional env: GITHUB_USER (default MrCodeEU), INTERVALS_API_KEY,
 // INTERVALS_ATHLETE_ID (default "0", meaning the authenticated athlete).
-// Activity data refresh is skipped, keeping the previous data, if
+// Activity/wellness data refresh is skipped, keeping the previous data, if
 // INTERVALS_API_KEY is unset.
 package main
 
@@ -130,6 +130,7 @@ func run() error {
 		stats.CommitsYear, stats.LongestStreak, len(stats.Contributions), len(stats.LanguageShare))
 
 	stravaData := existing.StravaData
+	wellnessData := existing.WellnessData
 	if apiKey := os.Getenv("INTERVALS_API_KEY"); apiKey != "" {
 		icu := intervals.New(intervals.Config{
 			APIKey:    apiKey,
@@ -144,16 +145,15 @@ func run() error {
 		stravaData = fresh
 		log.Printf("intervals.icu: %d total activities, %d recent", stravaData.TotalStats.Count, len(stravaData.RecentActivities))
 
-		if os.Getenv("DEBUG_WELLNESS") != "" {
-			raw, err := icu.FetchWellnessRaw(ctx, now.AddDate(0, -1, 0), now)
-			if err != nil {
-				log.Printf("wellness debug: fetch failed: %v", err)
-			} else {
-				log.Printf("wellness debug: raw response (last 30d):\n%s", raw)
-			}
+		log.Println("intervals.icu: refreshing wellness data")
+		freshWellness, err := icu.FetchWellness(ctx, now.AddDate(0, -6, 0), now)
+		if err != nil {
+			return fmt.Errorf("fetch intervals.icu wellness: %w", err)
 		}
+		wellnessData = freshWellness
+		log.Printf("intervals.icu: %d wellness day(s)", len(wellnessData))
 	} else {
-		log.Println("INTERVALS_API_KEY not set, keeping existing strava_data")
+		log.Println("INTERVALS_API_KEY not set, keeping existing strava_data/wellness_data")
 	}
 
 	normalizeStravaData(&stravaData)
@@ -176,6 +176,7 @@ func run() error {
 		Content:        content.Content,
 		Thesis:         content.Thesis,
 		Timeline:       timeline,
+		WellnessData:   wellnessData,
 	}
 
 	log.Println("validating against schemas/site-data.schema.json")

@@ -84,13 +84,31 @@ func (c *Client) Fetch(ctx context.Context, now time.Time) (types.StravaData, er
 	return buildStravaData(raw, now), nil
 }
 
-// FetchWellnessRaw returns the raw wellness.json response body, unparsed.
-// It exists to inspect which fields Zepp actually populates (sleep, HRV,
-// resting HR, VO2max, ...) before committing to a typed schema for them.
-func (c *Client) FetchWellnessRaw(ctx context.Context, oldest, newest time.Time) ([]byte, error) {
+// wellnessDayDTO covers the wellness.json fields the Amazfit Balance 2 /
+// Zepp actually populates (confirmed via a live probe of 31 days of data);
+// the endpoint also returns many device-specific fields (weight, spO2,
+// vo2max, stress, ...) that are consistently null for this device and are
+// left out entirely.
+type wellnessDayDTO struct {
+	ID           string  `json:"id"` // "2026-07-03"
+	CTL          float64 `json:"ctl"`
+	ATL          float64 `json:"atl"`
+	RestingHR    int     `json:"restingHR"`
+	HRV          float64 `json:"hrv"`
+	SleepSecs    int     `json:"sleepSecs"`
+	SleepScore   float64 `json:"sleepScore"`
+	SleepQuality int     `json:"sleepQuality"`
+	Steps        int     `json:"steps"`
+}
+
+// FetchWellness returns daily training-load and health metrics (fitness/
+// fatigue, resting heart rate, HRV, sleep, steps) for the given window.
+func (c *Client) FetchWellness(ctx context.Context, oldest, newest time.Time) ([]types.WellnessDay, error) {
+	fields := "id,ctl,atl,restingHR,hrv,sleepSecs,sleepScore,sleepQuality,steps"
 	endpoint := fmt.Sprintf("%s/athlete/%s/wellness.json?%s", apiBase, url.PathEscape(c.cfg.AthleteID), url.Values{
 		"oldest": {oldest.Format("2006-01-02")},
 		"newest": {newest.Format("2006-01-02")},
+		"fields": {fields},
 	}.Encode())
 
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, endpoint, nil)
@@ -99,19 +117,27 @@ func (c *Client) FetchWellnessRaw(ctx context.Context, oldest, newest time.Time)
 	}
 	req.SetBasicAuth("API_KEY", c.cfg.APIKey)
 
-	resp, err := c.http.Do(req)
-	if err != nil {
-		return nil, err
+	var days []wellnessDayDTO
+	if err := c.doJSON(req, &days); err != nil {
+		return nil, fmt.Errorf("fetch intervals.icu wellness: %w", err)
 	}
-	defer func() { _ = resp.Body.Close() }()
-	body, err := io.ReadAll(io.LimitReader(resp.Body, 1<<20))
-	if err != nil {
-		return nil, err
+
+	out := make([]types.WellnessDay, 0, len(days))
+	for _, d := range days {
+		out = append(out, types.WellnessDay{
+			Date:             d.ID,
+			CTL:              d.CTL,
+			ATL:              d.ATL,
+			Form:             d.CTL - d.ATL,
+			RestingHeartrate: d.RestingHR,
+			HRV:              d.HRV,
+			SleepTime:        d.SleepSecs,
+			SleepScore:       d.SleepScore,
+			SleepQuality:     d.SleepQuality,
+			Steps:            d.Steps,
+		})
 	}
-	if resp.StatusCode < 200 || resp.StatusCode > 299 {
-		return nil, fmt.Errorf("status %d: %s", resp.StatusCode, strings.TrimSpace(string(body)))
-	}
-	return body, nil
+	return out, nil
 }
 
 func (c *Client) fetchActivities(ctx context.Context, oldest, newest time.Time) ([]activityDTO, error) {
