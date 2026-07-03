@@ -84,6 +84,36 @@ func (c *Client) Fetch(ctx context.Context, now time.Time) (types.StravaData, er
 	return buildStravaData(raw, now), nil
 }
 
+// FetchWellnessRaw returns the raw wellness.json response body, unparsed.
+// It exists to inspect which fields Zepp actually populates (sleep, HRV,
+// resting HR, VO2max, ...) before committing to a typed schema for them.
+func (c *Client) FetchWellnessRaw(ctx context.Context, oldest, newest time.Time) ([]byte, error) {
+	endpoint := fmt.Sprintf("%s/athlete/%s/wellness.json?%s", apiBase, url.PathEscape(c.cfg.AthleteID), url.Values{
+		"oldest": {oldest.Format("2006-01-02")},
+		"newest": {newest.Format("2006-01-02")},
+	}.Encode())
+
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, endpoint, nil)
+	if err != nil {
+		return nil, err
+	}
+	req.SetBasicAuth("API_KEY", c.cfg.APIKey)
+
+	resp, err := c.http.Do(req)
+	if err != nil {
+		return nil, err
+	}
+	defer func() { _ = resp.Body.Close() }()
+	body, err := io.ReadAll(io.LimitReader(resp.Body, 1<<20))
+	if err != nil {
+		return nil, err
+	}
+	if resp.StatusCode < 200 || resp.StatusCode > 299 {
+		return nil, fmt.Errorf("status %d: %s", resp.StatusCode, strings.TrimSpace(string(body)))
+	}
+	return body, nil
+}
+
 func (c *Client) fetchActivities(ctx context.Context, oldest, newest time.Time) ([]activityDTO, error) {
 	endpoint := fmt.Sprintf("%s/athlete/%s/activities?%s", apiBase, url.PathEscape(c.cfg.AthleteID), url.Values{
 		"oldest": {oldest.Format("2006-01-02")},

@@ -131,16 +131,27 @@ func run() error {
 
 	stravaData := existing.StravaData
 	if apiKey := os.Getenv("INTERVALS_API_KEY"); apiKey != "" {
-		log.Println("intervals.icu: refreshing activity data")
-		fresh, err := intervals.New(intervals.Config{
+		icu := intervals.New(intervals.Config{
 			APIKey:    apiKey,
 			AthleteID: os.Getenv("INTERVALS_ATHLETE_ID"),
-		}).Fetch(ctx, now)
+		})
+
+		log.Println("intervals.icu: refreshing activity data")
+		fresh, err := icu.Fetch(ctx, now)
 		if err != nil {
 			return fmt.Errorf("fetch intervals.icu data: %w", err)
 		}
 		stravaData = fresh
 		log.Printf("intervals.icu: %d total activities, %d recent", stravaData.TotalStats.Count, len(stravaData.RecentActivities))
+
+		if os.Getenv("DEBUG_WELLNESS") != "" {
+			raw, err := icu.FetchWellnessRaw(ctx, now.AddDate(0, -1, 0), now)
+			if err != nil {
+				log.Printf("wellness debug: fetch failed: %v", err)
+			} else {
+				log.Printf("wellness debug: raw response (last 30d):\n%s", raw)
+			}
+		}
 	} else {
 		log.Println("INTERVALS_API_KEY not set, keeping existing strava_data")
 	}
