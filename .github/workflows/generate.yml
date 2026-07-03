@@ -3,7 +3,12 @@ name: Generate site data
 on:
   schedule:
     - cron: "0 4 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      debug_wellness:
+        description: "Log raw intervals.icu wellness.json (debug, one-off)"
+        type: boolean
+        default: false
   push:
     paths:
       - projects.json
@@ -29,6 +34,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: MrCodeEU
           INTERVALS_API_KEY: ${{ secrets.INTERVALS_API_KEY }}
+          DEBUG_WELLNESS: ${{ inputs.debug_wellness && '1' || '' }}
         run: go run ./cmd/generate
 
       - name: Commit changes
