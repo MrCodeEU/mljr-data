@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-07-03T13:05:29Z",
+  "generated_at": "2026-07-03T13:10:29Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -903,7 +903,7 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-07-03T13:05:29Z",
+    "generated_at": "2026-07-03T13:10:29Z",
     "total_stats": {
       "count": 424,
       "distance": 1910475,
@@ -1768,7 +1768,7 @@
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 858,
+    "commits_year": 859,
     "longest_streak": 11,
     "contributions": [
       {
@@ -3229,125 +3229,125 @@
       },
       {
         "date": "2026-07-03",
-        "count": 3
+        "count": 4
       }
     ],
     "language_share": [
       {
         "name": "Go",
-        "pct": 22.015073251238938
+        "pct": 22.02899031610837
       },
       {
         "name": "Svelte",
-        "pct": 21.006309230799218
+        "pct": 21.002560478566952
       },
       {
         "name": "JavaScript",
-        "pct": 11.639276212824994
+        "pct": 11.63719908627195
       },
       {
         "name": "HTML",
-        "pct": 8.7618079683736
+        "pct": 8.760244350185406
       },
       {
         "name": "CSS",
-        "pct": 7.539391208657295
+        "pct": 7.538045741002181
       },
       {
         "name": "TypeScript",
-        "pct": 5.79289968777815
+        "pct": 5.791865896196905
       },
       {
         "name": "Rust",
-        "pct": 3.7366709575734034
+        "pct": 3.7360041172713054
       },
       {
         "name": "TeX",
-        "pct": 3.33580099979122
+        "pct": 3.3352056980984304
       },
       {
         "name": "C#",
-        "pct": 3.0509453135028006
+        "pct": 3.0504008466986208
       },
       {
         "name": "Python",
-        "pct": 2.314051879643666
+        "pct": 2.3136389176590506
       },
       {
         "name": "Kotlin",
-        "pct": 2.0963780614852814
+        "pct": 2.0960039452209096
       },
       {
         "name": "Dart",
-        "pct": 2.071759927894505
+        "pct": 2.0713902049427446
       },
       {
         "name": "ASP.NET",
-        "pct": 1.5954815716061963
+        "pct": 1.5951968445255187
       },
       {
         "name": "Shell",
-        "pct": 1.2027327884215404
+        "pct": 1.2025181506583869
       },
       {
         "name": "Vue",
-        "pct": 0.7344351323593425
+        "pct": 0.7343040662443181
       },
       {
         "name": "ShaderLab",
-        "pct": 0.706691444004545
+        "pct": 0.7065653289836185
       },
       {
         "name": "Makefile",
-        "pct": 0.5269896043697363
+        "pct": 0.5268955586507071
       },
       {
         "name": "SCSS",
-        "pct": 0.401265041951793
+        "pct": 0.4011934328363974
       },
       {
         "name": "Jinja",
-        "pct": 0.32685752334201174
+        "pct": 0.3267991928729704
       },
       {
         "name": "Typst",
-        "pct": 0.2361549776478936
+        "pct": 0.2361128338095881
       },
       {
         "name": "Swift",
-        "pct": 0.22113299955452062
+        "pct": 0.2210935365143169
       },
       {
         "name": "Java",
-        "pct": 0.19377561572111904
+        "pct": 0.1937410348357283
       },
       {
         "name": "Dockerfile",
-        "pct": 0.13617234379206
+        "pct": 0.13614804269413014
       },
       {
         "name": "HLSL",
-        "pct": 0.12286239710032802
+        "pct": 0.1228404712741236
       },
       {
         "name": "NSIS",
-        "pct": 0.10892909538543447
+        "pct": 0.10890965607389248
       },
       {
         "name": "Ruby",
-        "pct": 0.06234428196437254
+        "pct": 0.062333156103869636
       },
       {
         "name": "GLSL",
-        "pct": 0.0544074799793292
+        "pct": 0.054397770507770754
       },
       {
         "name": "Objective-C",
-        "pct": 0.00765585324220995
+        "pct": 0.007654486990927239
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.0017471499944951606
+        "pct": 0.0017468382009111474
       }
     ]
   },
@@ -3808,6 +3808,2182 @@
         "Embedded"
       ],
       "logo": "/static/logos/htl-steyr.png"
+    }
+  ],
+  "wellness_data": [
+    {
+      "date": "2026-01-03",
+      "ctl": 4.3009963,
+      "atl": 0.89017266,
+      "form": 3.4108236400000003,
+      "resting_heartrate": 55,
+      "hrv": 52,
+      "sleep_time": 30060,
+      "sleep_score": 76,
+      "sleep_quality": 3,
+      "steps": 16138
+    },
+    {
+      "date": "2026-01-04",
+      "ctl": 4.199801,
+      "atl": 0.771671,
+      "form": 3.42813,
+      "resting_heartrate": 55,
+      "hrv": 61,
+      "sleep_time": 30960,
+      "sleep_score": 74,
+      "sleep_quality": 3,
+      "steps": 7274
+    },
+    {
+      "date": "2026-01-05",
+      "ctl": 4.100987,
+      "atl": 0.66894454,
+      "form": 3.43204246,
+      "resting_heartrate": 57,
+      "hrv": 59,
+      "sleep_time": 25020,
+      "sleep_score": 66,
+      "sleep_quality": 3,
+      "steps": 697
+    },
+    {
+      "date": "2026-01-06",
+      "ctl": 4.0044975,
+      "atl": 0.57989323,
+      "form": 3.42460427,
+      "resting_heartrate": 58,
+      "hrv": 50,
+      "sleep_time": 29640,
+      "sleep_score": 85,
+      "sleep_quality": 2,
+      "steps": 636
+    },
+    {
+      "date": "2026-01-07",
+      "ctl": 3.9102786,
+      "atl": 0.50269663,
+      "form": 3.40758197,
+      "resting_heartrate": 57,
+      "hrv": 54,
+      "sleep_time": 29340,
+      "sleep_score": 81,
+      "sleep_quality": 2,
+      "steps": 847
+    },
+    {
+      "date": "2026-01-08",
+      "ctl": 3.8182764,
+      "atl": 0.4357766,
+      "form": 3.3824997999999997,
+      "resting_heartrate": 58,
+      "hrv": 55,
+      "sleep_time": 25080,
+      "sleep_score": 72,
+      "sleep_quality": 3,
+      "steps": 3488
+    },
+    {
+      "date": "2026-01-09",
+      "ctl": 3.7284389,
+      "atl": 0.3777651,
+      "form": 3.3506738,
+      "resting_heartrate": 57,
+      "hrv": 57,
+      "sleep_time": 29400,
+      "sleep_score": 75,
+      "sleep_quality": 3,
+      "steps": 4543
+    },
+    {
+      "date": "2026-01-10",
+      "ctl": 3.640715,
+      "atl": 0.3274762,
+      "form": 3.3132388,
+      "resting_heartrate": 58,
+      "hrv": 51,
+      "sleep_time": 25740,
+      "sleep_score": 77,
+      "sleep_quality": 3,
+      "steps": 9887
+    },
+    {
+      "date": "2026-01-11",
+      "ctl": 3.555055,
+      "atl": 0.28388187,
+      "form": 3.2711731299999998,
+      "resting_heartrate": 57,
+      "hrv": 60,
+      "sleep_time": 28920,
+      "sleep_score": 78,
+      "sleep_quality": 3,
+      "steps": 7057
+    },
+    {
+      "date": "2026-01-12",
+      "ctl": 3.4714105,
+      "atl": 0.24609092,
+      "form": 3.2253195800000003,
+      "resting_heartrate": 57,
+      "hrv": 57,
+      "sleep_time": 28020,
+      "sleep_score": 88,
+      "sleep_quality": 2,
+      "steps": 1106
+    },
+    {
+      "date": "2026-01-13",
+      "ctl": 3.389734,
+      "atl": 0.21333078,
+      "form": 3.1764032199999996,
+      "resting_heartrate": 57,
+      "hrv": 56,
+      "sleep_time": 29100,
+      "sleep_score": 91,
+      "sleep_quality": 1,
+      "steps": 3945
+    },
+    {
+      "date": "2026-01-14",
+      "ctl": 3.3099792,
+      "atl": 0.18493174,
+      "form": 3.1250474599999998,
+      "resting_heartrate": 57,
+      "hrv": 56,
+      "sleep_time": 29400,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 1569
+    },
+    {
+      "date": "2026-01-15",
+      "ctl": 3.232101,
+      "atl": 0.16031323,
+      "form": 3.0717877700000003,
+      "resting_heartrate": 57,
+      "hrv": 52,
+      "sleep_time": 25740,
+      "sleep_score": 75,
+      "sleep_quality": 3,
+      "steps": 2582
+    },
+    {
+      "date": "2026-01-16",
+      "ctl": 3.156055,
+      "atl": 0.138972,
+      "form": 3.017083,
+      "resting_heartrate": 58,
+      "hrv": 58,
+      "sleep_time": 27600,
+      "sleep_score": 88,
+      "sleep_quality": 2,
+      "steps": 2334
+    },
+    {
+      "date": "2026-01-17",
+      "ctl": 3.0817983,
+      "atl": 0.12047175,
+      "form": 2.96132655,
+      "resting_heartrate": 58,
+      "hrv": 54,
+      "sleep_time": 26940,
+      "sleep_score": 85,
+      "sleep_quality": 2,
+      "steps": 8600
+    },
+    {
+      "date": "2026-01-18",
+      "ctl": 4.303346,
+      "atl": 7.42615,
+      "form": -3.1228039999999995,
+      "resting_heartrate": 58,
+      "hrv": 60,
+      "sleep_time": 27720,
+      "sleep_score": 72,
+      "sleep_quality": 3,
+      "steps": 7227
+    },
+    {
+      "date": "2026-01-19",
+      "ctl": 4.2020955,
+      "atl": 6.4375653,
+      "form": -2.2354697999999997,
+      "resting_heartrate": 59,
+      "hrv": 49,
+      "sleep_time": 23940,
+      "sleep_score": 68,
+      "sleep_quality": 3,
+      "steps": 4031
+    },
+    {
+      "date": "2026-01-20",
+      "ctl": 4.103227,
+      "atl": 5.580583,
+      "form": -1.4773559999999994,
+      "resting_heartrate": 56,
+      "hrv": 57,
+      "sleep_time": 29460,
+      "sleep_score": 92,
+      "sleep_quality": 1,
+      "steps": 1027
+    },
+    {
+      "date": "2026-01-21",
+      "ctl": 4.0066853,
+      "atl": 4.837684,
+      "form": -0.8309987000000003,
+      "resting_heartrate": 58,
+      "hrv": 55,
+      "sleep_time": 29700,
+      "sleep_score": 93,
+      "sleep_quality": 1,
+      "steps": 3371
+    },
+    {
+      "date": "2026-01-22",
+      "ctl": 3.9124148,
+      "atl": 4.1936817,
+      "form": -0.2812668999999999,
+      "resting_heartrate": 56,
+      "hrv": 56,
+      "sleep_time": 27240,
+      "sleep_score": 81,
+      "sleep_quality": 2,
+      "steps": 11428
+    },
+    {
+      "date": "2026-01-23",
+      "ctl": 3.8203623,
+      "atl": 3.63541,
+      "form": 0.1849523000000004,
+      "resting_heartrate": 57,
+      "hrv": 50,
+      "sleep_time": 29100,
+      "sleep_score": 84,
+      "sleep_quality": 2,
+      "steps": 7880
+    },
+    {
+      "date": "2026-01-24",
+      "ctl": 3.7304757,
+      "atl": 3.1514566,
+      "form": 0.5790191,
+      "resting_heartrate": 57,
+      "hrv": 53,
+      "sleep_time": 27300,
+      "sleep_score": 78,
+      "sleep_quality": 3,
+      "steps": 2008
+    },
+    {
+      "date": "2026-01-25",
+      "ctl": 3.6427038,
+      "atl": 2.731928,
+      "form": 0.9107758000000001,
+      "resting_heartrate": 58,
+      "hrv": 52,
+      "sleep_time": 28800,
+      "sleep_score": 76,
+      "sleep_quality": 3,
+      "steps": 1522
+    },
+    {
+      "date": "2026-01-26",
+      "ctl": 3.556997,
+      "atl": 2.368248,
+      "form": 1.188749,
+      "resting_heartrate": 58,
+      "hrv": 54,
+      "sleep_time": 26700,
+      "sleep_score": 72,
+      "sleep_quality": 3,
+      "steps": 905
+    },
+    {
+      "date": "2026-01-27",
+      "ctl": 3.473307,
+      "atl": 2.0529819,
+      "form": 1.4203251000000003,
+      "resting_heartrate": 61,
+      "hrv": 47,
+      "sleep_time": 27780,
+      "sleep_score": 90,
+      "sleep_quality": 1,
+      "steps": 4065
+    },
+    {
+      "date": "2026-01-28",
+      "ctl": 3.3915858,
+      "atl": 1.7796845,
+      "form": 1.6119013000000002,
+      "resting_heartrate": 61,
+      "sleep_time": 27780,
+      "sleep_score": 85,
+      "sleep_quality": 2,
+      "steps": 1203
+    },
+    {
+      "date": "2026-01-29",
+      "ctl": 3.3117876,
+      "atl": 1.5427692,
+      "form": 1.7690184000000002,
+      "resting_heartrate": 60,
+      "hrv": 47,
+      "sleep_time": 25020,
+      "sleep_score": 75,
+      "sleep_quality": 3,
+      "steps": 3993
+    },
+    {
+      "date": "2026-01-30",
+      "ctl": 3.233867,
+      "atl": 1.3373926,
+      "form": 1.8964744,
+      "resting_heartrate": 59,
+      "hrv": 51,
+      "sleep_time": 30360,
+      "sleep_score": 82,
+      "sleep_quality": 2,
+      "steps": 3412
+    },
+    {
+      "date": "2026-01-31",
+      "ctl": 3.1577795,
+      "atl": 1.1593561,
+      "form": 1.9984234000000003,
+      "resting_heartrate": 60,
+      "hrv": 49,
+      "sleep_time": 28980,
+      "sleep_score": 88,
+      "sleep_quality": 2,
+      "steps": 7690
+    },
+    {
+      "date": "2026-02-01",
+      "ctl": 3.0834823,
+      "atl": 1.0050201,
+      "form": 2.0784621999999997,
+      "resting_heartrate": 59,
+      "hrv": 47,
+      "sleep_time": 27600,
+      "sleep_score": 80,
+      "sleep_quality": 2,
+      "steps": 1151
+    },
+    {
+      "date": "2026-02-02",
+      "ctl": 3.0109332,
+      "atl": 0.87122977,
+      "form": 2.13970343,
+      "resting_heartrate": 57,
+      "hrv": 50,
+      "sleep_time": 30240,
+      "sleep_score": 93,
+      "sleep_quality": 1,
+      "steps": 5334
+    },
+    {
+      "date": "2026-02-03",
+      "ctl": 2.940091,
+      "atl": 0.75524986,
+      "form": 2.1848411399999996,
+      "resting_heartrate": 60,
+      "hrv": 46,
+      "sleep_time": 27360,
+      "sleep_score": 77,
+      "sleep_quality": 3,
+      "steps": 5218
+    },
+    {
+      "date": "2026-02-04",
+      "ctl": 2.8709154,
+      "atl": 0.6547094,
+      "form": 2.2162059999999997,
+      "resting_heartrate": 58,
+      "hrv": 48,
+      "sleep_time": 31260,
+      "sleep_score": 92,
+      "sleep_quality": 1,
+      "steps": 1121
+    },
+    {
+      "date": "2026-02-05",
+      "ctl": 2.8033676,
+      "atl": 0.5675531,
+      "form": 2.2358145,
+      "resting_heartrate": 58,
+      "hrv": 49,
+      "sleep_time": 23280,
+      "sleep_score": 67,
+      "sleep_quality": 3,
+      "steps": 4182
+    },
+    {
+      "date": "2026-02-06",
+      "ctl": 2.737409,
+      "atl": 0.49199924,
+      "form": 2.24540976,
+      "resting_heartrate": 62,
+      "hrv": 46,
+      "sleep_time": 27540,
+      "sleep_score": 71,
+      "sleep_quality": 3,
+      "steps": 5412
+    },
+    {
+      "date": "2026-02-07",
+      "ctl": 3.6611917,
+      "atl": 6.0176315,
+      "form": -2.3564398000000004,
+      "resting_heartrate": 61,
+      "hrv": 46,
+      "sleep_time": 30480,
+      "sleep_score": 85,
+      "sleep_quality": 2,
+      "steps": 6359
+    },
+    {
+      "date": "2026-02-08",
+      "ctl": 3.57505,
+      "atl": 5.216552,
+      "form": -1.641502,
+      "resting_heartrate": 61,
+      "hrv": 45,
+      "sleep_time": 28020,
+      "sleep_score": 81,
+      "sleep_quality": 2,
+      "steps": 6039
+    },
+    {
+      "date": "2026-02-09",
+      "ctl": 3.4909353,
+      "atl": 4.5221133,
+      "form": -1.0311780000000002,
+      "resting_heartrate": 57,
+      "hrv": 58,
+      "sleep_time": 28200,
+      "sleep_score": 78,
+      "sleep_quality": 3,
+      "steps": 884
+    },
+    {
+      "date": "2026-02-10",
+      "ctl": 3.4087994,
+      "atl": 3.92012,
+      "form": -0.5113205999999999,
+      "resting_heartrate": 61,
+      "hrv": 46,
+      "sleep_time": 28740,
+      "sleep_score": 92,
+      "sleep_quality": 1,
+      "steps": 1539
+    },
+    {
+      "date": "2026-02-11",
+      "ctl": 3.328596,
+      "atl": 3.3982654,
+      "form": -0.06966939999999999,
+      "resting_heartrate": 58,
+      "hrv": 53,
+      "sleep_time": 27600,
+      "sleep_score": 72,
+      "sleep_quality": 3,
+      "steps": 900
+    },
+    {
+      "date": "2026-02-12",
+      "ctl": 3.25028,
+      "atl": 2.9458811,
+      "form": 0.30439890000000025,
+      "resting_heartrate": 59,
+      "hrv": 47,
+      "sleep_time": 26460,
+      "sleep_score": 81,
+      "sleep_quality": 2,
+      "steps": 3636
+    },
+    {
+      "date": "2026-02-13",
+      "ctl": 3.1738062,
+      "atl": 2.5537193,
+      "form": 0.6200869,
+      "resting_heartrate": 57,
+      "hrv": 36,
+      "sleep_time": 31680,
+      "sleep_score": 91,
+      "sleep_quality": 1,
+      "steps": 13445
+    },
+    {
+      "date": "2026-02-14",
+      "ctl": 3.0991318,
+      "atl": 2.2137628,
+      "form": 0.8853689999999999,
+      "resting_heartrate": 58,
+      "hrv": 46,
+      "sleep_time": 26880,
+      "sleep_score": 74,
+      "sleep_quality": 3,
+      "steps": 4435
+    },
+    {
+      "date": "2026-02-15",
+      "ctl": 3.0262144,
+      "atl": 1.919062,
+      "form": 1.1071524000000001,
+      "resting_heartrate": 59,
+      "hrv": 45,
+      "sleep_time": 26880,
+      "sleep_score": 82,
+      "sleep_quality": 2,
+      "steps": 1145
+    },
+    {
+      "date": "2026-02-16",
+      "ctl": 2.9550126,
+      "atl": 1.6635925,
+      "form": 1.2914200999999998,
+      "resting_heartrate": 61,
+      "hrv": 49,
+      "sleep_time": 29640,
+      "sleep_score": 86,
+      "sleep_quality": 2,
+      "steps": 1293
+    },
+    {
+      "date": "2026-02-17",
+      "ctl": 2.8854861,
+      "atl": 1.4421315,
+      "form": 1.4433546000000002,
+      "resting_heartrate": 61,
+      "hrv": 46,
+      "sleep_time": 27180,
+      "sleep_score": 76,
+      "sleep_quality": 3,
+      "steps": 1869
+    },
+    {
+      "date": "2026-02-18",
+      "ctl": 2.8175955,
+      "atl": 1.250152,
+      "form": 1.5674435,
+      "resting_heartrate": 61,
+      "hrv": 46,
+      "sleep_time": 29880,
+      "sleep_score": 89,
+      "sleep_quality": 2,
+      "steps": 8594
+    },
+    {
+      "date": "2026-02-19",
+      "ctl": 2.7513022,
+      "atl": 4.6780257,
+      "form": -1.9267235,
+      "resting_heartrate": 59,
+      "hrv": 52,
+      "sleep_time": 24300,
+      "sleep_score": 74,
+      "sleep_quality": 3,
+      "steps": 4639
+    },
+    {
+      "date": "2026-02-20",
+      "ctl": 2.6865687,
+      "atl": 4.0552773,
+      "form": -1.3687086000000002,
+      "resting_heartrate": 62,
+      "hrv": 41,
+      "sleep_time": 29340,
+      "sleep_score": 84,
+      "sleep_quality": 2,
+      "steps": 9222
+    },
+    {
+      "date": "2026-02-21",
+      "ctl": 2.6233582,
+      "atl": 3.5154302,
+      "form": -0.8920719999999998,
+      "resting_heartrate": 61,
+      "hrv": 45,
+      "sleep_time": 25860,
+      "sleep_score": 76,
+      "sleep_quality": 3,
+      "steps": 2991
+    },
+    {
+      "date": "2026-02-22",
+      "ctl": 2.561635,
+      "atl": 3.0474489,
+      "form": -0.48581390000000013,
+      "resting_heartrate": 62,
+      "hrv": 48,
+      "sleep_time": 25200,
+      "sleep_score": 70,
+      "sleep_quality": 3,
+      "steps": 5157
+    },
+    {
+      "date": "2026-02-23",
+      "ctl": 3.4424965,
+      "atl": 7.96665,
+      "form": -4.5241535,
+      "resting_heartrate": 56,
+      "hrv": 59,
+      "sleep_time": 30540,
+      "sleep_score": 76,
+      "sleep_quality": 3,
+      "steps": 499
+    },
+    {
+      "date": "2026-02-24",
+      "ctl": 3.92618,
+      "atl": 10.101044,
+      "form": -6.1748639999999995,
+      "resting_heartrate": 59,
+      "hrv": 49,
+      "sleep_time": 31020,
+      "sleep_score": 90,
+      "sleep_quality": 1,
+      "steps": 10953
+    },
+    {
+      "date": "2026-02-25",
+      "ctl": 4.5631814,
+      "atl": 12.883157,
+      "form": -8.3199756,
+      "resting_heartrate": 63,
+      "hrv": 42,
+      "sleep_time": 25680,
+      "sleep_score": 63,
+      "sleep_quality": 3,
+      "steps": 1206
+    },
+    {
+      "date": "2026-02-26",
+      "ctl": 4.455817,
+      "atl": 15.294909,
+      "form": -10.839092,
+      "resting_heartrate": 61,
+      "hrv": 50,
+      "sleep_time": 25800,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 5111
+    },
+    {
+      "date": "2026-02-27",
+      "ctl": 4.3509793,
+      "atl": 13.258819,
+      "form": -8.9078397,
+      "resting_heartrate": 59,
+      "sleep_time": 24360,
+      "sleep_score": 74,
+      "sleep_quality": 3,
+      "steps": 11094
+    },
+    {
+      "date": "2026-02-28",
+      "ctl": 4.248608,
+      "atl": 11.493777,
+      "form": -7.245169,
+      "resting_heartrate": 56,
+      "hrv": 55,
+      "sleep_time": 28860,
+      "sleep_score": 73,
+      "sleep_quality": 3,
+      "steps": 10260
+    },
+    {
+      "date": "2026-03-01",
+      "ctl": 4.1486454,
+      "atl": 9.963701,
+      "form": -5.8150556,
+      "resting_heartrate": 57,
+      "hrv": 54,
+      "sleep_time": 29460,
+      "sleep_score": 90,
+      "sleep_quality": 1,
+      "steps": 8551
+    },
+    {
+      "date": "2026-03-02",
+      "ctl": 4.051035,
+      "atl": 8.637312,
+      "form": -4.586277,
+      "resting_heartrate": 55,
+      "hrv": 63,
+      "sleep_time": 31020,
+      "sleep_score": 87,
+      "sleep_quality": 2,
+      "steps": 734
+    },
+    {
+      "date": "2026-03-03",
+      "ctl": 3.955721,
+      "atl": 7.487495,
+      "form": -3.531774,
+      "resting_heartrate": 55,
+      "hrv": 55,
+      "sleep_time": 29460,
+      "sleep_score": 91,
+      "sleep_quality": 1,
+      "steps": 6583
+    },
+    {
+      "date": "2026-03-04",
+      "ctl": 3.8626494,
+      "atl": 6.490744,
+      "form": -2.6280946000000003,
+      "resting_heartrate": 59,
+      "hrv": 57,
+      "sleep_time": 28800,
+      "sleep_score": 87,
+      "sleep_quality": 2,
+      "steps": 1706
+    },
+    {
+      "date": "2026-03-05",
+      "ctl": 3.7717679,
+      "atl": 9.88659,
+      "form": -6.1148221,
+      "resting_heartrate": 61,
+      "hrv": 44,
+      "sleep_time": 24960,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 4562
+    },
+    {
+      "date": "2026-03-06",
+      "ctl": 3.6830244,
+      "atl": 8.570466,
+      "form": -4.8874416,
+      "resting_heartrate": 63,
+      "hrv": 48,
+      "sleep_time": 24900,
+      "sleep_score": 73,
+      "sleep_quality": 3,
+      "steps": 4097
+    },
+    {
+      "date": "2026-03-07",
+      "ctl": 3.596369,
+      "atl": 7.429548,
+      "form": -3.8331789999999994,
+      "resting_heartrate": 55,
+      "hrv": 52,
+      "sleep_time": 31500,
+      "sleep_score": 89,
+      "sleep_quality": 2,
+      "steps": 15611
+    },
+    {
+      "date": "2026-03-08",
+      "ctl": 4.994036,
+      "atl": 14.827203,
+      "form": -9.833167,
+      "steps": 7528
+    },
+    {
+      "date": "2026-03-09",
+      "ctl": 4.876535,
+      "atl": 12.8533745,
+      "form": -7.9768395,
+      "resting_heartrate": 60,
+      "hrv": 55,
+      "sleep_time": 30660,
+      "sleep_score": 87,
+      "sleep_quality": 2,
+      "steps": 1807
+    },
+    {
+      "date": "2026-03-10",
+      "ctl": 5.561761,
+      "atl": 15.668458,
+      "form": -10.106697,
+      "resting_heartrate": 59,
+      "hrv": 48,
+      "sleep_time": 24240,
+      "sleep_score": 74,
+      "sleep_quality": 3,
+      "steps": 6083
+    },
+    {
+      "date": "2026-03-11",
+      "ctl": 5.430902,
+      "atl": 13.58264,
+      "form": -8.151738,
+      "resting_heartrate": 57,
+      "hrv": 55,
+      "sleep_time": 27720,
+      "sleep_score": 89,
+      "sleep_quality": 2,
+      "steps": 8792
+    },
+    {
+      "date": "2026-03-12",
+      "ctl": 5.303122,
+      "atl": 15.501909,
+      "form": -10.198787,
+      "resting_heartrate": 59,
+      "hrv": 52,
+      "sleep_time": 26940,
+      "sleep_score": 77,
+      "sleep_quality": 3,
+      "steps": 8135
+    },
+    {
+      "date": "2026-03-13",
+      "ctl": 5.648915,
+      "atl": 16.100704,
+      "form": -10.451789000000002,
+      "resting_heartrate": 59,
+      "hrv": 48,
+      "sleep_time": 25440,
+      "sleep_score": 78,
+      "sleep_quality": 3,
+      "steps": 7325
+    },
+    {
+      "date": "2026-03-14",
+      "ctl": 5.5160055,
+      "atl": 13.957345,
+      "form": -8.4413395,
+      "resting_heartrate": 58,
+      "hrv": 47,
+      "sleep_time": 25440,
+      "sleep_score": 68,
+      "sleep_quality": 3,
+      "steps": 7330
+    },
+    {
+      "date": "2026-03-15",
+      "ctl": 7.1037903,
+      "atl": 21.817226,
+      "form": -14.713435700000002,
+      "resting_heartrate": 55,
+      "hrv": 60,
+      "sleep_time": 30660,
+      "sleep_score": 89,
+      "sleep_quality": 2,
+      "steps": 17540
+    },
+    {
+      "date": "2026-03-16",
+      "ctl": 6.9366503,
+      "atl": 18.912872,
+      "form": -11.9762217,
+      "resting_heartrate": 56,
+      "hrv": 55,
+      "sleep_time": 31500,
+      "sleep_score": 86,
+      "sleep_quality": 2,
+      "steps": 1209
+    },
+    {
+      "date": "2026-03-17",
+      "ctl": 7.5263486,
+      "atl": 20.655058,
+      "form": -13.1287094,
+      "resting_heartrate": 57,
+      "hrv": 52,
+      "sleep_time": 25140,
+      "sleep_score": 78,
+      "sleep_quality": 3,
+      "steps": 4175
+    },
+    {
+      "date": "2026-03-18",
+      "ctl": 8.384512,
+      "atl": 23.762785,
+      "form": -15.378273,
+      "resting_heartrate": 56,
+      "hrv": 52,
+      "sleep_time": 28860,
+      "sleep_score": 86,
+      "sleep_quality": 2,
+      "steps": 1037
+    },
+    {
+      "date": "2026-03-19",
+      "ctl": 8.187239,
+      "atl": 25.52495,
+      "form": -17.337711,
+      "resting_heartrate": 58,
+      "hrv": 53,
+      "sleep_time": 29160,
+      "sleep_score": 85,
+      "sleep_quality": 2,
+      "steps": 3229
+    },
+    {
+      "date": "2026-03-20",
+      "ctl": 7.994607,
+      "atl": 22.127014,
+      "form": -14.132406999999999,
+      "resting_heartrate": 56,
+      "hrv": 54,
+      "sleep_time": 28680,
+      "sleep_score": 85,
+      "sleep_quality": 2,
+      "steps": 7013
+    },
+    {
+      "date": "2026-03-21",
+      "ctl": 7.8065076,
+      "atl": 19.18142,
+      "form": -11.3749124,
+      "resting_heartrate": 55,
+      "hrv": 52,
+      "sleep_time": 26160,
+      "sleep_score": 81,
+      "sleep_quality": 2,
+      "steps": 9734
+    },
+    {
+      "date": "2026-03-22",
+      "ctl": 7.6228337,
+      "atl": 16.627949,
+      "form": -9.0051153,
+      "resting_heartrate": 56,
+      "hrv": 54,
+      "sleep_time": 28680,
+      "sleep_score": 83,
+      "sleep_quality": 2,
+      "steps": 13311
+    },
+    {
+      "date": "2026-03-23",
+      "ctl": 8.055218,
+      "atl": 17.875576,
+      "form": -9.820357999999999,
+      "resting_heartrate": 55,
+      "hrv": 50,
+      "sleep_time": 30180,
+      "sleep_score": 85,
+      "sleep_quality": 2,
+      "steps": 1929
+    },
+    {
+      "date": "2026-03-24",
+      "ctl": 8.406843,
+      "atl": 18.55775,
+      "form": -10.150906999999998,
+      "resting_heartrate": 61,
+      "hrv": 45,
+      "sleep_time": 30480,
+      "sleep_score": 87,
+      "sleep_quality": 2,
+      "steps": 5241
+    },
+    {
+      "date": "2026-03-25",
+      "ctl": 8.467855,
+      "atl": 17.551647,
+      "form": -9.083791999999999,
+      "resting_heartrate": 57,
+      "hrv": 47,
+      "sleep_time": 27660,
+      "sleep_score": 82,
+      "sleep_quality": 2,
+      "steps": 2408
+    },
+    {
+      "date": "2026-03-26",
+      "ctl": 8.268621,
+      "atl": 18.809431,
+      "form": -10.54081,
+      "resting_heartrate": 59,
+      "hrv": 48,
+      "sleep_time": 25500,
+      "sleep_score": 75,
+      "sleep_quality": 3,
+      "steps": 5216
+    },
+    {
+      "date": "2026-03-27",
+      "ctl": 8.968151,
+      "atl": 21.36412,
+      "form": -12.395969,
+      "resting_heartrate": 59,
+      "hrv": 51,
+      "sleep_time": 28380,
+      "sleep_score": 86,
+      "sleep_quality": 2,
+      "steps": 2505
+    },
+    {
+      "date": "2026-03-28",
+      "ctl": 9.133598,
+      "atl": 20.650038,
+      "form": -11.51644,
+      "resting_heartrate": 59,
+      "hrv": 49,
+      "sleep_time": 29940,
+      "sleep_score": 81,
+      "sleep_quality": 2,
+      "steps": 1533
+    },
+    {
+      "date": "2026-03-29",
+      "ctl": 9.459851,
+      "atl": 20.96287,
+      "form": -11.503018999999998,
+      "resting_heartrate": 56,
+      "sleep_time": 26520,
+      "sleep_score": 73,
+      "sleep_quality": 3,
+      "steps": 3540
+    },
+    {
+      "date": "2026-03-30",
+      "ctl": 9.237277,
+      "atl": 18.172249,
+      "form": -8.934972,
+      "resting_heartrate": 56,
+      "hrv": 55,
+      "sleep_time": 26160,
+      "sleep_score": 72,
+      "sleep_quality": 3,
+      "steps": 949
+    },
+    {
+      "date": "2026-03-31",
+      "ctl": 9.019939,
+      "atl": 19.879906,
+      "form": -10.859966999999997,
+      "resting_heartrate": 56,
+      "hrv": 52,
+      "sleep_time": 27300,
+      "sleep_score": 85,
+      "sleep_quality": 2,
+      "steps": 4134
+    },
+    {
+      "date": "2026-04-01",
+      "ctl": 9.325338,
+      "atl": 20.162138,
+      "form": -10.836799999999998,
+      "resting_heartrate": 56,
+      "hrv": 52,
+      "sleep_time": 29460,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 1742
+    },
+    {
+      "date": "2026-04-02",
+      "ctl": 9.105928,
+      "atl": 19.741188,
+      "form": -10.63526,
+      "resting_heartrate": 58,
+      "hrv": 50,
+      "sleep_time": 25920,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 6636
+    },
+    {
+      "date": "2026-04-03",
+      "ctl": 8.891682,
+      "atl": 17.1132,
+      "form": -8.221518,
+      "resting_heartrate": 59,
+      "hrv": 49,
+      "sleep_time": 26460,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 4504
+    },
+    {
+      "date": "2026-04-04",
+      "ctl": 8.682475,
+      "atl": 14.835054,
+      "form": -6.152578999999999,
+      "resting_heartrate": 58,
+      "hrv": 47,
+      "sleep_time": 28440,
+      "sleep_score": 72,
+      "sleep_quality": 3,
+      "steps": 1522
+    },
+    {
+      "date": "2026-04-05",
+      "ctl": 8.478191,
+      "atl": 12.860181,
+      "form": -4.38199,
+      "resting_heartrate": 56,
+      "hrv": 51,
+      "sleep_time": 29280,
+      "sleep_score": 83,
+      "sleep_quality": 2,
+      "steps": 4939
+    },
+    {
+      "date": "2026-04-06",
+      "ctl": 9.290431,
+      "atl": 16.872458,
+      "form": -7.582027000000002,
+      "resting_heartrate": 58,
+      "hrv": 49,
+      "sleep_time": 27600,
+      "sleep_score": 83,
+      "sleep_quality": 2,
+      "steps": 11523
+    },
+    {
+      "date": "2026-04-07",
+      "ctl": 9.071843,
+      "atl": 14.626361,
+      "form": -5.554518,
+      "resting_heartrate": 56,
+      "hrv": 51,
+      "sleep_time": 30900,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 6954
+    },
+    {
+      "date": "2026-04-08",
+      "ctl": 9.634832,
+      "atl": 17.072298,
+      "form": -7.437466000000001,
+      "resting_heartrate": 55,
+      "hrv": 52,
+      "sleep_time": 26940,
+      "sleep_score": 85,
+      "sleep_quality": 2,
+      "steps": 1509
+    },
+    {
+      "date": "2026-04-09",
+      "ctl": 9.408141,
+      "atl": 17.328918,
+      "form": -7.920777000000001,
+      "resting_heartrate": 55,
+      "hrv": 55,
+      "sleep_time": 25980,
+      "sleep_score": 76,
+      "sleep_quality": 3,
+      "steps": 3553
+    },
+    {
+      "date": "2026-04-10",
+      "ctl": 9.986746,
+      "atl": 19.548208,
+      "form": -9.561461999999999,
+      "resting_heartrate": 56,
+      "hrv": 54,
+      "sleep_time": 29160,
+      "sleep_score": 87,
+      "sleep_quality": 2,
+      "steps": 2954
+    },
+    {
+      "date": "2026-04-11",
+      "ctl": 9.751775,
+      "atl": 16.94591,
+      "form": -7.194135000000001,
+      "resting_heartrate": 57,
+      "hrv": 49,
+      "sleep_time": 24900,
+      "sleep_score": 69,
+      "sleep_quality": 3,
+      "steps": 8308
+    },
+    {
+      "date": "2026-04-12",
+      "ctl": 10.557578,
+      "atl": 20.547407,
+      "form": -9.989829,
+      "resting_heartrate": 55,
+      "hrv": 54,
+      "sleep_time": 30240,
+      "sleep_score": 85,
+      "sleep_quality": 2,
+      "steps": 8761
+    },
+    {
+      "date": "2026-04-13",
+      "ctl": 10.309176,
+      "atl": 17.812094,
+      "form": -7.5029179999999975,
+      "resting_heartrate": 56,
+      "hrv": 51,
+      "sleep_time": 28080,
+      "sleep_score": 75,
+      "sleep_quality": 3,
+      "steps": 1165
+    },
+    {
+      "date": "2026-04-14",
+      "ctl": 10.066619,
+      "atl": 19.567696,
+      "form": -9.501077000000002,
+      "resting_heartrate": 54,
+      "hrv": 60,
+      "sleep_time": 27360,
+      "sleep_score": 81,
+      "sleep_quality": 2,
+      "steps": 9540
+    },
+    {
+      "date": "2026-04-15",
+      "ctl": 9.829768,
+      "atl": 16.962803,
+      "form": -7.133035000000001,
+      "resting_heartrate": 56,
+      "hrv": 45,
+      "sleep_time": 27780,
+      "sleep_score": 83,
+      "sleep_quality": 2,
+      "steps": 16541
+    },
+    {
+      "date": "2026-04-16",
+      "ctl": 9.598491,
+      "atl": 14.704679,
+      "form": -5.106188000000001,
+      "resting_heartrate": 56,
+      "hrv": 50,
+      "sleep_time": 29820,
+      "sleep_score": 88,
+      "sleep_quality": 2,
+      "steps": 10634
+    },
+    {
+      "date": "2026-04-17",
+      "ctl": 10.149089,
+      "atl": 17.14019,
+      "form": -6.9911010000000005,
+      "resting_heartrate": 57,
+      "hrv": 47,
+      "sleep_time": 28320,
+      "sleep_score": 84,
+      "sleep_quality": 2,
+      "steps": 18388
+    },
+    {
+      "date": "2026-04-18",
+      "ctl": 9.910298,
+      "atl": 14.858452,
+      "form": -4.948154000000001,
+      "resting_heartrate": 56,
+      "hrv": 53,
+      "sleep_time": 22380,
+      "sleep_score": 70,
+      "sleep_quality": 3,
+      "steps": 13779
+    },
+    {
+      "date": "2026-04-19",
+      "ctl": 9.677126,
+      "atl": 12.880464,
+      "form": -3.2033380000000005,
+      "resting_heartrate": 57,
+      "hrv": 49,
+      "sleep_time": 25380,
+      "sleep_score": 77,
+      "sleep_quality": 3,
+      "steps": 6806
+    },
+    {
+      "date": "2026-04-20",
+      "ctl": 9.778836,
+      "atl": 13.029499,
+      "form": -3.2506629999999994,
+      "resting_heartrate": 55,
+      "hrv": 60,
+      "sleep_time": 27720,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 713
+    },
+    {
+      "date": "2026-04-21",
+      "ctl": 10.042851,
+      "atl": 14.0905485,
+      "form": -4.0476975,
+      "resting_heartrate": 57,
+      "hrv": 51,
+      "sleep_time": 28080,
+      "sleep_score": 80,
+      "sleep_quality": 2,
+      "steps": 1329
+    },
+    {
+      "date": "2026-04-22",
+      "ctl": 10.23007,
+      "atl": 14.610983,
+      "form": -4.380913,
+      "resting_heartrate": 55,
+      "hrv": 54,
+      "sleep_time": 27420,
+      "sleep_score": 81,
+      "sleep_quality": 2,
+      "steps": 5024
+    },
+    {
+      "date": "2026-04-23",
+      "ctl": 9.989374,
+      "atl": 15.062136,
+      "form": -5.072762000000001,
+      "resting_heartrate": 58,
+      "hrv": 46,
+      "sleep_time": 26700,
+      "sleep_score": 84,
+      "sleep_quality": 2,
+      "steps": 3952
+    },
+    {
+      "date": "2026-04-24",
+      "ctl": 10.177851,
+      "atl": 15.45323,
+      "form": -5.275378999999999,
+      "resting_heartrate": 58,
+      "hrv": 49,
+      "sleep_time": 27360,
+      "sleep_score": 81,
+      "sleep_quality": 2,
+      "steps": 9742
+    },
+    {
+      "date": "2026-04-25",
+      "ctl": 10.644233,
+      "atl": 17.389727,
+      "form": -6.745494000000001,
+      "resting_heartrate": 57,
+      "hrv": 53,
+      "sleep_time": 29460,
+      "sleep_score": 83,
+      "sleep_quality": 2,
+      "steps": 6074
+    },
+    {
+      "date": "2026-04-26",
+      "ctl": 10.887886,
+      "atl": 17.870335,
+      "form": -6.982449000000001,
+      "resting_heartrate": 56,
+      "hrv": 52,
+      "sleep_time": 26160,
+      "sleep_score": 83,
+      "sleep_quality": 2,
+      "steps": 10093
+    },
+    {
+      "date": "2026-04-27",
+      "ctl": 11.172864,
+      "atl": 18.553207,
+      "form": -7.380343,
+      "resting_heartrate": 55,
+      "hrv": 54,
+      "sleep_time": 29880,
+      "sleep_score": 90,
+      "sleep_quality": 1,
+      "steps": 2764
+    },
+    {
+      "date": "2026-04-28",
+      "ctl": 10.909986,
+      "atl": 19.54454,
+      "form": -8.634554000000001,
+      "resting_heartrate": 59,
+      "sleep_time": 27240,
+      "sleep_score": 83,
+      "sleep_quality": 2,
+      "steps": 4913
+    },
+    {
+      "date": "2026-04-29",
+      "ctl": 10.653292,
+      "atl": 16.94273,
+      "form": -6.2894380000000005,
+      "resting_heartrate": 58,
+      "hrv": 48,
+      "sleep_time": 29940,
+      "sleep_score": 85,
+      "sleep_quality": 2,
+      "steps": 2495
+    },
+    {
+      "date": "2026-04-30",
+      "ctl": 10.4026375,
+      "atl": 14.687278,
+      "form": -4.284640499999998,
+      "resting_heartrate": 59,
+      "hrv": 48,
+      "sleep_time": 24420,
+      "sleep_score": 74,
+      "sleep_quality": 3,
+      "steps": 7578
+    },
+    {
+      "date": "2026-05-01",
+      "ctl": 11.475467,
+      "atl": 20.186914,
+      "form": -8.711447000000001,
+      "resting_heartrate": 58,
+      "hrv": 49,
+      "sleep_time": 28560,
+      "sleep_score": 80,
+      "sleep_quality": 2,
+      "steps": 21271
+    },
+    {
+      "date": "2026-05-02",
+      "ctl": 11.205468,
+      "atl": 17.49959,
+      "form": -6.2941220000000015,
+      "resting_heartrate": 59,
+      "hrv": 46,
+      "sleep_time": 29760,
+      "sleep_score": 82,
+      "sleep_quality": 2,
+      "steps": 3008
+    },
+    {
+      "date": "2026-05-03",
+      "ctl": 10.941822,
+      "atl": 15.170008,
+      "form": -4.228185999999999,
+      "resting_heartrate": 59,
+      "hrv": 51,
+      "sleep_time": 22080,
+      "sleep_score": 65,
+      "sleep_quality": 3,
+      "steps": 3377
+    },
+    {
+      "date": "2026-05-04",
+      "ctl": 11.390229,
+      "atl": 17.144207,
+      "form": -5.753978000000002,
+      "resting_heartrate": 57,
+      "hrv": 49,
+      "sleep_time": 29460,
+      "sleep_score": 82,
+      "sleep_quality": 2,
+      "steps": 1473
+    },
+    {
+      "date": "2026-05-05",
+      "ctl": 11.122236,
+      "atl": 14.861934,
+      "form": -3.7396980000000006,
+      "resting_heartrate": 59,
+      "hrv": 49,
+      "sleep_time": 23700,
+      "sleep_score": 73,
+      "sleep_quality": 3,
+      "steps": 9555
+    },
+    {
+      "date": "2026-05-06",
+      "ctl": 11.072304,
+      "atl": 14.081581,
+      "form": -3.009276999999999,
+      "resting_heartrate": 53,
+      "hrv": 54,
+      "sleep_time": 23520,
+      "sleep_score": 73,
+      "sleep_quality": 3,
+      "steps": 10380
+    },
+    {
+      "date": "2026-05-07",
+      "ctl": 10.811791,
+      "atl": 14.470087,
+      "form": -3.658296,
+      "resting_heartrate": 58,
+      "hrv": 50,
+      "sleep_time": 24780,
+      "sleep_score": 75,
+      "sleep_quality": 3,
+      "steps": 2859
+    },
+    {
+      "date": "2026-05-08",
+      "ctl": 10.557408,
+      "atl": 12.543798,
+      "form": -1.98639,
+      "resting_heartrate": 56,
+      "hrv": 53,
+      "sleep_time": 27360,
+      "sleep_score": 82,
+      "sleep_quality": 2,
+      "steps": 5679
+    },
+    {
+      "date": "2026-05-09",
+      "ctl": 11.485426,
+      "atl": 17.530046,
+      "form": -6.044619999999998,
+      "resting_heartrate": 57,
+      "hrv": 45,
+      "sleep_time": 21420,
+      "sleep_score": 61,
+      "sleep_quality": 3,
+      "steps": 1592
+    },
+    {
+      "date": "2026-05-10",
+      "ctl": 11.215193,
+      "atl": 15.19641,
+      "form": -3.981217000000001,
+      "resting_heartrate": 59,
+      "hrv": 51,
+      "sleep_time": 24840,
+      "sleep_score": 70,
+      "sleep_quality": 3,
+      "steps": 7369
+    },
+    {
+      "date": "2026-05-11",
+      "ctl": 11.657167,
+      "atl": 17.167095,
+      "form": -5.509928,
+      "resting_heartrate": 58,
+      "hrv": 51,
+      "sleep_time": 28200,
+      "sleep_score": 84,
+      "sleep_quality": 2,
+      "steps": 4092
+    },
+    {
+      "date": "2026-05-12",
+      "ctl": 11.382894,
+      "atl": 16.47924,
+      "form": -5.0963460000000005,
+      "resting_heartrate": 58,
+      "hrv": 51,
+      "sleep_time": 26880,
+      "sleep_score": 83,
+      "sleep_quality": 2,
+      "steps": 7613
+    },
+    {
+      "date": "2026-05-13",
+      "ctl": 11.115073,
+      "atl": 14.285489,
+      "form": -3.1704159999999995,
+      "resting_heartrate": 57,
+      "hrv": 52,
+      "sleep_time": 25740,
+      "sleep_score": 80,
+      "sleep_quality": 2,
+      "steps": 4110
+    },
+    {
+      "date": "2026-05-14",
+      "ctl": 10.853555,
+      "atl": 12.383775,
+      "form": -1.53022,
+      "resting_heartrate": 56,
+      "hrv": 50,
+      "sleep_time": 28800,
+      "sleep_score": 83,
+      "sleep_quality": 2,
+      "steps": 2422
+    },
+    {
+      "date": "2026-05-15",
+      "ctl": 12.127529,
+      "atl": 19.388157,
+      "form": -7.2606280000000005,
+      "resting_heartrate": 55,
+      "hrv": 55,
+      "sleep_time": 28560,
+      "sleep_score": 77,
+      "sleep_quality": 3,
+      "steps": 9087
+    },
+    {
+      "date": "2026-05-16",
+      "ctl": 11.842189,
+      "atl": 16.807165,
+      "form": -4.964976000000002,
+      "resting_heartrate": 55,
+      "hrv": 53,
+      "sleep_time": 30420,
+      "sleep_score": 92,
+      "sleep_quality": 1,
+      "steps": 2892
+    },
+    {
+      "date": "2026-05-17",
+      "ctl": 11.563562,
+      "atl": 14.56976,
+      "form": -3.0061980000000013,
+      "resting_heartrate": 58,
+      "hrv": 45,
+      "sleep_time": 21480,
+      "sleep_score": 63,
+      "sleep_quality": 3,
+      "steps": 2965
+    },
+    {
+      "date": "2026-05-18",
+      "ctl": 11.2914915,
+      "atl": 12.630203,
+      "form": -1.3387115000000005,
+      "resting_heartrate": 56,
+      "hrv": 55,
+      "sleep_time": 30420,
+      "sleep_score": 89,
+      "sleep_quality": 2,
+      "steps": 3253
+    },
+    {
+      "date": "2026-05-19",
+      "ctl": 11.519917,
+      "atl": 13.744409,
+      "form": -2.2244919999999997,
+      "resting_heartrate": 58,
+      "hrv": 53,
+      "sleep_time": 29220,
+      "sleep_score": 83,
+      "sleep_quality": 2,
+      "steps": 3958
+    },
+    {
+      "date": "2026-05-20",
+      "ctl": 12.425288,
+      "atl": 18.57083,
+      "form": -6.145542000000001,
+      "resting_heartrate": 58,
+      "hrv": 52,
+      "sleep_time": 30300,
+      "sleep_score": 88,
+      "sleep_quality": 2,
+      "steps": 6363
+    },
+    {
+      "date": "2026-05-21",
+      "ctl": 12.132942,
+      "atl": 18.361717,
+      "form": -6.228774999999999,
+      "resting_heartrate": 55,
+      "hrv": 57,
+      "sleep_time": 24540,
+      "sleep_score": 76,
+      "sleep_quality": 3,
+      "steps": 4270
+    },
+    {
+      "date": "2026-05-22",
+      "ctl": 12.365097,
+      "atl": 18.846052,
+      "form": -6.480955,
+      "resting_heartrate": 56,
+      "hrv": 53,
+      "sleep_time": 28260,
+      "sleep_score": 80,
+      "sleep_quality": 2,
+      "steps": 9720
+    },
+    {
+      "date": "2026-05-23",
+      "ctl": 12.074167,
+      "atl": 18.866547,
+      "form": -6.792380000000001,
+      "resting_heartrate": 58,
+      "hrv": 48,
+      "sleep_time": 31320,
+      "sleep_score": 82,
+      "sleep_quality": 2,
+      "steps": 8164
+    },
+    {
+      "date": "2026-05-24",
+      "ctl": 13.907631,
+      "atl": 28.335981,
+      "form": -14.42835,
+      "resting_heartrate": 58,
+      "hrv": 50,
+      "sleep_time": 29640,
+      "sleep_score": 82,
+      "sleep_quality": 2,
+      "steps": 14168
+    },
+    {
+      "date": "2026-05-25",
+      "ctl": 13.580408,
+      "atl": 24.563835,
+      "form": -10.983427,
+      "resting_heartrate": 56,
+      "hrv": 52,
+      "sleep_time": 25680,
+      "sleep_score": 72,
+      "sleep_quality": 3,
+      "steps": 8709
+    },
+    {
+      "date": "2026-05-26",
+      "ctl": 14.202017,
+      "atl": 26.61873,
+      "form": -12.416713,
+      "resting_heartrate": 53,
+      "hrv": 56,
+      "sleep_time": 26700,
+      "sleep_score": 76,
+      "sleep_quality": 3,
+      "steps": 6913
+    },
+    {
+      "date": "2026-05-27",
+      "ctl": 14.291377,
+      "atl": 25.471388,
+      "form": -11.180011,
+      "resting_heartrate": 55,
+      "hrv": 60,
+      "sleep_time": 30840,
+      "sleep_score": 83,
+      "sleep_quality": 2,
+      "steps": 2689
+    },
+    {
+      "date": "2026-05-28",
+      "ctl": 13.955125,
+      "atl": 23.67805,
+      "form": -9.722924999999998,
+      "resting_heartrate": 57,
+      "sleep_time": 24960,
+      "sleep_score": 77,
+      "sleep_quality": 3,
+      "steps": 5775
+    },
+    {
+      "date": "2026-05-29",
+      "ctl": 13.626784,
+      "atl": 20.525978,
+      "form": -6.899193999999998,
+      "resting_heartrate": 55,
+      "hrv": 50,
+      "sleep_time": 27420,
+      "sleep_score": 85,
+      "sleep_quality": 2,
+      "steps": 3892
+    },
+    {
+      "date": "2026-05-30",
+      "ctl": 14.27083,
+      "atl": 23.251522,
+      "form": -8.980692000000001,
+      "resting_heartrate": 55,
+      "hrv": 50,
+      "sleep_time": 28440,
+      "sleep_score": 74,
+      "sleep_quality": 3,
+      "steps": 7788
+    },
+    {
+      "date": "2026-05-31",
+      "ctl": 13.935061,
+      "atl": 20.15623,
+      "form": -6.2211690000000015,
+      "resting_heartrate": 56,
+      "hrv": 51,
+      "sleep_time": 28620,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 1326
+    },
+    {
+      "date": "2026-06-01",
+      "ctl": 14.242457,
+      "atl": 21.067287,
+      "form": -6.82483,
+      "resting_heartrate": 55,
+      "hrv": 56,
+      "sleep_time": 27420,
+      "sleep_score": 77,
+      "sleep_quality": 3,
+      "steps": 3273
+    },
+    {
+      "date": "2026-06-02",
+      "ctl": 13.907356,
+      "atl": 18.262766,
+      "form": -4.355409999999999,
+      "resting_heartrate": 54,
+      "hrv": 53,
+      "sleep_time": 28020,
+      "sleep_score": 88,
+      "sleep_quality": 2,
+      "steps": 2677
+    },
+    {
+      "date": "2026-06-03",
+      "ctl": 14.450687,
+      "atl": 20.757107,
+      "form": -6.306420000000001,
+      "resting_heartrate": 54,
+      "hrv": 50,
+      "sleep_time": 23640,
+      "sleep_score": 71,
+      "sleep_quality": 3,
+      "steps": 4210
+    },
+    {
+      "date": "2026-06-04",
+      "ctl": 14.110687,
+      "atl": 17.993877,
+      "form": -3.883190000000001,
+      "resting_heartrate": 55,
+      "hrv": 55,
+      "sleep_time": 30780,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 3027
+    },
+    {
+      "date": "2026-06-05",
+      "ctl": 13.778687,
+      "atl": 15.598495,
+      "form": -1.819808,
+      "resting_heartrate": 53,
+      "hrv": 51,
+      "sleep_time": 22980,
+      "sleep_score": 60,
+      "sleep_quality": 3,
+      "steps": 911
+    },
+    {
+      "date": "2026-06-06",
+      "ctl": 14.513271,
+      "atl": 19.512486,
+      "form": -4.9992149999999995,
+      "resting_heartrate": 58,
+      "hrv": 45,
+      "sleep_time": 25740,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 3487
+    },
+    {
+      "date": "2026-06-07",
+      "ctl": 14.171799,
+      "atl": 16.914942,
+      "form": -2.743143,
+      "resting_heartrate": 57,
+      "hrv": 45,
+      "sleep_time": 26160,
+      "sleep_score": 75,
+      "sleep_quality": 3,
+      "steps": 7699
+    },
+    {
+      "date": "2026-06-08",
+      "ctl": 14.897134,
+      "atl": 20.653685,
+      "form": -5.756551,
+      "resting_heartrate": 55,
+      "hrv": 50,
+      "sleep_time": 27900,
+      "sleep_score": 82,
+      "sleep_quality": 2,
+      "steps": 6484
+    },
+    {
+      "date": "2026-06-09",
+      "ctl": 14.546629,
+      "atl": 17.904222,
+      "form": -3.3575930000000014,
+      "resting_heartrate": 56,
+      "hrv": 46,
+      "sleep_time": 27420,
+      "sleep_score": 82,
+      "sleep_quality": 2,
+      "steps": 1991
+    },
+    {
+      "date": "2026-06-10",
+      "ctl": 14.910221,
+      "atl": 19.514439,
+      "form": -4.6042179999999995,
+      "resting_heartrate": 53,
+      "hrv": 52,
+      "sleep_time": 23340,
+      "sleep_score": 69,
+      "sleep_quality": 3,
+      "steps": 1537
+    },
+    {
+      "date": "2026-06-11",
+      "ctl": 14.559409,
+      "atl": 19.579077,
+      "form": -5.019668000000001,
+      "resting_heartrate": 55,
+      "hrv": 56,
+      "sleep_time": 26220,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 7144
+    },
+    {
+      "date": "2026-06-12",
+      "ctl": 15.369739,
+      "atl": 23.495651,
+      "form": -8.125912,
+      "resting_heartrate": 57,
+      "hrv": 50,
+      "sleep_time": 24480,
+      "sleep_score": 69,
+      "sleep_quality": 3,
+      "steps": 6113
+    },
+    {
+      "date": "2026-06-13",
+      "ctl": 15.008115,
+      "atl": 20.36786,
+      "form": -5.359745,
+      "resting_heartrate": 59,
+      "hrv": 45,
+      "sleep_time": 26700,
+      "sleep_score": 82,
+      "sleep_quality": 2,
+      "steps": 3572
+    },
+    {
+      "date": "2026-06-14",
+      "ctl": 16.443151,
+      "atl": 27.773727,
+      "form": -11.330576,
+      "resting_heartrate": 54,
+      "hrv": 52,
+      "sleep_time": 23580,
+      "sleep_score": 71,
+      "sleep_quality": 3,
+      "steps": 9279
+    },
+    {
+      "date": "2026-06-15",
+      "ctl": 16.62095,
+      "atl": 27.27136,
+      "form": -10.65041,
+      "resting_heartrate": 58,
+      "hrv": 47,
+      "sleep_time": 31740,
+      "sleep_score": 87,
+      "sleep_quality": 2,
+      "steps": 1027
+    },
+    {
+      "date": "2026-06-16",
+      "ctl": 16.229887,
+      "atl": 23.64094,
+      "form": -7.411052999999999,
+      "resting_heartrate": 56,
+      "hrv": 47,
+      "sleep_time": 29520,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 5532
+    },
+    {
+      "date": "2026-06-17",
+      "ctl": 16.9068,
+      "atl": 26.484303,
+      "form": -9.577503,
+      "resting_heartrate": 56,
+      "hrv": 51,
+      "sleep_time": 25920,
+      "sleep_score": 76,
+      "sleep_quality": 3,
+      "steps": 5843
+    },
+    {
+      "date": "2026-06-18",
+      "ctl": 16.50901,
+      "atl": 25.754221,
+      "form": -9.245211000000001,
+      "resting_heartrate": 55,
+      "hrv": 50,
+      "sleep_time": 25620,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 4630
+    },
+    {
+      "date": "2026-06-19",
+      "ctl": 16.12058,
+      "atl": 22.325766,
+      "form": -6.205186000000001,
+      "resting_heartrate": 56,
+      "hrv": 51,
+      "sleep_time": 27660,
+      "sleep_score": 82,
+      "sleep_quality": 2,
+      "steps": 921
+    },
+    {
+      "date": "2026-06-20",
+      "ctl": 16.611837,
+      "atl": 24.27923,
+      "form": -7.667392999999997,
+      "resting_heartrate": 56,
+      "hrv": 55,
+      "sleep_time": 26520,
+      "sleep_score": 81,
+      "sleep_quality": 2,
+      "steps": 3162
+    },
+    {
+      "date": "2026-06-21",
+      "ctl": 17.820913,
+      "atl": 30.09943,
+      "form": -12.278517,
+      "resting_heartrate": 56,
+      "hrv": 50,
+      "sleep_time": 28620,
+      "sleep_score": 87,
+      "sleep_quality": 2,
+      "steps": 9621
+    },
+    {
+      "date": "2026-06-22",
+      "ctl": 17.401617,
+      "atl": 26.092531,
+      "form": -8.690914,
+      "resting_heartrate": 56,
+      "hrv": 45,
+      "sleep_time": 30660,
+      "sleep_score": 85,
+      "sleep_quality": 2,
+      "steps": 1497
+    },
+    {
+      "date": "2026-06-23",
+      "ctl": 16.992186,
+      "atl": 22.61904,
+      "form": -5.626853999999998,
+      "resting_heartrate": 51,
+      "hrv": 53,
+      "sleep_time": 27060,
+      "sleep_score": 83,
+      "sleep_quality": 2,
+      "steps": 4546
+    },
+    {
+      "date": "2026-06-24",
+      "ctl": 17.604105,
+      "atl": 25.332195,
+      "form": -7.728089999999998,
+      "resting_heartrate": 52,
+      "hrv": 54,
+      "sleep_time": 24780,
+      "sleep_score": 74,
+      "sleep_quality": 3,
+      "steps": 7056
+    },
+    {
+      "date": "2026-06-25",
+      "ctl": 17.18991,
+      "atl": 21.95992,
+      "form": -4.770009999999999,
+      "resting_heartrate": 56,
+      "hrv": 52,
+      "sleep_time": 25260,
+      "sleep_score": 73,
+      "sleep_quality": 3,
+      "steps": 5883
+    },
+    {
+      "date": "2026-06-26",
+      "ctl": 16.785461,
+      "atl": 19.03657,
+      "form": -2.2511089999999996,
+      "resting_heartrate": 57,
+      "hrv": 45,
+      "sleep_time": 24360,
+      "sleep_score": 70,
+      "sleep_quality": 3,
+      "steps": 10886
+    },
+    {
+      "date": "2026-06-27",
+      "ctl": 16.390528,
+      "atl": 16.502382,
+      "form": -0.11185400000000101,
+      "resting_heartrate": 57,
+      "hrv": 48,
+      "sleep_time": 25140,
+      "sleep_score": 73,
+      "sleep_quality": 3,
+      "steps": 9018
+    },
+    {
+      "date": "2026-06-28",
+      "ctl": 16.004887,
+      "atl": 14.305551,
+      "form": 1.6993360000000006,
+      "resting_heartrate": 56,
+      "hrv": 51,
+      "sleep_time": 24660,
+      "sleep_score": 75,
+      "sleep_quality": 3,
+      "steps": 2317
+    },
+    {
+      "date": "2026-06-29",
+      "ctl": 15.628319,
+      "atl": 12.401166,
+      "form": 3.2271529999999995,
+      "resting_heartrate": 55,
+      "hrv": 50,
+      "sleep_time": 27480,
+      "sleep_score": 88,
+      "sleep_quality": 2,
+      "steps": 1292
+    },
+    {
+      "date": "2026-06-30",
+      "ctl": 15.260611,
+      "atl": 14.344593,
+      "form": 0.9160180000000011,
+      "resting_heartrate": 54,
+      "hrv": 52,
+      "sleep_time": 26040,
+      "sleep_score": 69,
+      "sleep_quality": 3,
+      "steps": 2854
+    },
+    {
+      "date": "2026-07-01",
+      "ctl": 14.901554,
+      "atl": 12.435011,
+      "form": 2.4665430000000015,
+      "resting_heartrate": 54,
+      "hrv": 49,
+      "sleep_time": 26520,
+      "sleep_score": 77,
+      "sleep_quality": 3,
+      "steps": 1284
+    },
+    {
+      "date": "2026-07-02",
+      "ctl": 14.550945,
+      "atl": 12.643346,
+      "form": 1.9075990000000012,
+      "resting_heartrate": 52,
+      "hrv": 56,
+      "sleep_time": 25620,
+      "sleep_score": 70,
+      "sleep_quality": 3,
+      "steps": 4234
+    },
+    {
+      "date": "2026-07-03",
+      "ctl": 14.208586,
+      "atl": 10.9602375,
+      "form": 3.2483485000000005,
+      "resting_heartrate": 51,
+      "hrv": 56,
+      "sleep_time": 23460,
+      "sleep_score": 72,
+      "sleep_quality": 3,
+      "steps": 849
     }
   ]
 }
