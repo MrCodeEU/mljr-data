@@ -3,9 +3,10 @@
 // generated/site-data.json validated against schemas/site-data.schema.json.
 //
 // Required env: GITHUB_TOKEN.
-// Optional env: GITHUB_USER (default MrCodeEU), STRAVA_CLIENT_ID,
-// STRAVA_CLIENT_SECRET, STRAVA_REFRESH_TOKEN (Strava is skipped, keeping the
-// previous data, if these are unset).
+// Optional env: GITHUB_USER (default MrCodeEU), INTERVALS_API_KEY,
+// INTERVALS_ATHLETE_ID (default "0", meaning the authenticated athlete).
+// Activity data refresh is skipped, keeping the previous data, if
+// INTERVALS_API_KEY is unset.
 package main
 
 import (
@@ -21,7 +22,7 @@ import (
 	"github.com/santhosh-tekuri/jsonschema/v5"
 
 	"mljr-data/generator/internal/githubapi"
-	"mljr-data/generator/internal/strava"
+	"mljr-data/generator/internal/intervals"
 	"mljr-data/generator/internal/types"
 )
 
@@ -129,20 +130,19 @@ func run() error {
 		stats.CommitsYear, stats.LongestStreak, len(stats.Contributions), len(stats.LanguageShare))
 
 	stravaData := existing.StravaData
-	if hasStravaCreds() {
-		log.Println("strava: refreshing activity data")
-		fresh, err := strava.New(strava.Config{
-			ClientID:     os.Getenv("STRAVA_CLIENT_ID"),
-			ClientSecret: os.Getenv("STRAVA_CLIENT_SECRET"),
-			RefreshToken: os.Getenv("STRAVA_REFRESH_TOKEN"),
+	if apiKey := os.Getenv("INTERVALS_API_KEY"); apiKey != "" {
+		log.Println("intervals.icu: refreshing activity data")
+		fresh, err := intervals.New(intervals.Config{
+			APIKey:    apiKey,
+			AthleteID: os.Getenv("INTERVALS_ATHLETE_ID"),
 		}).Fetch(ctx, now)
 		if err != nil {
-			return fmt.Errorf("fetch strava data: %w", err)
+			return fmt.Errorf("fetch intervals.icu data: %w", err)
 		}
 		stravaData = fresh
-		log.Printf("strava: %d total activities, %d recent", stravaData.TotalStats.Count, len(stravaData.RecentActivities))
+		log.Printf("intervals.icu: %d total activities, %d recent", stravaData.TotalStats.Count, len(stravaData.RecentActivities))
 	} else {
-		log.Println("strava credentials not set, keeping existing strava_data")
+		log.Println("INTERVALS_API_KEY not set, keeping existing strava_data")
 	}
 
 	normalizeStravaData(&stravaData)
@@ -198,10 +198,6 @@ func normalizeStravaData(d *types.StravaData) {
 	if d.Disciplines == nil {
 		d.Disciplines = []types.StravaDiscipline{}
 	}
-}
-
-func hasStravaCreds() bool {
-	return os.Getenv("STRAVA_CLIENT_ID") != "" && os.Getenv("STRAVA_CLIENT_SECRET") != "" && os.Getenv("STRAVA_REFRESH_TOKEN") != ""
 }
 
 // repoRoot returns the mljr-data repo root: the parent of the generator
