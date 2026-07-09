@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-07-08T06:27:01Z",
+  "generated_at": "2026-07-09T07:35:40Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -903,22 +903,35 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-07-08T06:27:01Z",
+    "generated_at": "2026-07-09T07:35:40Z",
     "total_stats": {
-      "count": 425,
+      "count": 426,
       "distance": 1915599,
-      "moving_time": 1063190,
-      "elapsed_time": 1149045,
+      "moving_time": 1065112,
+      "elapsed_time": 1150967,
       "elevation_gain": 31787.017577
     },
     "year_to_date_stats": {
-      "count": 78,
+      "count": 79,
       "distance": 123373,
-      "moving_time": 205102,
-      "elapsed_time": 215332,
+      "moving_time": 207024,
+      "elapsed_time": 217254,
       "elevation_gain": 1559.7728009999998
     },
     "recent_activities": [
+      {
+        "id": 163791772,
+        "name": "Morning Virtuelle Radfahrt",
+        "distance": 0,
+        "moving_time": 1922,
+        "elapsed_time": 1922,
+        "type": "VirtualRide",
+        "start_date": "2026-07-08T10:32:04Z",
+        "start_date_local": "2026-07-08T10:32:04Z",
+        "average_heartrate": 139,
+        "max_heartrate": 166,
+        "calories": 333
+      },
       {
         "id": 162833230,
         "name": "Morning Laufen",
@@ -1051,23 +1064,6 @@
         "average_heartrate": 157,
         "max_heartrate": 169,
         "calories": 265
-      },
-      {
-        "id": 162341439,
-        "name": "Morning Laufen",
-        "distance": 7044,
-        "moving_time": 2491,
-        "elapsed_time": 2492,
-        "total_elevation_gain": 60.13495,
-        "type": "Run",
-        "start_date": "2026-06-14T09:03:00Z",
-        "start_date_local": "2026-06-14T09:03:00Z",
-        "average_pace": 5.895531187359981,
-        "average_speed": 2.827,
-        "max_speed": 3.861,
-        "average_heartrate": 175,
-        "max_heartrate": 188,
-        "calories": 609
       }
     ],
     "best_activities": {
@@ -1333,11 +1329,24 @@
       {
         "type": "cycling",
         "label": "Cycling",
-        "count": 57,
-        "total_time": 103654,
+        "count": 58,
+        "total_time": 105576,
         "total_distance": 27952,
-        "avg_heartrate": 138.80701754385964,
+        "avg_heartrate": 138.81034482758622,
         "activities": [
+          {
+            "id": 163791772,
+            "name": "Morning Virtuelle Radfahrt",
+            "distance": 0,
+            "moving_time": 1922,
+            "elapsed_time": 1922,
+            "type": "VirtualRide",
+            "start_date": "2026-07-08T10:32:04Z",
+            "start_date_local": "2026-07-08T10:32:04Z",
+            "average_heartrate": 139,
+            "max_heartrate": 166,
+            "calories": 333
+          },
           {
             "id": 162341467,
             "name": "Evening Virtuelle Radfahrt",
@@ -1389,19 +1398,6 @@
             "average_heartrate": 153,
             "max_heartrate": 176,
             "calories": 500
-          },
-          {
-            "id": 162341396,
-            "name": "Evening Virtuelle Radfahrt",
-            "distance": 0,
-            "moving_time": 2196,
-            "elapsed_time": 2196,
-            "type": "VirtualRide",
-            "start_date": "2026-06-03T19:37:22Z",
-            "start_date_local": "2026-06-03T19:37:22Z",
-            "average_heartrate": 149,
-            "max_heartrate": 168,
-            "calories": 424
           }
         ]
       },
@@ -1760,9 +1756,9 @@
       },
       {
         "month": "2026-07",
-        "count": 2,
+        "count": 3,
         "distance": 5124,
-        "time": 4788
+        "time": 6710
       }
     ],
     "year": "2026"
@@ -1771,10 +1767,6 @@
     "commits_year": 862,
     "longest_streak": 11,
     "contributions": [
-      {
-        "date": "2025-07-09",
-        "count": 0
-      },
       {
         "date": "2025-07-10",
         "count": 0
@@ -3230,6 +3222,10 @@
       {
         "date": "2026-07-08",
         "count": 0
+      },
+      {
+        "date": "2026-07-09",
+        "count": 0
       }
     ],
     "language_share": [
@@ -3811,18 +3807,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-01-08",
-      "ctl": 3.8182764,
-      "atl": 0.4357766,
-      "form": 3.3824997999999997,
-      "resting_heartrate": 58,
-      "hrv": 55,
-      "sleep_time": 25080,
-      "sleep_score": 72,
-      "sleep_quality": 3,
-      "steps": 3488
-    },
     {
       "date": "2026-01-09",
       "ctl": 3.7284389,
@@ -5951,9 +5935,15 @@
     },
     {
       "date": "2026-07-08",
-      "ctl": 13.621584,
-      "atl": 9.354656,
-      "form": 4.266928
+      "ctl": 14.209792,
+      "atl": 12.682709,
+      "form": 1.527083000000001
+    },
+    {
+      "date": "2026-07-09",
+      "ctl": 13.87546,
+      "atl": 10.99436,
+      "form": 2.8811
     }
   ]
 }
