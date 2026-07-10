@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-07-09T07:35:40Z",
+  "generated_at": "2026-07-10T07:33:47Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -903,22 +903,35 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-07-09T07:35:40Z",
+    "generated_at": "2026-07-10T07:33:47Z",
     "total_stats": {
-      "count": 426,
+      "count": 427,
       "distance": 1915599,
-      "moving_time": 1065112,
-      "elapsed_time": 1150967,
+      "moving_time": 1067826,
+      "elapsed_time": 1153681,
       "elevation_gain": 31787.017577
     },
     "year_to_date_stats": {
-      "count": 79,
+      "count": 80,
       "distance": 123373,
-      "moving_time": 207024,
-      "elapsed_time": 217254,
+      "moving_time": 209738,
+      "elapsed_time": 219968,
       "elevation_gain": 1559.7728009999998
     },
     "recent_activities": [
+      {
+        "id": 164205025,
+        "name": "Afternoon Training",
+        "distance": 0,
+        "moving_time": 2714,
+        "elapsed_time": 2714,
+        "type": "Workout",
+        "start_date": "2026-07-09T16:06:51Z",
+        "start_date_local": "2026-07-09T16:06:51Z",
+        "average_heartrate": 104,
+        "max_heartrate": 136,
+        "calories": 283
+      },
       {
         "id": 163791772,
         "name": "Morning Virtuelle Radfahrt",
@@ -1051,19 +1064,6 @@
         "average_heartrate": 170,
         "max_heartrate": 186,
         "calories": 390
-      },
-      {
-        "id": 162341451,
-        "name": "Evening Virtuelle Radfahrt",
-        "distance": 0,
-        "moving_time": 1264,
-        "elapsed_time": 1264,
-        "type": "VirtualRide",
-        "start_date": "2026-06-15T19:54:03Z",
-        "start_date_local": "2026-06-15T19:54:03Z",
-        "average_heartrate": 157,
-        "max_heartrate": 169,
-        "calories": 265
       }
     ],
     "best_activities": {
@@ -1404,11 +1404,24 @@
       {
         "type": "training",
         "label": "Training",
-        "count": 166,
-        "total_time": 316398,
+        "count": 167,
+        "total_time": 319112,
         "total_distance": 300350,
-        "avg_heartrate": 101.60240963855422,
+        "avg_heartrate": 101.61676646706587,
         "activities": [
+          {
+            "id": 164205025,
+            "name": "Afternoon Training",
+            "distance": 0,
+            "moving_time": 2714,
+            "elapsed_time": 2714,
+            "type": "Workout",
+            "start_date": "2026-07-09T16:06:51Z",
+            "start_date_local": "2026-07-09T16:06:51Z",
+            "average_heartrate": 104,
+            "max_heartrate": 136,
+            "calories": 283
+          },
           {
             "id": 162341493,
             "name": "Afternoon Training",
@@ -1460,19 +1473,6 @@
             "average_heartrate": 108,
             "max_heartrate": 142,
             "calories": 408
-          },
-          {
-            "id": 162341378,
-            "name": "Afternoon Training",
-            "distance": 0,
-            "moving_time": 3449,
-            "elapsed_time": 3449,
-            "type": "Workout",
-            "start_date": "2026-05-28T17:05:49Z",
-            "start_date_local": "2026-05-28T17:05:49Z",
-            "average_heartrate": 98,
-            "max_heartrate": 128,
-            "calories": 307
           }
         ]
       }
@@ -1756,9 +1756,9 @@
       },
       {
         "month": "2026-07",
-        "count": 3,
+        "count": 4,
         "distance": 5124,
-        "time": 6710
+        "time": 9424
       }
     ],
     "year": "2026"
@@ -1767,10 +1767,6 @@
     "commits_year": 862,
     "longest_streak": 11,
     "contributions": [
-      {
-        "date": "2025-07-10",
-        "count": 0
-      },
       {
         "date": "2025-07-11",
         "count": 0
@@ -3226,6 +3222,10 @@
       {
         "date": "2026-07-09",
         "count": 0
+      },
+      {
+        "date": "2026-07-10",
+        "count": 0
       }
     ],
     "language_share": [
@@ -3807,18 +3807,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-01-09",
-      "ctl": 3.7284389,
-      "atl": 0.3777651,
-      "form": 3.3506738,
-      "resting_heartrate": 57,
-      "hrv": 57,
-      "sleep_time": 29400,
-      "sleep_score": 75,
-      "sleep_quality": 3,
-      "steps": 4543
-    },
     {
       "date": "2026-01-10",
       "ctl": 3.640715,
@@ -5942,8 +5930,14 @@
     {
       "date": "2026-07-09",
       "ctl": 13.87546,
-      "atl": 10.99436,
-      "form": 2.8811
+      "atl": 12.858069,
+      "form": 1.017391
+    },
+    {
+      "date": "2026-07-10",
+      "ctl": 13.548993,
+      "atl": 11.146377,
+      "form": 2.402616
     }
   ]
 }
