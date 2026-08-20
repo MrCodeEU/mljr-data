@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-08-19T04:34:25Z",
+  "generated_at": "2026-08-20T04:34:33Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -903,22 +903,35 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-08-19T04:34:25Z",
+    "generated_at": "2026-08-20T04:34:33Z",
     "total_stats": {
-      "count": 438,
+      "count": 439,
       "distance": 1954770,
-      "moving_time": 1100839,
-      "elapsed_time": 1187043,
+      "moving_time": 1101571,
+      "elapsed_time": 1187775,
       "elevation_gain": 32099.268156000006
     },
     "year_to_date_stats": {
-      "count": 91,
+      "count": 92,
       "distance": 162544,
-      "moving_time": 242751,
-      "elapsed_time": 253330,
+      "moving_time": 243483,
+      "elapsed_time": 254062,
       "elevation_gain": 1872.0233799999999
     },
     "recent_activities": [
+      {
+        "id": 177647112,
+        "name": "Evening Virtuelle Radfahrt",
+        "distance": 0,
+        "moving_time": 732,
+        "elapsed_time": 732,
+        "type": "VirtualRide",
+        "start_date": "2026-08-19T19:07:32Z",
+        "start_date_local": "2026-08-19T19:07:32Z",
+        "average_heartrate": 153,
+        "max_heartrate": 172,
+        "calories": 147
+      },
       {
         "id": 177269936,
         "name": "Evening Virtuelle Radfahrt",
@@ -1051,23 +1064,6 @@
         "average_heartrate": 175,
         "max_heartrate": 188,
         "calories": 621
-      },
-      {
-        "id": 165873605,
-        "name": "Morning Laufen",
-        "distance": 5020,
-        "moving_time": 1750,
-        "elapsed_time": 1757,
-        "total_elevation_gain": 40.968872,
-        "type": "Run",
-        "start_date": "2026-07-15T09:30:21Z",
-        "start_date_local": "2026-07-15T09:30:21Z",
-        "average_pace": 5.833625014584062,
-        "average_speed": 2.857,
-        "max_speed": 3.623,
-        "average_heartrate": 178,
-        "max_heartrate": 190,
-        "calories": 436
       }
     ],
     "best_activities": {
@@ -1333,11 +1329,24 @@
       {
         "type": "cycling",
         "label": "Cycling",
-        "count": 59,
-        "total_time": 109179,
+        "count": 60,
+        "total_time": 109911,
         "total_distance": 27952,
-        "avg_heartrate": 138.94915254237287,
+        "avg_heartrate": 139.18333333333334,
         "activities": [
+          {
+            "id": 177647112,
+            "name": "Evening Virtuelle Radfahrt",
+            "distance": 0,
+            "moving_time": 732,
+            "elapsed_time": 732,
+            "type": "VirtualRide",
+            "start_date": "2026-08-19T19:07:32Z",
+            "start_date_local": "2026-08-19T19:07:32Z",
+            "average_heartrate": 153,
+            "max_heartrate": 172,
+            "calories": 147
+          },
           {
             "id": 177269936,
             "name": "Evening Virtuelle Radfahrt",
@@ -1389,19 +1398,6 @@
             "average_heartrate": 157,
             "max_heartrate": 169,
             "calories": 265
-          },
-          {
-            "id": 162341413,
-            "name": "Evening Virtuelle Radfahrt",
-            "distance": 0,
-            "moving_time": 1803,
-            "elapsed_time": 1803,
-            "type": "VirtualRide",
-            "start_date": "2026-06-10T19:10:42Z",
-            "start_date_local": "2026-06-10T19:10:42Z",
-            "average_heartrate": 149,
-            "max_heartrate": 171,
-            "calories": 353
           }
         ]
       },
@@ -1766,21 +1762,17 @@
       },
       {
         "month": "2026-08",
-        "count": 4,
+        "count": 5,
         "distance": 7026,
-        "time": 14122
+        "time": 14854
       }
     ],
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 1029,
+    "commits_year": 1036,
     "longest_streak": 11,
     "contributions": [
-      {
-        "date": "2025-08-20",
-        "count": 0
-      },
       {
         "date": "2025-08-21",
         "count": 0
@@ -3235,125 +3227,129 @@
       },
       {
         "date": "2026-08-19",
+        "count": 14
+      },
+      {
+        "date": "2026-08-20",
         "count": 0
       }
     ],
     "language_share": [
       {
         "name": "Go",
-        "pct": 21.856213771156625
+        "pct": 21.79780807612485
       },
       {
         "name": "Svelte",
-        "pct": 20.282337024246093
+        "pct": 20.228137152156027
       },
       {
         "name": "JavaScript",
-        "pct": 11.716698286107622
+        "pct": 11.685388109786924
       },
       {
         "name": "HTML",
-        "pct": 8.45983652833797
+        "pct": 8.437229564594558
       },
       {
         "name": "CSS",
-        "pct": 7.279566720411239
+        "pct": 7.260113755762948
       },
       {
         "name": "TypeScript",
-        "pct": 5.593250224218288
+        "pct": 5.57830355183246
       },
       {
         "name": "Python",
-        "pct": 4.026553548752431
+        "pct": 4.1812632036731365
       },
       {
         "name": "Rust",
-        "pct": 3.607888414738559
+        "pct": 3.598247164306703
       },
       {
         "name": "TeX",
-        "pct": 3.22083424461749
+        "pct": 3.2122273072673764
       },
       {
         "name": "C#",
-        "pct": 2.945795970682929
+        "pct": 2.9379240097435373
       },
       {
         "name": "Kotlin",
-        "pct": 2.0241274136314544
+        "pct": 2.018718399533046
       },
       {
         "name": "Dart",
-        "pct": 2.0003577320129464
+        "pct": 1.995012236911476
       },
       {
         "name": "ASP.NET",
-        "pct": 1.5404940770768378
+        "pct": 1.5363774616279742
       },
       {
         "name": "Shell",
-        "pct": 1.4093539292029695
+        "pct": 1.4262841486258033
       },
       {
         "name": "Vue",
-        "pct": 0.7091231835775574
+        "pct": 0.7072282152708944
       },
       {
         "name": "ShaderLab",
-        "pct": 0.6823356679161856
+        "pct": 0.6805122830725486
       },
       {
         "name": "Jinja",
-        "pct": 0.6189865842018083
+        "pct": 0.6763611682910968
       },
       {
         "name": "Makefile",
-        "pct": 0.5145576584320488
+        "pct": 0.513182621658099
       },
       {
         "name": "SCSS",
-        "pct": 0.3874356379073864
+        "pct": 0.3864003054408856
       },
       {
         "name": "Typst",
-        "pct": 0.22801601147455103
+        "pct": 0.22740669122503374
       },
       {
         "name": "Swift",
-        "pct": 0.2135117585325867
+        "pct": 0.2129411975568787
       },
       {
         "name": "Java",
-        "pct": 0.18709723359561362
+        "pct": 0.18659725935116808
       },
       {
         "name": "Dockerfile",
-        "pct": 0.15001856476560077
+        "pct": 0.17164986437437205
       },
       {
         "name": "HLSL",
-        "pct": 0.11862800448267034
+        "pct": 0.11831099847583917
       },
       {
         "name": "NSIS",
-        "pct": 0.10517490721855731
+        "pct": 0.10489385151420155
       },
       {
         "name": "Ruby",
-        "pct": 0.06019561668082336
+        "pct": 0.0600347577659664
       },
       {
         "name": "GLSL",
-        "pct": 0.05253235270681064
+        "pct": 0.05239197209909785
       },
       {
         "name": "Objective-C",
-        "pct": 0.007391997992631737
+        "pct": 0.007372244581315688
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.0016869353217129767
+        "pct": 0.001682427375781906
       }
     ]
   },
@@ -3817,18 +3813,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-02-19",
-      "ctl": 2.7513022,
-      "atl": 4.6780257,
-      "form": -1.9267235,
-      "resting_heartrate": 59,
-      "hrv": 52,
-      "sleep_time": 24300,
-      "sleep_score": 74,
-      "sleep_quality": 3,
-      "steps": 4639
-    },
     {
       "date": "2026-02-20",
       "ctl": 2.6865687,
@@ -5706,9 +5690,15 @@
     },
     {
       "date": "2026-08-19",
-      "ctl": 12.064283,
-      "atl": 12.455457,
-      "form": -0.39117399999999947
+      "ctl": 12.39368,
+      "atl": 14.319166,
+      "form": -1.9254859999999994
+    },
+    {
+      "date": "2026-08-20",
+      "ctl": 12.1020775,
+      "atl": 12.412969,
+      "form": -0.3108915000000003
     }
   ]
 }
