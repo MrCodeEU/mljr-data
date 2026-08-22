@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-08-21T04:35:29Z",
+  "generated_at": "2026-08-22T04:30:20Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -903,22 +903,39 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-08-21T04:35:29Z",
+    "generated_at": "2026-08-22T04:30:20Z",
     "total_stats": {
-      "count": 440,
-      "distance": 1954770,
-      "moving_time": 1105226,
-      "elapsed_time": 1191430,
-      "elevation_gain": 32099.268156000006
+      "count": 441,
+      "distance": 1966793,
+      "moving_time": 1110269,
+      "elapsed_time": 1196475,
+      "elevation_gain": 32180.171416000005
     },
     "year_to_date_stats": {
-      "count": 93,
-      "distance": 162544,
-      "moving_time": 247138,
-      "elapsed_time": 257717,
-      "elevation_gain": 1872.0233799999999
+      "count": 94,
+      "distance": 174567,
+      "moving_time": 252181,
+      "elapsed_time": 262762,
+      "elevation_gain": 1952.92664
     },
     "recent_activities": [
+      {
+        "id": 178326619,
+        "name": "Afternoon Laufen",
+        "distance": 12023,
+        "moving_time": 5043,
+        "elapsed_time": 5045,
+        "total_elevation_gain": 80.90326,
+        "type": "Run",
+        "start_date": "2026-08-21T16:32:51Z",
+        "start_date_local": "2026-08-21T16:32:51Z",
+        "average_pace": 6.993985172751434,
+        "average_speed": 2.383,
+        "max_speed": 3.247,
+        "average_heartrate": 172,
+        "max_heartrate": 186,
+        "calories": 1200
+      },
       {
         "id": 177984134,
         "name": "Afternoon Training",
@@ -1043,23 +1060,6 @@
         "average_heartrate": 111,
         "max_heartrate": 145,
         "calories": 330
-      },
-      {
-        "id": 167649736,
-        "name": "Morning Laufen",
-        "distance": 5030,
-        "moving_time": 1828,
-        "elapsed_time": 1829,
-        "total_elevation_gain": 41.63745,
-        "type": "Run",
-        "start_date": "2026-07-21T09:48:19Z",
-        "start_date_local": "2026-07-21T09:48:19Z",
-        "average_pace": 6.0606060606060606,
-        "average_speed": 2.75,
-        "max_speed": 3.509,
-        "average_heartrate": 171,
-        "max_heartrate": 189,
-        "calories": 433
       }
     ],
     "best_activities": {
@@ -1230,11 +1230,28 @@
       {
         "type": "running",
         "label": "Running",
-        "count": 208,
-        "total_time": 657996,
-        "total_distance": 1626468,
-        "avg_heartrate": 166.59134615384616,
+        "count": 209,
+        "total_time": 663039,
+        "total_distance": 1638491,
+        "avg_heartrate": 166.61722488038276,
         "activities": [
+          {
+            "id": 178326619,
+            "name": "Afternoon Laufen",
+            "distance": 12023,
+            "moving_time": 5043,
+            "elapsed_time": 5045,
+            "total_elevation_gain": 80.90326,
+            "type": "Run",
+            "start_date": "2026-08-21T16:32:51Z",
+            "start_date_local": "2026-08-21T16:32:51Z",
+            "average_pace": 6.993985172751434,
+            "average_speed": 2.383,
+            "max_speed": 3.247,
+            "average_heartrate": 172,
+            "max_heartrate": 186,
+            "calories": 1200
+          },
           {
             "id": 175006549,
             "name": "Morning Laufen",
@@ -1302,23 +1319,6 @@
             "average_heartrate": 175,
             "max_heartrate": 188,
             "calories": 621
-          },
-          {
-            "id": 165873605,
-            "name": "Morning Laufen",
-            "distance": 5020,
-            "moving_time": 1750,
-            "elapsed_time": 1757,
-            "total_elevation_gain": 40.968872,
-            "type": "Run",
-            "start_date": "2026-07-15T09:30:21Z",
-            "start_date_local": "2026-07-15T09:30:21Z",
-            "average_pace": 5.833625014584062,
-            "average_speed": 2.857,
-            "max_speed": 3.623,
-            "average_heartrate": 178,
-            "max_heartrate": 190,
-            "calories": 436
           }
         ]
       },
@@ -1758,9 +1758,9 @@
       },
       {
         "month": "2026-08",
-        "count": 6,
-        "distance": 7026,
-        "time": 18509
+        "count": 7,
+        "distance": 19049,
+        "time": 23552
       }
     ],
     "year": "2026"
@@ -1769,10 +1769,6 @@
     "commits_year": 1036,
     "longest_streak": 11,
     "contributions": [
-      {
-        "date": "2025-08-22",
-        "count": 0
-      },
       {
         "date": "2025-08-23",
         "count": 0
@@ -3227,6 +3223,10 @@
       },
       {
         "date": "2026-08-21",
+        "count": 1
+      },
+      {
+        "date": "2026-08-22",
         "count": 0
       }
     ],
@@ -3809,18 +3809,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-02-21",
-      "ctl": 2.6233582,
-      "atl": 3.5154302,
-      "form": -0.8920719999999998,
-      "resting_heartrate": 61,
-      "hrv": 45,
-      "sleep_time": 25860,
-      "sleep_score": 76,
-      "sleep_quality": 3,
-      "steps": 2991
-    },
     {
       "date": "2026-02-22",
       "ctl": 2.561635,
@@ -5686,9 +5674,15 @@
     },
     {
       "date": "2026-08-21",
-      "ctl": 11.817336,
-      "atl": 13.530143,
-      "form": -1.7128070000000015
+      "ctl": 15.1112995,
+      "atl": 32.167236,
+      "form": -17.0559365
+    },
+    {
+      "date": "2026-08-22",
+      "ctl": 14.755756,
+      "atl": 27.885067,
+      "form": -13.129311
     }
   ]
 }
