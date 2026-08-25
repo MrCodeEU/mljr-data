@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-08-24T04:41:34Z",
+  "generated_at": "2026-08-25T04:36:17Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -408,7 +408,7 @@
       "description_de": "Eine vollständig automatisierte Homelab-Konfiguration, verwaltet mit Ansible und über ein Tailscale-VPN bereitgestellt. Zwei Nodes decken den Stack ab: ein VPS mit Caddy, CrowdSec und öffentlichen Diensten wie mljr.eu, sowie ein Heim-NUC mit Grafana, Prometheus und Compute-Workloads. Von Firewall-Regeln bis zu Service-Updates ist alles kodifiziert und wiederholbar.",
       "url": "https://github.com/MrCodeEU/homelab-automation",
       "stars": 0,
-      "language": "Python",
+      "language": "Go",
       "topics": [
         "Ansible",
         "Docker",
@@ -903,22 +903,39 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-08-24T04:41:34Z",
+    "generated_at": "2026-08-25T04:36:17Z",
     "total_stats": {
-      "count": 441,
-      "distance": 1966793,
-      "moving_time": 1110269,
-      "elapsed_time": 1196475,
-      "elevation_gain": 32180.171416000005
+      "count": 442,
+      "distance": 1976826,
+      "moving_time": 1114406,
+      "elapsed_time": 1200613,
+      "elevation_gain": 32250.445676000003
     },
     "year_to_date_stats": {
-      "count": 94,
-      "distance": 174567,
-      "moving_time": 252181,
-      "elapsed_time": 262762,
-      "elevation_gain": 1952.92664
+      "count": 95,
+      "distance": 184600,
+      "moving_time": 256318,
+      "elapsed_time": 266900,
+      "elevation_gain": 2023.2009
     },
     "recent_activities": [
+      {
+        "id": 179299708,
+        "name": "Afternoon Laufen",
+        "distance": 10033,
+        "moving_time": 4137,
+        "elapsed_time": 4138,
+        "total_elevation_gain": 70.27426,
+        "type": "Run",
+        "start_date": "2026-08-24T16:58:41Z",
+        "start_date_local": "2026-08-24T16:58:41Z",
+        "average_pace": 6.8728522336769755,
+        "average_speed": 2.425,
+        "max_speed": 3.534,
+        "average_heartrate": 175,
+        "max_heartrate": 190,
+        "calories": 1016
+      },
       {
         "id": 178326619,
         "name": "Afternoon Laufen",
@@ -1047,19 +1064,6 @@
         "average_heartrate": 176,
         "max_heartrate": 190,
         "calories": 441
-      },
-      {
-        "id": 168473818,
-        "name": "Afternoon Training",
-        "distance": 0,
-        "moving_time": 2810,
-        "elapsed_time": 2810,
-        "type": "Workout",
-        "start_date": "2026-07-23T15:58:01Z",
-        "start_date_local": "2026-07-23T15:58:01Z",
-        "average_heartrate": 111,
-        "max_heartrate": 145,
-        "calories": 330
       }
     ],
     "best_activities": {
@@ -1230,11 +1234,28 @@
       {
         "type": "running",
         "label": "Running",
-        "count": 209,
-        "total_time": 663039,
-        "total_distance": 1638491,
-        "avg_heartrate": 166.61722488038276,
+        "count": 210,
+        "total_time": 667176,
+        "total_distance": 1648524,
+        "avg_heartrate": 166.65714285714284,
         "activities": [
+          {
+            "id": 179299708,
+            "name": "Afternoon Laufen",
+            "distance": 10033,
+            "moving_time": 4137,
+            "elapsed_time": 4138,
+            "total_elevation_gain": 70.27426,
+            "type": "Run",
+            "start_date": "2026-08-24T16:58:41Z",
+            "start_date_local": "2026-08-24T16:58:41Z",
+            "average_pace": 6.8728522336769755,
+            "average_speed": 2.425,
+            "max_speed": 3.534,
+            "average_heartrate": 175,
+            "max_heartrate": 190,
+            "calories": 1016
+          },
           {
             "id": 178326619,
             "name": "Afternoon Laufen",
@@ -1302,23 +1323,6 @@
             "average_heartrate": 171,
             "max_heartrate": 189,
             "calories": 433
-          },
-          {
-            "id": 167071455,
-            "name": "Morning Laufen",
-            "distance": 7022,
-            "moving_time": 2525,
-            "elapsed_time": 2708,
-            "total_elevation_gain": 59.833267,
-            "type": "Run",
-            "start_date": "2026-07-19T10:26:19Z",
-            "start_date_local": "2026-07-19T10:26:19Z",
-            "average_pace": 5.99736116108912,
-            "average_speed": 2.779,
-            "max_speed": 3.546,
-            "average_heartrate": 175,
-            "max_heartrate": 188,
-            "calories": 621
           }
         ]
       },
@@ -1758,21 +1762,17 @@
       },
       {
         "month": "2026-08",
-        "count": 7,
-        "distance": 19049,
-        "time": 23552
+        "count": 8,
+        "distance": 29082,
+        "time": 27689
       }
     ],
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 1090,
+    "commits_year": 1100,
     "longest_streak": 11,
     "contributions": [
-      {
-        "date": "2025-08-25",
-        "count": 0
-      },
       {
         "date": "2025-08-26",
         "count": 0
@@ -3227,129 +3227,137 @@
       },
       {
         "date": "2026-08-24",
+        "count": 21
+      },
+      {
+        "date": "2026-08-25",
         "count": 0
       }
     ],
     "language_share": [
       {
         "name": "Go",
-        "pct": 21.520110779078795
+        "pct": 23.838937877326863
       },
       {
         "name": "Svelte",
-        "pct": 19.426236795558445
+        "pct": 19.65353757910018
       },
       {
         "name": "JavaScript",
-        "pct": 11.222146397426847
+        "pct": 11.353453489788574
       },
       {
         "name": "HTML",
-        "pct": 8.102754009794253
+        "pct": 8.306220136568534
       },
       {
         "name": "CSS",
-        "pct": 6.972302388562247
+        "pct": 7.05388328416692
       },
       {
         "name": "TypeScript",
-        "pct": 5.357163880206927
-      },
-      {
-        "name": "Python",
-        "pct": 4.828007848069302
+        "pct": 5.419846506818939
       },
       {
         "name": "Rust",
-        "pct": 3.4556025073875047
+        "pct": 3.4960355138315293
       },
       {
         "name": "TeX",
-        "pct": 3.0848855652278404
+        "pct": 3.120980919850162
       },
       {
         "name": "C#",
-        "pct": 2.821456423363798
+        "pct": 2.8544694697149104
       },
       {
         "name": "Shell",
-        "pct": 2.403217497313542
+        "pct": 2.4125179964023213
       },
       {
         "name": "Kotlin",
-        "pct": 1.9386907137269358
+        "pct": 1.961374773584374
       },
       {
         "name": "Dart",
-        "pct": 1.91592433019213
+        "pct": 1.9383420071741646
+      },
+      {
+        "name": "Python",
+        "pct": 1.8413398892932218
       },
       {
         "name": "ASP.NET",
-        "pct": 1.4754711297655443
+        "pct": 1.492735191118158
       },
       {
         "name": "Puppet",
-        "pct": 1.2924550629830702
-      },
-      {
-        "name": "Jinja",
-        "pct": 0.8365265676144946
+        "pct": 1.3235051434779526
       },
       {
         "name": "Vue",
-        "pct": 0.6791916959534864
+        "pct": 0.6871387217356784
       },
       {
         "name": "ShaderLab",
-        "pct": 0.6535348585890121
+        "pct": 0.6611816811307347
       },
       {
         "name": "Makefile",
-        "pct": 0.5080134990689248
+        "pct": 0.511813698105325
+      },
+      {
+        "name": "Jinja",
+        "pct": 0.4679824421977366
       },
       {
         "name": "SCSS",
-        "pct": 0.37108230851453816
+        "pct": 0.37542423538238706
       },
       {
         "name": "Typst",
-        "pct": 0.218391649186593
+        "pct": 0.22094698676954852
       },
       {
         "name": "Swift",
-        "pct": 0.20449960844905637
+        "pct": 0.2068923992774414
       },
       {
         "name": "Dockerfile",
-        "pct": 0.20211254826388056
+        "pct": 0.18390891838736792
       },
       {
         "name": "Java",
-        "pct": 0.17920001818712522
+        "pct": 0.18129678582016157
       },
       {
         "name": "HLSL",
-        "pct": 0.11362081711343529
+        "pct": 0.11495026146379145
       },
       {
         "name": "NSIS",
-        "pct": 0.10073556366488436
+        "pct": 0.10191424138782768
+      },
+      {
+        "name": "Go Template",
+        "pct": 0.10133924365290803
       },
       {
         "name": "Ruby",
-        "pct": 0.05765481079909276
+        "pct": 0.058329413080919185
       },
       {
         "name": "GLSL",
-        "pct": 0.05031500669229373
+        "pct": 0.05090372804709987
       },
       {
         "name": "Objective-C",
-        "pct": 0.007079988032222065
+        "pct": 0.007162828926427479
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.0016157312137754483
+        "pct": 0.0016346364178429684
       }
     ]
   },
@@ -3813,18 +3821,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-02-24",
-      "ctl": 3.92618,
-      "atl": 10.101044,
-      "form": -6.1748639999999995,
-      "resting_heartrate": 59,
-      "hrv": 49,
-      "sleep_time": 31020,
-      "sleep_score": 90,
-      "sleep_quality": 1,
-      "steps": 10953
-    },
     {
       "date": "2026-02-25",
       "ctl": 4.5631814,
@@ -5672,9 +5668,15 @@
     },
     {
       "date": "2026-08-24",
-      "ctl": 14.069569,
-      "atl": 20.954994,
-      "form": -6.885425
+      "ctl": 16.775324,
+      "atl": 36.264038,
+      "form": -19.488713999999998
+    },
+    {
+      "date": "2026-08-25",
+      "ctl": 16.380629,
+      "atl": 31.436493,
+      "form": -15.055864
     }
   ]
 }
