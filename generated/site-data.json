@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-09-03T08:32:57Z",
+  "generated_at": "2026-09-04T08:28:35Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -903,22 +903,59 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-09-03T08:32:57Z",
+    "generated_at": "2026-09-04T08:28:35Z",
     "total_stats": {
-      "count": 445,
+      "count": 448,
       "distance": 1993978,
-      "moving_time": 1125065,
-      "elapsed_time": 1211368,
+      "moving_time": 1128966,
+      "elapsed_time": 1215269,
       "elevation_gain": 32370.984372
     },
     "year_to_date_stats": {
-      "count": 98,
+      "count": 101,
       "distance": 201752,
-      "moving_time": 266977,
-      "elapsed_time": 277655,
+      "moving_time": 270878,
+      "elapsed_time": 281556,
       "elevation_gain": 2143.739596
     },
     "recent_activities": [
+      {
+        "id": 182847288,
+        "name": "Lunch Training",
+        "distance": 0,
+        "moving_time": 3684,
+        "elapsed_time": 3684,
+        "type": "Workout",
+        "start_date": "2026-09-03T13:15:34Z",
+        "start_date_local": "2026-09-03T13:15:34Z",
+        "average_heartrate": 107,
+        "max_heartrate": 137,
+        "calories": 408
+      },
+      {
+        "id": 182823440,
+        "name": "Lunch Krafttraining",
+        "distance": 0,
+        "moving_time": 9,
+        "elapsed_time": 9,
+        "type": "WeightTraining",
+        "start_date": "2026-09-03T13:15:10Z",
+        "start_date_local": "2026-09-03T13:15:10Z",
+        "calories": 1
+      },
+      {
+        "id": 182823309,
+        "name": "Lunch Training",
+        "distance": 0,
+        "moving_time": 208,
+        "elapsed_time": 208,
+        "type": "Workout",
+        "start_date": "2026-09-03T13:11:23Z",
+        "start_date_local": "2026-09-03T13:11:23Z",
+        "average_heartrate": 110,
+        "max_heartrate": 130,
+        "calories": 23
+      },
       {
         "id": 181786190,
         "name": "Afternoon Laufen",
@@ -1025,49 +1062,6 @@
         "average_heartrate": 153,
         "max_heartrate": 172,
         "calories": 147
-      },
-      {
-        "id": 177269936,
-        "name": "Evening Virtuelle Radfahrt",
-        "distance": 0,
-        "moving_time": 3603,
-        "elapsed_time": 3603,
-        "type": "VirtualRide",
-        "start_date": "2026-08-18T18:51:23Z",
-        "start_date_local": "2026-08-18T18:51:23Z",
-        "average_heartrate": 147,
-        "max_heartrate": 170,
-        "calories": 690
-      },
-      {
-        "id": 175006549,
-        "name": "Morning Laufen",
-        "distance": 7026,
-        "moving_time": 2665,
-        "elapsed_time": 2821,
-        "total_elevation_gain": 62.15921,
-        "type": "Run",
-        "start_date": "2026-08-12T07:59:36Z",
-        "start_date_local": "2026-08-12T07:59:36Z",
-        "average_pace": 6.325110689437065,
-        "average_speed": 2.635,
-        "max_speed": 3.333,
-        "average_heartrate": 172,
-        "max_heartrate": 186,
-        "calories": 639
-      },
-      {
-        "id": 173109484,
-        "name": "Afternoon Training",
-        "distance": 0,
-        "moving_time": 3835,
-        "elapsed_time": 3835,
-        "type": "Workout",
-        "start_date": "2026-08-06T15:57:56Z",
-        "start_date_local": "2026-08-06T15:57:56Z",
-        "average_heartrate": 106,
-        "max_heartrate": 139,
-        "calories": 418
       }
     ],
     "best_activities": {
@@ -1408,11 +1402,48 @@
       {
         "type": "training",
         "label": "Training",
-        "count": 173,
-        "total_time": 341153,
+        "count": 176,
+        "total_time": 345054,
         "total_distance": 300350,
-        "avg_heartrate": 101.97109826589596,
+        "avg_heartrate": 102.04571428571428,
         "activities": [
+          {
+            "id": 182847288,
+            "name": "Lunch Training",
+            "distance": 0,
+            "moving_time": 3684,
+            "elapsed_time": 3684,
+            "type": "Workout",
+            "start_date": "2026-09-03T13:15:34Z",
+            "start_date_local": "2026-09-03T13:15:34Z",
+            "average_heartrate": 107,
+            "max_heartrate": 137,
+            "calories": 408
+          },
+          {
+            "id": 182823440,
+            "name": "Lunch Krafttraining",
+            "distance": 0,
+            "moving_time": 9,
+            "elapsed_time": 9,
+            "type": "WeightTraining",
+            "start_date": "2026-09-03T13:15:10Z",
+            "start_date_local": "2026-09-03T13:15:10Z",
+            "calories": 1
+          },
+          {
+            "id": 182823309,
+            "name": "Lunch Training",
+            "distance": 0,
+            "moving_time": 208,
+            "elapsed_time": 208,
+            "type": "Workout",
+            "start_date": "2026-09-03T13:11:23Z",
+            "start_date_local": "2026-09-03T13:11:23Z",
+            "average_heartrate": 110,
+            "max_heartrate": 130,
+            "calories": 23
+          },
           {
             "id": 180397181,
             "name": "Afternoon Training",
@@ -1438,45 +1469,6 @@
             "average_heartrate": 113,
             "max_heartrate": 150,
             "calories": 445
-          },
-          {
-            "id": 173109484,
-            "name": "Afternoon Training",
-            "distance": 0,
-            "moving_time": 3835,
-            "elapsed_time": 3835,
-            "type": "Workout",
-            "start_date": "2026-08-06T15:57:56Z",
-            "start_date_local": "2026-08-06T15:57:56Z",
-            "average_heartrate": 106,
-            "max_heartrate": 139,
-            "calories": 418
-          },
-          {
-            "id": 172090650,
-            "name": "Afternoon Training",
-            "distance": 0,
-            "moving_time": 4019,
-            "elapsed_time": 4019,
-            "type": "Workout",
-            "start_date": "2026-08-03T16:59:40Z",
-            "start_date_local": "2026-08-03T16:59:40Z",
-            "average_heartrate": 122,
-            "max_heartrate": 165,
-            "calories": 560
-          },
-          {
-            "id": 170822578,
-            "name": "Afternoon Training",
-            "distance": 0,
-            "moving_time": 3888,
-            "elapsed_time": 3888,
-            "type": "Workout",
-            "start_date": "2026-07-30T16:42:49Z",
-            "start_date_local": "2026-07-30T16:42:49Z",
-            "average_heartrate": 112,
-            "max_heartrate": 148,
-            "calories": 471
           }
         ]
       }
@@ -1769,18 +1761,20 @@
         "count": 11,
         "distance": 46234,
         "time": 38348
+      },
+      {
+        "month": "2026-09",
+        "count": 3,
+        "distance": 0,
+        "time": 3901
       }
     ],
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 1252,
-    "longest_streak": 18,
+    "commits_year": 1263,
+    "longest_streak": 19,
     "contributions": [
-      {
-        "date": "2025-09-04",
-        "count": 0
-      },
       {
         "date": "2025-09-05",
         "count": 0
@@ -3231,133 +3225,137 @@
       },
       {
         "date": "2026-09-02",
-        "count": 47
+        "count": 48
       },
       {
         "date": "2026-09-03",
+        "count": 19
+      },
+      {
+        "date": "2026-09-04",
         "count": 0
       }
     ],
     "language_share": [
       {
         "name": "Go",
-        "pct": 24.118261567242076
+        "pct": 24.16649031898249
       },
       {
         "name": "Svelte",
-        "pct": 19.58838916201712
+        "pct": 19.57163995493461
       },
       {
         "name": "JavaScript",
-        "pct": 11.315818559165578
+        "pct": 11.306142879006893
       },
       {
         "name": "HTML",
-        "pct": 8.368023120156863
+        "pct": 8.360867975803162
       },
       {
         "name": "CSS",
-        "pct": 7.030500759346511
+        "pct": 7.024489274066224
       },
       {
         "name": "TypeScript",
-        "pct": 5.4018805595012465
+        "pct": 5.397261638804006
       },
       {
         "name": "Rust",
-        "pct": 3.484446700424497
+        "pct": 3.481467296713929
       },
       {
         "name": "TeX",
-        "pct": 3.110635354027402
+        "pct": 3.107975580665139
       },
       {
         "name": "C#",
-        "pct": 2.8450073478543856
+        "pct": 2.84257470181972
       },
       {
         "name": "Shell",
-        "pct": 2.3382469124684286
+        "pct": 2.3362475759521364
       },
       {
         "name": "Kotlin",
-        "pct": 1.9548731215895927
+        "pct": 1.9532015918653913
       },
       {
         "name": "Dart",
-        "pct": 1.9319167052139066
+        "pct": 1.9302648045550954
       },
       {
         "name": "Puppet",
-        "pct": 1.6557519986573281
+        "pct": 1.659342409506235
       },
       {
         "name": "Python",
-        "pct": 1.5389722828289443
+        "pct": 1.5376563724063905
       },
       {
         "name": "ASP.NET",
-        "pct": 1.4877870063735985
+        "pct": 1.486514862326515
       },
       {
         "name": "Vue",
-        "pct": 0.6848609638583808
+        "pct": 0.6842753680744952
       },
       {
         "name": "ShaderLab",
-        "pct": 0.6589899668016161
+        "pct": 0.6584264922183841
       },
       {
         "name": "Makefile",
-        "pct": 0.49494655919832653
+        "pct": 0.49452335122822655
       },
       {
         "name": "Ruby",
-        "pct": 0.4553950443941397
+        "pct": 0.45500565525959596
       },
       {
         "name": "SCSS",
-        "pct": 0.3741797624944226
+        "pct": 0.37385981712901933
       },
       {
         "name": "Typst",
-        "pct": 0.2202145819091322
+        "pct": 0.220026285689138
       },
       {
         "name": "Swift",
-        "pct": 0.20620658318630802
-      },
-      {
-        "name": "Java",
-        "pct": 0.1806958152024856
+        "pct": 0.20603026461641455
       },
       {
         "name": "Dockerfile",
-        "pct": 0.17734732222899927
+        "pct": 0.1888440341817027
+      },
+      {
+        "name": "Java",
+        "pct": 0.18054130981652777
       },
       {
         "name": "HLSL",
-        "pct": 0.11456921924441951
+        "pct": 0.11447125592734765
       },
       {
         "name": "NSIS",
-        "pct": 0.10157641154534178
+        "pct": 0.1014895578312564
       },
       {
         "name": "Go Template",
-        "pct": 0.10100331983838814
+        "pct": 0.10091695615089952
       },
       {
         "name": "GLSL",
-        "pct": 0.05073499011416805
+        "pct": 0.05069160875959506
       },
       {
         "name": "Objective-C",
-        "pct": 0.007139085263765458
+        "pct": 0.007132980932445843
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.001629217852625374
+        "pct": 0.0016278247770145908
       }
     ]
   },
@@ -3821,18 +3819,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-03-03",
-      "ctl": 3.955721,
-      "atl": 7.487495,
-      "form": -3.531774,
-      "resting_heartrate": 55,
-      "hrv": 55,
-      "sleep_time": 29460,
-      "sleep_score": 91,
-      "sleep_quality": 1,
-      "steps": 6583
-    },
     {
       "date": "2026-03-04",
       "ctl": 3.8626494,
@@ -5658,8 +5644,14 @@
     {
       "date": "2026-09-03",
       "ctl": 17.239052,
-      "atl": 24.364128,
-      "form": -7.125076
+      "atl": 27.159693,
+      "form": -9.920641
+    },
+    {
+      "date": "2026-09-04",
+      "ctl": 16.833447,
+      "atl": 23.544138,
+      "form": -6.710691000000001
     }
   ]
 }
