@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-09-14T09:33:55Z",
+  "generated_at": "2026-09-15T09:11:50Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -903,7 +903,7 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-09-14T09:33:55Z",
+    "generated_at": "2026-09-15T09:11:50Z",
     "total_stats": {
       "count": 452,
       "distance": 2047965,
@@ -1783,10 +1783,6 @@
     "commits_year": 1280,
     "longest_streak": 19,
     "contributions": [
-      {
-        "date": "2025-09-15",
-        "count": 0
-      },
       {
         "date": "2025-09-16",
         "count": 0
@@ -3242,6 +3238,10 @@
       {
         "date": "2026-09-14",
         "count": 0
+      },
+      {
+        "date": "2026-09-15",
+        "count": 0
       }
     ],
     "language_share": [
@@ -3827,18 +3827,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-03-14",
-      "ctl": 5.5160055,
-      "atl": 13.957345,
-      "form": -8.4413395,
-      "resting_heartrate": 58,
-      "hrv": 47,
-      "sleep_time": 25440,
-      "sleep_score": 68,
-      "sleep_quality": 3,
-      "steps": 7330
-    },
     {
       "date": "2026-03-15",
       "ctl": 7.1037903,
@@ -5605,6 +5593,12 @@
       "ctl": 26.062788,
       "atl": 51.485226,
       "form": -25.422437999999996
+    },
+    {
+      "date": "2026-09-15",
+      "ctl": 25.449575,
+      "atl": 44.631405,
+      "form": -19.18183
     }
   ]
 }
