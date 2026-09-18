@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-09-17T09:12:39Z",
+  "generated_at": "2026-09-18T08:45:41Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -903,7 +903,7 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-09-17T09:12:39Z",
+    "generated_at": "2026-09-18T08:45:41Z",
     "total_stats": {
       "count": 452,
       "distance": 2047965,
@@ -1780,13 +1780,9 @@
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 1281,
+    "commits_year": 1284,
     "longest_streak": 19,
     "contributions": [
-      {
-        "date": "2025-09-18",
-        "count": 0
-      },
       {
         "date": "2025-09-19",
         "count": 0
@@ -3241,129 +3237,133 @@
       },
       {
         "date": "2026-09-17",
-        "count": 3
+        "count": 8
+      },
+      {
+        "date": "2026-09-18",
+        "count": 0
       }
     ],
     "language_share": [
       {
         "name": "Go",
-        "pct": 24.24376201794424
+        "pct": 24.22067809594907
       },
       {
         "name": "Svelte",
-        "pct": 19.53500174847285
+        "pct": 19.51640131607282
       },
       {
         "name": "JavaScript",
-        "pct": 11.284977723810853
+        "pct": 11.274232628008441
       },
       {
         "name": "HTML",
-        "pct": 8.345216389742804
+        "pct": 8.337270414855283
       },
       {
         "name": "CSS",
-        "pct": 7.0113393955223575
+        "pct": 7.004663483938665
       },
       {
         "name": "TypeScript",
-        "pct": 5.387157938413749
+        "pct": 5.382028506210365
       },
       {
         "name": "Rust",
-        "pct": 3.4749499727747715
+        "pct": 3.4716412670528918
       },
       {
         "name": "TeX",
-        "pct": 3.102157435059318
+        "pct": 3.0992036871964803
       },
       {
         "name": "C#",
-        "pct": 2.8372533879672246
+        "pct": 2.8345518709402926
       },
       {
         "name": "Shell",
-        "pct": 2.374289782411269
+        "pct": 2.459944545880486
       },
       {
         "name": "Kotlin",
-        "pct": 1.9495451888583375
+        "pct": 1.9476889113947842
       },
       {
         "name": "Dart",
-        "pct": 1.9266513393269389
+        "pct": 1.9248168604537348
       },
       {
         "name": "Puppet",
-        "pct": 1.6732758641101433
+        "pct": 1.6716826390366202
       },
       {
         "name": "Python",
-        "pct": 1.5347778720983332
+        "pct": 1.5333165191674965
       },
       {
         "name": "ASP.NET",
-        "pct": 1.4837320991773972
+        "pct": 1.4823193499508625
       },
       {
         "name": "Vue",
-        "pct": 0.6829944012127536
+        "pct": 0.6823440817834066
       },
       {
         "name": "ShaderLab",
-        "pct": 0.6571939145796509
+        "pct": 0.6565681613220241
       },
       {
         "name": "Makefile",
-        "pct": 0.4935976010772846
+        "pct": 0.5004280760461435
       },
       {
         "name": "Ruby",
-        "pct": 0.45415388243028504
+        "pct": 0.4537214556151701
       },
       {
         "name": "SCSS",
-        "pct": 0.37315994970864635
+        "pct": 0.37280464201488084
       },
       {
         "name": "Typst",
-        "pct": 0.21961439539784638
+        "pct": 0.21940528752223581
       },
       {
         "name": "Swift",
-        "pct": 0.20564457494555566
+        "pct": 0.2054487685635569
       },
       {
         "name": "Dockerfile",
-        "pct": 0.18849051721892635
+        "pct": 0.1883110442314795
       },
       {
         "name": "Java",
-        "pct": 0.18020333559468613
+        "pct": 0.18003175332378862
       },
       {
         "name": "HLSL",
-        "pct": 0.1142569651720374
+        "pct": 0.1141481743470209
       },
       {
         "name": "Go Template",
-        "pct": 0.10596161883683732
+        "pct": 0.10586072650247513
       },
       {
         "name": "NSIS",
-        "pct": 0.10129956887876719
+        "pct": 0.10120311555834559
       },
       {
         "name": "GLSL",
-        "pct": 0.050596713818144616
+        "pct": 0.05054853768961616
       },
       {
         "name": "Objective-C",
-        "pct": 0.007119627956982751
+        "pct": 0.007112848937444777
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.0016247774810086782
+        "pct": 0.0016232304341187052
       }
     ]
   },
@@ -3827,18 +3827,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-03-17",
-      "ctl": 7.5263486,
-      "atl": 20.655058,
-      "form": -13.1287094,
-      "resting_heartrate": 57,
-      "hrv": 52,
-      "sleep_time": 25140,
-      "sleep_score": 78,
-      "sleep_quality": 3,
-      "steps": 4175
-    },
     {
       "date": "2026-03-18",
       "ctl": 8.384512,
@@ -5418,175 +5406,345 @@
       "date": "2026-08-20",
       "ctl": 12.1020775,
       "atl": 15.607899,
-      "form": -3.5058214999999997
+      "form": -3.5058214999999997,
+      "resting_heartrate": 53,
+      "hrv": 57,
+      "sleep_time": 25200,
+      "sleep_score": 77,
+      "sleep_quality": 3,
+      "steps": 4836
     },
     {
       "date": "2026-08-21",
       "ctl": 15.1112995,
       "atl": 32.167236,
-      "form": -17.0559365
+      "form": -17.0559365,
+      "resting_heartrate": 53,
+      "hrv": 59,
+      "sleep_time": 28440,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 13385
     },
     {
       "date": "2026-08-22",
       "ctl": 14.755756,
       "atl": 27.885067,
-      "form": -13.129311
+      "form": -13.129311,
+      "resting_heartrate": 55,
+      "hrv": 52,
+      "sleep_time": 27240,
+      "sleep_score": 84,
+      "sleep_quality": 2,
+      "steps": 1742
     },
     {
       "date": "2026-08-23",
       "ctl": 14.408578,
       "atl": 24.172949,
-      "form": -9.764370999999999
+      "form": -9.764370999999999,
+      "hrv": 255,
+      "sleep_time": 25620,
+      "sleep_score": 66,
+      "sleep_quality": 3,
+      "steps": 1385
     },
     {
       "date": "2026-08-24",
       "ctl": 16.775324,
       "atl": 36.264038,
-      "form": -19.488713999999998
+      "form": -19.488713999999998,
+      "hrv": 255,
+      "sleep_time": 28500,
+      "sleep_score": 71,
+      "sleep_quality": 3,
+      "steps": 10995
     },
     {
       "date": "2026-08-25",
       "ctl": 16.380629,
       "atl": 31.436493,
-      "form": -15.055864
+      "form": -15.055864,
+      "resting_heartrate": 53,
+      "hrv": 55,
+      "sleep_time": 27660,
+      "sleep_score": 75,
+      "sleep_quality": 3,
+      "steps": 2366
     },
     {
       "date": "2026-08-26",
       "ctl": 15.99522,
       "atl": 27.2516,
-      "form": -11.25638
+      "form": -11.25638,
+      "resting_heartrate": 52,
+      "hrv": 57,
+      "sleep_time": 26160,
+      "sleep_score": 78,
+      "sleep_quality": 3,
+      "steps": 2160
     },
     {
       "date": "2026-08-27",
       "ctl": 15.618879,
       "atl": 26.419374,
-      "form": -10.800495000000002
+      "form": -10.800495000000002,
+      "resting_heartrate": 50,
+      "hrv": 58,
+      "sleep_time": 24840,
+      "sleep_score": 78,
+      "sleep_quality": 3,
+      "steps": 6536
     },
     {
       "date": "2026-08-28",
       "ctl": 16.474865,
       "atl": 29.82472,
-      "form": -13.349854999999998
+      "form": -13.349854999999998,
+      "resting_heartrate": 53,
+      "hrv": 52,
+      "sleep_time": 25980,
+      "sleep_score": 75,
+      "sleep_quality": 3,
+      "steps": 6601
     },
     {
       "date": "2026-08-29",
       "ctl": 16.087238,
       "atl": 25.854391,
-      "form": -9.767153
+      "form": -9.767153,
+      "resting_heartrate": 53,
+      "hrv": 55,
+      "sleep_time": 28380,
+      "sleep_score": 85,
+      "sleep_quality": 2,
+      "steps": 3090
     },
     {
       "date": "2026-08-30",
       "ctl": 15.708733,
       "atl": 22.4126,
-      "form": -6.703867000000001
+      "form": -6.703867000000001,
+      "resting_heartrate": 52,
+      "hrv": 60,
+      "sleep_time": 26040,
+      "sleep_score": 75,
+      "sleep_quality": 3,
+      "steps": 1183
     },
     {
       "date": "2026-08-31",
       "ctl": 18.515455,
       "atl": 37.40047,
-      "form": -18.885015
+      "form": -18.885015,
+      "resting_heartrate": 54,
+      "hrv": 52,
+      "sleep_time": 27120,
+      "sleep_score": 78,
+      "sleep_quality": 3,
+      "steps": 15035
     },
     {
       "date": "2026-09-01",
       "ctl": 18.079819,
       "atl": 32.421642,
-      "form": -14.341822999999998
+      "form": -14.341822999999998,
+      "resting_heartrate": 60,
+      "hrv": 43,
+      "sleep_time": 26280,
+      "sleep_score": 70,
+      "sleep_quality": 3,
+      "steps": 1547
     },
     {
       "date": "2026-09-02",
       "ctl": 17.65443,
       "atl": 28.105606,
-      "form": -10.451176
+      "form": -10.451176,
+      "resting_heartrate": 53,
+      "hrv": 60,
+      "sleep_time": 26040,
+      "sleep_score": 76,
+      "sleep_quality": 3,
+      "steps": 702
     },
     {
       "date": "2026-09-03",
       "ctl": 17.239052,
       "atl": 27.159693,
-      "form": -9.920641
+      "form": -9.920641,
+      "resting_heartrate": 48,
+      "hrv": 65,
+      "sleep_time": 24900,
+      "sleep_score": 76,
+      "sleep_quality": 3,
+      "steps": 6772
     },
     {
       "date": "2026-09-04",
       "ctl": 19.680372,
       "atl": 39.651913,
-      "form": -19.971541000000002
+      "form": -19.971541000000002,
+      "resting_heartrate": 52,
+      "hrv": 58,
+      "sleep_time": 26280,
+      "sleep_score": 74,
+      "sleep_quality": 3,
+      "steps": 15179
     },
     {
       "date": "2026-09-05",
       "ctl": 19.217327,
       "atl": 34.373367,
-      "form": -15.15604
+      "form": -15.15604,
+      "resting_heartrate": 53,
+      "hrv": 57,
+      "sleep_time": 27960,
+      "sleep_score": 87,
+      "sleep_quality": 2,
+      "steps": 659
     },
     {
       "date": "2026-09-06",
       "ctl": 21.800327,
       "atl": 46.970264,
-      "form": -25.169937
+      "form": -25.169937,
+      "resting_heartrate": 52,
+      "hrv": 60,
+      "sleep_time": 26400,
+      "sleep_score": 82,
+      "sleep_quality": 2,
+      "steps": 17845
     },
     {
       "date": "2026-09-07",
       "ctl": 21.287403,
       "atl": 40.717484,
-      "form": -19.430080999999998
+      "form": -19.430080999999998,
+      "resting_heartrate": 55,
+      "hrv": 56,
+      "sleep_time": 25500,
+      "sleep_score": 72,
+      "sleep_quality": 3,
+      "steps": 3712
     },
     {
       "date": "2026-09-08",
       "ctl": 20.786547,
       "atl": 35.297085,
-      "form": -14.510538000000004
+      "form": -14.510538000000004,
+      "resting_heartrate": 53,
+      "hrv": 62,
+      "sleep_time": 28440,
+      "sleep_score": 76,
+      "sleep_quality": 3,
+      "steps": 2612
     },
     {
       "date": "2026-09-09",
       "ctl": 22.603249,
       "atl": 43.64423,
-      "form": -21.040981
+      "form": -21.040981,
+      "resting_heartrate": 49,
+      "hrv": 62,
+      "sleep_time": 28680,
+      "sleep_score": 74,
+      "sleep_quality": 3,
+      "steps": 11479
     },
     {
       "date": "2026-09-10",
       "ctl": 22.071432,
       "atl": 37.834217,
-      "form": -15.762785000000001
+      "form": -15.762785000000001,
+      "resting_heartrate": 52,
+      "hrv": 55,
+      "sleep_time": 29520,
+      "sleep_score": 82,
+      "sleep_quality": 2,
+      "steps": 642
     },
     {
       "date": "2026-09-11",
       "ctl": 21.552128,
       "atl": 32.797646,
-      "form": -11.245518
+      "form": -11.245518,
+      "resting_heartrate": 48,
+      "hrv": 65,
+      "sleep_time": 26520,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 1236
     },
     {
       "date": "2026-09-12",
       "ctl": 21.045042,
       "atl": 28.431555,
-      "form": -7.386513000000001
+      "form": -7.386513000000001,
+      "resting_heartrate": 47,
+      "hrv": 67,
+      "sleep_time": 30420,
+      "sleep_score": 91,
+      "sleep_quality": 1,
+      "steps": 3037
     },
     {
       "date": "2026-09-13",
       "ctl": 26.690777,
       "atl": 59.391556,
-      "form": -32.700779
+      "form": -32.700779,
+      "resting_heartrate": 51,
+      "hrv": 52,
+      "sleep_time": 25440,
+      "sleep_score": 73,
+      "sleep_quality": 3,
+      "steps": 26460
     },
     {
       "date": "2026-09-14",
       "ctl": 26.062788,
       "atl": 51.485226,
-      "form": -25.422437999999996
+      "form": -25.422437999999996,
+      "resting_heartrate": 64,
+      "hrv": 36,
+      "sleep_time": 24480,
+      "sleep_score": 73,
+      "sleep_quality": 3,
+      "steps": 11870
     },
     {
       "date": "2026-09-15",
       "ctl": 25.449575,
       "atl": 44.631405,
-      "form": -19.18183
+      "form": -19.18183,
+      "resting_heartrate": 57,
+      "sleep_time": 26040,
+      "sleep_score": 72,
+      "sleep_quality": 3,
+      "steps": 14087
     },
     {
       "date": "2026-09-16",
       "ctl": 24.85079,
       "atl": 38.68998,
-      "form": -13.839189999999999
+      "form": -13.839189999999999,
+      "resting_heartrate": 52,
+      "sleep_time": 30000,
+      "sleep_score": 82,
+      "sleep_quality": 2,
+      "steps": 14207
     },
     {
       "date": "2026-09-17",
       "ctl": 24.266092,
       "atl": 33.53949,
       "form": -9.273398
+    },
+    {
+      "date": "2026-09-18",
+      "ctl": 23.695152,
+      "atl": 29.074642,
+      "form": -5.3794900000000005
     }
   ]
 }
