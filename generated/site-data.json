@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-10-01T10:43:19Z",
+  "generated_at": "2026-10-02T10:18:43Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -903,22 +903,35 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-10-01T10:43:19Z",
+    "generated_at": "2026-10-02T10:18:43Z",
     "total_stats": {
-      "count": 453,
+      "count": 454,
       "distance": 2052999,
-      "moving_time": 1153685,
-      "elapsed_time": 1240233,
+      "moving_time": 1158378,
+      "elapsed_time": 1244926,
       "elevation_gain": 32967.188311
     },
     "year_to_date_stats": {
-      "count": 106,
+      "count": 107,
       "distance": 260773,
-      "moving_time": 295597,
-      "elapsed_time": 306520,
+      "moving_time": 300290,
+      "elapsed_time": 311213,
       "elevation_gain": 2739.943535
     },
     "recent_activities": [
+      {
+        "id": 192310162,
+        "name": "Afternoon Training",
+        "distance": 0,
+        "moving_time": 4693,
+        "elapsed_time": 4693,
+        "type": "Workout",
+        "start_date": "2026-10-01T16:51:37Z",
+        "start_date_local": "2026-10-01T16:51:37Z",
+        "average_heartrate": 101,
+        "max_heartrate": 140,
+        "calories": 460
+      },
       {
         "id": 191804687,
         "name": "Morning Laufen",
@@ -1057,23 +1070,6 @@
         "average_heartrate": 170,
         "max_heartrate": 181,
         "calories": 1182
-      },
-      {
-        "id": 180612552,
-        "name": "Morning Laufen",
-        "distance": 5023,
-        "moving_time": 1778,
-        "elapsed_time": 1872,
-        "total_elevation_gain": 39.513306,
-        "type": "Run",
-        "start_date": "2026-08-28T09:51:44Z",
-        "start_date_local": "2026-08-28T09:51:44Z",
-        "average_pace": 5.905976848570754,
-        "average_speed": 2.822,
-        "max_speed": 3.311,
-        "average_heartrate": 173,
-        "max_heartrate": 188,
-        "calories": 427
       }
     ],
     "best_activities": {
@@ -1414,11 +1410,24 @@
       {
         "type": "training",
         "label": "Training",
-        "count": 176,
-        "total_time": 345054,
+        "count": 177,
+        "total_time": 349747,
         "total_distance": 300350,
-        "avg_heartrate": 102.04571428571428,
+        "avg_heartrate": 102.03977272727273,
         "activities": [
+          {
+            "id": 192310162,
+            "name": "Afternoon Training",
+            "distance": 0,
+            "moving_time": 4693,
+            "elapsed_time": 4693,
+            "type": "Workout",
+            "start_date": "2026-10-01T16:51:37Z",
+            "start_date_local": "2026-10-01T16:51:37Z",
+            "average_heartrate": 101,
+            "max_heartrate": 140,
+            "calories": 460
+          },
           {
             "id": 182847288,
             "name": "Lunch Training",
@@ -1468,19 +1477,6 @@
             "average_heartrate": 107,
             "max_heartrate": 137,
             "calories": 421
-          },
-          {
-            "id": 177984134,
-            "name": "Afternoon Training",
-            "distance": 0,
-            "moving_time": 3655,
-            "elapsed_time": 3655,
-            "type": "Workout",
-            "start_date": "2026-08-20T16:15:54Z",
-            "start_date_local": "2026-08-20T16:15:54Z",
-            "average_heartrate": 113,
-            "max_heartrate": 150,
-            "calories": 445
           }
         ]
       }
@@ -1779,18 +1775,20 @@
         "count": 8,
         "distance": 59021,
         "time": 28620
+      },
+      {
+        "month": "2026-10",
+        "count": 1,
+        "distance": 0,
+        "time": 4693
       }
     ],
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 1382,
+    "commits_year": 1384,
     "longest_streak": 19,
     "contributions": [
-      {
-        "date": "2025-10-02",
-        "count": 0
-      },
       {
         "date": "2025-10-03",
         "count": 0
@@ -3245,129 +3243,133 @@
       },
       {
         "date": "2026-10-01",
+        "count": 4
+      },
+      {
+        "date": "2026-10-02",
         "count": 0
       }
     ],
     "language_share": [
       {
         "name": "Go",
-        "pct": 30.742429481159235
+        "pct": 31.609641721817503
       },
       {
         "name": "Svelte",
-        "pct": 17.729572763219924
+        "pct": 17.492886199666025
       },
       {
         "name": "JavaScript",
-        "pct": 10.335429756964148
+        "pct": 10.25502206521008
       },
       {
         "name": "HTML",
-        "pct": 7.573949729404406
+        "pct": 7.472838881561438
       },
       {
         "name": "CSS",
-        "pct": 6.4807633853193245
+        "pct": 6.394246375836767
       },
       {
         "name": "TypeScript",
-        "pct": 4.889275664566093
+        "pct": 4.824004725961497
       },
       {
         "name": "Rust",
-        "pct": 3.153794362760972
+        "pct": 3.1116917830853863
       },
       {
         "name": "TeX",
-        "pct": 2.815455390074254
+        "pct": 2.7778695739908343
       },
       {
         "name": "C#",
-        "pct": 2.5750338309332177
+        "pct": 2.540657598825528
       },
       {
         "name": "Shell",
-        "pct": 2.280110790285561
+        "pct": 2.249766772630366
       },
       {
         "name": "Kotlin",
-        "pct": 1.7693678109730044
+        "pct": 1.7457470733255154
       },
       {
         "name": "Dart",
-        "pct": 1.7485898158479785
+        "pct": 1.7252464606467197
       },
       {
         "name": "Puppet",
-        "pct": 1.561202533136975
+        "pct": 1.5403607639914487
       },
       {
         "name": "Python",
-        "pct": 1.3929333771815229
+        "pct": 1.3743379705855687
       },
       {
         "name": "ASP.NET",
-        "pct": 1.3466052653692324
+        "pct": 1.32862833061844
       },
       {
         "name": "Vue",
-        "pct": 0.6198719144788392
+        "pct": 0.6115967374488581
       },
       {
         "name": "ShaderLab",
-        "pct": 0.5964559142666132
+        "pct": 0.5884933365697591
       },
       {
         "name": "Makefile",
-        "pct": 0.5107355691859072
+        "pct": 0.5051163797263271
       },
       {
         "name": "Ruby",
-        "pct": 0.41355175817851975
+        "pct": 0.40803091761444227
       },
       {
         "name": "SCSS",
-        "pct": 0.3386724283859425
+        "pct": 0.3341512132209943
       },
       {
         "name": "Typst",
-        "pct": 0.2342192831354558
+        "pct": 0.2295937018374515
       },
       {
         "name": "Dockerfile",
-        "pct": 0.1961312321573413
+        "pct": 0.19351291597088385
       },
       {
         "name": "Swift",
-        "pct": 0.18663885991941043
+        "pct": 0.18414726517147695
       },
       {
         "name": "Java",
-        "pct": 0.1635489052797597
+        "pct": 0.16136555721601095
       },
       {
         "name": "HLSL",
-        "pct": 0.103697312332244
+        "pct": 0.10231297212092146
       },
       {
         "name": "Go Template",
-        "pct": 0.09616862365641436
+        "pct": 0.0948847900661225
       },
       {
         "name": "NSIS",
-        "pct": 0.09193744133958491
+        "pct": 0.09071009326170304
       },
       {
         "name": "GLSL",
-        "pct": 0.04592055484657111
+        "pct": 0.04530752381258755
       },
       {
         "name": "Objective-C",
-        "pct": 0.006461630438310473
+        "pct": 0.006375368850181757
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.0014746152032382848
+        "pct": 0.0014549293591584512
       }
     ]
   },
@@ -3831,18 +3833,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-04-01",
-      "ctl": 9.325338,
-      "atl": 20.162138,
-      "form": -10.836799999999998,
-      "resting_heartrate": 56,
-      "hrv": 52,
-      "sleep_time": 29460,
-      "sleep_score": 79,
-      "sleep_quality": 3,
-      "steps": 1742
-    },
     {
       "date": "2026-04-02",
       "ctl": 9.105928,
@@ -5658,8 +5648,14 @@
     {
       "date": "2026-10-01",
       "ctl": 18.7659,
-      "atl": 11.463112,
-      "form": 7.302787999999998
+      "atl": 14.258677,
+      "form": 4.507222999999998
+    },
+    {
+      "date": "2026-10-02",
+      "ctl": 18.32437,
+      "atl": 12.360532,
+      "form": 5.963837999999999
     }
   ]
 }
