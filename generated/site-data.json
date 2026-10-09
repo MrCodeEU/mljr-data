@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-10-08T11:08:36Z",
+  "generated_at": "2026-10-09T11:07:35Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -903,22 +903,35 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-10-08T11:08:36Z",
+    "generated_at": "2026-10-09T11:07:35Z",
     "total_stats": {
-      "count": 454,
+      "count": 455,
       "distance": 2052999,
-      "moving_time": 1158378,
-      "elapsed_time": 1244926,
+      "moving_time": 1162092,
+      "elapsed_time": 1248640,
       "elevation_gain": 32967.188311
     },
     "year_to_date_stats": {
-      "count": 107,
+      "count": 108,
       "distance": 260773,
-      "moving_time": 300290,
-      "elapsed_time": 311213,
+      "moving_time": 304004,
+      "elapsed_time": 314927,
       "elevation_gain": 2739.943535
     },
     "recent_activities": [
+      {
+        "id": 195131940,
+        "name": "Afternoon Training",
+        "distance": 0,
+        "moving_time": 3714,
+        "elapsed_time": 3714,
+        "type": "Workout",
+        "start_date": "2026-10-08T17:05:55Z",
+        "start_date_local": "2026-10-08T17:05:55Z",
+        "average_heartrate": 105,
+        "max_heartrate": 137,
+        "calories": 390
+      },
       {
         "id": 192310162,
         "name": "Afternoon Training",
@@ -1053,23 +1066,6 @@
         "average_heartrate": 110,
         "max_heartrate": 130,
         "calories": 23
-      },
-      {
-        "id": 181786190,
-        "name": "Afternoon Laufen",
-        "distance": 12129,
-        "moving_time": 5047,
-        "elapsed_time": 5049,
-        "total_elevation_gain": 81.02539,
-        "type": "Run",
-        "start_date": "2026-08-31T17:23:00Z",
-        "start_date_local": "2026-08-31T17:23:00Z",
-        "average_pace": 6.938662225922842,
-        "average_speed": 2.402,
-        "max_speed": 3.636,
-        "average_heartrate": 170,
-        "max_heartrate": 181,
-        "calories": 1182
       }
     ],
     "best_activities": {
@@ -1410,11 +1406,24 @@
       {
         "type": "training",
         "label": "Training",
-        "count": 177,
-        "total_time": 349747,
+        "count": 178,
+        "total_time": 353461,
         "total_distance": 300350,
-        "avg_heartrate": 102.03977272727273,
+        "avg_heartrate": 102.05649717514125,
         "activities": [
+          {
+            "id": 195131940,
+            "name": "Afternoon Training",
+            "distance": 0,
+            "moving_time": 3714,
+            "elapsed_time": 3714,
+            "type": "Workout",
+            "start_date": "2026-10-08T17:05:55Z",
+            "start_date_local": "2026-10-08T17:05:55Z",
+            "average_heartrate": 105,
+            "max_heartrate": 137,
+            "calories": 390
+          },
           {
             "id": 192310162,
             "name": "Afternoon Training",
@@ -1464,19 +1473,6 @@
             "average_heartrate": 110,
             "max_heartrate": 130,
             "calories": 23
-          },
-          {
-            "id": 180397181,
-            "name": "Afternoon Training",
-            "distance": 0,
-            "moving_time": 3834,
-            "elapsed_time": 3834,
-            "type": "Workout",
-            "start_date": "2026-08-27T15:55:29Z",
-            "start_date_local": "2026-08-27T15:55:29Z",
-            "average_heartrate": 107,
-            "max_heartrate": 137,
-            "calories": 421
           }
         ]
       }
@@ -1778,9 +1774,9 @@
       },
       {
         "month": "2026-10",
-        "count": 1,
+        "count": 2,
         "distance": 0,
-        "time": 4693
+        "time": 8407
       }
     ],
     "year": "2026"
@@ -1789,10 +1785,6 @@
     "commits_year": 1386,
     "longest_streak": 19,
     "contributions": [
-      {
-        "date": "2025-10-09",
-        "count": 0
-      },
       {
         "date": "2025-10-10",
         "count": 0
@@ -3248,6 +3240,10 @@
       {
         "date": "2026-10-08",
         "count": 0
+      },
+      {
+        "date": "2026-10-09",
+        "count": 0
       }
     ],
     "language_share": [
@@ -3833,18 +3829,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-04-08",
-      "ctl": 9.634832,
-      "atl": 17.072298,
-      "form": -7.437466000000001,
-      "resting_heartrate": 55,
-      "hrv": 52,
-      "sleep_time": 26940,
-      "sleep_score": 85,
-      "sleep_quality": 2,
-      "steps": 1509
-    },
     {
       "date": "2026-04-09",
       "ctl": 9.408141,
@@ -5618,8 +5602,14 @@
     {
       "date": "2026-10-08",
       "ctl": 15.88499,
-      "atl": 5.2454743,
-      "form": 10.6395157
+      "atl": 7.774794,
+      "form": 8.110196
+    },
+    {
+      "date": "2026-10-09",
+      "ctl": 15.511243,
+      "atl": 6.739797,
+      "form": 8.771446000000001
     }
   ]
 }
