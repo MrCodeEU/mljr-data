@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-10-09T11:07:35Z",
+  "generated_at": "2026-10-10T10:25:10Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -903,7 +903,7 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-10-09T11:07:35Z",
+    "generated_at": "2026-10-10T10:25:10Z",
     "total_stats": {
       "count": 455,
       "distance": 2052999,
@@ -1782,13 +1782,9 @@
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 1386,
+    "commits_year": 1387,
     "longest_streak": 19,
     "contributions": [
-      {
-        "date": "2025-10-10",
-        "count": 0
-      },
       {
         "date": "2025-10-11",
         "count": 0
@@ -3244,128 +3240,132 @@
       {
         "date": "2026-10-09",
         "count": 0
+      },
+      {
+        "date": "2026-10-10",
+        "count": 1
       }
     ],
     "language_share": [
       {
         "name": "Go",
-        "pct": 31.609641721817503
+        "pct": 31.617961361970465
       },
       {
         "name": "Svelte",
-        "pct": 17.492886199666025
+        "pct": 17.47117037311794
       },
       {
         "name": "JavaScript",
-        "pct": 10.25502206521008
+        "pct": 10.257721181324527
       },
       {
         "name": "HTML",
-        "pct": 7.472838881561438
+        "pct": 7.474805728606489
       },
       {
         "name": "CSS",
-        "pct": 6.394246375836767
+        "pct": 6.3959293379330955
       },
       {
         "name": "TypeScript",
-        "pct": 4.824004725961497
+        "pct": 4.825274401327303
       },
       {
         "name": "Rust",
-        "pct": 3.1116917830853863
+        "pct": 3.1125107786352255
       },
       {
         "name": "TeX",
-        "pct": 2.7778695739908343
+        "pct": 2.778600707720563
       },
       {
         "name": "C#",
-        "pct": 2.540657598825528
+        "pct": 2.5413262984950826
       },
       {
         "name": "Shell",
-        "pct": 2.249766772630366
+        "pct": 2.2503589099959553
       },
       {
         "name": "Kotlin",
-        "pct": 1.7457470733255154
+        "pct": 1.7462065529860558
       },
       {
         "name": "Dart",
-        "pct": 1.7252464606467197
+        "pct": 1.7257005445573843
       },
       {
         "name": "Puppet",
-        "pct": 1.5403607639914487
+        "pct": 1.5407661860893938
       },
       {
         "name": "Python",
-        "pct": 1.3743379705855687
+        "pct": 1.3746996955764577
       },
       {
         "name": "ASP.NET",
-        "pct": 1.32862833061844
+        "pct": 1.3289780248574654
       },
       {
         "name": "Vue",
-        "pct": 0.6115967374488581
+        "pct": 0.6117577093706242
       },
       {
         "name": "ShaderLab",
-        "pct": 0.5884933365697591
+        "pct": 0.5886482276892399
       },
       {
         "name": "Makefile",
-        "pct": 0.5051163797263271
+        "pct": 0.5052493260770536
       },
       {
         "name": "Ruby",
-        "pct": 0.40803091761444227
+        "pct": 0.40813831112543836
       },
       {
         "name": "SCSS",
-        "pct": 0.3341512132209943
+        "pct": 0.3342391616348086
       },
       {
         "name": "Typst",
-        "pct": 0.2295937018374515
+        "pct": 0.22965413077231522
       },
       {
         "name": "Dockerfile",
-        "pct": 0.19351291597088385
+        "pct": 0.19356384846293792
       },
       {
         "name": "Swift",
-        "pct": 0.18414726517147695
+        "pct": 0.18419573262943997
       },
       {
         "name": "Java",
-        "pct": 0.16136555721601095
+        "pct": 0.16140802854108746
       },
       {
         "name": "HLSL",
-        "pct": 0.10231297212092146
+        "pct": 0.10233990083838422
       },
       {
         "name": "Go Template",
-        "pct": 0.0948847900661225
+        "pct": 0.09490976369019224
       },
       {
         "name": "NSIS",
-        "pct": 0.09071009326170304
+        "pct": 0.09073396810789144
       },
       {
         "name": "GLSL",
-        "pct": 0.04530752381258755
+        "pct": 0.04531944872770237
       },
       {
         "name": "Objective-C",
-        "pct": 0.006375368850181757
+        "pct": 0.006377046843723812
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.0014549293591584512
+        "pct": 0.0014553122957580717
       }
     ]
   },
@@ -3829,18 +3829,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-04-09",
-      "ctl": 9.408141,
-      "atl": 17.328918,
-      "form": -7.920777000000001,
-      "resting_heartrate": 55,
-      "hrv": 55,
-      "sleep_time": 25980,
-      "sleep_score": 76,
-      "sleep_quality": 3,
-      "steps": 3553
-    },
     {
       "date": "2026-04-10",
       "ctl": 9.986746,
@@ -5457,6 +5445,7 @@
       "atl": 44.631405,
       "form": -19.18183,
       "resting_heartrate": 57,
+      "hrv": 53,
       "sleep_time": 26040,
       "sleep_score": 72,
       "sleep_quality": 3,
@@ -5468,6 +5457,7 @@
       "atl": 38.68998,
       "form": -13.839189999999999,
       "resting_heartrate": 52,
+      "hrv": 53,
       "sleep_time": 30000,
       "sleep_score": 82,
       "sleep_quality": 2,
@@ -5477,139 +5467,263 @@
       "date": "2026-09-17",
       "ctl": 24.266092,
       "atl": 33.53949,
-      "form": -9.273398
+      "form": -9.273398,
+      "resting_heartrate": 48,
+      "hrv": 55,
+      "sleep_time": 29640,
+      "sleep_score": 80,
+      "sleep_quality": 2,
+      "steps": 10645
     },
     {
       "date": "2026-09-18",
       "ctl": 23.695152,
       "atl": 29.074642,
-      "form": -5.3794900000000005
+      "form": -5.3794900000000005,
+      "resting_heartrate": 47,
+      "hrv": 65,
+      "sleep_time": 26460,
+      "sleep_score": 71,
+      "sleep_quality": 3,
+      "steps": 12337
     },
     {
       "date": "2026-09-19",
       "ctl": 23.137646,
       "atl": 25.204165,
-      "form": -2.0665189999999996
+      "form": -2.0665189999999996,
+      "resting_heartrate": 48,
+      "hrv": 62,
+      "sleep_time": 25560,
+      "sleep_score": 73,
+      "sleep_quality": 3,
+      "steps": 16652
     },
     {
       "date": "2026-09-20",
       "ctl": 22.593256,
       "atl": 21.848932,
-      "form": 0.7443239999999989
+      "form": 0.7443239999999989,
+      "resting_heartrate": 48,
+      "sleep_time": 24600,
+      "sleep_score": 71,
+      "sleep_quality": 3,
+      "steps": 7154
     },
     {
       "date": "2026-09-21",
       "ctl": 22.061674,
       "atl": 18.940357,
-      "form": 3.1213170000000012
+      "form": 3.1213170000000012,
+      "resting_heartrate": 48,
+      "sleep_time": 27120,
+      "sleep_score": 81,
+      "sleep_quality": 2,
+      "steps": 14832
     },
     {
       "date": "2026-09-22",
       "ctl": 21.5426,
       "atl": 16.418978,
-      "form": 5.123622000000001
+      "form": 5.123622000000001,
+      "resting_heartrate": 48,
+      "sleep_time": 27000,
+      "sleep_score": 77,
+      "sleep_quality": 3,
+      "steps": 8087
     },
     {
       "date": "2026-09-23",
       "ctl": 21.03574,
       "atl": 14.233249,
-      "form": 6.802491
+      "form": 6.802491,
+      "resting_heartrate": 47,
+      "sleep_time": 26760,
+      "sleep_score": 78,
+      "sleep_quality": 3,
+      "steps": 17473
     },
     {
       "date": "2026-09-24",
       "ctl": 20.540804,
       "atl": 12.338489,
-      "form": 8.202315000000002
+      "form": 8.202315000000002,
+      "resting_heartrate": 47,
+      "sleep_time": 26940,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 12855
     },
     {
       "date": "2026-09-25",
       "ctl": 20.057514,
       "atl": 10.695963,
-      "form": 9.361551
+      "form": 9.361551,
+      "resting_heartrate": 48,
+      "sleep_time": 25560,
+      "sleep_score": 68,
+      "sleep_quality": 3,
+      "steps": 4958
     },
     {
       "date": "2026-09-26",
       "ctl": 19.585594,
       "atl": 9.272094,
-      "form": 10.313500000000001
+      "form": 10.313500000000001,
+      "resting_heartrate": 47,
+      "sleep_time": 30900,
+      "sleep_score": 80,
+      "sleep_quality": 2,
+      "steps": 6580
     },
     {
       "date": "2026-09-27",
       "ctl": 19.124779,
       "atl": 8.037773,
-      "form": 11.087006
+      "form": 11.087006,
+      "resting_heartrate": 50,
+      "sleep_time": 24600,
+      "sleep_score": 67,
+      "sleep_quality": 3,
+      "steps": 8417
     },
     {
       "date": "2026-09-28",
       "ctl": 18.674805,
       "atl": 6.9677677,
-      "form": 11.7070373
+      "form": 11.7070373,
+      "resting_heartrate": 50,
+      "sleep_time": 26520,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 7240
     },
     {
       "date": "2026-09-29",
       "ctl": 18.235418,
       "atl": 6.040204,
-      "form": 12.195214
+      "form": 12.195214,
+      "resting_heartrate": 48,
+      "sleep_time": 28800,
+      "sleep_score": 79,
+      "sleep_quality": 3,
+      "steps": 3173
     },
     {
       "date": "2026-09-30",
       "ctl": 19.21807,
       "atl": 13.223445,
-      "form": 5.994625000000001
+      "form": 5.994625000000001,
+      "resting_heartrate": 48,
+      "sleep_time": 26640,
+      "sleep_score": 83,
+      "sleep_quality": 2,
+      "steps": 6022
     },
     {
       "date": "2026-10-01",
       "ctl": 18.7659,
       "atl": 14.258677,
-      "form": 4.507222999999998
+      "form": 4.507222999999998,
+      "resting_heartrate": 52,
+      "sleep_time": 26220,
+      "sleep_score": 84,
+      "sleep_quality": 2,
+      "steps": 6646
     },
     {
       "date": "2026-10-02",
       "ctl": 18.32437,
       "atl": 12.360532,
-      "form": 5.963837999999999
+      "form": 5.963837999999999,
+      "resting_heartrate": 52,
+      "sleep_time": 25380,
+      "sleep_score": 80,
+      "sleep_quality": 2,
+      "steps": 3560
     },
     {
       "date": "2026-10-03",
       "ctl": 17.893229,
       "atl": 10.715072,
-      "form": 7.178157000000002
+      "form": 7.178157000000002,
+      "resting_heartrate": 50,
+      "sleep_time": 23100,
+      "sleep_score": 68,
+      "sleep_quality": 3,
+      "steps": 11154
     },
     {
       "date": "2026-10-04",
       "ctl": 17.47223,
       "atl": 9.288659,
-      "form": 8.183570999999999
+      "form": 8.183570999999999,
+      "resting_heartrate": 58,
+      "sleep_time": 28080,
+      "sleep_score": 83,
+      "sleep_quality": 2,
+      "steps": 1628
     },
     {
       "date": "2026-10-05",
       "ctl": 17.061138,
       "atl": 8.052134,
-      "form": 9.009004
+      "form": 9.009004,
+      "resting_heartrate": 55,
+      "sleep_time": 23460,
+      "sleep_score": 73,
+      "sleep_quality": 3,
+      "steps": 3415
     },
     {
       "date": "2026-10-06",
       "ctl": 16.659718,
       "atl": 6.9802165,
-      "form": 9.6795015
+      "form": 9.6795015,
+      "resting_heartrate": 49,
+      "sleep_time": 26640,
+      "sleep_score": 85,
+      "sleep_quality": 2,
+      "steps": 4905
     },
     {
       "date": "2026-10-07",
       "ctl": 16.267742,
       "atl": 6.0509953,
-      "form": 10.216746699999998
+      "form": 10.216746699999998,
+      "resting_heartrate": 50,
+      "sleep_time": 26100,
+      "sleep_score": 83,
+      "sleep_quality": 2,
+      "steps": 3885
     },
     {
       "date": "2026-10-08",
       "ctl": 15.88499,
       "atl": 7.774794,
-      "form": 8.110196
+      "form": 8.110196,
+      "resting_heartrate": 52,
+      "sleep_time": 25620,
+      "sleep_score": 77,
+      "sleep_quality": 3,
+      "steps": 5640
     },
     {
       "date": "2026-10-09",
       "ctl": 15.511243,
       "atl": 6.739797,
-      "form": 8.771446000000001
+      "form": 8.771446000000001,
+      "resting_heartrate": 54,
+      "sleep_time": 26460,
+      "sleep_score": 81,
+      "sleep_quality": 2,
+      "steps": 5343
+    },
+    {
+      "date": "2026-10-10",
+      "ctl": 15.14629,
+      "atl": 5.8425813,
+      "form": 9.303708700000001
     }
   ]
 }
