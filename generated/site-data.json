@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-10-16T08:44:52Z",
+  "generated_at": "2026-10-17T08:15:27Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -903,7 +903,7 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-10-16T08:44:52Z",
+    "generated_at": "2026-10-17T08:15:27Z",
     "total_stats": {
       "count": 455,
       "distance": 2052999,
@@ -1782,13 +1782,9 @@
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 1393,
+    "commits_year": 1395,
     "longest_streak": 19,
     "contributions": [
-      {
-        "date": "2025-10-17",
-        "count": 0
-      },
       {
         "date": "2025-10-18",
         "count": 0
@@ -3243,129 +3239,133 @@
       },
       {
         "date": "2026-10-16",
+        "count": 4
+      },
+      {
+        "date": "2026-10-17",
         "count": 0
       }
     ],
     "language_share": [
       {
         "name": "Go",
-        "pct": 31.689950521580112
+        "pct": 31.707181423219883
       },
       {
         "name": "Svelte",
-        "pct": 17.445383840944082
+        "pct": 17.436824751523158
       },
       {
         "name": "JavaScript",
-        "pct": 10.271520469207045
+        "pct": 10.266481035108816
       },
       {
         "name": "HTML",
-        "pct": 7.463773306948543
+        "pct": 7.460111415428464
       },
       {
         "name": "CSS",
-        "pct": 6.386489281306545
+        "pct": 6.383355929048845
       },
       {
         "name": "TypeScript",
-        "pct": 4.818152549102167
+        "pct": 4.815788657376573
       },
       {
         "name": "Rust",
-        "pct": 3.1079168757872373
+        "pct": 3.106392063338558
       },
       {
         "name": "TeX",
-        "pct": 2.7744996386440355
+        "pct": 2.773138408033005
       },
       {
         "name": "C#",
-        "pct": 2.5375754340160066
+        "pct": 2.5363304436363103
       },
       {
         "name": "Shell",
-        "pct": 2.2470374981388175
+        "pct": 2.2579123018617286
       },
       {
         "name": "Kotlin",
-        "pct": 1.7436292435958356
+        "pct": 1.742773780698089
       },
       {
         "name": "Dart",
-        "pct": 1.7231535009613157
+        "pct": 1.7223080839137361
       },
       {
         "name": "Puppet",
-        "pct": 1.5384920959179007
+        "pct": 1.542043540696921
       },
       {
         "name": "Python",
-        "pct": 1.372670710844907
+        "pct": 1.3719972483710101
       },
       {
         "name": "ASP.NET",
-        "pct": 1.3270165229165842
+        "pct": 1.3263654593924885
       },
       {
         "name": "Vue",
-        "pct": 0.610854787040958
+        "pct": 0.6105550882327717
       },
       {
         "name": "ShaderLab",
-        "pct": 0.587779413743853
+        "pct": 0.5874910362218747
       },
       {
         "name": "Makefile",
-        "pct": 0.5045036045412626
+        "pct": 0.5042560839648274
       },
       {
         "name": "Ruby",
-        "pct": 0.40753592036016867
+        "pct": 0.40733597426460527
       },
       {
         "name": "SCSS",
-        "pct": 0.3337458421426857
+        "pct": 0.3335820990841893
       },
       {
         "name": "Typst",
-        "pct": 0.22931517330664186
+        "pct": 0.2292026662336075
       },
       {
         "name": "Dockerfile",
-        "pct": 0.19327815836321996
+        "pct": 0.19318333184317174
       },
       {
         "name": "Swift",
-        "pct": 0.1839238693779062
+        "pct": 0.18383363227799482
       },
       {
         "name": "Java",
-        "pct": 0.1611697987469634
+        "pct": 0.1610907252950976
       },
       {
         "name": "HLSL",
-        "pct": 0.10218885250623017
+        "pct": 0.10213871640521933
       },
       {
         "name": "Go Template",
-        "pct": 0.0947696818512116
+        "pct": 0.09472318575867776
       },
       {
         "name": "NSIS",
-        "pct": 0.09060004952442459
+        "pct": 0.0905555991453163
       },
       {
         "name": "GLSL",
-        "pct": 0.04525255959562015
+        "pct": 0.04523035769352181
       },
       {
         "name": "Objective-C",
-        "pct": 0.0063676346566694806
+        "pct": 0.006364510554905764
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.0014531643310518655
+        "pct": 0.0014524513766356044
       }
     ]
   },
@@ -3829,18 +3829,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-04-16",
-      "ctl": 9.598491,
-      "atl": 14.704679,
-      "form": -5.106188000000001,
-      "resting_heartrate": 56,
-      "hrv": 50,
-      "sleep_time": 29820,
-      "sleep_score": 88,
-      "sleep_quality": 2,
-      "steps": 10634
-    },
     {
       "date": "2026-04-17",
       "ctl": 10.149089,
@@ -5433,6 +5421,7 @@
       "atl": 21.848932,
       "form": 0.7443239999999989,
       "resting_heartrate": 48,
+      "hrv": 61,
       "sleep_time": 24600,
       "sleep_score": 71,
       "sleep_quality": 3,
@@ -5444,6 +5433,7 @@
       "atl": 18.940357,
       "form": 3.1213170000000012,
       "resting_heartrate": 48,
+      "hrv": 56,
       "sleep_time": 27120,
       "sleep_score": 81,
       "sleep_quality": 2,
@@ -5455,6 +5445,7 @@
       "atl": 16.418978,
       "form": 5.123622000000001,
       "resting_heartrate": 48,
+      "hrv": 59,
       "sleep_time": 27000,
       "sleep_score": 77,
       "sleep_quality": 3,
@@ -5466,6 +5457,7 @@
       "atl": 14.233249,
       "form": 6.802491,
       "resting_heartrate": 47,
+      "hrv": 61,
       "sleep_time": 26760,
       "sleep_score": 78,
       "sleep_quality": 3,
@@ -5477,6 +5469,7 @@
       "atl": 12.338489,
       "form": 8.202315000000002,
       "resting_heartrate": 47,
+      "hrv": 58,
       "sleep_time": 26940,
       "sleep_score": 79,
       "sleep_quality": 3,
@@ -5488,6 +5481,7 @@
       "atl": 10.695963,
       "form": 9.361551,
       "resting_heartrate": 48,
+      "hrv": 56,
       "sleep_time": 25560,
       "sleep_score": 68,
       "sleep_quality": 3,
@@ -5499,6 +5493,7 @@
       "atl": 9.272094,
       "form": 10.313500000000001,
       "resting_heartrate": 47,
+      "hrv": 63,
       "sleep_time": 30900,
       "sleep_score": 80,
       "sleep_quality": 2,
@@ -5510,6 +5505,7 @@
       "atl": 8.037773,
       "form": 11.087006,
       "resting_heartrate": 50,
+      "hrv": 50,
       "sleep_time": 24600,
       "sleep_score": 67,
       "sleep_quality": 3,
@@ -5521,6 +5517,7 @@
       "atl": 6.9677677,
       "form": 11.7070373,
       "resting_heartrate": 50,
+      "hrv": 55,
       "sleep_time": 26520,
       "sleep_score": 79,
       "sleep_quality": 3,
@@ -5532,6 +5529,7 @@
       "atl": 6.040204,
       "form": 12.195214,
       "resting_heartrate": 48,
+      "hrv": 61,
       "sleep_time": 28800,
       "sleep_score": 79,
       "sleep_quality": 3,
@@ -5543,6 +5541,7 @@
       "atl": 13.223445,
       "form": 5.994625000000001,
       "resting_heartrate": 48,
+      "hrv": 62,
       "sleep_time": 26640,
       "sleep_score": 83,
       "sleep_quality": 2,
@@ -5554,6 +5553,7 @@
       "atl": 14.258677,
       "form": 4.507222999999998,
       "resting_heartrate": 52,
+      "hrv": 60,
       "sleep_time": 26220,
       "sleep_score": 84,
       "sleep_quality": 2,
@@ -5565,6 +5565,7 @@
       "atl": 12.360532,
       "form": 5.963837999999999,
       "resting_heartrate": 52,
+      "hrv": 56,
       "sleep_time": 25380,
       "sleep_score": 80,
       "sleep_quality": 2,
@@ -5576,6 +5577,7 @@
       "atl": 10.715072,
       "form": 7.178157000000002,
       "resting_heartrate": 50,
+      "hrv": 52,
       "sleep_time": 23100,
       "sleep_score": 68,
       "sleep_quality": 3,
@@ -5587,6 +5589,7 @@
       "atl": 9.288659,
       "form": 8.183570999999999,
       "resting_heartrate": 58,
+      "hrv": 46,
       "sleep_time": 28080,
       "sleep_score": 83,
       "sleep_quality": 2,
@@ -5598,6 +5601,7 @@
       "atl": 8.052134,
       "form": 9.009004,
       "resting_heartrate": 55,
+      "hrv": 60,
       "sleep_time": 23460,
       "sleep_score": 73,
       "sleep_quality": 3,
@@ -5609,6 +5613,7 @@
       "atl": 6.9802165,
       "form": 9.6795015,
       "resting_heartrate": 49,
+      "hrv": 63,
       "sleep_time": 26640,
       "sleep_score": 85,
       "sleep_quality": 2,
@@ -5620,6 +5625,7 @@
       "atl": 6.0509953,
       "form": 10.216746699999998,
       "resting_heartrate": 50,
+      "hrv": 60,
       "sleep_time": 26100,
       "sleep_score": 83,
       "sleep_quality": 2,
@@ -5631,6 +5637,7 @@
       "atl": 7.774794,
       "form": 8.110196,
       "resting_heartrate": 52,
+      "hrv": 54,
       "sleep_time": 25620,
       "sleep_score": 77,
       "sleep_quality": 3,
@@ -5642,6 +5649,7 @@
       "atl": 6.739797,
       "form": 8.771446000000001,
       "resting_heartrate": 54,
+      "hrv": 52,
       "sleep_time": 26460,
       "sleep_score": 81,
       "sleep_quality": 2,
@@ -5653,6 +5661,7 @@
       "atl": 5.8425813,
       "form": 9.303708700000001,
       "resting_heartrate": 55,
+      "hrv": 54,
       "sleep_time": 29940,
       "sleep_score": 79,
       "sleep_quality": 3,
@@ -5664,6 +5673,7 @@
       "atl": 5.0648046,
       "form": 9.7251184,
       "resting_heartrate": 52,
+      "hrv": 60,
       "sleep_time": 28980,
       "sleep_score": 86,
       "sleep_quality": 2,
@@ -5675,6 +5685,7 @@
       "atl": 4.3905673,
       "form": 10.051372700000002,
       "resting_heartrate": 52,
+      "hrv": 59,
       "sleep_time": 25020,
       "sleep_score": 73,
       "sleep_quality": 3,
@@ -5686,6 +5697,7 @@
       "atl": 3.8060858,
       "form": 10.2960602,
       "resting_heartrate": 47,
+      "hrv": 59,
       "sleep_time": 24300,
       "sleep_score": 69,
       "sleep_quality": 3,
@@ -5697,6 +5709,7 @@
       "atl": 3.2994118,
       "form": 10.4709352,
       "resting_heartrate": 52,
+      "hrv": 52,
       "sleep_time": 25560,
       "sleep_score": 80,
       "sleep_quality": 2,
@@ -5708,6 +5721,7 @@
       "atl": 2.860187,
       "form": 10.586167,
       "resting_heartrate": 54,
+      "hrv": 61,
       "sleep_time": 28200,
       "sleep_score": 77,
       "sleep_quality": 3,
@@ -5718,7 +5732,23 @@
       "ctl": 13.129984,
       "atl": 2.479433,
       "form": 10.650551,
-      "steps": 34
+      "resting_heartrate": 52,
+      "hrv": 58,
+      "sleep_time": 24060,
+      "sleep_score": 74,
+      "sleep_quality": 3,
+      "steps": 4037
+    },
+    {
+      "date": "2026-10-17",
+      "ctl": 12.821057,
+      "atl": 2.1493657,
+      "form": 10.671691299999999,
+      "resting_heartrate": 52,
+      "sleep_time": 19620,
+      "sleep_score": 60,
+      "sleep_quality": 3,
+      "steps": 36
     }
   ]
 }
