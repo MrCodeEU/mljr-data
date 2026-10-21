@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-10-21T09:07:04Z",
+  "generated_at": "2026-10-21T13:00:19Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -362,6 +362,38 @@
       ]
     },
     {
+      "id": "glucava",
+      "name": "glucava",
+      "description": "After a Strava activity ends, Glucava reads your glucose data (Dexcom Share, FreeStyle Libre, Nightscout) and writes time in range, min, max, average and a sparkline into the activity description, optionally with a glucose and heart rate chart photo. One Go binary with a PocketBase backend and a server-rendered web UI.",
+      "description_de": "Nachdem eine Strava-Aktivität endet, liest Glucava deine Glukosedaten (Dexcom Share, FreeStyle Libre, Nightscout) und schreibt Zeit im Zielbereich, Min, Max, Durchschnitt und eine Sparkline in die Aktivitätsbeschreibung, optional mit einem Foto des Glukose- und Herzfrequenzverlaufs. Eine einzige Go-Binärdatei mit PocketBase-Backend und serverseitig gerenderter Weboberfläche.",
+      "url": "https://github.com/MrCodeEU/glucava",
+      "stars": 0,
+      "language": "Go",
+      "topics": [
+        "Go",
+        "PocketBase",
+        "Datastar",
+        "Strava",
+        "Dexcom",
+        "Docker",
+        "Self-hosted"
+      ],
+      "images": [
+        "/assets/portfolio/glucava/0.webp",
+        "/assets/portfolio/glucava/1.webp",
+        "/assets/portfolio/glucava/2.webp",
+        "/assets/portfolio/glucava/3.webp",
+        "/assets/portfolio/glucava/4.webp",
+        "/assets/portfolio/glucava/5.webp"
+      ],
+      "featured": false,
+      "order": 5,
+      "links": [],
+      "long_desc": "Strava's API is paywalled, and I wanted my blood glucose next to my runs and rides without paying for it. Glucava is a free, self-hosted answer: when an activity finishes it takes the glucose readings from the activity window and writes a short block into the description, for example \"TIR 92% | min 78 | max 164 | avg 112 mg/dL\" plus a sparkline. It replaces only its own block and leaves the rest of the text alone.\n\nSince there is no API access, the write goes through a headless Chrome session that drives Strava's edit page with the user's own session. To get that session, a remote sign-in browser shows up inside the web UI: you log in to Strava as usual, Glucava keeps only the cookies, encrypted, and never sees the password. Glucose comes from Dexcom Share, FreeStyle Libre (via LibreLinkUp) or Nightscout, and a Tasker, Shortcuts or HTTP trigger endpoint can start a check the moment the activity ends.\n\nIt is one Go binary: PocketBase for database, auth and admin, gomponents and Datastar for the server-rendered UI, plus an optional chart photo (glucose, heart rate and elevation panels) drawn by Glucava itself. It also has ntfy, webhook and email notifications, an edit-page canary that notices when Strava changes its markup, weekly summaries, encrypted secrets with key rotation, and a demo mode with fake data (\"make mock\"). Everything is AGPL-3.0 and Docker-ready. It is not a medical device and is documented as such.",
+      "long_desc_de": "Strava-API-Zugriff kostet Geld, und ich wollte meinen Blutzucker neben meinen Läufen und Radfahrten sehen, ohne dafür zu zahlen. Glucava ist die freie, selbst gehostete Antwort: Wenn eine Aktivität endet, nimmt es die Glukosewerte aus dem Aktivitätszeitraum und schreibt einen kurzen Block in die Beschreibung, zum Beispiel \"TIR 92% | min 78 | max 164 | avg 112 mg/dL\" plus eine Sparkline. Es ersetzt nur seinen eigenen Block und lässt den restlichen Text unangetastet.\n\nDa es keinen API-Zugriff gibt, läuft das Schreiben über eine Headless-Chrome-Sitzung, die Stravas Bearbeiten-Seite mit der eigenen Sitzung des Nutzers bedient. Für diese Sitzung erscheint ein Remote-Anmeldebrowser direkt in der Weboberfläche: Man meldet sich wie gewohnt bei Strava an, Glucava behält nur die Cookies, verschlüsselt, und sieht das Passwort nie. Die Glukosedaten kommen von Dexcom Share, FreeStyle Libre (über LibreLinkUp) oder Nightscout, und ein Trigger-Endpunkt für Tasker, Kurzbefehle oder HTTP kann eine Prüfung starten, sobald die Aktivität endet.\n\nEs ist eine einzige Go-Binärdatei: PocketBase für Datenbank, Auth und Admin, gomponents und Datastar für die serverseitig gerenderte Oberfläche, dazu ein optionales Diagrammfoto (Glukose-, Herzfrequenz- und Höhenpanels), das Glucava selbst zeichnet. Außerdem gibt es ntfy-, Webhook- und E-Mail-Benachrichtigungen, einen Canary, der merkt, wenn Strava sein Markup ändert, Wochenzusammenfassungen, verschlüsselte Secrets mit Schlüsselrotation und einen Demo-Modus mit Fake-Daten (\"make mock\"). Alles steht unter AGPL-3.0 und ist Docker-fertig. Es ist kein Medizinprodukt und ist auch so dokumentiert.",
+      "diagram": "graph TD\n  Src[\"Dexcom Share · LibreLinkUp · Nightscout\"] --\u003e|poll| Ingest[\"glucose ingest\"]\n  Trigger[\"Tasker / Shortcuts\u003cbr/\u003ePOST /api/trigger\"] --\u003e Poll[\"activity poller\"]\n  Poll --\u003e|new activity| Stats[\"time in range · min · max · avg\"]\n  Ingest --\u003e Stats\n  Stats --\u003e Render[\"description block + chart photo\"]\n  Render --\u003e|headless Chrome, your session| Strava[\"Strava edit page\"]\n  Stats --\u003e PB[(\"PocketBase\")]\n  PB --\u003e UI[\"web UI (gomponents + Datastar)\"]\n  Stats --\u003e Notify[\"ntfy · webhook · email\"]"
+    },
+    {
       "id": "godrive",
       "name": "goDrive",
       "description": "A self-hosted file storage and sync platform with a Go REST backend and a Flutter mobile client. Files are chunked via the TUS resumable upload protocol so large transfers survive network interruptions. Thumbnails are generated and cached with inode-stable references, metadata lives in SQLite, and webhook events are signed with HMAC-SHA256. Multi-arch Docker images support both x86 and ARM homelabs.",
@@ -404,13 +436,14 @@
     {
       "id": "homelab-automation",
       "name": "homelab-automation",
-      "description": "A fully automated homelab configuration managed with Ansible and deployed over a Tailscale VPN. Two nodes cover the stack: a VPS hosting Caddy, CrowdSec, and public services like mljr.eu, and a home NUC running Grafana, Prometheus, and compute workloads. Everything from firewall rules to service updates is codified and repeatable.",
-      "description_de": "Eine vollständig automatisierte Homelab-Konfiguration, verwaltet mit Ansible und über ein Tailscale-VPN bereitgestellt. Zwei Nodes decken den Stack ab: ein VPS mit Caddy, CrowdSec und öffentlichen Diensten wie mljr.eu, sowie ein Heim-NUC mit Grafana, Prometheus und Compute-Workloads. Von Firewall-Regeln bis zu Service-Updates ist alles kodifiziert und wiederholbar.",
+      "description": "A fully automated homelab managed with OpenVox, the open-source Puppet fork. Each machine runs an agent that applies the manifests itself, so there is no central server and no SSH fan-out. A VPS hosts Caddy, CrowdSec and public services like mljr.eu, a home NUC runs Grafana and compute workloads, and the NAS hosts are covered too. Everything from firewall rules to service updates is codified and repeatable.",
+      "description_de": "Ein vollständig automatisiertes Homelab, verwaltet mit OpenVox, dem Open-Source-Fork von Puppet. Jede Maschine führt einen Agenten aus, der die Manifeste selbst anwendet, es gibt also keinen zentralen Server und kein SSH-Fan-out. Ein VPS betreibt Caddy, CrowdSec und öffentliche Dienste wie mljr.eu, ein Heim-NUC Grafana und Compute-Workloads, dazu kommen die NAS-Hosts. Von Firewall-Regeln bis zu Service-Updates ist alles kodifiziert und wiederholbar.",
       "url": "https://github.com/MrCodeEU/homelab-automation",
       "stars": 0,
       "language": "Go",
       "topics": [
-        "Ansible",
+        "OpenVox",
+        "Puppet",
         "Docker",
         "Homelab",
         "Monitoring"
@@ -425,15 +458,15 @@
       "featured": true,
       "order": 1,
       "links": [],
-      "long_desc": "The whole homelab — Caddy ingress, CrowdSec, Authelia, Grafana/Loki/VictoriaMetrics, and every self-hosted service this portfolio runs alongside — is described as Ansible roles rather than clicked together by hand. Two hosts cover the stack: a public VPS (mljr) terminating TLS and fronting everything through Caddy, and a home NUC running heavier workloads and the monitoring stack, joined over a Tailscale mesh so neither host needs an open inbound port beyond Caddy's 443.\n\nServices are entries in one YAML catalog: name, domain, port, which host runs it, and whether Caddy should sit it behind basic auth or Authelia SSO. A generic role turns that catalog into both a docker-compose deployment and an auto-generated Caddy reverse-proxy snippet — adding a new internet-facing service is a few lines of YAML, not a manual nginx/Caddy edit. Disabling a service in the catalog lets the same automation clean up its stale containers and proxy config instead of leaving orphaned config behind.\n\nDeploys run from GitHub Actions over the Tailscale GitHub Action, with all secrets sealed in an Ansible Vault file that's still committed to git (only the ciphertext). A `make deploy-check` dry run verifies vault decryption and host connectivity before anything touches production, and the same playbooks run identically from a laptop for local iteration. The repo also carries reusable service templates — see service-template — for the GitHub Actions workflow-dispatch pattern every deployed service's CI uses to trigger an automated rollout here.",
-      "long_desc_de": "Das gesamte Homelab — Caddy-Ingress, CrowdSec, Authelia, Grafana/Loki/VictoriaMetrics und jeder selbst gehostete Dienst, den dieses Portfolio nebenbei betreibt — ist als Ansible-Rollen beschrieben statt händisch zusammengeklickt. Zwei Hosts decken den Stack ab: ein öffentlicher VPS (mljr), der TLS terminiert und alles über Caddy nach außen stellt, und ein heimischer NUC, der schwerere Workloads und den Monitoring-Stack übernimmt, verbunden über ein Tailscale-Mesh, damit kein Host außer über Caddys Port 443 einen offenen eingehenden Port braucht.\n\nDienste sind Einträge in einem einzigen YAML-Katalog: Name, Domain, Port, welcher Host ihn betreibt und ob Caddy ihn hinter Basic Auth oder Authelia-SSO stellen soll. Eine generische Rolle verwandelt diesen Katalog sowohl in ein Docker-Compose-Deployment als auch in einen automatisch generierten Caddy-Reverse-Proxy-Snippet — ein neuer, ins Internet exponierter Dienst hinzuzufügen sind ein paar Zeilen YAML, kein manueller nginx-/Caddy-Edit. Wird ein Dienst im Katalog deaktiviert, räumt dieselbe Automatisierung dessen veraltete Container und Proxy-Konfiguration auf, statt verwaiste Konfiguration zu hinterlassen.\n\nDeployments laufen aus GitHub Actions über die Tailscale-GitHub-Action, alle Secrets versiegelt in einer Ansible-Vault-Datei, die trotzdem (nur als Ciphertext) in Git eingecheckt ist. Ein `make deploy-check`-Dry-Run verifiziert Vault-Entschlüsselung und Host-Konnektivität, bevor irgendetwas Produktion berührt, und dieselben Playbooks laufen identisch von einem Laptop für lokale Iteration. Das Repo enthält außerdem wiederverwendbare Service-Templates — siehe service-template — für das GitHub-Actions-Workflow-Dispatch-Muster, das die CI jedes deployten Dienstes nutzt, um hier ein automatisiertes Rollout auszulösen.",
-      "diagram": "graph TD\n  GHA[\"GitHub Actions\"] --\u003e|Tailscale OAuth| TS[(\"Tailscale mesh\")]\n  Dev[\"make deploy-* (local)\"] --\u003e|Ansible Vault secrets| TS\n  TS --\u003e VPS[\"mljr (VPS)\u003cbr/\u003eCaddy ingress · CrowdSec · Authelia\"]\n  TS --\u003e NUC[\"nuc (home)\u003cbr/\u003eGrafana · Loki · VictoriaMetrics\"]\n  VPS --\u003e|reverse_proxy per catalog entry| Services1[\"Public services\u003cbr/\u003e*.mljr.eu\"]\n  NUC --\u003e Services2[\"Heavier workloads\u003cbr/\u003emonitoring stack\"]\n  Catalog[(\"services catalog\u003cbr/\u003eall.yml\")] -.generates.-\u003e VPS\n  Catalog -.generates.-\u003e NUC",
+      "long_desc": "The whole homelab — Caddy ingress, CrowdSec, Authelia, Grafana/Loki/VictoriaMetrics, and every self-hosted service this portfolio runs alongside — is described as OpenVox (Puppet) code rather than clicked together by hand. A public VPS (mljr) terminates TLS and fronts everything through Caddy, a home NUC runs heavier workloads and the monitoring stack, and a NAS host takes backups and light monitoring, all joined over a Tailscale mesh so no host needs an open inbound port beyond Caddy's 443.\n\nThe project started on Ansible, with one control machine pushing changes to every host over SSH. In 2026 it moved to agent-based OpenVox: each host runs a real Puppet agent and applies its own locally synced copy of the manifests, so there is no puppetserver, no push from a central machine and much less SSH overhead. Appliances that cannot run an agent (an Unraid NAS, a busybox NAS) are managed through proxy-exec blocks declared on the NUC. The Ansible tree was removed after a role-by-role parity audit.\n\nServices are entries in one YAML catalog: name, domain, port, which host runs it, and whether Caddy should put it behind basic auth or Authelia SSO. A single defined type turns that catalog into a docker-compose deployment and an auto-generated Caddy reverse-proxy snippet, so a new internet-facing service is a few lines of data. Disabling an entry lets the same code clean up its stale containers and proxy config.\n\nSecrets are hiera-eyaml encrypted per host and decrypted on the host at apply time, so CI holds no vault password. GitHub Actions run a weekly deployment and a daily read-only drift check over Tailscale, and \"make openvox-check\" does the same dry run from a laptop before anything touches production.",
+      "long_desc_de": "Das gesamte Homelab — Caddy-Ingress, CrowdSec, Authelia, Grafana/Loki/VictoriaMetrics und jeder selbst gehostete Dienst, den dieses Portfolio nebenbei betreibt — ist als OpenVox-(Puppet-)Code beschrieben statt händisch zusammengeklickt. Ein öffentlicher VPS (mljr) terminiert TLS und stellt alles über Caddy nach außen, ein heimischer NUC übernimmt schwerere Workloads und den Monitoring-Stack, ein NAS-Host Backups und leichtes Monitoring, verbunden über ein Tailscale-Mesh, damit kein Host außer über Caddys Port 443 einen offenen eingehenden Port braucht.\n\nDas Projekt begann mit Ansible, bei dem ein Steuerrechner Änderungen per SSH auf alle Hosts schob. 2026 folgte der Wechsel auf agentenbasiertes OpenVox: Jeder Host betreibt einen echten Puppet-Agenten und wendet seine lokal synchronisierte Kopie der Manifeste selbst an. Es gibt also keinen Puppetserver, keinen Push von einer zentralen Maschine und deutlich weniger SSH-Overhead. Geräte ohne Agent-Unterstützung (ein Unraid-NAS, ein Busybox-NAS) werden über Proxy-Exec-Blöcke verwaltet, die auf dem NUC deklariert sind. Der Ansible-Baum wurde nach einem Rolle-für-Rolle-Paritätsaudit entfernt.\n\nDienste sind Einträge in einem einzigen YAML-Katalog: Name, Domain, Port, welcher Host ihn betreibt und ob Caddy ihn hinter Basic Auth oder Authelia-SSO stellt. Ein einziger Defined Type macht daraus ein Docker-Compose-Deployment und einen automatisch generierten Caddy-Reverse-Proxy-Snippet; ein neuer, ins Internet exponierter Dienst sind also ein paar Zeilen Daten. Wird ein Eintrag deaktiviert, räumt derselbe Code dessen veraltete Container und Proxy-Konfiguration auf.\n\nSecrets sind pro Host mit hiera-eyaml verschlüsselt und werden beim Apply auf dem Host entschlüsselt, die CI hält also kein Vault-Passwort. GitHub Actions führen über Tailscale ein wöchentliches Deployment und einen täglichen Read-only-Drift-Check aus, und \"make openvox-check\" macht denselben Dry-Run vom Laptop, bevor etwas die Produktion berührt.",
+      "diagram": "graph TD\n  GHA[\"GitHub Actions\u003cbr/\u003eweekly deploy · daily drift check\"] --\u003e|Tailscale SSH| TS[(\"Tailscale mesh\")]\n  Dev[\"make openvox-check (local)\"] --\u003e|Tailscale SSH| TS\n  TS --\u003e|sync manifests| VPS[\"mljr (VPS)\u003cbr/\u003eagent · Caddy · CrowdSec · Authelia\"]\n  TS --\u003e|sync manifests| NUC[\"nuc (home)\u003cbr/\u003eagent · Grafana · Loki · VictoriaMetrics\"]\n  TS --\u003e|sync manifests| UG[\"ugreen (NAS)\u003cbr/\u003eagent · backups\"]\n  NUC -.proxy-exec.-\u003e NAS[\"Unraid NAS · WD My Cloud\u003cbr/\u003eno agent\"]\n  Catalog[(\"services_catalog\u003cbr/\u003ecommon.yaml\")] -.generates.-\u003e VPS\n  Catalog -.generates.-\u003e NUC",
       "snippets": [
         {
-          "caption": "One Jinja2 template turns a service's catalog entry (name, domain, port, auth type) into its Caddy reverse-proxy block — auth import and upstream picked automatically.",
-          "filename": "ansible/roles/caddy/templates/service_snippet.caddy.j2",
+          "caption": "One EPP template turns a service's catalog entry (name, domain, port, auth type) into its Caddy reverse-proxy block with logging and rotation.",
+          "filename": "openvox/modules/roles/templates/caddy/service_snippet.caddy.epp",
           "language": "yaml",
-          "code": "{% if service.enabled | default(true) and service.domain is defined %}\n{% set is_local = service.host == inventory_hostname %}\n{% set target_host = 'localhost' if is_local else hostvars[service.host]['ansible_host'] %}\n{% set target_port = service.port %}\n{% set auth_type = service.caddy_auth | default('') %}\n\n{{ service.domain }} {\n    log {\n        output file {{ log_path }}/caddy/{{ service.name }}.log {\n            roll_size {{ caddy_log_roll_size | default('100mb') }}\n        }\n    }\n{% if auth_type == 'basicauth' %}\n    import basicauth_block\n{% elif auth_type == 'authelia' %}\n    import authelia_auth\n{% endif %}\n    reverse_proxy {{ target_host }}:{{ target_port }}\n}\n{% endif %}"
+          "code": "\u003c%\n  $name = $service['name']\n  $domain = $service['domain']\n  $is_domain_string = $domain =~ String\n  $target_port = $service['port']\n  $auth_type = pick_default($service['caddy_auth'], '')\n  $has_dev_folder = pick_default($service['staging'], false)\n-%\u003e\n\u003c% if $is_domain_string { -%\u003e\n\u003c%= $domain %\u003e {\n\u003c% } else { -%\u003e\n\u003c%= $domain.join(', ') %\u003e {\n\u003c% } -%\u003e\n    log {\n        output file \u003c%= $log_path %\u003e/caddy/\u003c%= $name %\u003e.log {\n            roll_size \u003c%= $roll_size %\u003e\n            roll_keep \u003c%= $roll_keep %\u003e\n            roll_keep_for \u003c%= $roll_keep_for %\u003e\n\u003c% if $roll_uncompressed { -%\u003e"
         }
       ]
     },
@@ -903,7 +936,7 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-10-21T09:07:04Z",
+    "generated_at": "2026-10-21T13:00:19Z",
     "total_stats": {
       "count": 457,
       "distance": 2058026,
@@ -3387,17 +3420,17 @@
           "CLI-Tools.",
           "Homelab-Lösungen."
         ],
-        "description": "Master-Student (Dipl.-Ing.) in Netzwerke \u0026 IT-Sicherheit an der JKU Linz, schreibe meine Masterarbeit über Permission-Metamodelle bei Dynatrace. Mir sind Korrektheit, Performance und tatsächlich funktionierende Software wichtig.",
+        "description": "Dipl.-Ing. in Informatik (Netzwerke \u0026 IT-Sicherheit) der JKU Linz, jetzt IT-Security-Engineer beim Land Oberösterreich. In meiner Masterarbeit habe ich Cloud-Berechtigungssysteme in ein Prolog-basiertes Metamodell abstrahiert. Mir sind Korrektheit, Performance und tatsächlich funktionierende Software wichtig.",
         "bento": {
           "focus": {
             "label": "Aktueller Fokus",
-            "value": "Dynatrace-Masterarbeit",
-            "sub": "Permission-Metamodell · Prolog"
+            "value": "IT-Security @ Land OÖ",
+            "sub": "Linz, Austria"
           },
           "status": {
             "label": "In der Nähe",
             "value": "Linz, Österreich",
-            "sub": "Offen für neue Möglichkeiten"
+            "sub": "Offen für spannende Projekte"
           },
           "education": {
             "label": "MSc / Dipl.-Ing.",
@@ -3414,7 +3447,7 @@
       "contact": {
         "intro": "Offen für interessante Projekte, Abschlussarbeiten-Kooperationen und Gespräche über Systeme, Sicherheit und Self-Hosting.",
         "currently": [
-          "Masterarbeit @ Dynatrace — Prolog-basiertes Permission-Metamodell",
+          "IT-Security-Engineer @ Land Oberösterreich",
           "Tutor für Digitaltechnik @ JKU Linz",
           "Baue diese Seite mit Go · gomponents · Datastar"
         ]
@@ -3431,17 +3464,17 @@
           "CLI tools.",
           "homelab solutions."
         ],
-        "description": "Master's student (Dipl.-Ing.) in Networks \u0026 IT Security at JKU Linz, writing my thesis on permission metamodels at Dynatrace. I care about correctness, performance, and shipping things that actually work.",
+        "description": "Dipl.-Ing. in Computer Science (Networks \u0026 IT Security) from JKU Linz, now an IT Security Engineer at Land Oberösterreich. My master thesis abstracted cloud permission systems into a Prolog-based metamodel. I care about correctness, performance, and shipping things that actually work.",
         "bento": {
           "focus": {
             "label": "Current focus",
-            "value": "Dynatrace thesis",
-            "sub": "Permission metamodel · Prolog"
+            "value": "IT Security @ Land OÖ",
+            "sub": "Linz, Austria"
           },
           "status": {
             "label": "Near",
             "value": "Linz, Austria",
-            "sub": "Open to opportunities"
+            "sub": "Open to interesting projects"
           },
           "education": {
             "label": "MSc / Dipl.-Ing.",
@@ -3458,7 +3491,7 @@
       "contact": {
         "intro": "Open to interesting projects, thesis collaborations, and conversations about systems, security, and self-hosting.",
         "currently": [
-          "MSc thesis @ Dynatrace — Prolog-based permission metamodel",
+          "IT Security Engineer @ Land Oberösterreich",
           "Tutor for Digital Circuits @ JKU Linz",
           "Building this site with Go · gomponents · Datastar"
         ]
@@ -3482,8 +3515,8 @@
       {
         "title": "Masterarbeit",
         "type": "Master",
-        "description": "Abstraktion von Berechtigungssystemen in ein Prolog-basiertes Metamodell, verfasst bei Dynatrace. Demnächst verfügbar — derzeit in Arbeit.",
-        "pdf": ""
+        "description": "Abstraktion komplexer Berechtigungssysteme in ein Prolog-basiertes Metamodell: ein Schema mit 18 Prädikaten für AWS-, Azure- und GCP-IAM, eine Go-Datenpipeline, eine in Go geschriebene Abfrage-Engine (gegen SWI-Prolog validiert, rund 3x schneller) und ein MCP-Server für KI-Agenten. Verfasst bei Dynatrace, betreut an der JKU von Prof. Stefan Rass.",
+        "pdf": "/assets/thesis/master-thesis.pdf"
       },
       {
         "title": "JKU Masterprojektbericht",
@@ -3508,8 +3541,8 @@
       {
         "title": "Master Thesis",
         "type": "Master",
-        "description": "Abstracting permission systems into a Prolog-based metamodel, written at Dynatrace. Coming soon — currently in progress.",
-        "pdf": ""
+        "description": "Abstracting complex permission systems into a Prolog-based metamodel: an 18-predicate schema for AWS, Azure and GCP IAM, a Go gathering pipeline, a Go query engine validated against SWI-Prolog (about 3x faster) and an MCP server for AI agents. Written at Dynatrace, supervised at JKU by Prof. Stefan Rass.",
+        "pdf": "/assets/thesis/master-thesis.pdf"
       },
       {
         "title": "JKU Master Project Report",
@@ -3521,18 +3554,39 @@
   },
   "timeline": [
     {
+      "id": "land-ooe-security",
+      "kind": "work",
+      "title": "IT Security Engineer",
+      "title_de": "IT-Security-Engineer",
+      "organization": "Land Oberösterreich",
+      "start": "2026-10",
+      "end": null,
+      "location": "Linz, Austria",
+      "summary": "IT security engineering at the state administration of Upper Austria.",
+      "summary_de": "IT-Security-Engineering in der Landesverwaltung Oberösterreich.",
+      "tags": [
+        "Security",
+        "Firewalls",
+        "SaltStack",
+        "Active Directory",
+        "LDAP",
+        "ISO 27001"
+      ],
+      "logo": "/static/logos/land-ooe.jpg"
+    },
+    {
       "id": "dynatrace-thesis",
       "kind": "work",
       "title": "Master Thesis · Software Engineer",
       "title_de": "Masterarbeit · Softwareentwickler",
       "organization": "Dynatrace",
       "start": "2025-11",
-      "end": null,
+      "end": "2026-09",
       "location": "Linz, Austria",
       "summary": "Master thesis on a Prolog-based metamodel for complex permission systems.",
       "summary_de": "Masterarbeit über ein Prolog-basiertes Metamodell für komplexe Berechtigungssysteme.",
       "details": [
-        "Master thesis: abstracting complex IAM systems into a Prolog-based unified permission metamodel",
+        "Master thesis: abstracting complex IAM systems into a Prolog-based unified permission metamodel (completed)",
         "Abstraction and analysis of permission models for unified, explainable access control"
       ],
       "details_de": [
@@ -3748,7 +3802,7 @@
       "title_de": "MSc Netzwerke und IT-Sicherheit",
       "organization": "Johannes Kepler University Linz",
       "start": "2024-10",
-      "end": null,
+      "end": "2026-10",
       "summary": "Coursework and thesis work in network security, cryptography, and formal methods.",
       "summary_de": "Lehrveranstaltungen und Masterarbeit in Netzwerksicherheit, Kryptographie und formalen Methoden.",
       "details": [
@@ -5740,15 +5794,21 @@
       "resting_heartrate": 50,
       "hrv": 57,
       "sleep_time": 25680,
-      "sleep_score": 80,
+      "sleep_score": 81,
       "sleep_quality": 2,
-      "steps": 5954
+      "steps": 5984
     },
     {
       "date": "2026-10-21",
       "ctl": 12.83929,
       "atl": 9.935738,
-      "form": 2.9035519999999995
+      "form": 2.9035519999999995,
+      "resting_heartrate": 55,
+      "hrv": 50,
+      "sleep_time": 25620,
+      "sleep_score": 80,
+      "sleep_quality": 2,
+      "steps": 760
     }
   ]
 }
