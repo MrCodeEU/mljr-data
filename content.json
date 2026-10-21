@@ -11,17 +11,17 @@
           "CLI tools.",
           "homelab solutions."
         ],
-        "description": "Master's student (Dipl.-Ing.) in Networks & IT Security at JKU Linz, writing my thesis on permission metamodels at Dynatrace. I care about correctness, performance, and shipping things that actually work.",
+        "description": "Dipl.-Ing. in Computer Science (Networks & IT Security) from JKU Linz, now an IT Security Engineer at Land Oberösterreich. My master thesis abstracted cloud permission systems into a Prolog-based metamodel. I care about correctness, performance, and shipping things that actually work.",
         "bento": {
           "focus": {
             "label": "Current focus",
-            "value": "Dynatrace thesis",
-            "sub": "Permission metamodel · Prolog"
+            "value": "IT Security @ Land OÖ",
+            "sub": "Linz, Austria"
           },
           "status": {
             "label": "Near",
             "value": "Linz, Austria",
-            "sub": "Open to opportunities"
+            "sub": "Open to interesting projects"
           },
           "education": {
             "label": "MSc / Dipl.-Ing.",
@@ -38,7 +38,7 @@
       "contact": {
         "intro": "Open to interesting projects, thesis collaborations, and conversations about systems, security, and self-hosting.",
         "currently": [
-          "MSc thesis @ Dynatrace — Prolog-based permission metamodel",
+          "IT Security Engineer @ Land Oberösterreich",
           "Tutor for Digital Circuits @ JKU Linz",
           "Building this site with Go · gomponents · Datastar"
         ]
@@ -55,17 +55,17 @@
           "CLI-Tools.",
           "Homelab-Lösungen."
         ],
-        "description": "Master-Student (Dipl.-Ing.) in Netzwerke & IT-Sicherheit an der JKU Linz, schreibe meine Masterarbeit über Permission-Metamodelle bei Dynatrace. Mir sind Korrektheit, Performance und tatsächlich funktionierende Software wichtig.",
+        "description": "Dipl.-Ing. in Informatik (Netzwerke & IT-Sicherheit) der JKU Linz, jetzt IT-Security-Engineer beim Land Oberösterreich. In meiner Masterarbeit habe ich Cloud-Berechtigungssysteme in ein Prolog-basiertes Metamodell abstrahiert. Mir sind Korrektheit, Performance und tatsächlich funktionierende Software wichtig.",
         "bento": {
           "focus": {
             "label": "Aktueller Fokus",
-            "value": "Dynatrace-Masterarbeit",
-            "sub": "Permission-Metamodell · Prolog"
+            "value": "IT-Security @ Land OÖ",
+            "sub": "Linz, Austria"
           },
           "status": {
             "label": "In der Nähe",
             "value": "Linz, Österreich",
-            "sub": "Offen für neue Möglichkeiten"
+            "sub": "Offen für spannende Projekte"
           },
           "education": {
             "label": "MSc / Dipl.-Ing.",
@@ -82,7 +82,7 @@
       "contact": {
         "intro": "Offen für interessante Projekte, Abschlussarbeiten-Kooperationen und Gespräche über Systeme, Sicherheit und Self-Hosting.",
         "currently": [
-          "Masterarbeit @ Dynatrace — Prolog-basiertes Permission-Metamodell",
+          "IT-Security-Engineer @ Land Oberösterreich",
           "Tutor für Digitaltechnik @ JKU Linz",
           "Baue diese Seite mit Go · gomponents · Datastar"
         ]
@@ -106,8 +106,8 @@
       {
         "title": "Master Thesis",
         "type": "Master",
-        "description": "Abstracting permission systems into a Prolog-based metamodel, written at Dynatrace. Coming soon — currently in progress.",
-        "pdf": ""
+        "description": "Abstracting complex permission systems into a Prolog-based metamodel: an 18-predicate schema for AWS, Azure and GCP IAM, a Go gathering pipeline, a Go query engine validated against SWI-Prolog (about 3x faster) and an MCP server for AI agents. Written at Dynatrace, supervised at JKU by Prof. Stefan Rass.",
+        "pdf": "/assets/thesis/master-thesis.pdf"
       },
       {
         "title": "JKU Master Project Report",
@@ -132,8 +132,8 @@
       {
         "title": "Masterarbeit",
         "type": "Master",
-        "description": "Abstraktion von Berechtigungssystemen in ein Prolog-basiertes Metamodell, verfasst bei Dynatrace. Demnächst verfügbar — derzeit in Arbeit.",
-        "pdf": ""
+        "description": "Abstraktion komplexer Berechtigungssysteme in ein Prolog-basiertes Metamodell: ein Schema mit 18 Prädikaten für AWS-, Azure- und GCP-IAM, eine Go-Datenpipeline, eine in Go geschriebene Abfrage-Engine (gegen SWI-Prolog validiert, rund 3x schneller) und ein MCP-Server für KI-Agenten. Verfasst bei Dynatrace, betreut an der JKU von Prof. Stefan Rass.",
+        "pdf": "/assets/thesis/master-thesis.pdf"
       },
       {
         "title": "JKU Masterprojektbericht",

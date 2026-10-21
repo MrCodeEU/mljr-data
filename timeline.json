@@ -2,18 +2,34 @@
   "schema_version": "timeline.v1",
   "items": [
     {
+      "id": "land-ooe-security",
+      "kind": "work",
+      "title": "IT Security Engineer",
+      "title_de": "IT-Security-Engineer",
+      "organization": "Land Oberösterreich",
+      "start": "2026-10",
+      "end": null,
+      "location": "Linz, Austria",
+      "summary": "IT security engineering at the state administration of Upper Austria.",
+      "summary_de": "IT-Security-Engineering in der Landesverwaltung Oberösterreich.",
+      "details": [],
+      "details_de": [],
+      "tags": ["Security", "Firewalls", "SaltStack", "Active Directory", "LDAP", "ISO 27001"],
+      "logo": "/static/logos/land-ooe.jpg"
+    },
+    {
       "id": "dynatrace-thesis",
       "kind": "work",
       "title": "Master Thesis · Software Engineer",
       "title_de": "Masterarbeit · Softwareentwickler",
       "organization": "Dynatrace",
       "start": "2025-11",
-      "end": null,
+      "end": "2026-09",
       "location": "Linz, Austria",
       "summary": "Master thesis on a Prolog-based metamodel for complex permission systems.",
       "summary_de": "Masterarbeit über ein Prolog-basiertes Metamodell für komplexe Berechtigungssysteme.",
       "details": [
-        "Master thesis: abstracting complex IAM systems into a Prolog-based unified permission metamodel",
+        "Master thesis: abstracting complex IAM systems into a Prolog-based unified permission metamodel (completed)",
         "Abstraction and analysis of permission models for unified, explainable access control"
       ],
       "details_de": [
@@ -200,7 +216,7 @@
       "title_de": "MSc Netzwerke und IT-Sicherheit",
       "organization": "Johannes Kepler University Linz",
       "start": "2024-10",
-      "end": null,
+      "end": "2026-10",
       "summary": "Coursework and thesis work in network security, cryptography, and formal methods.",
       "summary_de": "Lehrveranstaltungen und Masterarbeit in Netzwerksicherheit, Kryptographie und formalen Methoden.",
       "details": [

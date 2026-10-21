@@ -2,68 +2,6 @@
   "schema_version": "projects.v1",
   "curated": [
     {
-      "id": "regex",
-      "name": "Regex Lab",
-      "show": true,
-      "summary": "Live PCRE regex tester — pattern, flags and test string update matches in real time without page reloads.",
-      "description": "An interactive regex workbench built in Go + Datastar. Uses regexp2 (PCRE-compatible engine) for backreferences, lookahead, and lookbehind. Matches highlight as you type via server-sent events, with a built-in cheat sheet and 20+ preset examples.",
-      "description_de": "Eine interaktive Regex-Werkbank in Go + Datastar. Nutzt regexp2 (PCRE-kompatibel) für Backreferences, Lookahead und Lookbehind. Treffer werden per Server-Sent Events live hervorgehoben, mit eingebautem Spickzettel und 20+ Preset-Beispielen.",
-      "repo": "https://github.com/MrCodeEU/mljr-web",
-      "homepage": "https://regex.mljr.eu",
-      "featured": false,
-      "order": 1,
-      "topics": [
-        "Go",
-        "Regex",
-        "PCRE",
-        "Datastar",
-        "SSE",
-        "live-tool"
-      ],
-      "images": []
-    },
-    {
-      "id": "cron",
-      "name": "Cron Explorer",
-      "show": true,
-      "summary": "Parse and preview cron expressions live — field breakdown, next 10 execution times, and human-readable descriptions.",
-      "description": "An interactive cron expression explorer built in Go + Datastar. Supports standard 5-field and 6-field (with seconds) syntax, @aliases, and common presets. Shows a field-by-field breakdown and the next 10 execution times with countdown.",
-      "description_de": "Ein interaktiver Cron-Explorer in Go + Datastar. Unterstützt 5-Feld- und 6-Feld-Syntax (mit Sekunden), @-Aliase und gängige Presets. Zeigt eine Feldaufschlüsselung und die nächsten 10 Ausführungszeiten mit Countdown.",
-      "repo": "https://github.com/MrCodeEU/mljr-web",
-      "homepage": "https://cron.mljr.eu",
-      "featured": false,
-      "order": 2,
-      "topics": [
-        "Go",
-        "Cron",
-        "Datastar",
-        "SSE",
-        "live-tool"
-      ],
-      "images": []
-    },
-    {
-      "id": "codec",
-      "name": "Codec",
-      "show": true,
-      "summary": "Compute MD5/SHA1/SHA256/SHA512 hashes and encode/decode Base64, URL percent-encoding, and HTML entities.",
-      "description": "A multi-mode encode/decode tool built in Go + Datastar. Hash mode computes all four digests simultaneously. Encoding modes support Base64, URL percent-encoding, and HTML entity encoding — all processed server-side via SSE.",
-      "description_de": "Ein Multi-Modus-Kodierungswerkzeug in Go + Datastar. Im Hash-Modus werden alle vier Digest-Varianten gleichzeitig berechnet. Kodierungsmodi: Base64, URL-Prozent-Kodierung und HTML-Entity-Kodierung — alles serverseitig per SSE.",
-      "repo": "https://github.com/MrCodeEU/mljr-web",
-      "homepage": "https://codec.mljr.eu",
-      "featured": false,
-      "order": 3,
-      "topics": [
-        "Go",
-        "Crypto",
-        "Base64",
-        "Datastar",
-        "SSE",
-        "live-tool"
-      ],
-      "images": []
-    },
-    {
       "id": "AOC2024",
       "name": "AOC2024",
       "show": true,
@@ -372,6 +310,27 @@
       ]
     },
     {
+      "id": "codec",
+      "name": "Codec",
+      "show": true,
+      "summary": "Compute MD5/SHA1/SHA256/SHA512 hashes and encode/decode Base64, URL percent-encoding, and HTML entities.",
+      "description": "A multi-mode encode/decode tool built in Go + Datastar. Hash mode computes all four digests simultaneously. Encoding modes support Base64, URL percent-encoding, and HTML entity encoding — all processed server-side via SSE.",
+      "description_de": "Ein Multi-Modus-Kodierungswerkzeug in Go + Datastar. Im Hash-Modus werden alle vier Digest-Varianten gleichzeitig berechnet. Kodierungsmodi: Base64, URL-Prozent-Kodierung und HTML-Entity-Kodierung — alles serverseitig per SSE.",
+      "repo": "https://github.com/MrCodeEU/mljr-web",
+      "homepage": "https://codec.mljr.eu",
+      "featured": false,
+      "order": 3,
+      "topics": [
+        "Go",
+        "Crypto",
+        "Base64",
+        "Datastar",
+        "SSE",
+        "live-tool"
+      ],
+      "images": []
+    },
+    {
       "id": "cosmic-nightscout",
       "name": "cosmic-nightscout",
       "show": false,
@@ -385,6 +344,26 @@
         "COSMIC",
         "Nightscout",
         "Linux"
+      ],
+      "images": []
+    },
+    {
+      "id": "cron",
+      "name": "Cron Explorer",
+      "show": true,
+      "summary": "Parse and preview cron expressions live — field breakdown, next 10 execution times, and human-readable descriptions.",
+      "description": "An interactive cron expression explorer built in Go + Datastar. Supports standard 5-field and 6-field (with seconds) syntax, @aliases, and common presets. Shows a field-by-field breakdown and the next 10 execution times with countdown.",
+      "description_de": "Ein interaktiver Cron-Explorer in Go + Datastar. Unterstützt 5-Feld- und 6-Feld-Syntax (mit Sekunden), @-Aliase und gängige Presets. Zeigt eine Feldaufschlüsselung und die nächsten 10 Ausführungszeiten mit Countdown.",
+      "repo": "https://github.com/MrCodeEU/mljr-web",
+      "homepage": "https://cron.mljr.eu",
+      "featured": false,
+      "order": 2,
+      "topics": [
+        "Go",
+        "Cron",
+        "Datastar",
+        "SSE",
+        "live-tool"
       ],
       "images": []
     },
@@ -424,6 +403,39 @@
       ]
     },
     {
+      "id": "glucava",
+      "name": "glucava",
+      "show": true,
+      "summary": "Self-hosted tool that adds your Dexcom glucose stats (time in range, min, max, average, sparkline) to Strava activity descriptions.",
+      "repo": "https://github.com/MrCodeEU/glucava",
+      "homepage": null,
+      "featured": false,
+      "topics": [
+        "Go",
+        "PocketBase",
+        "Datastar",
+        "Strava",
+        "Dexcom",
+        "Docker",
+        "Self-hosted"
+      ],
+      "images": [
+        "/assets/portfolio/glucava/0.webp",
+        "/assets/portfolio/glucava/1.webp",
+        "/assets/portfolio/glucava/2.webp",
+        "/assets/portfolio/glucava/3.webp",
+        "/assets/portfolio/glucava/4.webp",
+        "/assets/portfolio/glucava/5.webp"
+      ],
+      "order": 5,
+      "description": "After a Strava activity ends, Glucava reads your glucose data (Dexcom Share, FreeStyle Libre, Nightscout) and writes time in range, min, max, average and a sparkline into the activity description, optionally with a glucose and heart rate chart photo. One Go binary with a PocketBase backend and a server-rendered web UI.",
+      "description_de": "Nachdem eine Strava-Aktivität endet, liest Glucava deine Glukosedaten (Dexcom Share, FreeStyle Libre, Nightscout) und schreibt Zeit im Zielbereich, Min, Max, Durchschnitt und eine Sparkline in die Aktivitätsbeschreibung, optional mit einem Foto des Glukose- und Herzfrequenzverlaufs. Eine einzige Go-Binärdatei mit PocketBase-Backend und serverseitig gerenderter Weboberfläche.",
+      "long_desc": "Strava's API is paywalled, and I wanted my blood glucose next to my runs and rides without paying for it. Glucava is a free, self-hosted answer: when an activity finishes it takes the glucose readings from the activity window and writes a short block into the description, for example \"TIR 92% | min 78 | max 164 | avg 112 mg/dL\" plus a sparkline. It replaces only its own block and leaves the rest of the text alone.\n\nSince there is no API access, the write goes through a headless Chrome session that drives Strava's edit page with the user's own session. To get that session, a remote sign-in browser shows up inside the web UI: you log in to Strava as usual, Glucava keeps only the cookies, encrypted, and never sees the password. Glucose comes from Dexcom Share, FreeStyle Libre (via LibreLinkUp) or Nightscout, and a Tasker, Shortcuts or HTTP trigger endpoint can start a check the moment the activity ends.\n\nIt is one Go binary: PocketBase for database, auth and admin, gomponents and Datastar for the server-rendered UI, plus an optional chart photo (glucose, heart rate and elevation panels) drawn by Glucava itself. It also has ntfy, webhook and email notifications, an edit-page canary that notices when Strava changes its markup, weekly summaries, encrypted secrets with key rotation, and a demo mode with fake data (\"make mock\"). Everything is AGPL-3.0 and Docker-ready. It is not a medical device and is documented as such.",
+      "long_desc_de": "Strava-API-Zugriff kostet Geld, und ich wollte meinen Blutzucker neben meinen Läufen und Radfahrten sehen, ohne dafür zu zahlen. Glucava ist die freie, selbst gehostete Antwort: Wenn eine Aktivität endet, nimmt es die Glukosewerte aus dem Aktivitätszeitraum und schreibt einen kurzen Block in die Beschreibung, zum Beispiel \"TIR 92% | min 78 | max 164 | avg 112 mg/dL\" plus eine Sparkline. Es ersetzt nur seinen eigenen Block und lässt den restlichen Text unangetastet.\n\nDa es keinen API-Zugriff gibt, läuft das Schreiben über eine Headless-Chrome-Sitzung, die Stravas Bearbeiten-Seite mit der eigenen Sitzung des Nutzers bedient. Für diese Sitzung erscheint ein Remote-Anmeldebrowser direkt in der Weboberfläche: Man meldet sich wie gewohnt bei Strava an, Glucava behält nur die Cookies, verschlüsselt, und sieht das Passwort nie. Die Glukosedaten kommen von Dexcom Share, FreeStyle Libre (über LibreLinkUp) oder Nightscout, und ein Trigger-Endpunkt für Tasker, Kurzbefehle oder HTTP kann eine Prüfung starten, sobald die Aktivität endet.\n\nEs ist eine einzige Go-Binärdatei: PocketBase für Datenbank, Auth und Admin, gomponents und Datastar für die serverseitig gerenderte Oberfläche, dazu ein optionales Diagrammfoto (Glukose-, Herzfrequenz- und Höhenpanels), das Glucava selbst zeichnet. Außerdem gibt es ntfy-, Webhook- und E-Mail-Benachrichtigungen, einen Canary, der merkt, wenn Strava sein Markup ändert, Wochenzusammenfassungen, verschlüsselte Secrets mit Schlüsselrotation und einen Demo-Modus mit Fake-Daten (\"make mock\"). Alles steht unter AGPL-3.0 und ist Docker-fertig. Es ist kein Medizinprodukt und ist auch so dokumentiert.",
+      "diagram": "graph TD\n  Src[\"Dexcom Share · LibreLinkUp · Nightscout\"] -->|poll| Ingest[\"glucose ingest\"]\n  Trigger[\"Tasker / Shortcuts<br/>POST /api/trigger\"] --> Poll[\"activity poller\"]\n  Poll -->|new activity| Stats[\"time in range · min · max · avg\"]\n  Ingest --> Stats\n  Stats --> Render[\"description block + chart photo\"]\n  Render -->|headless Chrome, your session| Strava[\"Strava edit page\"]\n  Stats --> PB[(\"PocketBase\")]\n  PB --> UI[\"web UI (gomponents + Datastar)\"]\n  Stats --> Notify[\"ntfy · webhook · email\"]",
+      "snippets": []
+    },
+    {
       "id": "godrive",
       "name": "goDrive",
       "show": true,
@@ -453,6 +465,7 @@
         }
       ],
       "long_desc": "goDrive treats the filesystem as the source of truth — SQLite only stores metadata: sessions, the search index, trash records, and in-flight upload state. Everything else is rebuildable by reindexing the disk.\n\nUploads go through the TUS resumable protocol, so a dropped connection on a phone resuming a 4 GB video upload just picks back up rather than restarting. Once a file lands, thumbnails are generated asynchronously across several warmup sizes and cached under a key derived from the file's inode and device number rather than its path — renames and moves on the same filesystem don't invalidate the cache, only a tracked SQLite path lookup needs to update.\n\nA webhook system lets external automation react to file events (upload.complete, file.moved, file.deleted, file.restored), each delivery signed with HMAC-SHA256 so a subscriber can verify it actually came from goDrive. The same Go backend serves a Svelte web UI, a WebDAV mount for native OS clients, and a Flutter mobile app with background upload support on both Android and iOS.",
+      "long_desc_de": "goDrive behandelt das Dateisystem als Single Source of Truth — SQLite speichert nur Metadaten: Sitzungen, den Suchindex, Papierkorb-Einträge und laufende Upload-Zustände. Alles andere lässt sich durch erneutes Indizieren der Festplatte wiederherstellen.\n\nUploads laufen über das TUS-Resumable-Protokoll, sodass eine abgebrochene Verbindung beim Hochladen eines 4-GB-Videos vom Handy einfach fortgesetzt wird, statt neu zu starten. Sobald eine Datei ankommt, werden Thumbnails asynchron in mehreren Aufwärmgrößen erzeugt und unter einem Schlüssel zwischengespeichert, der sich von Inode und Geräte-Nummer der Datei ableitet statt vom Pfad — Umbenennungen und Verschiebungen im selben Dateisystem machen den Cache nicht ungültig, nur eine in SQLite verfolgte Pfad-Lookup muss aktualisiert werden.\n\nEin Webhook-System lässt externe Automatisierung auf Dateiereignisse reagieren (upload.complete, file.moved, file.deleted, file.restored), jede Zustellung mit HMAC-SHA256 signiert, damit ein Abonnent verifizieren kann, dass sie tatsächlich von goDrive stammt. Dasselbe Go-Backend bedient eine Svelte-Web-UI, ein WebDAV-Mount für native Betriebssystem-Clients und eine Flutter-Mobile-App mit Hintergrund-Upload-Unterstützung auf Android und iOS.",
       "diagram": "graph TD\n  Browser[\"Svelte / SVAR web UI\"] -->|REST + SSE| API[Go backend]\n  Mobile[\"Flutter app (Android/iOS)\"] -->|TUS resumable upload| API\n  WebDAV[\"Finder / Files / rclone\"] -->|WebDAV| API\n  API --> FS[(\"Filesystem<br/>(source of truth)\")]\n  API --> DB[(\"SQLite<br/>sessions · index · trash · upload state\")]\n  API --> Cache[(\"Inode-keyed<br/>thumbnail cache\")]\n  API -->|HMAC-SHA256 signed| Hooks[\"Webhook subscribers\"]",
       "snippets": [
         {
@@ -461,22 +474,22 @@
           "language": "go",
           "code": "func thumbnailCachePathInode(cacheRoot string, userID int64, logical string, info os.FileInfo, thumbSize int) string {\n\tinode, device := inodeKey(info)\n\tif inode == 0 {\n\t\treturn thumbnailCachePath(cacheRoot, userID, logical, info.Size(), info.ModTime().UnixNano(), thumbSize)\n\t}\n\tsum := sha256.Sum256(fmt.Appendf(nil, \"%d\\x00%d\\x00%d\\x00%d\\x00%d\\x00%d\\x00%d\",\n\t\tthumbnailCacheVersion, userID, inode, device, info.Size(), info.ModTime().UnixNano(), thumbSize))\n\treturn filepath.Join(cacheRoot, \"thumbs\", hex.EncodeToString(sum[:2]), hex.EncodeToString(sum[:])+\".jpg\")\n}"
         }
-      ],
-      "long_desc_de": "goDrive behandelt das Dateisystem als Single Source of Truth — SQLite speichert nur Metadaten: Sitzungen, den Suchindex, Papierkorb-Einträge und laufende Upload-Zustände. Alles andere lässt sich durch erneutes Indizieren der Festplatte wiederherstellen.\n\nUploads laufen über das TUS-Resumable-Protokoll, sodass eine abgebrochene Verbindung beim Hochladen eines 4-GB-Videos vom Handy einfach fortgesetzt wird, statt neu zu starten. Sobald eine Datei ankommt, werden Thumbnails asynchron in mehreren Aufwärmgrößen erzeugt und unter einem Schlüssel zwischengespeichert, der sich von Inode und Geräte-Nummer der Datei ableitet statt vom Pfad — Umbenennungen und Verschiebungen im selben Dateisystem machen den Cache nicht ungültig, nur eine in SQLite verfolgte Pfad-Lookup muss aktualisiert werden.\n\nEin Webhook-System lässt externe Automatisierung auf Dateiereignisse reagieren (upload.complete, file.moved, file.deleted, file.restored), jede Zustellung mit HMAC-SHA256 signiert, damit ein Abonnent verifizieren kann, dass sie tatsächlich von goDrive stammt. Dasselbe Go-Backend bedient eine Svelte-Web-UI, ein WebDAV-Mount für native Betriebssystem-Clients und eine Flutter-Mobile-App mit Hintergrund-Upload-Unterstützung auf Android und iOS."
+      ]
     },
     {
       "id": "homelab-automation",
       "name": "homelab-automation",
       "show": true,
-      "summary": "Ansible-driven configuration for a self-hosted homelab: reverse proxy, monitoring, and services.",
-      "description": "A fully automated homelab configuration managed with Ansible and deployed over a Tailscale VPN. Two nodes cover the stack: a VPS hosting Caddy, CrowdSec, and public services like mljr.eu, and a home NUC running Grafana, Prometheus, and compute workloads. Everything from firewall rules to service updates is codified and repeatable.",
-      "description_de": "Eine vollständig automatisierte Homelab-Konfiguration, verwaltet mit Ansible und über ein Tailscale-VPN bereitgestellt. Zwei Nodes decken den Stack ab: ein VPS mit Caddy, CrowdSec und öffentlichen Diensten wie mljr.eu, sowie ein Heim-NUC mit Grafana, Prometheus und Compute-Workloads. Von Firewall-Regeln bis zu Service-Updates ist alles kodifiziert und wiederholbar.",
+      "summary": "OpenVox (Puppet) automation for a self-hosted homelab: agent-based, reverse proxy, monitoring and services across a Tailscale mesh.",
+      "description": "A fully automated homelab managed with OpenVox, the open-source Puppet fork. Each machine runs an agent that applies the manifests itself, so there is no central server and no SSH fan-out. A VPS hosts Caddy, CrowdSec and public services like mljr.eu, a home NUC runs Grafana and compute workloads, and the NAS hosts are covered too. Everything from firewall rules to service updates is codified and repeatable.",
+      "description_de": "Ein vollständig automatisiertes Homelab, verwaltet mit OpenVox, dem Open-Source-Fork von Puppet. Jede Maschine führt einen Agenten aus, der die Manifeste selbst anwendet, es gibt also keinen zentralen Server und kein SSH-Fan-out. Ein VPS betreibt Caddy, CrowdSec und öffentliche Dienste wie mljr.eu, ein Heim-NUC Grafana und Compute-Workloads, dazu kommen die NAS-Hosts. Von Firewall-Regeln bis zu Service-Updates ist alles kodifiziert und wiederholbar.",
       "repo": "https://github.com/MrCodeEU/homelab-automation",
       "homepage": null,
       "featured": true,
       "order": 1,
       "topics": [
-        "Ansible",
+        "OpenVox",
+        "Puppet",
         "Docker",
         "Homelab",
         "Monitoring"
@@ -488,17 +501,17 @@
         "/assets/portfolio/homelab-automation/3.webp",
         "/assets/portfolio/homelab-automation/4.webp"
       ],
-      "long_desc": "The whole homelab — Caddy ingress, CrowdSec, Authelia, Grafana/Loki/VictoriaMetrics, and every self-hosted service this portfolio runs alongside — is described as Ansible roles rather than clicked together by hand. Two hosts cover the stack: a public VPS (mljr) terminating TLS and fronting everything through Caddy, and a home NUC running heavier workloads and the monitoring stack, joined over a Tailscale mesh so neither host needs an open inbound port beyond Caddy's 443.\n\nServices are entries in one YAML catalog: name, domain, port, which host runs it, and whether Caddy should sit it behind basic auth or Authelia SSO. A generic role turns that catalog into both a docker-compose deployment and an auto-generated Caddy reverse-proxy snippet — adding a new internet-facing service is a few lines of YAML, not a manual nginx/Caddy edit. Disabling a service in the catalog lets the same automation clean up its stale containers and proxy config instead of leaving orphaned config behind.\n\nDeploys run from GitHub Actions over the Tailscale GitHub Action, with all secrets sealed in an Ansible Vault file that's still committed to git (only the ciphertext). A `make deploy-check` dry run verifies vault decryption and host connectivity before anything touches production, and the same playbooks run identically from a laptop for local iteration. The repo also carries reusable service templates — see service-template — for the GitHub Actions workflow-dispatch pattern every deployed service's CI uses to trigger an automated rollout here.",
-      "diagram": "graph TD\n  GHA[\"GitHub Actions\"] -->|Tailscale OAuth| TS[(\"Tailscale mesh\")]\n  Dev[\"make deploy-* (local)\"] -->|Ansible Vault secrets| TS\n  TS --> VPS[\"mljr (VPS)<br/>Caddy ingress · CrowdSec · Authelia\"]\n  TS --> NUC[\"nuc (home)<br/>Grafana · Loki · VictoriaMetrics\"]\n  VPS -->|reverse_proxy per catalog entry| Services1[\"Public services<br/>*.mljr.eu\"]\n  NUC --> Services2[\"Heavier workloads<br/>monitoring stack\"]\n  Catalog[(\"services catalog<br/>all.yml\")] -.generates.-> VPS\n  Catalog -.generates.-> NUC",
+      "long_desc": "The whole homelab — Caddy ingress, CrowdSec, Authelia, Grafana/Loki/VictoriaMetrics, and every self-hosted service this portfolio runs alongside — is described as OpenVox (Puppet) code rather than clicked together by hand. A public VPS (mljr) terminates TLS and fronts everything through Caddy, a home NUC runs heavier workloads and the monitoring stack, and a NAS host takes backups and light monitoring, all joined over a Tailscale mesh so no host needs an open inbound port beyond Caddy's 443.\n\nThe project started on Ansible, with one control machine pushing changes to every host over SSH. In 2026 it moved to agent-based OpenVox: each host runs a real Puppet agent and applies its own locally synced copy of the manifests, so there is no puppetserver, no push from a central machine and much less SSH overhead. Appliances that cannot run an agent (an Unraid NAS, a busybox NAS) are managed through proxy-exec blocks declared on the NUC. The Ansible tree was removed after a role-by-role parity audit.\n\nServices are entries in one YAML catalog: name, domain, port, which host runs it, and whether Caddy should put it behind basic auth or Authelia SSO. A single defined type turns that catalog into a docker-compose deployment and an auto-generated Caddy reverse-proxy snippet, so a new internet-facing service is a few lines of data. Disabling an entry lets the same code clean up its stale containers and proxy config.\n\nSecrets are hiera-eyaml encrypted per host and decrypted on the host at apply time, so CI holds no vault password. GitHub Actions run a weekly deployment and a daily read-only drift check over Tailscale, and \"make openvox-check\" does the same dry run from a laptop before anything touches production.",
+      "long_desc_de": "Das gesamte Homelab — Caddy-Ingress, CrowdSec, Authelia, Grafana/Loki/VictoriaMetrics und jeder selbst gehostete Dienst, den dieses Portfolio nebenbei betreibt — ist als OpenVox-(Puppet-)Code beschrieben statt händisch zusammengeklickt. Ein öffentlicher VPS (mljr) terminiert TLS und stellt alles über Caddy nach außen, ein heimischer NUC übernimmt schwerere Workloads und den Monitoring-Stack, ein NAS-Host Backups und leichtes Monitoring, verbunden über ein Tailscale-Mesh, damit kein Host außer über Caddys Port 443 einen offenen eingehenden Port braucht.\n\nDas Projekt begann mit Ansible, bei dem ein Steuerrechner Änderungen per SSH auf alle Hosts schob. 2026 folgte der Wechsel auf agentenbasiertes OpenVox: Jeder Host betreibt einen echten Puppet-Agenten und wendet seine lokal synchronisierte Kopie der Manifeste selbst an. Es gibt also keinen Puppetserver, keinen Push von einer zentralen Maschine und deutlich weniger SSH-Overhead. Geräte ohne Agent-Unterstützung (ein Unraid-NAS, ein Busybox-NAS) werden über Proxy-Exec-Blöcke verwaltet, die auf dem NUC deklariert sind. Der Ansible-Baum wurde nach einem Rolle-für-Rolle-Paritätsaudit entfernt.\n\nDienste sind Einträge in einem einzigen YAML-Katalog: Name, Domain, Port, welcher Host ihn betreibt und ob Caddy ihn hinter Basic Auth oder Authelia-SSO stellt. Ein einziger Defined Type macht daraus ein Docker-Compose-Deployment und einen automatisch generierten Caddy-Reverse-Proxy-Snippet; ein neuer, ins Internet exponierter Dienst sind also ein paar Zeilen Daten. Wird ein Eintrag deaktiviert, räumt derselbe Code dessen veraltete Container und Proxy-Konfiguration auf.\n\nSecrets sind pro Host mit hiera-eyaml verschlüsselt und werden beim Apply auf dem Host entschlüsselt, die CI hält also kein Vault-Passwort. GitHub Actions führen über Tailscale ein wöchentliches Deployment und einen täglichen Read-only-Drift-Check aus, und \"make openvox-check\" macht denselben Dry-Run vom Laptop, bevor etwas die Produktion berührt.",
+      "diagram": "graph TD\n  GHA[\"GitHub Actions<br/>weekly deploy · daily drift check\"] -->|Tailscale SSH| TS[(\"Tailscale mesh\")]\n  Dev[\"make openvox-check (local)\"] -->|Tailscale SSH| TS\n  TS -->|sync manifests| VPS[\"mljr (VPS)<br/>agent · Caddy · CrowdSec · Authelia\"]\n  TS -->|sync manifests| NUC[\"nuc (home)<br/>agent · Grafana · Loki · VictoriaMetrics\"]\n  TS -->|sync manifests| UG[\"ugreen (NAS)<br/>agent · backups\"]\n  NUC -.proxy-exec.-> NAS[\"Unraid NAS · WD My Cloud<br/>no agent\"]\n  Catalog[(\"services_catalog<br/>common.yaml\")] -.generates.-> VPS\n  Catalog -.generates.-> NUC",
       "snippets": [
         {
-          "caption": "One Jinja2 template turns a service's catalog entry (name, domain, port, auth type) into its Caddy reverse-proxy block — auth import and upstream picked automatically.",
-          "filename": "ansible/roles/caddy/templates/service_snippet.caddy.j2",
+          "caption": "One EPP template turns a service's catalog entry (name, domain, port, auth type) into its Caddy reverse-proxy block with logging and rotation.",
+          "filename": "openvox/modules/roles/templates/caddy/service_snippet.caddy.epp",
           "language": "yaml",
-          "code": "{% if service.enabled | default(true) and service.domain is defined %}\n{% set is_local = service.host == inventory_hostname %}\n{% set target_host = 'localhost' if is_local else hostvars[service.host]['ansible_host'] %}\n{% set target_port = service.port %}\n{% set auth_type = service.caddy_auth | default('') %}\n\n{{ service.domain }} {\n    log {\n        output file {{ log_path }}/caddy/{{ service.name }}.log {\n            roll_size {{ caddy_log_roll_size | default('100mb') }}\n        }\n    }\n{% if auth_type == 'basicauth' %}\n    import basicauth_block\n{% elif auth_type == 'authelia' %}\n    import authelia_auth\n{% endif %}\n    reverse_proxy {{ target_host }}:{{ target_port }}\n}\n{% endif %}"
+          "code": "<%\n  $name = $service['name']\n  $domain = $service['domain']\n  $is_domain_string = $domain =~ String\n  $target_port = $service['port']\n  $auth_type = pick_default($service['caddy_auth'], '')\n  $has_dev_folder = pick_default($service['staging'], false)\n-%>\n<% if $is_domain_string { -%>\n<%= $domain %> {\n<% } else { -%>\n<%= $domain.join(', ') %> {\n<% } -%>\n    log {\n        output file <%= $log_path %>/caddy/<%= $name %>.log {\n            roll_size <%= $roll_size %>\n            roll_keep <%= $roll_keep %>\n            roll_keep_for <%= $roll_keep_for %>\n<% if $roll_uncompressed { -%>"
         }
-      ],
-      "long_desc_de": "Das gesamte Homelab — Caddy-Ingress, CrowdSec, Authelia, Grafana/Loki/VictoriaMetrics und jeder selbst gehostete Dienst, den dieses Portfolio nebenbei betreibt — ist als Ansible-Rollen beschrieben statt händisch zusammengeklickt. Zwei Hosts decken den Stack ab: ein öffentlicher VPS (mljr), der TLS terminiert und alles über Caddy nach außen stellt, und ein heimischer NUC, der schwerere Workloads und den Monitoring-Stack übernimmt, verbunden über ein Tailscale-Mesh, damit kein Host außer über Caddys Port 443 einen offenen eingehenden Port braucht.\n\nDienste sind Einträge in einem einzigen YAML-Katalog: Name, Domain, Port, welcher Host ihn betreibt und ob Caddy ihn hinter Basic Auth oder Authelia-SSO stellen soll. Eine generische Rolle verwandelt diesen Katalog sowohl in ein Docker-Compose-Deployment als auch in einen automatisch generierten Caddy-Reverse-Proxy-Snippet — ein neuer, ins Internet exponierter Dienst hinzuzufügen sind ein paar Zeilen YAML, kein manueller nginx-/Caddy-Edit. Wird ein Dienst im Katalog deaktiviert, räumt dieselbe Automatisierung dessen veraltete Container und Proxy-Konfiguration auf, statt verwaiste Konfiguration zu hinterlassen.\n\nDeployments laufen aus GitHub Actions über die Tailscale-GitHub-Action, alle Secrets versiegelt in einer Ansible-Vault-Datei, die trotzdem (nur als Ciphertext) in Git eingecheckt ist. Ein `make deploy-check`-Dry-Run verifiziert Vault-Entschlüsselung und Host-Konnektivität, bevor irgendetwas Produktion berührt, und dieselben Playbooks laufen identisch von einem Laptop für lokale Iteration. Das Repo enthält außerdem wiederverwendbare Service-Templates — siehe service-template — für das GitHub-Actions-Workflow-Dispatch-Muster, das die CI jedes deployten Dienstes nutzt, um hier ein automatisiertes Rollout auszulösen."
+      ]
     },
     {
       "id": "homelab-speedtest",
@@ -647,6 +660,7 @@
         }
       ],
       "long_desc": "This is the monorepo behind the site you're reading. Every component — gauges, the skills radar, the regex lab, this very project detail page — is a Go function returning HTML via gomponents; there's no JSX, no client-side virtual DOM, and no npm build step in the request path. Datastar (a single ~14 kB script) wires up reactivity by reading data-* attributes already present in the server-rendered HTML, and SSE patches fragments in place for things like the homelab panel without a page reload.\n\nThe data layer is a separate Go module (mljr-data) that runs as a scheduled job: it hits the GitHub GraphQL API for contribution stats and language breakdowns, scrapes Strava and LinkedIn where APIs allow it, and writes one site-data.json that the homepage binary embeds as a build-time fallback and can also hot-reload from disk in production. Four themes × two modes are pure CSS custom-property swaps — no separate component variants to maintain.",
+      "long_desc_de": "Das ist das Monorepo hinter der Seite, die du gerade liest. Jede Komponente — Gauges, das Skills-Radar, das Regex-Lab, diese Projekt-Detailseite selbst — ist eine Go-Funktion, die HTML über gomponents zurückgibt; es gibt kein JSX, kein client-seitiges virtuelles DOM und keinen npm-Build-Schritt im Request-Pfad. Datastar (ein einziges ~14-KB-Skript) verdrahtet Reaktivität, indem es data-*-Attribute liest, die bereits im server-gerenderten HTML vorhanden sind, und SSE patcht Fragmente direkt vor Ort, etwa für das Homelab-Panel, ohne Seiten-Reload.\n\nDie Datenschicht ist ein separates Go-Modul (mljr-data), das als geplanter Job läuft: Es ruft die GitHub-GraphQL-API für Contribution-Statistiken und Sprachverteilung ab, scraped Strava und LinkedIn, wo APIs es zulassen, und schreibt eine einzige site-data.json, die das Homepage-Binary als Build-Zeit-Fallback einbettet und in Produktion auch live von der Festplatte nachladen kann. Vier Themes × zwei Modi sind reine CSS-Custom-Property-Swaps — keine separaten Komponentenvarianten zu pflegen.",
       "diagram": "graph TD\n  Generator[\"mljr-data generator<br/>(scheduled job)\"] -->|GitHub GraphQL, Strava, LinkedIn| JSON[(\"site-data.json\")]\n  JSON -->|embedded fallback + hot reload| Binary[\"homepage Go binary\"]\n  Binary -->|gomponents render| HTML[\"Server-rendered HTML\"]\n  HTML -->|data-* attributes| Datastar[\"Datastar (~14kB)\"]\n  Binary -->|SSE PatchElements| Datastar\n  Datastar -->|in-place DOM patch| HTML",
       "snippets": [
         {
@@ -661,8 +675,7 @@
           "language": "go",
           "code": "// One attribute on the section…\nh.Section(\n\th.ID(\"homelab\"),\n\tg.Attr(\"data-on-interval__duration.60s\", \"@get('/api/homelab')\"),\n)\n\n// …one SSE handler on the server.\ne.GET(\"/api/homelab\", func(c echo.Context) error {\n\tsse := datastar.NewSSE(c.Response().Writer, c.Request())\n\treturn sse.PatchElements(\n\t\tweb.RenderToString(pages.HomelabPanel(snapshot())),\n\t)\n})"
         }
-      ],
-      "long_desc_de": "Das ist das Monorepo hinter der Seite, die du gerade liest. Jede Komponente — Gauges, das Skills-Radar, das Regex-Lab, diese Projekt-Detailseite selbst — ist eine Go-Funktion, die HTML über gomponents zurückgibt; es gibt kein JSX, kein client-seitiges virtuelles DOM und keinen npm-Build-Schritt im Request-Pfad. Datastar (ein einziges ~14-KB-Skript) verdrahtet Reaktivität, indem es data-*-Attribute liest, die bereits im server-gerenderten HTML vorhanden sind, und SSE patcht Fragmente direkt vor Ort, etwa für das Homelab-Panel, ohne Seiten-Reload.\n\nDie Datenschicht ist ein separates Go-Modul (mljr-data), das als geplanter Job läuft: Es ruft die GitHub-GraphQL-API für Contribution-Statistiken und Sprachverteilung ab, scraped Strava und LinkedIn, wo APIs es zulassen, und schreibt eine einzige site-data.json, die das Homepage-Binary als Build-Zeit-Fallback einbettet und in Produktion auch live von der Festplatte nachladen kann. Vier Themes × zwei Modi sind reine CSS-Custom-Property-Swaps — keine separaten Komponentenvarianten zu pflegen."
+      ]
     },
     {
       "id": "mljrCSS",
@@ -750,6 +763,7 @@
         "/assets/portfolio/nightscout-tray/3.webp"
       ],
       "long_desc": "nightscout-tray is a Wails3 app (Go backend, native webview frontend) that turns a continuous glucose monitor's Nightscout feed into a system tray icon. Every poll, it rasterizes a fresh 32×32 PNG on the fly with the gg 2D graphics library: a rounded rect colored by urgency status, the current glucose value as anchored text, and a direction arrow for the trend — recomputed each tick rather than swapped between a fixed set of pre-rendered icons.\n\nA separate prediction package implements an OpenAPS-style oref algorithm against recent glucose history to estimate where the value is heading, feeding configurable threshold notifications. The same binary builds natively for Windows, macOS, and Linux through Wails3's cross-platform webview bridge, with mobile builds (Android/iOS) cross-compiled through the project's own CI pipeline.",
+      "long_desc_de": "nightscout-tray ist eine Wails3-App (Go-Backend, native Webview-Oberfläche), die den Nightscout-Feed eines Kontinuierlich-Glukose-Messgeräts in ein Systemtray-Icon verwandelt. Bei jedem Poll wird mit der 2D-Grafikbibliothek gg live ein frisches 32×32-PNG gerendert: ein nach Dringlichkeitsstatus eingefärbtes abgerundetes Rechteck, der aktuelle Glukosewert als verankerter Text und ein Richtungspfeil für den Trend — bei jedem Tick neu berechnet statt zwischen einer festen Menge vorgerenderter Icons umgeschaltet.\n\nEin separates Vorhersage-Package implementiert einen oref-ähnlichen Algorithmus im OpenAPS-Stil gegen die jüngste Glukosehistorie, um abzuschätzen, wohin sich der Wert entwickelt, und füttert konfigurierbare Schwellenwert-Benachrichtigungen. Dasselbe Binary baut nativ für Windows, macOS und Linux über Wails3s plattformübergreifende Webview-Bridge, mit Mobile-Builds (Android/iOS), die über die eigene CI-Pipeline des Projekts cross-compiliert werden.",
       "diagram": "graph TD\n  Nightscout[(\"Nightscout API\")] -->|poll| Service[\"internal/app/service.go\"]\n  Service --> Predictor[\"oref-style predictor<br/>(internal/prediction)\"]\n  Service --> IconGen[\"IconGenerator<br/>(gg rasterizer)\"]\n  Predictor -->|trend + forecast| Notifications[\"Threshold notifications\"]\n  IconGen -->|fresh PNG per tick| Tray[\"System tray icon\"]\n  Service --> Tray",
       "snippets": [
         {
@@ -758,8 +772,28 @@
           "language": "go",
           "code": "func (g *IconGenerator) GenerateIcon(text string, direction string, status *models.GlucoseStatus) []byte {\n\t// Wails v3 systray uses PNG on all platforms\n\tvar width, height float64 = 32, 32\n\tradius := width / 4\n\n\tdc := gg.NewContext(int(width), int(height))\n\tdc.SetRGBA(0, 0, 0, 0)\n\tdc.Clear()\n\n\tbgHex := getStatusColor(status)\n\tr, ge, b := parseHexColor(bgHex)\n\tdc.SetRGB255(int(r), int(ge), int(b))\n\tdc.DrawRoundedRectangle(0, 0, width, height, radius)\n\tdc.Fill()\n\n\tbrightness := (int(r)*299 + int(ge)*587 + int(b)*114) / 1000\n\tif brightness > 128 {\n\t\tdc.SetColor(color.Black)\n\t} else {\n\t\tdc.SetColor(color.White)\n\t}\n\n\tfontSize := height * 0.5\n\tif err := loadFont(dc, fontSize); err == nil {\n\t\tdc.DrawStringAnchored(text, width/2, height/2-2, 0.5, 0.5)\n\t}\n\tif direction != \"\" {\n\t\tdrawArrow(dc, width/2, height-5, height*0.3, direction)\n\t}\n\n\tvar buf bytes.Buffer\n\tpng.Encode(&buf, dc.Image())\n\treturn buf.Bytes()\n}"
         }
+      ]
+    },
+    {
+      "id": "regex",
+      "name": "Regex Lab",
+      "show": true,
+      "summary": "Live PCRE regex tester — pattern, flags and test string update matches in real time without page reloads.",
+      "description": "An interactive regex workbench built in Go + Datastar. Uses regexp2 (PCRE-compatible engine) for backreferences, lookahead, and lookbehind. Matches highlight as you type via server-sent events, with a built-in cheat sheet and 20+ preset examples.",
+      "description_de": "Eine interaktive Regex-Werkbank in Go + Datastar. Nutzt regexp2 (PCRE-kompatibel) für Backreferences, Lookahead und Lookbehind. Treffer werden per Server-Sent Events live hervorgehoben, mit eingebautem Spickzettel und 20+ Preset-Beispielen.",
+      "repo": "https://github.com/MrCodeEU/mljr-web",
+      "homepage": "https://regex.mljr.eu",
+      "featured": false,
+      "order": 1,
+      "topics": [
+        "Go",
+        "Regex",
+        "PCRE",
+        "Datastar",
+        "SSE",
+        "live-tool"
       ],
-      "long_desc_de": "nightscout-tray ist eine Wails3-App (Go-Backend, native Webview-Oberfläche), die den Nightscout-Feed eines Kontinuierlich-Glukose-Messgeräts in ein Systemtray-Icon verwandelt. Bei jedem Poll wird mit der 2D-Grafikbibliothek gg live ein frisches 32×32-PNG gerendert: ein nach Dringlichkeitsstatus eingefärbtes abgerundetes Rechteck, der aktuelle Glukosewert als verankerter Text und ein Richtungspfeil für den Trend — bei jedem Tick neu berechnet statt zwischen einer festen Menge vorgerenderter Icons umgeschaltet.\n\nEin separates Vorhersage-Package implementiert einen oref-ähnlichen Algorithmus im OpenAPS-Stil gegen die jüngste Glukosehistorie, um abzuschätzen, wohin sich der Wert entwickelt, und füttert konfigurierbare Schwellenwert-Benachrichtigungen. Dasselbe Binary baut nativ für Windows, macOS und Linux über Wails3s plattformübergreifende Webview-Bridge, mit Mobile-Builds (Android/iOS), die über die eigene CI-Pipeline des Projekts cross-compiliert werden."
+      "images": []
     },
     {
       "id": "service-template",
@@ -844,6 +878,17 @@
       "show": false,
       "summary": "",
       "repo": "https://github.com/MrCodeEU/sudoku_gen_go",
+      "homepage": null,
+      "featured": false,
+      "topics": [],
+      "images": []
+    },
+    {
+      "id": "weather-cli",
+      "name": "weather-cli",
+      "show": false,
+      "summary": "",
+      "repo": "https://github.com/MrCodeEU/weather-cli",
       "homepage": null,
       "featured": false,
       "topics": [],
