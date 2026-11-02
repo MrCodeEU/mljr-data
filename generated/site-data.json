@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-11-01T11:01:26Z",
+  "generated_at": "2026-11-02T11:59:50Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -936,7 +936,7 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-11-01T11:01:26Z",
+    "generated_at": "2026-11-02T11:59:50Z",
     "total_stats": {
       "count": 459,
       "distance": 2063061,
@@ -1832,10 +1832,6 @@
     "commits_year": 1529,
     "longest_streak": 19,
     "contributions": [
-      {
-        "date": "2025-11-02",
-        "count": 0
-      },
       {
         "date": "2025-11-03",
         "count": 0
@@ -3291,6 +3287,10 @@
       {
         "date": "2026-11-01",
         "count": 5
+      },
+      {
+        "date": "2026-11-02",
+        "count": 0
       }
     ],
     "language_share": [
@@ -3897,18 +3897,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-05-01",
-      "ctl": 11.475467,
-      "atl": 20.186914,
-      "form": -8.711447000000001,
-      "resting_heartrate": 58,
-      "hrv": 49,
-      "sleep_time": 28560,
-      "sleep_score": 80,
-      "sleep_quality": 2,
-      "steps": 21271
-    },
     {
       "date": "2026-05-02",
       "ctl": 11.205468,
@@ -5764,6 +5752,7 @@
       "atl": 5.585002,
       "form": 5.545094,
       "resting_heartrate": 56,
+      "hrv": 55,
       "sleep_time": 25980,
       "sleep_score": 77,
       "sleep_quality": 3,
@@ -5775,6 +5764,7 @@
       "atl": 4.8415146,
       "form": 6.0267094,
       "resting_heartrate": 55,
+      "hrv": 53,
       "sleep_time": 24960,
       "sleep_score": 77,
       "sleep_quality": 3,
@@ -5786,6 +5776,7 @@
       "atl": 4.197002,
       "form": 6.415511999999999,
       "resting_heartrate": 58,
+      "hrv": 49,
       "sleep_time": 26460,
       "sleep_score": 81,
       "sleep_quality": 2,
@@ -5797,6 +5788,7 @@
       "atl": 3.6382883,
       "form": 6.7245307,
       "resting_heartrate": 52,
+      "hrv": 58,
       "sleep_time": 25980,
       "sleep_score": 82,
       "sleep_quality": 2,
@@ -5808,6 +5800,7 @@
       "atl": 3.1539516,
       "form": 6.965047899999999,
       "resting_heartrate": 55,
+      "hrv": 50,
       "sleep_time": 22020,
       "sleep_score": 67,
       "sleep_quality": 3,
@@ -5819,10 +5812,23 @@
       "atl": 10.188929,
       "form": 1.0095729999999996,
       "resting_heartrate": 53,
+      "hrv": 56,
       "sleep_time": 28440,
       "sleep_score": 87,
       "sleep_quality": 2,
-      "steps": 4889
+      "steps": 8297
+    },
+    {
+      "date": "2026-11-02",
+      "ctl": 10.9350195,
+      "atl": 8.832557,
+      "form": 2.1024624999999997,
+      "resting_heartrate": 52,
+      "hrv": 59,
+      "sleep_time": 26520,
+      "sleep_score": 85,
+      "sleep_quality": 2,
+      "steps": 1438
     }
   ]
 }
