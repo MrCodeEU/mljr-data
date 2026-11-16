@@ -113,7 +113,19 @@
         "title": "JKU Master Project Report",
         "type": "Project",
         "description": "Network devices power consumption analysis — a Go-based test runner measuring UDP/TCP/L2 throughput against real-time power draw via FritzBox smart plug.",
-        "pdf": "/assets/thesis/jku-pr-report.pdf"
+        "pdf": "/assets/thesis/jku-pr-report.pdf",
+        "submitted": "2026-05",
+        "months": 9
+      },
+      {
+        "title": "Seminar Paper: Zero-Knowledge Proofs",
+        "type": "Seminar",
+        "description": "An overview of zero-knowledge proofs and their real-world use: interactive and non-interactive proofs, the three formal properties (completeness, soundness, zero-knowledge), and privacy and authentication use cases such as Zcash's zk-SNARKs. Seminar in Networks and Security, JKU Linz.",
+        "pdf": "/assets/thesis/zkp-seminar.pdf",
+        "submitted": "2026-11",
+        "coauthors": [
+          "Julian Weichinger"
+        ]
       }
     ],
     "de": [
@@ -139,7 +151,19 @@
         "title": "JKU Masterprojektbericht",
         "type": "Projekt",
         "description": "Analyse des Stromverbrauchs von Netzwerkgeräten — ein Go-basierter Testrahmem zur Messung von UDP/TCP/L2-Durchsatz im Verhältnis zum Echtzeitstromverbrauch via FritzBox-Steckdose.",
-        "pdf": "/assets/thesis/jku-pr-report.pdf"
+        "pdf": "/assets/thesis/jku-pr-report.pdf",
+        "submitted": "2026-05",
+        "months": 9
+      },
+      {
+        "title": "Seminararbeit: Zero-Knowledge-Proofs",
+        "type": "Seminar",
+        "description": "Ein Überblick über Zero-Knowledge-Proofs und ihren Einsatz in der Praxis: interaktive und nicht-interaktive Beweise, die drei formalen Eigenschaften (Vollständigkeit, Korrektheit, Zero-Knowledge) und Anwendungen für Privatsphäre und Authentifizierung wie die zk-SNARKs von Zcash. Seminar in Networks and Security, JKU Linz.",
+        "pdf": "/assets/thesis/zkp-seminar.pdf",
+        "submitted": "2026-11",
+        "coauthors": [
+          "Julian Weichinger"
+        ]
       }
     ]
   }

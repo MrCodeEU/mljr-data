@@ -75,6 +75,11 @@ type Thesis struct {
 	Type        string `json:"type"`
 	Description string `json:"description"`
 	PDF         string `json:"pdf"`
+	// Submitted is the submission month ("YYYY-MM"); Months how long the work
+	// took. Both optional.
+	Submitted string   `json:"submitted,omitempty"`
+	Months    int      `json:"months,omitempty"`
+	CoAuthors []string `json:"coauthors,omitempty"`
 }
 
 type Project struct {
