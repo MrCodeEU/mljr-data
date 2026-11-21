@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-11-21T16:38:37Z",
+  "generated_at": "2026-11-21T16:40:43Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -936,22 +936,35 @@
     ]
   },
   "strava_data": {
-    "generated_at": "2026-11-16T12:25:47Z",
+    "generated_at": "2026-11-21T16:40:43Z",
     "total_stats": {
-      "count": 462,
+      "count": 463,
       "distance": 2084462,
-      "moving_time": 1203374,
-      "elapsed_time": 1291878,
+      "moving_time": 1206980,
+      "elapsed_time": 1295484,
       "elevation_gain": 34089.497088000004
     },
     "year_to_date_stats": {
-      "count": 115,
+      "count": 116,
       "distance": 292236,
-      "moving_time": 345286,
-      "elapsed_time": 358165,
+      "moving_time": 348892,
+      "elapsed_time": 361771,
       "elevation_gain": 3862.2523120000005
     },
     "recent_activities": [
+      {
+        "id": 212484787,
+        "name": "Afternoon Training",
+        "distance": 0,
+        "moving_time": 3606,
+        "elapsed_time": 3606,
+        "type": "Workout",
+        "start_date": "2026-11-20T14:07:40Z",
+        "start_date_local": "2026-11-20T14:07:40Z",
+        "average_heartrate": 115,
+        "max_heartrate": 151,
+        "calories": 450
+      },
       {
         "id": 209943881,
         "name": "Morning Wanderung",
@@ -1080,23 +1093,6 @@
         "average_heartrate": 101,
         "max_heartrate": 140,
         "calories": 460
-      },
-      {
-        "id": 191804687,
-        "name": "Morning Laufen",
-        "distance": 5034,
-        "moving_time": 1759,
-        "elapsed_time": 1759,
-        "total_elevation_gain": 40.398743,
-        "type": "Run",
-        "start_date": "2026-09-30T10:32:08Z",
-        "start_date_local": "2026-09-30T10:32:08Z",
-        "average_pace": 5.823433496389471,
-        "average_speed": 2.862,
-        "max_speed": 3.279,
-        "average_heartrate": 172,
-        "max_heartrate": 188,
-        "calories": 417
       }
     ],
     "best_activities": {
@@ -1437,11 +1433,24 @@
       {
         "type": "training",
         "label": "Training",
-        "count": 183,
-        "total_time": 391076,
+        "count": 184,
+        "total_time": 394682,
         "total_distance": 321751,
-        "avg_heartrate": 102.4065934065934,
+        "avg_heartrate": 102.47540983606558,
         "activities": [
+          {
+            "id": 212484787,
+            "name": "Afternoon Training",
+            "distance": 0,
+            "moving_time": 3606,
+            "elapsed_time": 3606,
+            "type": "Workout",
+            "start_date": "2026-11-20T14:07:40Z",
+            "start_date_local": "2026-11-20T14:07:40Z",
+            "average_heartrate": 115,
+            "max_heartrate": 151,
+            "calories": 450
+          },
           {
             "id": 209943881,
             "name": "Morning Wanderung",
@@ -1497,19 +1506,6 @@
             "average_heartrate": 105,
             "max_heartrate": 139,
             "calories": 439
-          },
-          {
-            "id": 199591292,
-            "name": "Afternoon Training",
-            "distance": 0,
-            "moving_time": 3624,
-            "elapsed_time": 3624,
-            "type": "Workout",
-            "start_date": "2026-10-20T17:08:57Z",
-            "start_date_local": "2026-10-20T17:08:57Z",
-            "average_heartrate": 126,
-            "max_heartrate": 165,
-            "calories": 532
           }
         ]
       }
@@ -1817,15 +1813,15 @@
       },
       {
         "month": "2026-11",
-        "count": 4,
+        "count": 5,
         "distance": 26436,
-        "time": 31649
+        "time": 35255
       }
     ],
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 1675,
+    "commits_year": 1676,
     "longest_streak": 19,
     "contributions": [
       {
@@ -3286,7 +3282,7 @@
       },
       {
         "date": "2026-11-21",
-        "count": 30
+        "count": 31
       }
     ],
     "language_share": [
@@ -3921,66 +3917,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-05-16",
-      "ctl": 11.842189,
-      "atl": 16.807165,
-      "form": -4.964976000000002,
-      "resting_heartrate": 55,
-      "hrv": 53,
-      "sleep_time": 30420,
-      "sleep_score": 92,
-      "sleep_quality": 1,
-      "steps": 2892
-    },
-    {
-      "date": "2026-05-17",
-      "ctl": 11.563562,
-      "atl": 14.56976,
-      "form": -3.0061980000000013,
-      "resting_heartrate": 58,
-      "hrv": 45,
-      "sleep_time": 21480,
-      "sleep_score": 63,
-      "sleep_quality": 3,
-      "steps": 2965
-    },
-    {
-      "date": "2026-05-18",
-      "ctl": 11.2914915,
-      "atl": 12.630203,
-      "form": -1.3387115000000005,
-      "resting_heartrate": 56,
-      "hrv": 55,
-      "sleep_time": 30420,
-      "sleep_score": 89,
-      "sleep_quality": 2,
-      "steps": 3253
-    },
-    {
-      "date": "2026-05-19",
-      "ctl": 11.519917,
-      "atl": 13.744409,
-      "form": -2.2244919999999997,
-      "resting_heartrate": 58,
-      "hrv": 53,
-      "sleep_time": 29220,
-      "sleep_score": 83,
-      "sleep_quality": 2,
-      "steps": 3958
-    },
-    {
-      "date": "2026-05-20",
-      "ctl": 12.425288,
-      "atl": 18.57083,
-      "form": -6.145542000000001,
-      "resting_heartrate": 58,
-      "hrv": 52,
-      "sleep_time": 30300,
-      "sleep_score": 88,
-      "sleep_quality": 2,
-      "steps": 6363
-    },
     {
       "date": "2026-05-21",
       "ctl": 12.132942,
@@ -5836,6 +5772,7 @@
       "atl": 27.088394,
       "form": -14.722092000000002,
       "resting_heartrate": 60,
+      "hrv": 45,
       "sleep_time": 26340,
       "sleep_score": 78,
       "sleep_quality": 3,
@@ -5847,10 +5784,68 @@
       "atl": 23.48233,
       "form": -11.406987,
       "resting_heartrate": 55,
-      "sleep_time": 25860,
+      "hrv": 59,
+      "sleep_time": 25560,
+      "sleep_score": 73,
+      "sleep_quality": 3,
+      "steps": 4410
+    },
+    {
+      "date": "2026-11-17",
+      "ctl": 11.79123,
+      "atl": 20.356314,
+      "form": -8.565084,
+      "resting_heartrate": 52,
+      "hrv": 65,
+      "sleep_time": 26820,
+      "sleep_score": 85,
+      "sleep_quality": 2,
+      "steps": 3948
+    },
+    {
+      "date": "2026-11-18",
+      "ctl": 11.513803,
+      "atl": 17.646439,
+      "form": -6.1326360000000015,
+      "resting_heartrate": 53,
+      "hrv": 60,
+      "sleep_time": 24600,
       "sleep_score": 77,
       "sleep_quality": 3,
-      "steps": 31
+      "steps": 6591
+    },
+    {
+      "date": "2026-11-19",
+      "ctl": 11.242902,
+      "atl": 15.297308,
+      "form": -4.054405999999998,
+      "resting_heartrate": 56,
+      "sleep_time": 26280,
+      "sleep_score": 82,
+      "sleep_quality": 2,
+      "steps": 4678
+    },
+    {
+      "date": "2026-11-20",
+      "ctl": 10.978375,
+      "atl": 16.322706,
+      "form": -5.344331,
+      "resting_heartrate": 60,
+      "sleep_time": 26160,
+      "sleep_score": 82,
+      "sleep_quality": 2,
+      "steps": 5057
+    },
+    {
+      "date": "2026-11-21",
+      "ctl": 10.720073,
+      "atl": 14.149794,
+      "form": -3.4297210000000007,
+      "resting_heartrate": 60,
+      "sleep_time": 24600,
+      "sleep_score": 73,
+      "sleep_quality": 3,
+      "steps": 61
     }
   ]
 }
