@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-11-16T12:25:47Z",
+  "generated_at": "2026-11-21T16:38:37Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -536,8 +536,8 @@
     {
       "id": "mljr-web",
       "name": "mljr-web",
-      "description": "The portfolio you are looking at — built from scratch in Go using gomponents for type-safe HTML, Datastar for reactive updates without JavaScript frameworks, and Tailwind v4 for styling. A neo-brutalist four-theme component library powers over 170 UI components rendered server-side. The full monorepo includes a data pipeline, asset optimizer, and i18n support in EN and DE.",
-      "description_de": "Das Portfolio, das du gerade siehst — von Grund auf in Go gebaut mit gomponents für typsicheres HTML, Datastar für reaktive Updates ohne JavaScript-Frameworks und Tailwind v4 für das Styling. Eine neo-brutalistische Vierthemen-Komponentenbibliothek treibt über 170 serverseitig gerenderte UI-Komponenten an. Das Monorepo umfasst eine Datenpipeline, Asset-Optimierer und i18n-Unterstützung in EN und DE.",
+      "description": "The monorepo behind mljr.eu, built from scratch in Go. gomponents renders type-safe HTML on the server, Datastar adds reactivity without a JavaScript framework, and Tailwind v4 handles the styling. The design follows the Swiss International Style: a 12-column grid, flat colour fields and bilingual section titles, in a light and a dark colourway. Besides the homepage, the repo holds the live tools (regex, cron, codec), a newsletter app, the component showcase and EN/DE localisation with its own /de URLs.",
+      "description_de": "Das Monorepo hinter mljr.eu, von Grund auf in Go gebaut. gomponents rendert typsicheres HTML auf dem Server, Datastar sorgt für Reaktivität ohne JavaScript-Framework, Tailwind v4 für das Styling. Das Design folgt dem Swiss International Style: 12-Spalten-Raster, flache Farbfelder und zweisprachige Abschnittstitel, in einer hellen und einer dunklen Farbwelt. Neben der Homepage enthält das Repo die Live-Tools (Regex, Cron, Codec), eine Newsletter-App, das Komponenten-Showcase und die EN/DE-Lokalisierung mit eigenen /de-URLs.",
       "url": "https://github.com/MrCodeEU/mljr-web",
       "stars": 0,
       "language": "Go",
@@ -566,15 +566,15 @@
           "url": "https://mljr.eu"
         }
       ],
-      "long_desc": "This is the monorepo behind the site you're reading. Every component — gauges, the skills radar, the regex lab, this very project detail page — is a Go function returning HTML via gomponents; there's no JSX, no client-side virtual DOM, and no npm build step in the request path. Datastar (a single ~14 kB script) wires up reactivity by reading data-* attributes already present in the server-rendered HTML, and SSE patches fragments in place for things like the homelab panel without a page reload.\n\nThe data layer is a separate Go module (mljr-data) that runs as a scheduled job: it hits the GitHub GraphQL API for contribution stats and language breakdowns, scrapes Strava and LinkedIn where APIs allow it, and writes one site-data.json that the homepage binary embeds as a build-time fallback and can also hot-reload from disk in production. Four themes × two modes are pure CSS custom-property swaps — no separate component variants to maintain.",
-      "long_desc_de": "Das ist das Monorepo hinter der Seite, die du gerade liest. Jede Komponente — Gauges, das Skills-Radar, das Regex-Lab, diese Projekt-Detailseite selbst — ist eine Go-Funktion, die HTML über gomponents zurückgibt; es gibt kein JSX, kein client-seitiges virtuelles DOM und keinen npm-Build-Schritt im Request-Pfad. Datastar (ein einziges ~14-KB-Skript) verdrahtet Reaktivität, indem es data-*-Attribute liest, die bereits im server-gerenderten HTML vorhanden sind, und SSE patcht Fragmente direkt vor Ort, etwa für das Homelab-Panel, ohne Seiten-Reload.\n\nDie Datenschicht ist ein separates Go-Modul (mljr-data), das als geplanter Job läuft: Es ruft die GitHub-GraphQL-API für Contribution-Statistiken und Sprachverteilung ab, scraped Strava und LinkedIn, wo APIs es zulassen, und schreibt eine einzige site-data.json, die das Homepage-Binary als Build-Zeit-Fallback einbettet und in Produktion auch live von der Festplatte nachladen kann. Vier Themes × zwei Modi sind reine CSS-Custom-Property-Swaps — keine separaten Komponentenvarianten zu pflegen.",
-      "diagram": "graph TD\n  Generator[\"mljr-data generator\u003cbr/\u003e(scheduled job)\"] --\u003e|GitHub GraphQL, Strava, LinkedIn| JSON[(\"site-data.json\")]\n  JSON --\u003e|embedded fallback + hot reload| Binary[\"homepage Go binary\"]\n  Binary --\u003e|gomponents render| HTML[\"Server-rendered HTML\"]\n  HTML --\u003e|data-* attributes| Datastar[\"Datastar (~14kB)\"]\n  Binary --\u003e|SSE PatchElements| Datastar\n  Datastar --\u003e|in-place DOM patch| HTML",
+      "long_desc": "Every part of the site — the departure board, the timeline, the homelab panel, this project page — is a Go function that returns HTML via gomponents. There is no JSX, no client-side virtual DOM and no npm build step in the request path. Datastar reads the data-* attributes already present in the server-rendered HTML and wires up reactivity; for live parts such as the homelab panel the server sends SSE events that patch fragments in place, without a page reload.\n\nThe data lives in a separate repo (mljr-data). A scheduled GitHub Action merges the hand-written projects, timeline and texts with data from the GitHub API and intervals.icu, validates the result against a JSON schema and commits a single site-data.json. The homepage binary embeds it as a fallback and reloads it from disk in production. The UI kit keeps its rules machine-checked: components are styled through data-component and data-slot attributes instead of class names, a guard in the Makefile enforces that, and pages are checked with axe in light and dark mode before they ship.",
+      "long_desc_de": "Jeder Teil der Seite — die Abfahrtstafel, die Zeitleiste, das Homelab-Panel, diese Projektseite — ist eine Go-Funktion, die über gomponents HTML zurückgibt. Es gibt kein JSX, kein clientseitiges virtuelles DOM und keinen npm-Build-Schritt im Request-Pfad. Datastar liest die data-*-Attribute, die schon im serverseitig gerenderten HTML stehen, und verdrahtet damit die Reaktivität; für Live-Teile wie das Homelab-Panel schickt der Server SSE-Events, die Fragmente direkt austauschen, ohne die Seite neu zu laden.\n\nDie Daten liegen in einem eigenen Repo (mljr-data). Eine geplante GitHub Action führt die handgeschriebenen Projekte, die Zeitleiste und die Texte mit Daten aus der GitHub-API und von intervals.icu zusammen, prüft das Ergebnis gegen ein JSON-Schema und committet eine einzige site-data.json. Das Homepage-Binary bettet sie als Fallback ein und lädt sie in Produktion von der Festplatte nach. Das UI-Kit prüft seine Regeln maschinell: Komponenten werden über data-component- und data-slot-Attribute statt über Klassennamen gestylt, ein Guard im Makefile erzwingt das, und Seiten werden vor dem Ausliefern mit axe im hellen und dunklen Modus geprüft.",
+      "diagram": "graph TD\n  Generator[\"mljr-data generator\u003cbr/\u003e(scheduled job)\"] --\u003e|GitHub API, intervals.icu| JSON[(\"site-data.json\")]\n  JSON --\u003e|embedded fallback + hot reload| Binary[\"homepage Go binary\"]\n  Binary --\u003e|gomponents render| HTML[\"Server-rendered HTML\"]\n  HTML --\u003e|data-* attributes| Datastar[\"Datastar\"]\n  Binary --\u003e|SSE PatchElements| Datastar\n  Datastar --\u003e|in-place DOM patch| HTML",
       "snippets": [
         {
-          "caption": "The skills radar is plain trigonometry rendered to an SVG polygon at request time — no charting library.",
-          "filename": "ui/data/radarchart.go",
+          "caption": "Skill counts are not self-rated: each skill shows how many public repos use it as their language or as a topic.",
+          "filename": "projects/homepage/data/types.go",
           "language": "go",
-          "code": "// Radar chart: axis i sits at angle 2πi/n, starting at\n// 12 o'clock. Values scale along the spoke; the series\n// becomes a single \u003cpolygon\u003e.\nangle := func(i int) float64 {\n\treturn float64(i)*2*math.Pi/float64(n) - math.Pi/2\n}\npt := func(radius float64, i int) (float64, float64) {\n\ta := angle(i)\n\treturn cx + radius*math.Cos(a), cy + radius*math.Sin(a)\n}\n\npts := make([]string, len(p.Axes))\nfor i := range p.Axes {\n\tscaled := (s.Values[i] / p.Max) * r\n\tx, y := pt(scaled, i)\n\tpts[i] = fmt.Sprintf(\"%.1f,%.1f\", x, y)\n}"
+          "code": "func (d SiteData) RepoCount(skills ...string) int {\n\twant := map[string]bool{}\n\tfor _, s := range skills {\n\t\twant[skillKey(s)] = true\n\t}\n\tn := 0\n\tfor _, p := range d.GitHub {\n\t\thit := want[skillKey(p.Language)]\n\t\tfor _, t := range p.Topics {\n\t\t\thit = hit || want[skillKey(t)]\n\t\t}\n\t\tif hit {\n\t\t\tn++\n\t\t}\n\t}\n\treturn n\n}"
         },
         {
           "caption": "Live updates without a framework: one attribute on the section, one SSE handler, Datastar morphs the panel in place.",
@@ -1825,29 +1825,9 @@
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 1636,
+    "commits_year": 1675,
     "longest_streak": 19,
     "contributions": [
-      {
-        "date": "2025-11-17",
-        "count": 0
-      },
-      {
-        "date": "2025-11-18",
-        "count": 0
-      },
-      {
-        "date": "2025-11-19",
-        "count": 0
-      },
-      {
-        "date": "2025-11-20",
-        "count": 0
-      },
-      {
-        "date": "2025-11-21",
-        "count": 0
-      },
       {
         "date": "2025-11-22",
         "count": 0
@@ -3286,133 +3266,153 @@
       },
       {
         "date": "2026-11-16",
+        "count": 5
+      },
+      {
+        "date": "2026-11-17",
+        "count": 9
+      },
+      {
+        "date": "2026-11-18",
+        "count": 3
+      },
+      {
+        "date": "2026-11-19",
         "count": 0
+      },
+      {
+        "date": "2026-11-20",
+        "count": 31
+      },
+      {
+        "date": "2026-11-21",
+        "count": 30
       }
     ],
     "language_share": [
       {
         "name": "Go",
-        "pct": 32.33683821813836
+        "pct": 33.097166410492605
       },
       {
         "name": "Svelte",
-        "pct": 16.496034934640136
+        "pct": 16.197000665164403
       },
       {
         "name": "JavaScript",
-        "pct": 9.767773330297915
+        "pct": 9.590706600395654
       },
       {
         "name": "HTML",
-        "pct": 7.057607120497428
+        "pct": 6.92966932223944
       },
       {
         "name": "CSS",
-        "pct": 6.0389471079953205
+        "pct": 6.252199615491449
       },
       {
         "name": "TypeScript",
-        "pct": 4.557040741774182
+        "pct": 4.474432323776349
       },
       {
         "name": "Shell",
-        "pct": 3.671653216164576
+        "pct": 3.592850503029308
       },
       {
         "name": "Rust",
-        "pct": 2.938789184828245
+        "pct": 2.8855158569946027
       },
       {
         "name": "TeX",
-        "pct": 2.6235159617297157
+        "pct": 2.5759577950440744
       },
       {
         "name": "C#",
-        "pct": 2.3994847800693244
+        "pct": 2.3559877711717845
       },
       {
         "name": "Puppet",
-        "pct": 1.941527619913303
+        "pct": 1.972191097373465
       },
       {
         "name": "Python",
-        "pct": 1.781733210728998
+        "pct": 1.749434583138669
       },
       {
         "name": "Kotlin",
-        "pct": 1.6487438268862138
+        "pct": 1.6188559836694039
       },
       {
         "name": "Dart",
-        "pct": 1.629382340266527
+        "pct": 1.5998454752108462
       },
       {
         "name": "ASP.NET",
-        "pct": 1.2548024807284504
+        "pct": 1.2320558664876533
       },
       {
         "name": "Ruby",
-        "pct": 0.6083055944131754
+        "pct": 0.6422487397571902
       },
       {
         "name": "Vue",
-        "pct": 0.5776130808523666
+        "pct": 0.5671423158256991
       },
       {
         "name": "ShaderLab",
-        "pct": 0.5557934311668423
+        "pct": 0.5457182050093503
       },
       {
         "name": "Makefile",
-        "pct": 0.49694252158781593
+        "pct": 0.4903273868544233
       },
       {
         "name": "SCSS",
-        "pct": 0.3155839459579755
+        "pct": 0.3098631521362042
       },
       {
         "name": "Dockerfile",
-        "pct": 0.2433236187557566
-      },
-      {
-        "name": "Typst",
-        "pct": 0.2168362212261138
+        "pct": 0.2389127345118086
       },
       {
         "name": "HCL",
-        "pct": 0.193317953242286
+        "pct": 0.2323566854107297
+      },
+      {
+        "name": "Typst",
+        "pct": 0.21290549112841808
       },
       {
         "name": "Swift",
-        "pct": 0.1739150369080065
+        "pct": 0.17076236681372692
       },
       {
         "name": "Java",
-        "pct": 0.1523992051294958
+        "pct": 0.14963656640115006
       },
       {
         "name": "HLSL",
-        "pct": 0.09662790433519844
+        "pct": 0.0948762679632864
       },
       {
         "name": "Go Template",
-        "pct": 0.08961247266415644
+        "pct": 0.08798800954891603
       },
       {
         "name": "NSIS",
-        "pct": 0.08566974482541138
+        "pct": 0.08411675408178464
       },
       {
         "name": "GLSL",
-        "pct": 0.04278999022189686
+        "pct": 0.04201430845851692
       },
       {
         "name": "Objective-C",
-        "pct": 0.006021118520815566
+        "pct": 0.005911969820207642
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.0013740855339934605
+        "pct": 0.0013491765988776613
       }
     ]
   },

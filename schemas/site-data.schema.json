@@ -118,7 +118,10 @@
         "title": { "type": "string" },
         "type": { "type": "string" },
         "description": { "type": "string" },
-        "pdf": { "type": "string" }
+        "pdf": { "type": "string" },
+        "submitted": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}$" },
+        "months": { "type": "integer", "minimum": 1 },
+        "coauthors": { "type": "array", "items": { "type": "string" } }
       }
     },
     "github_stats": {
