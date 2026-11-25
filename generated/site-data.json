@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-11-25T13:53:10Z",
+  "generated_at": "2026-11-25T15:57:24Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -436,8 +436,8 @@
     {
       "id": "homelab-automation",
       "name": "homelab-automation",
-      "description": "A fully automated homelab managed with OpenVox, the open-source Puppet fork. Each machine runs an agent that applies the manifests itself, so there is no central server and no SSH fan-out. A VPS hosts Caddy, CrowdSec and public services like mljr.eu, a home NUC runs Grafana and compute workloads, and the NAS hosts are covered too. Everything from firewall rules to service updates is codified and repeatable.",
-      "description_de": "Ein vollständig automatisiertes Homelab, verwaltet mit OpenVox, dem Open-Source-Fork von Puppet. Jede Maschine führt einen Agenten aus, der die Manifeste selbst anwendet, es gibt also keinen zentralen Server und kein SSH-Fan-out. Ein VPS betreibt Caddy, CrowdSec und öffentliche Dienste wie mljr.eu, ein Heim-NUC Grafana und Compute-Workloads, dazu kommen die NAS-Hosts. Von Firewall-Regeln bis zu Service-Updates ist alles kodifiziert und wiederholbar.",
+      "description": "A fully automated homelab managed with OpenVox, the open-source Puppet fork, on an OpenZiti zero-trust overlay. Every connection between machines is authenticated by identity and denied by default, and the home hosts only dial out, so nothing at home listens on the internet. A VPS runs Caddy, CrowdSec, Authelia and the Ziti controller, a home NUC runs Grafana and compute workloads, and the NAS hosts are covered too. Services, proxy config and access policies are all code.",
+      "description_de": "Ein vollständig automatisiertes Homelab, verwaltet mit OpenVox, dem Open-Source-Fork von Puppet, auf einem OpenZiti-Zero-Trust-Overlay. Jede Verbindung zwischen Maschinen wird über ihre Identität authentifiziert und ist standardmäßig verboten; die Hosts daheim wählen sich nur nach außen ein, daheim lauscht also nichts im Internet. Ein VPS betreibt Caddy, CrowdSec, Authelia und den Ziti-Controller, ein Heim-NUC Grafana und Compute-Workloads, dazu kommen die NAS-Hosts. Dienste, Proxy-Konfiguration und Zugriffsregeln sind Code.",
       "url": "https://github.com/MrCodeEU/homelab-automation",
       "stars": 0,
       "language": "Go",
@@ -446,7 +446,10 @@
         "Puppet",
         "Docker",
         "Homelab",
-        "Monitoring"
+        "Monitoring",
+        "OpenZiti",
+        "Zero Trust",
+        "OpenTofu"
       ],
       "images": [
         "/assets/portfolio/homelab-automation/0.webp",
@@ -458,15 +461,21 @@
       "featured": true,
       "order": 1,
       "links": [],
-      "long_desc": "The whole homelab — Caddy ingress, CrowdSec, Authelia, Grafana/Loki/VictoriaMetrics, and every self-hosted service this portfolio runs alongside — is described as OpenVox (Puppet) code rather than clicked together by hand. A public VPS (mljr) terminates TLS and fronts everything through Caddy, a home NUC runs heavier workloads and the monitoring stack, and a NAS host takes backups and light monitoring, all joined over a Tailscale mesh so no host needs an open inbound port beyond Caddy's 443.\n\nThe project started on Ansible, with one control machine pushing changes to every host over SSH. In 2026 it moved to agent-based OpenVox: each host runs a real Puppet agent and applies its own locally synced copy of the manifests, so there is no puppetserver, no push from a central machine and much less SSH overhead. Appliances that cannot run an agent (an Unraid NAS, a busybox NAS) are managed through proxy-exec blocks declared on the NUC. The Ansible tree was removed after a role-by-role parity audit.\n\nServices are entries in one YAML catalog: name, domain, port, which host runs it, and whether Caddy should put it behind basic auth or Authelia SSO. A single defined type turns that catalog into a docker-compose deployment and an auto-generated Caddy reverse-proxy snippet, so a new internet-facing service is a few lines of data. Disabling an entry lets the same code clean up its stale containers and proxy config.\n\nSecrets are hiera-eyaml encrypted per host and decrypted on the host at apply time, so CI holds no vault password. GitHub Actions run a weekly deployment and a daily read-only drift check over Tailscale, and \"make openvox-check\" does the same dry run from a laptop before anything touches production.",
-      "long_desc_de": "Das gesamte Homelab — Caddy-Ingress, CrowdSec, Authelia, Grafana/Loki/VictoriaMetrics und jeder selbst gehostete Dienst, den dieses Portfolio nebenbei betreibt — ist als OpenVox-(Puppet-)Code beschrieben statt händisch zusammengeklickt. Ein öffentlicher VPS (mljr) terminiert TLS und stellt alles über Caddy nach außen, ein heimischer NUC übernimmt schwerere Workloads und den Monitoring-Stack, ein NAS-Host Backups und leichtes Monitoring, verbunden über ein Tailscale-Mesh, damit kein Host außer über Caddys Port 443 einen offenen eingehenden Port braucht.\n\nDas Projekt begann mit Ansible, bei dem ein Steuerrechner Änderungen per SSH auf alle Hosts schob. 2026 folgte der Wechsel auf agentenbasiertes OpenVox: Jeder Host betreibt einen echten Puppet-Agenten und wendet seine lokal synchronisierte Kopie der Manifeste selbst an. Es gibt also keinen Puppetserver, keinen Push von einer zentralen Maschine und deutlich weniger SSH-Overhead. Geräte ohne Agent-Unterstützung (ein Unraid-NAS, ein Busybox-NAS) werden über Proxy-Exec-Blöcke verwaltet, die auf dem NUC deklariert sind. Der Ansible-Baum wurde nach einem Rolle-für-Rolle-Paritätsaudit entfernt.\n\nDienste sind Einträge in einem einzigen YAML-Katalog: Name, Domain, Port, welcher Host ihn betreibt und ob Caddy ihn hinter Basic Auth oder Authelia-SSO stellt. Ein einziger Defined Type macht daraus ein Docker-Compose-Deployment und einen automatisch generierten Caddy-Reverse-Proxy-Snippet; ein neuer, ins Internet exponierter Dienst sind also ein paar Zeilen Daten. Wird ein Eintrag deaktiviert, räumt derselbe Code dessen veraltete Container und Proxy-Konfiguration auf.\n\nSecrets sind pro Host mit hiera-eyaml verschlüsselt und werden beim Apply auf dem Host entschlüsselt, die CI hält also kein Vault-Passwort. GitHub Actions führen über Tailscale ein wöchentliches Deployment und einen täglichen Read-only-Drift-Check aus, und \"make openvox-check\" macht denselben Dry-Run vom Laptop, bevor etwas die Produktion berührt.",
-      "diagram": "graph TD\n  GHA[\"GitHub Actions\u003cbr/\u003eweekly deploy · daily drift check\"] --\u003e|Tailscale SSH| TS[(\"Tailscale mesh\")]\n  Dev[\"make openvox-check (local)\"] --\u003e|Tailscale SSH| TS\n  TS --\u003e|sync manifests| VPS[\"mljr (VPS)\u003cbr/\u003eagent · Caddy · CrowdSec · Authelia\"]\n  TS --\u003e|sync manifests| NUC[\"nuc (home)\u003cbr/\u003eagent · Grafana · Loki · VictoriaMetrics\"]\n  TS --\u003e|sync manifests| UG[\"ugreen (NAS)\u003cbr/\u003eagent · backups\"]\n  NUC -.proxy-exec.-\u003e NAS[\"Unraid NAS · WD My Cloud\u003cbr/\u003eno agent\"]\n  Catalog[(\"services_catalog\u003cbr/\u003ecommon.yaml\")] -.generates.-\u003e VPS\n  Catalog -.generates.-\u003e NUC",
+      "long_desc": "The whole homelab — Caddy ingress, CrowdSec, Authelia, Grafana/Loki/VictoriaMetrics, the OpenZiti overlay and every self-hosted service this portfolio runs alongside — is described as code rather than clicked together by hand. A public VPS (mljr) terminates TLS, fronts the web apps through Caddy and runs the Ziti controller with a public edge router. The home NUC, the Unraid NAS and the Ugreen backup NAS run edge routers that dial out to it, so no host at home has an open inbound port.\n\nMachine-to-machine traffic — exporters, backups, SSH, Caddy's upstreams to home services — runs over OpenZiti. Every service is dark by default: a client reaches it only with an identity that a policy allows, and the policies are generated with OpenTofu from the same service catalog OpenVox deploys from. The root CA is kept offline; only an intermediate lives on the VPS. Admins log in to SSH through Authelia with opkssh instead of per-device keys. Browsers keep using Caddy with OIDC, so phones and family members need no Ziti client. The move from a VPN mesh to this setup runs in gated phases, each with a written rollback.\n\nThe project started on Ansible, with one control machine pushing changes to every host over SSH. In 2026 it moved to OpenVox: each host applies its own copy of the manifests, with no puppetserver. Deploys are pulled, not pushed: a small Go agent on each host polls a deploy-request branch and applies the commit it names, so CI has no access to the hosts at all. Appliances that cannot run an agent (an Unraid NAS, a busybox NAS) are managed through proxy-exec blocks on the NUC, reached over Ziti. The Ansible tree was removed after a role-by-role parity audit.\n\nServices are entries in one YAML catalog: name, domain, port, which host runs it, and whether Caddy should put it behind basic auth or Authelia SSO. A single defined type turns that catalog into a docker-compose deployment and an auto-generated Caddy reverse-proxy snippet, and the same entry decides whether the service gets a Ziti address. A new service is a few lines of data; disabling an entry lets the same code clean up its stale containers and proxy config.\n\nSecrets are hiera-eyaml encrypted per host and decrypted on the host at apply time. Pull requests are checked in CI without host access, and \"make openvox-check\" runs a dry run from a laptop before anything touches production.",
+      "long_desc_de": "Das gesamte Homelab — Caddy-Ingress, CrowdSec, Authelia, Grafana/Loki/VictoriaMetrics, das OpenZiti-Overlay und jeder selbst gehostete Dienst, den dieses Portfolio nebenbei betreibt — ist als Code beschrieben statt händisch zusammengeklickt. Ein öffentlicher VPS (mljr) terminiert TLS, stellt die Web-Apps über Caddy nach außen und betreibt den Ziti-Controller mit einem öffentlichen Edge-Router. Der NUC, das Unraid-NAS und das Ugreen-Backup-NAS daheim betreiben Edge-Router, die sich nach außen zu ihm verbinden; kein Host daheim hat also einen offenen eingehenden Port.\n\nDer Verkehr zwischen Maschinen — Exporter, Backups, SSH, Caddys Upstreams zu den Diensten daheim — läuft über OpenZiti. Jeder Dienst ist standardmäßig unsichtbar: Ein Client erreicht ihn nur mit einer Identität, die eine Policy erlaubt, und die Policies erzeugt OpenTofu aus demselben Dienstkatalog, aus dem OpenVox deployt. Die Root-CA liegt offline, auf dem VPS nur eine Zwischen-CA. Admins melden sich per opkssh über Authelia an SSH an statt mit Schlüsseln pro Gerät. Browser nutzen weiter Caddy mit OIDC, Handys und Familie brauchen also keinen Ziti-Client. Der Umbau vom VPN-Mesh zu diesem Aufbau läuft in Phasen mit Gate, jede mit schriftlichem Rollback.\n\nDas Projekt begann mit Ansible, bei dem ein Steuerrechner Änderungen per SSH auf alle Hosts schob. 2026 folgte der Wechsel auf OpenVox: Jeder Host wendet seine eigene Kopie der Manifeste an, ohne Puppetserver. Deployments werden geholt statt geschoben: Ein kleiner Go-Agent auf jedem Host fragt einen Branch mit Deploy-Anfragen ab und wendet den genannten Commit an, die CI hat also gar keinen Zugang zu den Hosts. Geräte ohne Agent (ein Unraid-NAS, ein Busybox-NAS) werden über Proxy-Exec-Blöcke auf dem NUC verwaltet, erreichbar über Ziti. Der Ansible-Baum wurde nach einem Rolle-für-Rolle-Paritätsaudit entfernt.\n\nDienste sind Einträge in einem einzigen YAML-Katalog: Name, Domain, Port, welcher Host ihn betreibt und ob Caddy ihn hinter Basic Auth oder Authelia-SSO stellt. Ein einziger Defined Type macht daraus ein Docker-Compose-Deployment und einen automatisch generierten Caddy-Reverse-Proxy-Snippet, und derselbe Eintrag entscheidet, ob der Dienst eine Ziti-Adresse bekommt. Ein neuer Dienst sind ein paar Zeilen Daten; wird ein Eintrag deaktiviert, räumt derselbe Code dessen veraltete Container und Proxy-Konfiguration auf.\n\nSecrets sind pro Host mit hiera-eyaml verschlüsselt und werden beim Apply auf dem Host entschlüsselt. Pull Requests prüft die CI ohne Zugang zu den Hosts, und \"make openvox-check\" macht einen Dry-Run vom Laptop, bevor etwas die Produktion berührt.",
+      "diagram": "graph TD\n  Req[\"laptop · GitHub Actions\u003cbr/\u003edeploy request\"] --\u003e|git commit| Repo[(\"deploy/host branches\")]\n  Repo --\u003e|polled by agent| VPS\n  Repo --\u003e|polled by agent| NUC\n  Repo --\u003e|polled by agent| UG\n  VPS[\"mljr (VPS)\u003cbr/\u003eCaddy · CrowdSec · Authelia\u003cbr/\u003eZiti controller + edge router\"]\n  NUC[\"nuc (home)\u003cbr/\u003eedge router · Grafana · VictoriaMetrics\"] --\u003e|Ziti, dials out| VPS\n  UG[\"ugreen (backup NAS)\u003cbr/\u003eedge router\"] --\u003e|Ziti, dials out| VPS\n  NAS[\"nas (Unraid)\u003cbr/\u003eedge router\"] --\u003e|Ziti, dials out| VPS\n  Catalog[(\"services_catalog\u003cbr/\u003ecommon.yaml\")] -.generates.-\u003e VPS\n  Catalog -.generates.-\u003e NUC\n  Catalog -.OpenTofu.-\u003e Pol[\"Ziti services + policies\"]",
       "snippets": [
         {
           "caption": "One EPP template turns a service's catalog entry (name, domain, port, auth type) into its Caddy reverse-proxy block with logging and rotation.",
           "filename": "openvox/modules/roles/templates/caddy/service_snippet.caddy.epp",
           "language": "yaml",
           "code": "\u003c%\n  $name = $service['name']\n  $domain = $service['domain']\n  $is_domain_string = $domain =~ String\n  $target_port = $service['port']\n  $auth_type = pick_default($service['caddy_auth'], '')\n  $has_dev_folder = pick_default($service['staging'], false)\n-%\u003e\n\u003c% if $is_domain_string { -%\u003e\n\u003c%= $domain %\u003e {\n\u003c% } else { -%\u003e\n\u003c%= $domain.join(', ') %\u003e {\n\u003c% } -%\u003e\n    log {\n        output file \u003c%= $log_path %\u003e/caddy/\u003c%= $name %\u003e.log {\n            roll_size \u003c%= $roll_size %\u003e\n            roll_keep \u003c%= $roll_keep %\u003e\n            roll_keep_for \u003c%= $roll_keep_for %\u003e\n\u003c% if $roll_uncompressed { -%\u003e"
+        },
+        {
+          "caption": "Ziti services come from the same catalog OpenVox deploys from: an entry with ziti: true gets an overlay address and a host binding (abridged).",
+          "filename": "ziti/tofu/catalog.tf",
+          "language": "hcl",
+          "code": "locals {\n  catalog = yamldecode(file(\"${path.module}/openvox-data/common.yaml\")).services_catalog\n\n  ziti_catalog = {\n    for s in local.catalog : s.name =\u003e {\n      host    = s.host\n      port    = try(s.port, 0)\n      router  = try(s.ziti_bind.router, s.host)\n      address = try(s.ziti_bind.address, \"127.0.0.1\")\n    }\n    if(try(s.ziti, false) || try(s.ziti_via_caddy, false)) \u0026\u0026 try(s.enabled, true)\n  }\n}\n\nresource \"ziti_intercept_v1_config\" \"catalog\" {\n  for_each  = local.ziti_catalog\n  name      = \"${each.key}-intercept\"\n  addresses = [\"${each.key}.${each.value.host}.int.mljr.eu\", \"${each.key}.ziti\"]\n  protocols = [\"tcp\"]\n}"
         }
       ]
     },
@@ -1821,7 +1830,7 @@
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 1740,
+    "commits_year": 1741,
     "longest_streak": 19,
     "contributions": [
       {
@@ -3282,7 +3291,7 @@
       },
       {
         "date": "2026-11-25",
-        "count": 0
+        "count": 2
       }
     ],
     "language_share": [
@@ -3444,7 +3453,7 @@
           "homelab": {
             "label": "Homelab",
             "value": "VPS-Edge + Heimserver",
-            "sub": "Caddy · CrowdSec · Tailscale"
+            "sub": "Caddy · CrowdSec · OpenZiti"
           }
         }
       },
@@ -3454,6 +3463,74 @@
           "IT-Security-Engineer @ Land Oberösterreich",
           "Tutor für Digitaltechnik @ JKU Linz",
           "Baue diese Seite mit Go · gomponents · Datastar"
+        ]
+      },
+      "migration": {
+        "title": "Zero-Trust-Umbau",
+        "intro": "Vom VPN-Mesh zu Zero Trust, in Phasen mit Gate: Jede lässt das Netz voll funktionsfähig, hat einen schriftlichen Rollback und endet mit Weiter, Kurswechsel oder Stopp.",
+        "phases": [
+          {
+            "num": "0",
+            "title": "Bestandsaufnahme",
+            "summary": "Jeden Dienst einer von vier Zugriffsklassen zugeordnet, Messwerte als Ausgangsbasis erfasst.",
+            "status": "done"
+          },
+          {
+            "num": "1",
+            "title": "Notfallzugang und Vertrauensanker",
+            "summary": "SSH-Notfallzugang mit YubiKeys auf jedem Host, ohne Overlay getestet.",
+            "status": "done"
+          },
+          {
+            "num": "2",
+            "title": "Hostnamen entkoppeln",
+            "summary": "Host-Identitäten auf eigene Namen unter int.mljr.eu umgezogen, unabhängig vom Overlay.",
+            "status": "done",
+            "date": "2026-11-04"
+          },
+          {
+            "num": "3",
+            "title": "OpenZiti-PoC",
+            "summary": "Wegwerf-Aufbau gegen 15 schriftliche Kriterien, darunter Offline-Root-CA und SSH-Login über den IdP.",
+            "status": "done",
+            "date": "2026-11-07"
+          },
+          {
+            "num": "4",
+            "title": "Ziti in Produktion",
+            "summary": "Policies als Code mit OpenTofu, Default-Deny, Maschinenverkehr Dienst für Dienst aufs Overlay.",
+            "status": "done"
+          },
+          {
+            "num": "4b",
+            "title": "Aufräumen",
+            "summary": "Offene Befunde aus dem Gate von Phase 4 behoben.",
+            "status": "done"
+          },
+          {
+            "num": "5",
+            "title": "Appliances und DR-Drill",
+            "summary": "Unraid-NAS, WD-NAS und Home Assistant übers Overlay; Neuaufbau eines Hosts nur aus Repo und Backups.",
+            "status": "active"
+          },
+          {
+            "num": "6",
+            "title": "Identity-Provider-PoC",
+            "summary": "Zitadel gegen Authelia für Web-, Ziti- und SSH-Login.",
+            "status": "planned"
+          },
+          {
+            "num": "7",
+            "title": "Kontrollen auf Host und LAN",
+            "summary": "firewalld mit Default-Deny, getrennte Docker-Netze, eingeschränkter Egress.",
+            "status": "planned"
+          },
+          {
+            "num": "8",
+            "title": "Abschluss-Gate",
+            "summary": "Alle Messwerte erneut gegen die Ausgangsbasis gemessen.",
+            "status": "planned"
+          }
         ]
       }
     },
@@ -3488,7 +3565,7 @@
           "homelab": {
             "label": "Homelab",
             "value": "VPS edge + home servers",
-            "sub": "Caddy · CrowdSec · Tailscale"
+            "sub": "Caddy · CrowdSec · OpenZiti"
           }
         }
       },
@@ -3498,6 +3575,74 @@
           "IT Security Engineer @ Land Oberösterreich",
           "Tutor for Digital Circuits @ JKU Linz",
           "Building this site with Go · gomponents · Datastar"
+        ]
+      },
+      "migration": {
+        "title": "Zero-trust migration",
+        "intro": "From a VPN mesh to zero trust, in gated phases: each leaves the fleet fully working, has a written rollback and ends in go, change course or stop.",
+        "phases": [
+          {
+            "num": "0",
+            "title": "Baseline and inventory",
+            "summary": "Every service sorted into one of four access classes, metrics recorded as the baseline.",
+            "status": "done"
+          },
+          {
+            "num": "1",
+            "title": "Break-glass and root of trust",
+            "summary": "Break-glass SSH with YubiKeys on every host, tested without the overlay.",
+            "status": "done"
+          },
+          {
+            "num": "2",
+            "title": "Certname decoupling",
+            "summary": "Host identities moved to their own names under int.mljr.eu, independent of the overlay.",
+            "status": "done",
+            "date": "2026-11-04"
+          },
+          {
+            "num": "3",
+            "title": "OpenZiti PoC",
+            "summary": "Throwaway build against 15 written criteria, among them an offline root CA and SSH login through the IdP.",
+            "status": "done",
+            "date": "2026-11-07"
+          },
+          {
+            "num": "4",
+            "title": "Ziti in production",
+            "summary": "Policies as code with OpenTofu, default deny, machine traffic moved onto the overlay one service at a time.",
+            "status": "done"
+          },
+          {
+            "num": "4b",
+            "title": "Cleanup",
+            "summary": "Open findings from the Phase 4 gate fixed.",
+            "status": "done"
+          },
+          {
+            "num": "5",
+            "title": "Appliances and DR drill",
+            "summary": "Unraid NAS, WD NAS and Home Assistant on the overlay; rebuild a host from the repo and backups alone.",
+            "status": "active"
+          },
+          {
+            "num": "6",
+            "title": "Identity provider PoC",
+            "summary": "Zitadel against Authelia for web, Ziti and SSH login.",
+            "status": "planned"
+          },
+          {
+            "num": "7",
+            "title": "Host and LAN controls",
+            "summary": "firewalld default deny, separate Docker networks, restricted egress.",
+            "status": "planned"
+          },
+          {
+            "num": "8",
+            "title": "Final gate",
+            "summary": "Every metric measured again against the baseline.",
+            "status": "planned"
+          }
         ]
       }
     }

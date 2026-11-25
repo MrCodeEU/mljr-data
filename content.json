@@ -31,7 +31,7 @@
           "homelab": {
             "label": "Homelab",
             "value": "VPS edge + home servers",
-            "sub": "Caddy · CrowdSec · Tailscale"
+            "sub": "Caddy · CrowdSec · OpenZiti"
           }
         }
       },
@@ -41,6 +41,74 @@
           "IT Security Engineer @ Land Oberösterreich",
           "Tutor for Digital Circuits @ JKU Linz",
           "Building this site with Go · gomponents · Datastar"
+        ]
+      },
+      "migration": {
+        "title": "Zero-trust migration",
+        "intro": "From a VPN mesh to zero trust, in gated phases: each leaves the fleet fully working, has a written rollback and ends in go, change course or stop.",
+        "phases": [
+          {
+            "num": "0",
+            "title": "Baseline and inventory",
+            "summary": "Every service sorted into one of four access classes, metrics recorded as the baseline.",
+            "status": "done"
+          },
+          {
+            "num": "1",
+            "title": "Break-glass and root of trust",
+            "summary": "Break-glass SSH with YubiKeys on every host, tested without the overlay.",
+            "status": "done"
+          },
+          {
+            "num": "2",
+            "title": "Certname decoupling",
+            "summary": "Host identities moved to their own names under int.mljr.eu, independent of the overlay.",
+            "status": "done",
+            "date": "2026-11-04"
+          },
+          {
+            "num": "3",
+            "title": "OpenZiti PoC",
+            "summary": "Throwaway build against 15 written criteria, among them an offline root CA and SSH login through the IdP.",
+            "status": "done",
+            "date": "2026-11-07"
+          },
+          {
+            "num": "4",
+            "title": "Ziti in production",
+            "summary": "Policies as code with OpenTofu, default deny, machine traffic moved onto the overlay one service at a time.",
+            "status": "done"
+          },
+          {
+            "num": "4b",
+            "title": "Cleanup",
+            "summary": "Open findings from the Phase 4 gate fixed.",
+            "status": "done"
+          },
+          {
+            "num": "5",
+            "title": "Appliances and DR drill",
+            "summary": "Unraid NAS, WD NAS and Home Assistant on the overlay; rebuild a host from the repo and backups alone.",
+            "status": "active"
+          },
+          {
+            "num": "6",
+            "title": "Identity provider PoC",
+            "summary": "Zitadel against Authelia for web, Ziti and SSH login.",
+            "status": "planned"
+          },
+          {
+            "num": "7",
+            "title": "Host and LAN controls",
+            "summary": "firewalld default deny, separate Docker networks, restricted egress.",
+            "status": "planned"
+          },
+          {
+            "num": "8",
+            "title": "Final gate",
+            "summary": "Every metric measured again against the baseline.",
+            "status": "planned"
+          }
         ]
       }
     },
@@ -75,7 +143,7 @@
           "homelab": {
             "label": "Homelab",
             "value": "VPS-Edge + Heimserver",
-            "sub": "Caddy · CrowdSec · Tailscale"
+            "sub": "Caddy · CrowdSec · OpenZiti"
           }
         }
       },
@@ -85,6 +153,74 @@
           "IT-Security-Engineer @ Land Oberösterreich",
           "Tutor für Digitaltechnik @ JKU Linz",
           "Baue diese Seite mit Go · gomponents · Datastar"
+        ]
+      },
+      "migration": {
+        "title": "Zero-Trust-Umbau",
+        "intro": "Vom VPN-Mesh zu Zero Trust, in Phasen mit Gate: Jede lässt das Netz voll funktionsfähig, hat einen schriftlichen Rollback und endet mit Weiter, Kurswechsel oder Stopp.",
+        "phases": [
+          {
+            "num": "0",
+            "title": "Bestandsaufnahme",
+            "summary": "Jeden Dienst einer von vier Zugriffsklassen zugeordnet, Messwerte als Ausgangsbasis erfasst.",
+            "status": "done"
+          },
+          {
+            "num": "1",
+            "title": "Notfallzugang und Vertrauensanker",
+            "summary": "SSH-Notfallzugang mit YubiKeys auf jedem Host, ohne Overlay getestet.",
+            "status": "done"
+          },
+          {
+            "num": "2",
+            "title": "Hostnamen entkoppeln",
+            "summary": "Host-Identitäten auf eigene Namen unter int.mljr.eu umgezogen, unabhängig vom Overlay.",
+            "status": "done",
+            "date": "2026-11-04"
+          },
+          {
+            "num": "3",
+            "title": "OpenZiti-PoC",
+            "summary": "Wegwerf-Aufbau gegen 15 schriftliche Kriterien, darunter Offline-Root-CA und SSH-Login über den IdP.",
+            "status": "done",
+            "date": "2026-11-07"
+          },
+          {
+            "num": "4",
+            "title": "Ziti in Produktion",
+            "summary": "Policies als Code mit OpenTofu, Default-Deny, Maschinenverkehr Dienst für Dienst aufs Overlay.",
+            "status": "done"
+          },
+          {
+            "num": "4b",
+            "title": "Aufräumen",
+            "summary": "Offene Befunde aus dem Gate von Phase 4 behoben.",
+            "status": "done"
+          },
+          {
+            "num": "5",
+            "title": "Appliances und DR-Drill",
+            "summary": "Unraid-NAS, WD-NAS und Home Assistant übers Overlay; Neuaufbau eines Hosts nur aus Repo und Backups.",
+            "status": "active"
+          },
+          {
+            "num": "6",
+            "title": "Identity-Provider-PoC",
+            "summary": "Zitadel gegen Authelia für Web-, Ziti- und SSH-Login.",
+            "status": "planned"
+          },
+          {
+            "num": "7",
+            "title": "Kontrollen auf Host und LAN",
+            "summary": "firewalld mit Default-Deny, getrennte Docker-Netze, eingeschränkter Egress.",
+            "status": "planned"
+          },
+          {
+            "num": "8",
+            "title": "Abschluss-Gate",
+            "summary": "Alle Messwerte erneut gegen die Ausgangsbasis gemessen.",
+            "status": "planned"
+          }
         ]
       }
     }

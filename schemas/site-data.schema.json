@@ -72,6 +72,30 @@
       "additionalProperties": false,
       "required": ["hero", "contact"],
       "properties": {
+        "migration": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["title", "intro", "phases"],
+          "properties": {
+            "title": { "type": "string", "minLength": 1 },
+            "intro": { "type": "string" },
+            "phases": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["num", "title", "summary", "status"],
+                "properties": {
+                  "num": { "type": "string", "minLength": 1 },
+                  "title": { "type": "string", "minLength": 1 },
+                  "summary": { "type": "string" },
+                  "status": { "type": "string", "enum": ["done", "active", "planned"] },
+                  "date": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" }
+                }
+              }
+            }
+          }
+        },
         "hero": {
           "type": "object",
           "additionalProperties": false,

@@ -40,8 +40,26 @@ type TimelineItem struct {
 // change independently of the GitHub/LinkedIn/Strava data feeds. It is keyed
 // by locale code ("en", "de") in content.json and site-data.json.
 type SiteContent struct {
-	Hero    HeroContent    `json:"hero"`
-	Contact ContactContent `json:"contact"`
+	Hero      HeroContent       `json:"hero"`
+	Contact   ContactContent    `json:"contact"`
+	Migration *MigrationContent `json:"migration,omitempty"`
+}
+
+// MigrationContent describes an infrastructure migration in gated phases
+// (the homelab's move to zero trust), shown folded in the homelab section.
+type MigrationContent struct {
+	Title  string           `json:"title"`
+	Intro  string           `json:"intro"`
+	Phases []MigrationPhase `json:"phases"`
+}
+
+// MigrationPhase is one phase. Status is "done", "active" or "planned".
+type MigrationPhase struct {
+	Num     string `json:"num"`
+	Title   string `json:"title"`
+	Summary string `json:"summary"`
+	Status  string `json:"status"`
+	Date    string `json:"date,omitempty"` // "YYYY-MM-DD" the gate passed
 }
 
 type HeroContent struct {
