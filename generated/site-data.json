@@ -1,6 +1,6 @@
 {
   "schema_version": "site-data.v1",
-  "generated_at": "2026-11-25T16:11:08Z",
+  "generated_at": "2026-11-25T19:04:56Z",
   "github_projects": [
     {
       "id": "AOC2024",
@@ -1834,7 +1834,7 @@
     "year": "2026"
   },
   "github_stats": {
-    "commits_year": 1741,
+    "commits_year": 1747,
     "longest_streak": 19,
     "contributions": [
       {
@@ -3295,133 +3295,133 @@
       },
       {
         "date": "2026-11-25",
-        "count": 2
+        "count": 12
       }
     ],
     "language_share": [
       {
         "name": "Go",
-        "pct": 33.230308668738836
+        "pct": 33.277089012437465
       },
       {
         "name": "Svelte",
-        "pct": 16.029141588161938
+        "pct": 16.01786453370036
       },
       {
         "name": "JavaScript",
-        "pct": 9.506912079402058
+        "pct": 9.500223638558786
       },
       {
         "name": "HTML",
-        "pct": 6.857853069316445
+        "pct": 6.853028332936968
       },
       {
         "name": "CSS",
-        "pct": 6.192617677247712
+        "pct": 6.188260956931659
       },
       {
         "name": "TypeScript",
-        "pct": 4.428061140894666
+        "pct": 4.424945847017548
       },
       {
         "name": "Shell",
-        "pct": 3.8363486582773527
+        "pct": 3.840649464343579
       },
       {
         "name": "Rust",
-        "pct": 2.8556115532013195
+        "pct": 2.8536025318928835
       },
       {
         "name": "TeX",
-        "pct": 2.549261624141064
+        "pct": 2.547468130583463
       },
       {
         "name": "C#",
-        "pct": 2.331571279447576
+        "pct": 2.329930938562522
       },
       {
         "name": "Puppet",
-        "pct": 2.1097009044029074
+        "pct": 2.1018001646832642
       },
       {
         "name": "Python",
-        "pct": 1.7313041600762418
+        "pct": 1.7300861278319475
       },
       {
         "name": "Kotlin",
-        "pct": 1.60207882369786
+        "pct": 1.6009517059387954
       },
       {
         "name": "Dart",
-        "pct": 1.5832653323580377
+        "pct": 1.5821514505396057
       },
       {
         "name": "ASP.NET",
-        "pct": 1.219287344411286
+        "pct": 1.218429533672538
       },
       {
         "name": "Ruby",
-        "pct": 0.7060225582080968
+        "pct": 0.7051369686438693
       },
       {
         "name": "Vue",
-        "pct": 0.5612646852920231
+        "pct": 0.560869816210071
       },
       {
         "name": "ShaderLab",
-        "pct": 0.5400626051800976
+        "pct": 0.5396826524934375
       },
       {
         "name": "Makefile",
-        "pct": 0.48524583476413824
+        "pct": 0.4849044475678376
       },
       {
         "name": "SCSS",
-        "pct": 0.3066518574162796
+        "pct": 0.306436117248423
       },
       {
         "name": "HCL",
-        "pct": 0.26573050089645883
+        "pct": 0.2655435503155915
       },
       {
         "name": "Dockerfile",
-        "pct": 0.2309416447634418
+        "pct": 0.23077916934383688
       },
       {
         "name": "Typst",
-        "pct": 0.21069902587177117
+        "pct": 0.2105507918333675
       },
       {
         "name": "Swift",
-        "pct": 0.1689926556262873
+        "pct": 0.168873763459129
       },
       {
         "name": "Java",
-        "pct": 0.1480857943513633
+        "pct": 0.1479816108828537
       },
       {
         "name": "HLSL",
-        "pct": 0.09389300920452076
+        "pct": 0.09382695223119272
       },
       {
         "name": "Go Template",
-        "pct": 0.08707613787739535
+        "pct": 0.08701487680837638
       },
       {
         "name": "NSIS",
-        "pct": 0.08324500251539868
+        "pct": 0.08318643678236444
       },
       {
         "name": "GLSL",
-        "pct": 0.04157888938405139
+        "pct": 0.041549637199992946
       },
       {
         "name": "Objective-C",
-        "pct": 0.005850700587847799
+        "pct": 0.0058465844180077215
       },
       {
         "name": "Vim Snippet",
-        "pct": 0.0013351942855294864
+        "pct": 0.0013342549302563494
       }
     ]
   },
@@ -3435,9 +3435,9 @@
           "selbst gehostete Infrastruktur.",
           "schnelle Web-APIs.",
           "CLI-Tools.",
-          "Homelab-Lösungen."
+          "Zero-Trust-Netze."
         ],
-        "description": "Dipl.-Ing. in Informatik (Netzwerke \u0026 IT-Sicherheit) der JKU Linz, jetzt IT-Security-Engineer beim Land Oberösterreich. In meiner Masterarbeit habe ich Cloud-Berechtigungssysteme in ein Prolog-basiertes Metamodell abstrahiert. Mir sind Korrektheit, Performance und tatsächlich funktionierende Software wichtig.",
+        "description": "Dipl.-Ing. in Informatik (Netzwerke \u0026 IT-Sicherheit) der JKU Linz, jetzt IT-Security-Engineer beim Land Oberösterreich. In meiner Masterarbeit habe ich Cloud-Berechtigungssysteme in ein Prolog-basiertes Metamodell abstrahiert. Privat betreibe ich ein Homelab auf einem Zero-Trust-Overlay (OpenZiti), komplett als Code. Mir sind Korrektheit, Performance und tatsächlich funktionierende Software wichtig.",
         "bento": {
           "focus": {
             "label": "Aktueller Fokus",
@@ -3456,8 +3456,8 @@
           },
           "homelab": {
             "label": "Homelab",
-            "value": "VPS-Edge + Heimserver",
-            "sub": "Caddy · CrowdSec · OpenZiti"
+            "value": "Zero-Trust-Homelab",
+            "sub": "OpenZiti · OpenVox · CrowdSec"
           }
         }
       },
@@ -3465,7 +3465,7 @@
         "intro": "Offen für interessante Projekte, Abschlussarbeiten-Kooperationen und Gespräche über Systeme, Sicherheit und Self-Hosting.",
         "currently": [
           "IT-Security-Engineer @ Land Oberösterreich",
-          "Tutor für Digitaltechnik @ JKU Linz",
+          "Baue ein Zero-Trust-Homelab mit OpenZiti",
           "Baue diese Seite mit Go · gomponents · Datastar"
         ]
       },
@@ -3547,9 +3547,9 @@
           "self-hosted infra.",
           "fast web APIs.",
           "CLI tools.",
-          "homelab solutions."
+          "zero-trust networks."
         ],
-        "description": "Dipl.-Ing. in Computer Science (Networks \u0026 IT Security) from JKU Linz, now an IT Security Engineer at Land Oberösterreich. My master thesis abstracted cloud permission systems into a Prolog-based metamodel. I care about correctness, performance, and shipping things that actually work.",
+        "description": "Dipl.-Ing. in Computer Science (Networks \u0026 IT Security) from JKU Linz, now an IT Security Engineer at Land Oberösterreich. My master thesis abstracted cloud permission systems into a Prolog-based metamodel. At home I run a homelab on a zero-trust overlay (OpenZiti), entirely as code. I care about correctness, performance, and shipping things that actually work.",
         "bento": {
           "focus": {
             "label": "Current focus",
@@ -3568,8 +3568,8 @@
           },
           "homelab": {
             "label": "Homelab",
-            "value": "VPS edge + home servers",
-            "sub": "Caddy · CrowdSec · OpenZiti"
+            "value": "Zero-trust homelab",
+            "sub": "OpenZiti · OpenVox · CrowdSec"
           }
         }
       },
@@ -3577,7 +3577,7 @@
         "intro": "Open to interesting projects, thesis collaborations, and conversations about systems, security, and self-hosting.",
         "currently": [
           "IT Security Engineer @ Land Oberösterreich",
-          "Tutor for Digital Circuits @ JKU Linz",
+          "Building a zero-trust homelab with OpenZiti",
           "Building this site with Go · gomponents · Datastar"
         ]
       },

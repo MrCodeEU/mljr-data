@@ -9,9 +9,9 @@
           "self-hosted infra.",
           "fast web APIs.",
           "CLI tools.",
-          "homelab solutions."
+          "zero-trust networks."
         ],
-        "description": "Dipl.-Ing. in Computer Science (Networks & IT Security) from JKU Linz, now an IT Security Engineer at Land Oberösterreich. My master thesis abstracted cloud permission systems into a Prolog-based metamodel. I care about correctness, performance, and shipping things that actually work.",
+        "description": "Dipl.-Ing. in Computer Science (Networks & IT Security) from JKU Linz, now an IT Security Engineer at Land Oberösterreich. My master thesis abstracted cloud permission systems into a Prolog-based metamodel. At home I run a homelab on a zero-trust overlay (OpenZiti), entirely as code. I care about correctness, performance, and shipping things that actually work.",
         "bento": {
           "focus": {
             "label": "Current focus",
@@ -30,8 +30,8 @@
           },
           "homelab": {
             "label": "Homelab",
-            "value": "VPS edge + home servers",
-            "sub": "Caddy · CrowdSec · OpenZiti"
+            "value": "Zero-trust homelab",
+            "sub": "OpenZiti · OpenVox · CrowdSec"
           }
         }
       },
@@ -39,7 +39,7 @@
         "intro": "Open to interesting projects, thesis collaborations, and conversations about systems, security, and self-hosting.",
         "currently": [
           "IT Security Engineer @ Land Oberösterreich",
-          "Tutor for Digital Circuits @ JKU Linz",
+          "Building a zero-trust homelab with OpenZiti",
           "Building this site with Go · gomponents · Datastar"
         ]
       },
@@ -121,9 +121,9 @@
           "selbst gehostete Infrastruktur.",
           "schnelle Web-APIs.",
           "CLI-Tools.",
-          "Homelab-Lösungen."
+          "Zero-Trust-Netze."
         ],
-        "description": "Dipl.-Ing. in Informatik (Netzwerke & IT-Sicherheit) der JKU Linz, jetzt IT-Security-Engineer beim Land Oberösterreich. In meiner Masterarbeit habe ich Cloud-Berechtigungssysteme in ein Prolog-basiertes Metamodell abstrahiert. Mir sind Korrektheit, Performance und tatsächlich funktionierende Software wichtig.",
+        "description": "Dipl.-Ing. in Informatik (Netzwerke & IT-Sicherheit) der JKU Linz, jetzt IT-Security-Engineer beim Land Oberösterreich. In meiner Masterarbeit habe ich Cloud-Berechtigungssysteme in ein Prolog-basiertes Metamodell abstrahiert. Privat betreibe ich ein Homelab auf einem Zero-Trust-Overlay (OpenZiti), komplett als Code. Mir sind Korrektheit, Performance und tatsächlich funktionierende Software wichtig.",
         "bento": {
           "focus": {
             "label": "Aktueller Fokus",
@@ -142,8 +142,8 @@
           },
           "homelab": {
             "label": "Homelab",
-            "value": "VPS-Edge + Heimserver",
-            "sub": "Caddy · CrowdSec · OpenZiti"
+            "value": "Zero-Trust-Homelab",
+            "sub": "OpenZiti · OpenVox · CrowdSec"
           }
         }
       },
@@ -151,7 +151,7 @@
         "intro": "Offen für interessante Projekte, Abschlussarbeiten-Kooperationen und Gespräche über Systeme, Sicherheit und Self-Hosting.",
         "currently": [
           "IT-Security-Engineer @ Land Oberösterreich",
-          "Tutor für Digitaltechnik @ JKU Linz",
+          "Baue ein Zero-Trust-Homelab mit OpenZiti",
           "Baue diese Seite mit Go · gomponents · Datastar"
         ]
       },
